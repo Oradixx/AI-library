@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI library — outils, API, agents et skills</title>
+  <meta name="description" content="Bibliothèque triable d'outils tech, design et agents IA, d'API et d'hébergements, avec les offres gratuites et étudiantes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="intro">
+      <h1>AI library</h1>
+      <p>Outils, API, hébergements, agents, skills et lectures, rangés par thème. Choisissez un livre sur l'étagère pour ouvrir un thème.</p>
+    </div>
+    <nav id="shelf" class="shelf" aria-label="Thèmes"></nav>
+  </header>
+
+  <section class="toolbar" aria-label="Filtres">
+    <label class="search">
+      <span class="sr">Rechercher</span>
+      <input id="q" type="search" placeholder="Rechercher un outil, un usage, un tag" autocomplete="off">
+    </label>
+    <select id="tarif" aria-label="Tarif"><option value="">Tous les tarifs</option></select>
+    <select id="statut" aria-label="Statut"><option value="">Tous les statuts</option></select>
+    <select id="source" aria-label="Source">
+      <option value="">Toutes les sources</option>
+      <option value="Documents">Notes et documents</option>
+      <option value="Signets X">Signets X</option>
+    </select>
+    <select id="tri" aria-label="Tri">
+      <option value="theme">Ranger par thème</option>
+      <option value="nom">Ranger par nom</option>
+      <option value="tarif">Ranger par tarif</option>
+      <option value="statut">Ranger par statut</option>
+    </select>
+    <label class="chk"><input id="gratuit" type="checkbox"> Gratuit ou étudiant seulement</label>
+    <p id="count" class="count" aria-live="polite"></p>
+  </section>
+
+  <main id="list"></main>
+
+  <footer>
+    <p>Les quotas et offres gratuites changent souvent : vérifiez sur le site officiel avant de compter dessus. Données dans <a href="https://github.com/Oradixx/AI-library/blob/main/data/outils.json">data/outils.json</a>.</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
