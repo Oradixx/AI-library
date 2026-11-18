@@ -20,7 +20,8 @@ const norm = (s) => (s || "").toString().normalize("NFD").replace(/[\u0300-\u036
 const esc = (s) => (s || "").toString().replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const safeUrl = (u) => (/^https?:\/\//.test(u || "") ? u : "");
 const colorOf = (it) => (rayonOf[it.theme] || {}).couleur || "#44506a";
-const isSkillOrRead = (it) => ["Skills", "Lire et apprendre"].includes((rayonOf[it.theme] || {}).nom);
+const rayonName = (it) => (rayonOf[it.theme] || {}).nom;
+const isSkill = (it) => rayonName(it) === "Skills" && !it.article && !it.nom.startsWith("Article");
 
 // ---------- État dans l'URL ----------
 function readHash() {
@@ -72,23 +73,29 @@ function logo(it, size = "") {
   const m = medias[it.slug] || {};
   const letter = esc((it.nom.match(/[A-Za-z0-9À-ÿ]/) || ["?"])[0].toUpperCase());
   const mono = `<span class="mono" style="background:${colorOf(it)}" aria-hidden="true">${letter}</span>`;
-  if (!m.logo || isSkillOrRead(it)) return mono;
+  if (!m.logo || isSkill(it)) return mono;
   return `<img class="logo" src="${esc(m.logo)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML=this.dataset.f" data-f='${mono.replace(/'/g, "&#39;")}'>`;
 }
 function pills(it, max = 3) {
-  const out = (it.tarif || []).slice(0, max).map((t) => `<span class="pill t-${esc(t.replace(/\s/g, "-"))}">${esc(t)}</span>`);
+  const tarifs = rayonName(it) === "Lire et apprendre" ? (it.tarif || []).filter((t) => t !== "Gratuit") : it.tarif || [];
+  const out = tarifs.slice(0, max).map((t) => `<span class="pill t-${esc(t.replace(/\s/g, "-"))}">${esc(t)}</span>`);
   if (it.statut === "À tester" || it.statut === "Écarté") out.push(`<span class="pill s-${esc(it.statut)}">${esc(it.statut)}</span>`);
   return out.join("");
 }
+// Images : jamais pour les skills (sauf coups de cœur) ; bannière d'abord pour les articles et lectures.
 function coverUrl(it) {
-  if (isSkillOrRead(it) && !it.coeur) return "";
-  return (medias[it.slug] || {}).image || it.image_post || "";
+  if (isSkill(it) && !it.coeur) return "";
+  const site = (medias[it.slug] || {}).image || "";
+  return it.article || rayonName(it) === "Lire et apprendre" ? it.image_post || site : site || it.image_post || "";
 }
 const accroche = (it) => it.accroche || it.description || "";
 
 function row(it) {
-  return `<li class="entry"><a href="${hashFor({ outil: it.slug })}" data-outil="${esc(it.slug)}">
-    ${logo(it)}
+  const reading = rayonName(it) === "Lire et apprendre";
+  const thumb = reading && coverUrl(it);
+  const visual = thumb ? `<img class="thumb" src="${esc(thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">` : logo(it);
+  return `<li class="entry${reading ? " reading" : ""}"><a href="${hashFor({ outil: it.slug })}" data-outil="${esc(it.slug)}">
+    ${visual}
     <span><span class="nom">${esc(it.nom)}</span>${it.coeur ? ' <span class="coeur-mark">Coup de cœur</span>' : ""}<span class="acc">${esc(accroche(it))}</span></span>
     <span class="tags">${pills(it)}</span>
   </a></li>`;
@@ -194,9 +201,9 @@ function accessLinks(it) {
     const label = host === "github.com" ? "Ouvrir le dépôt GitHub" : host === "huggingface.co" ? "Ouvrir sur Hugging Face" : host === "x.com" ? "Lire l'article" : `Ouvrir ${host}`;
     out.push(`<a class="btn primary" href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a>`);
   }
-  if (safeUrl(it.post)) out.push(`<a class="btn" href="${esc(it.post)}" target="_blank" rel="noopener">Voir le post X</a>`);
+  if (safeUrl(it.post)) out.push(`<a class="btn${url ? "" : " primary"}" href="${esc(it.post)}" target="_blank" rel="noopener">${it.article ? "Lire l'article" : "Voir le post X"}</a>`);
   const search = `https://duckduckgo.com/?q=${encodeURIComponent(it.nom)}`;
-  out.push(`<a class="btn${url ? "" : " primary"}" href="${search}" target="_blank" rel="noopener">Chercher sur le web</a>`);
+  out.push(`<a class="btn${url || it.post ? "" : " primary"}" href="${search}" target="_blank" rel="noopener">Chercher sur le web</a>`);
   const broken = url && (m.status === 404 || m.status === 410);
   return out.join("") + (broken ? `<p class="warn">Ce lien répondait ${m.status} lors de la dernière vérification : l'outil a peut-être changé d'adresse.</p>` : "");
 }

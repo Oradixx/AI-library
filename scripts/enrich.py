@@ -1,7 +1,7 @@
 """Enrichit data/outils.json : statut des liens, image de partage et logo.
 
 Écrit data/medias.json : {slug: {"status": code HTTP ou 0, "image": url, "logo": url, "verifie": "AAAA-MM-JJ"}}.
-Images seulement pour les rayons d'outils (pas Skills ni Lire et apprendre), sauf les coups de cœur.
+Pas d'image pour les skills, sauf les coups de cœur. Les lectures gardent l'image de leur page.
 Bibliothèque standard uniquement. Usage : python3 scripts/enrich.py
 """
 import concurrent.futures as cf
@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = json.loads((ROOT / "data/outils.json").read_text())
 RAYONS = json.loads((ROOT / "data/rayons.json").read_text())
-SANS_IMAGE = {t for r in RAYONS if r["nom"] in ("Skills", "Lire et apprendre") for t in r["themes"]}
+SANS_IMAGE = {t for r in RAYONS if r["nom"] == "Skills" for t in r["themes"]}
 UA = {"User-Agent": "Mozilla/5.0 (AI-library link checker; +https://github.com/Oradixx/AI-library)"}
 TODAY = dt.date.today().isoformat()
 

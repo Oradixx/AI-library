@@ -111,7 +111,7 @@
  {
   "nom": "NanoClaw",
   "theme": "Agents personnels permanents",
-  "url": "",
+  "url": "https://github.com/nanocoai/nanoclaw",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -138,7 +138,7 @@
  {
   "nom": "IronClaw",
   "theme": "Agents personnels permanents",
-  "url": "",
+  "url": "https://github.com/nearai/ironclaw",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -165,7 +165,7 @@
  {
   "nom": "PicoClaw",
   "theme": "Agents personnels permanents",
-  "url": "",
+  "url": "https://github.com/sipeed/picoclaw",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -192,7 +192,7 @@
  {
   "nom": "CowAgent",
   "theme": "Agents personnels permanents",
-  "url": "",
+  "url": "https://github.com/zhayujie/CowAgent",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -245,7 +245,7 @@
  {
   "nom": "OpenJarvis",
   "theme": "Agents personnels permanents",
-  "url": "",
+  "url": "https://github.com/open-jarvis/OpenJarvis",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -376,7 +376,7 @@
  {
   "nom": "OpenDots (CopilotKit)",
   "theme": "Agents personnels permanents",
-  "url": "",
+  "url": "https://github.com/CopilotKit/OpenDots",
   "tarif": [
    "Gratuit"
   ],
@@ -400,7 +400,7 @@
  {
   "nom": "OpenAI dots",
   "theme": "Agents personnels permanents",
-  "url": "",
+  "url": "https://openai.com",
   "tarif": [
    "Payant"
   ],
@@ -424,7 +424,7 @@
  {
   "nom": "Gemini Spark",
   "theme": "Agents personnels permanents",
-  "url": "",
+  "url": "https://gemini.google.com",
   "tarif": [
    "Payant"
   ],
@@ -449,7 +449,7 @@
  {
   "nom": "Grok Bot",
   "theme": "Agents personnels permanents",
-  "url": "",
+  "url": "https://x.ai",
   "tarif": [
    "Payant"
   ],
@@ -494,56 +494,6 @@
   "usage": [
    "Faire collaborer plusieurs bots sur une même tâche",
    "Réutiliser ses CLI Claude, Codex et Grok dans une équipe"
-  ],
-  "coeur": false
- },
- {
-  "nom": "Anthropic Managed Agents (self-hosted)",
-  "theme": "Agents personnels permanents",
-  "url": "",
-  "tarif": [
-   "Payant"
-  ],
-  "statut": "Écarté",
-  "description": "Agents managés d'Anthropic en auto-hébergé.",
-  "offre": "Bêta réservée aux organisations.",
-  "licence": "",
-  "tags": [
-   "agent",
-   "anthropic"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "anthropic-managed-agents-self-hosted",
-  "accroche": "Version auto-hébergée des agents managés d'Anthropic, en bêta pour les organisations",
-  "usage": [
-   "Faire tourner des agents Anthropic sur sa propre infrastructure",
-   "Garder l'exécution des agents dans son propre environnement",
-   "Évaluer la bêta pour un usage en organisation"
-  ],
-  "coeur": false
- },
- {
-  "nom": "Atomic Agent",
-  "theme": "Agents personnels permanents",
-  "url": "",
-  "tarif": [
-   "Payant"
-  ],
-  "statut": "Écarté",
-  "description": "Produit commercial d'agent.",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "agent"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "atomic-agent",
-  "accroche": "Produit commercial d'agent personnel, à comparer aux solutions open source",
-  "usage": [
-   "Comparer une offre commerciale aux agents open source",
-   "Confier des tâches courantes à un agent personnel"
   ],
   "coeur": false
  },
@@ -657,7 +607,7 @@
  {
   "nom": "Oh My OpenAgent",
   "theme": "Orchestrateurs et cockpits d'agents",
-  "url": "",
+  "url": "https://github.com/code-yeongyu/oh-my-openagent",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -684,7 +634,7 @@
  {
   "nom": "Bernstein",
   "theme": "Orchestrateurs et cockpits d'agents",
-  "url": "",
+  "url": "https://github.com/sipyourdrink-ltd/bernstein",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -709,7 +659,7 @@
  {
   "nom": "OrchestrAI",
   "theme": "Orchestrateurs et cockpits d'agents",
-  "url": "",
+  "url": "https://github.com/samshapley/OrchestrAI",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -753,30 +703,6 @@
   "usage": [
    "Répartir un projet de code entre agents aux rôles différents",
    "Coordonner plusieurs agents CLI depuis un seul outil"
-  ],
-  "coeur": false
- },
- {
-  "nom": "Pane / herdr",
-  "theme": "Orchestrateurs et cockpits d'agents",
-  "url": "",
-  "tarif": [
-   "Payant"
-  ],
-  "statut": "Écarté",
-  "description": "Worktrees par agent.",
-  "offre": "AGPL, tarifs flous ; déjà couvert par T3.",
-  "licence": "AGPL",
-  "tags": [
-   "worktree"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "pane-herdr",
-  "accroche": "Donne à chaque agent de code son propre worktree Git",
-  "usage": [
-   "Faire travailler plusieurs agents en parallèle sur un dépôt",
-   "Isoler les modifications de chaque agent dans sa branche"
   ],
   "coeur": false
  },
@@ -940,7 +866,7 @@
  {
   "nom": "Pi",
   "theme": "Agents de code et harnais (CLI)",
-  "url": "",
+  "url": "https://github.com/earendil-works/pi",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -991,7 +917,7 @@
  {
   "nom": "Antigravity CLI (agy)",
   "theme": "Agents de code et harnais (CLI)",
-  "url": "",
+  "url": "https://antigravity.google",
   "tarif": [
    "Étudiant"
   ],
@@ -1093,7 +1019,7 @@
  {
   "nom": "GitHub Copilot CLI",
   "theme": "Agents de code et harnais (CLI)",
-  "url": "",
+  "url": "https://github.com/github/copilot-cli",
   "tarif": [
    "Freemium"
   ],
@@ -1118,7 +1044,7 @@
  {
   "nom": "cagent",
   "theme": "Agents de code et harnais (CLI)",
-  "url": "",
+  "url": "https://github.com/docker/cagent",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -1194,7 +1120,7 @@
  {
   "nom": "Grok CLI",
   "theme": "Agents de code et harnais (CLI)",
-  "url": "",
+  "url": "https://github.com/superagent-ai/grok-cli",
   "tarif": [
    "Payant"
   ],
@@ -1324,7 +1250,7 @@
  {
   "nom": "Claude in Chrome",
   "theme": "Agents de code et harnais (CLI)",
-  "url": "",
+  "url": "https://claude.ai/chrome",
   "tarif": [
    "Payant"
   ],
@@ -1554,7 +1480,7 @@
  {
   "nom": "hermes-opencode-acp",
   "theme": "Routeurs et proxys LLM",
-  "url": "",
+  "url": "https://github.com/jovylle/hermes-opencode-acp",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -1932,7 +1858,7 @@
  {
   "nom": "GitHub Models",
   "theme": "Fournisseurs d'API et modèles cloud",
-  "url": "https://github.com/marketplace/models",
+  "url": "https://docs.github.com/en/github-models",
   "tarif": [
    "Gratuit"
   ],
@@ -2055,7 +1981,7 @@
  {
   "nom": "Qwen4-Max",
   "theme": "Fournisseurs d'API et modèles cloud",
-  "url": "",
+  "url": "https://qwen.ai",
   "tarif": [
    "Payant"
   ],
@@ -2079,7 +2005,7 @@
  {
   "nom": "Kimi K3",
   "theme": "Fournisseurs d'API et modèles cloud",
-  "url": "",
+  "url": "https://platform.moonshot.ai",
   "tarif": [
    "Payant"
   ],
@@ -2103,7 +2029,7 @@
  {
   "nom": "GLM-5.3",
   "theme": "Fournisseurs d'API et modèles cloud",
-  "url": "",
+  "url": "https://z.ai",
   "tarif": [
    "Gratuit"
   ],
@@ -2151,7 +2077,7 @@
  {
   "nom": "Inception Mercury",
   "theme": "Fournisseurs d'API et modèles cloud",
-  "url": "",
+  "url": "https://www.inceptionlabs.ai",
   "tarif": [
    "Payant"
   ],
@@ -2332,7 +2258,7 @@
  {
   "nom": "ChatGPT Plus étudiant",
   "theme": "Abonnements IA et offres grand public",
-  "url": "",
+  "url": "https://chatgpt.com",
   "tarif": [
    "Étudiant"
   ],
@@ -3384,7 +3310,7 @@
  {
   "nom": "Qwen3.6-35B-A3B",
   "theme": "Modèles locaux (LLM)",
-  "url": "",
+  "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -3437,7 +3363,7 @@
  {
   "nom": "Gemma 4 26B-A4B QAT",
   "theme": "Modèles locaux (LLM)",
-  "url": "",
+  "url": "https://ai.google.dev/gemma",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -3463,7 +3389,7 @@
  {
   "nom": "Gemma 4 12B",
   "theme": "Modèles locaux (LLM)",
-  "url": "",
+  "url": "https://ai.google.dev/gemma",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -3487,35 +3413,9 @@
   "coeur": false
  },
  {
-  "nom": "Qwen3.8-27B (Unsloth Dynamic v3.1)",
-  "theme": "Modèles locaux (LLM)",
-  "url": "",
-  "tarif": [
-   "Gratuit",
-   "Open source"
-  ],
-  "statut": "Noté",
-  "description": "Dense ; UD-IQ3_XXS 10,9 Go ou UD-IQ3_S 12 Go.",
-  "offre": "",
-  "licence": "Apache 2.0",
-  "tags": [
-   "llm",
-   "local"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "qwen3-8-27b-unsloth-dynamic-v3-1",
-  "accroche": "Modèle local dense de Qwen, quantifié par Unsloth en deux tailles",
-  "usage": [
-   "Choisir la quantification selon la mémoire disponible",
-   "Faire tourner un modèle dense de Qwen en local"
-  ],
-  "coeur": false
- },
- {
   "nom": "Qwen3.8-27B GSQ-RCO (ISTA-DASLab)",
   "theme": "Modèles locaux (LLM)",
-  "url": "",
+  "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -3541,7 +3441,7 @@
  {
   "nom": "gpt-oss 20B",
   "theme": "Modèles locaux (LLM)",
-  "url": "",
+  "url": "https://huggingface.co/openai/gpt-oss-20b",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -3567,7 +3467,7 @@
  {
   "nom": "LFM2.5-2.6B (Liquid)",
   "theme": "Modèles locaux (LLM)",
-  "url": "",
+  "url": "https://www.liquid.ai/models",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -3593,7 +3493,7 @@
  {
   "nom": "LFM3-1.7B (Liquid)",
   "theme": "Modèles locaux (LLM)",
-  "url": "",
+  "url": "https://www.liquid.ai/models",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -3669,32 +3569,6 @@
   "coeur": false
  },
  {
-  "nom": "Saluki 27B",
-  "theme": "Modèles locaux (LLM)",
-  "url": "",
-  "tarif": [
-   "Gratuit",
-   "Open source"
-  ],
-  "statut": "Noté",
-  "description": "IQ2-mix 7,9 Go, 10 à 11,5 tok/s.",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "llm",
-   "local"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "saluki-27b",
-  "accroche": "Modèle de 27B compressé pour tenir dans peu de mémoire",
-  "usage": [
-   "Faire tourner un modèle 27B sur une machine modeste",
-   "Comparer cette compression aux versions moins compressées"
-  ],
-  "coeur": false
- },
- {
   "nom": "Bonsai 2 27B",
   "theme": "Modèles locaux (LLM)",
   "url": "",
@@ -3723,7 +3597,7 @@
  {
   "nom": "Nemotron 3.5 Lightning 30B-A3B",
   "theme": "Modèles locaux (LLM)",
-  "url": "",
+  "url": "https://huggingface.co/nvidia",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -3749,7 +3623,7 @@
  {
   "nom": "Qwen3.5-9B",
   "theme": "Modèles locaux (LLM)",
-  "url": "",
+  "url": "https://huggingface.co/Qwen",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -3799,61 +3673,9 @@
   "coeur": false
  },
  {
-  "nom": "Qwen4-35B-A3B / Qwen4-27B",
-  "theme": "Modèles locaux (LLM)",
-  "url": "",
-  "tarif": [
-   "Gratuit",
-   "Open source"
-  ],
-  "statut": "Noté",
-  "description": "À surveiller ; les dépôts « Qwen4-27B » sur HF sont faux ou vides.",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "llm",
-   "local"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "qwen4-35b-a3b-qwen4-27b",
-  "accroche": "Modèles Qwen4 à surveiller, en se méfiant des faux dépôts sur Hugging Face",
-  "usage": [
-   "Vérifier la source officielle avant de télécharger un modèle",
-   "Suivre la sortie des modèles Qwen4"
-  ],
-  "coeur": false
- },
- {
-  "nom": "Nous Arete-27B",
-  "theme": "Modèles locaux (LLM)",
-  "url": "",
-  "tarif": [
-   "Gratuit",
-   "Open source"
-  ],
-  "statut": "Noté",
-  "description": "Qwen3.8-27B affiné, évaluation publiée (exemple, pas à adopter).",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "llm",
-   "local"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "nous-arete-27b",
-  "accroche": "Modèle Qwen affiné dont l'évaluation publiée sert d'exemple, sans être à adopter",
-  "usage": [
-   "Lire un exemple d'évaluation publiée de modèle affiné",
-   "Étudier un Qwen affiné comme cas d'école, sans l'adopter"
-  ],
-  "coeur": false
- },
- {
   "nom": "Qwen2-0.5B",
   "theme": "Modèles locaux (LLM)",
-  "url": "",
+  "url": "https://huggingface.co/Qwen/Qwen2-0.5B",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -3903,33 +3725,9 @@
   "coeur": false
  },
  {
-  "nom": "Modèles uncensored / abliterated",
-  "theme": "Modèles locaux (LLM)",
-  "url": "",
-  "tarif": [
-   "Gratuit"
-  ],
-  "statut": "Écarté",
-  "description": "",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "llm"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "modeles-uncensored-abliterated",
-  "accroche": "Modèles locaux modifiés pour supprimer les refus de réponse appris à l'entraînement",
-  "usage": [
-   "Étudier l'effet du retrait des refus sur un modèle",
-   "Comparer ses réponses à celles du modèle d'origine"
-  ],
-  "coeur": false
- },
- {
   "nom": "Bespoke Nimble 9B v3",
   "theme": "Modèles de décision et classement",
-  "url": "",
+  "url": "https://huggingface.co/ggml-org/Bespoke-Nimble-9B-v3-GGUF",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -3955,7 +3753,7 @@
  {
   "nom": "Clef-Flash 9B",
   "theme": "Modèles de décision et classement",
-  "url": "",
+  "url": "https://huggingface.co/ggml-org/Clef-Flash-GGUF",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -3981,7 +3779,7 @@
  {
   "nom": "d1-3B (Liquid)",
   "theme": "Modèles de décision et classement",
-  "url": "",
+  "url": "https://huggingface.co/LiquidAI/d1-3B-GGUF",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -4007,7 +3805,7 @@
  {
   "nom": "Laya",
   "theme": "Modèles de décision et classement",
-  "url": "",
+  "url": "https://github.com/NandhaKishorM/laya",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -4210,7 +4008,7 @@
  {
   "nom": "Decision Index 0.3.1 (multimodalart)",
   "theme": "Modèles de décision et classement",
-  "url": "",
+  "url": "https://huggingface.co/multimodalart",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -4235,7 +4033,7 @@
  {
   "nom": "ollajev",
   "theme": "Modèles de décision et classement",
-  "url": "",
+  "url": "https://github.com/nvkudva/ollajev",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -4470,7 +4268,7 @@
  {
   "nom": "MTPLX",
   "theme": "Moteurs d'inférence locale",
-  "url": "",
+  "url": "https://github.com/youssofal/mtplx",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -4571,7 +4369,7 @@
  {
   "nom": "Local Model Explorer",
   "theme": "Mesure et benchmarks",
-  "url": "",
+  "url": "https://huggingface.co/LocalLLaMA",
   "tarif": [
    "Gratuit"
   ],
@@ -4595,7 +4393,7 @@
  {
   "nom": "llmfit",
   "theme": "Mesure et benchmarks",
-  "url": "",
+  "url": "https://github.com/AlexsJones/llmfit",
   "tarif": [
    "Gratuit"
   ],
@@ -4643,7 +4441,7 @@
  {
   "nom": "mac-llm-bench",
   "theme": "Mesure et benchmarks",
-  "url": "",
+  "url": "https://github.com/enescingoz/mac-llm-bench",
   "tarif": [
    "Gratuit"
   ],
@@ -4740,7 +4538,7 @@
  {
   "nom": "SiliconBench (arXiv 2609.19169)",
   "theme": "Mesure et benchmarks",
-  "url": "",
+  "url": "https://arxiv.org/abs/2609.19169",
   "tarif": [
    "Gratuit"
   ],
@@ -4764,7 +4562,7 @@
  {
   "nom": "FineEnvs / multi-harness-rl",
   "theme": "Mesure et benchmarks",
-  "url": "",
+  "url": "https://github.com/adithya-s-k/FineEnvs",
   "tarif": [
    "Gratuit"
   ],
@@ -4838,7 +4636,7 @@
  {
   "nom": "caffeinate -i",
   "theme": "Mesure et benchmarks",
-  "url": "",
+  "url": "https://ss64.com/mac/caffeinate.html",
   "tarif": [
    "Gratuit"
   ],
@@ -5218,7 +5016,7 @@
  {
   "nom": "MemOS",
   "theme": "Mémoire d'agent",
-  "url": "",
+  "url": "https://github.com/MemTensor/MemOS",
   "tarif": [
    "Freemium"
   ],
@@ -5242,7 +5040,7 @@
  {
   "nom": "MemPalace",
   "theme": "Mémoire d'agent",
-  "url": "",
+  "url": "https://github.com/MemPalace/mempalace",
   "tarif": [
    "Freemium"
   ],
@@ -5266,7 +5064,7 @@
  {
   "nom": "memU",
   "theme": "Mémoire d'agent",
-  "url": "",
+  "url": "https://github.com/NevaMind-AI/memU",
   "tarif": [
    "Freemium"
   ],
@@ -5290,7 +5088,7 @@
  {
   "nom": "OpenViking",
   "theme": "Mémoire d'agent",
-  "url": "",
+  "url": "https://github.com/volcengine/OpenViking",
   "tarif": [
    "Freemium"
   ],
@@ -5314,7 +5112,7 @@
  {
   "nom": "Hindsight",
   "theme": "Mémoire d'agent",
-  "url": "",
+  "url": "https://github.com/vectorize-io/hindsight",
   "tarif": [
    "Freemium"
   ],
@@ -5338,7 +5136,7 @@
  {
   "nom": "AgentMemory",
   "theme": "Mémoire d'agent",
-  "url": "",
+  "url": "https://github.com/rohitg00/agentmemory",
   "tarif": [
    "Freemium"
   ],
@@ -5362,7 +5160,7 @@
  {
   "nom": "AgentCore Memory (AWS)",
   "theme": "Mémoire d'agent",
-  "url": "",
+  "url": "https://aws.amazon.com/bedrock/agentcore/",
   "tarif": [
    "Freemium"
   ],
@@ -5386,7 +5184,7 @@
  {
   "nom": "Foundry Memory",
   "theme": "Mémoire d'agent",
-  "url": "",
+  "url": "https://ai.azure.com",
   "tarif": [
    "Freemium"
   ],
@@ -5410,7 +5208,7 @@
  {
   "nom": "Google Cloud Memory Bank",
   "theme": "Mémoire d'agent",
-  "url": "",
+  "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/memory-bank/overview",
   "tarif": [
    "Freemium"
   ],
@@ -5482,7 +5280,7 @@
  {
   "nom": "claude-mem",
   "theme": "Mémoire d'agent",
-  "url": "",
+  "url": "https://github.com/thedotmack/claude-mem",
   "tarif": [
    "Gratuit"
   ],
@@ -5862,7 +5660,7 @@
  {
   "nom": "Azure AI Search",
   "theme": "RAG, recherche et bases vectorielles",
-  "url": "",
+  "url": "https://azure.microsoft.com/products/ai-services/ai-search",
   "tarif": [
    "Payant"
   ],
@@ -5886,7 +5684,7 @@
  {
   "nom": "Bedrock Knowledge Bases",
   "theme": "RAG, recherche et bases vectorielles",
-  "url": "",
+  "url": "https://aws.amazon.com/bedrock/knowledge-bases/",
   "tarif": [
    "Payant"
   ],
@@ -5910,7 +5708,7 @@
  {
   "nom": "Google Cloud RAG Engine",
   "theme": "RAG, recherche et bases vectorielles",
-  "url": "",
+  "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/rag-engine/rag-overview",
   "tarif": [
    "Payant"
   ],
@@ -5934,7 +5732,7 @@
  {
   "nom": "OpenAI File Search",
   "theme": "RAG, recherche et bases vectorielles",
-  "url": "",
+  "url": "https://platform.openai.com/docs/guides/tools-file-search",
   "tarif": [
    "Payant"
   ],
@@ -6035,7 +5833,7 @@
  {
   "nom": "agent-browser",
   "theme": "Outils d'agent, MCP et navigateur",
-  "url": "",
+  "url": "https://github.com/vercel-labs/agent-browser",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -6236,7 +6034,7 @@
  {
   "nom": "TinyFish",
   "theme": "Outils d'agent, MCP et navigateur",
-  "url": "",
+  "url": "https://www.tinyfish.ai",
   "tarif": [
    "Freemium"
   ],
@@ -6358,7 +6156,7 @@
  {
   "nom": "Workato Enterprise MCP",
   "theme": "Outils d'agent, MCP et navigateur",
-  "url": "",
+  "url": "https://www.workato.com",
   "tarif": [
    "Payant"
   ],
@@ -6382,7 +6180,7 @@
  {
   "nom": "cua-driver (Computer Use)",
   "theme": "Outils d'agent, MCP et navigateur",
-  "url": "",
+  "url": "https://github.com/trycua/cua",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -6434,7 +6232,7 @@
  {
   "nom": "Phone Harness (plugin Hermes)",
   "theme": "Outils d'agent, MCP et navigateur",
-  "url": "",
+  "url": "https://github.com/phone-harness/phone-harness",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -6682,7 +6480,7 @@
  {
   "nom": "Docker Sandboxes",
   "theme": "Sandboxes",
-  "url": "",
+  "url": "https://docs.docker.com/ai/sandboxes/",
   "tarif": [
    "Gratuit"
   ],
@@ -6732,7 +6530,7 @@
  {
   "nom": "CubeSandbox",
   "theme": "Sandboxes",
-  "url": "",
+  "url": "https://github.com/TencentCloud/CubeSandbox",
   "tarif": [
    "Gratuit"
   ],
@@ -6856,7 +6654,7 @@
  {
   "nom": "OpenAI-hosted Sandboxes",
   "theme": "Sandboxes",
-  "url": "",
+  "url": "https://platform.openai.com/docs",
   "tarif": [
    "Payant"
   ],
@@ -7008,7 +6806,7 @@
  {
   "nom": "Claude Managed Agents",
   "theme": "Frameworks et runtimes d'agents",
-  "url": "",
+  "url": "https://docs.claude.com",
   "tarif": [
    "Payant"
   ],
@@ -7082,7 +6880,7 @@
  {
   "nom": "Alibaba AgentRun",
   "theme": "Frameworks et runtimes d'agents",
-  "url": "",
+  "url": "https://www.alibabacloud.com",
   "tarif": [
    "Payant"
   ],
@@ -7106,7 +6904,7 @@
  {
   "nom": "BytePlus AgentKit",
   "theme": "Frameworks et runtimes d'agents",
-  "url": "",
+  "url": "https://www.byteplus.com",
   "tarif": [
    "Payant"
   ],
@@ -8563,7 +8361,7 @@
  {
   "nom": "Amphetamine",
   "theme": "Mac : applications",
-  "url": "",
+  "url": "https://apps.apple.com/app/amphetamine/id937984704",
   "tarif": [
    "Gratuit"
   ],
@@ -8588,7 +8386,7 @@
  {
   "nom": "wBlock",
   "theme": "Mac : applications",
-  "url": "",
+  "url": "https://github.com/0xCUB3/wBlock",
   "tarif": [
    "Gratuit"
   ],
@@ -9790,7 +9588,7 @@
  {
   "nom": "Règles de Karpathy (CLAUDE.md)",
   "theme": "Skills et plugins choisis",
-  "url": "",
+  "url": "https://github.com/forrestchang/andrej-karpathy-skills",
   "tarif": [
    "Gratuit"
   ],
@@ -9911,30 +9709,6 @@
   "coeur": false
  },
  {
-  "nom": "dsh-our-free-model",
-  "theme": "Skills et plugins choisis",
-  "url": "",
-  "tarif": [
-   "Gratuit"
-  ],
-  "statut": "Écarté",
-  "description": "Usurpe un client.",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "skill"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "dsh-our-free-model",
-  "accroche": "Donne accès à un modèle en usurpant l'identité d'un client",
-  "usage": [
-   "Accéder à un modèle via un client usurpé",
-   "Évaluer le risque de suspension d'un accès non officiel"
-  ],
-  "coeur": false
- },
- {
   "nom": "Outils « Mac éveillé » modifiant settings.json",
   "theme": "Skills et plugins choisis",
   "url": "",
@@ -9955,30 +9729,6 @@
   "usage": [
    "Empêcher la mise en veille pendant une session Claude Code",
    "Vérifier les changements apportés à ~/.claude/settings.json"
-  ],
-  "coeur": false
- },
- {
-  "nom": "Catalogues de skills (Brucky, « 1 116 skills »)",
-  "theme": "Skills et plugins choisis",
-  "url": "",
-  "tarif": [
-   "Gratuit"
-  ],
-  "statut": "À lire",
-  "description": "Étoiles douteuses.",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "skill"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "catalogues-de-skills-brucky-1-116-skills",
-  "accroche": "Catalogues réunissant un grand nombre de skills, aux étoiles GitHub douteuses",
-  "usage": [
-   "Parcourir des skills pour repérer des idées",
-   "Vérifier la source d'une skill avant de l'installer"
   ],
   "coeur": false
  },
@@ -10009,7 +9759,7 @@
  {
   "nom": "ai-job-search",
   "theme": "Skills et plugins choisis",
-  "url": "",
+  "url": "https://github.com/ai-job-search-dev/ai-job-search",
   "tarif": [
    "Gratuit"
   ],
@@ -10033,7 +9783,7 @@
  {
   "nom": "AIHOT",
   "theme": "Skills et plugins choisis",
-  "url": "",
+  "url": "https://github.com/KKKKhazix/AIHOT",
   "tarif": [
    "Gratuit"
   ],
@@ -10101,126 +9851,6 @@
    "Indiquer quel fichier d'instructions fait foi en cas de conflit",
    "Ajouter la phrase dans AGENTS.md ou CLAUDE.md",
    "Tester la règle sur un projet aux consignes anciennes"
-  ],
-  "coeur": false
- },
- {
-  "nom": "ruixen",
-  "theme": "Design et UI",
-  "url": "",
-  "tarif": [
-   "Gratuit"
-  ],
-  "statut": "Noté",
-  "description": "Bibliothèque UI (non vérifiée).",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "design"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "ruixen",
-  "accroche": "Bibliothèque de composants pour construire des interfaces, pas encore vérifiée",
-  "usage": [
-   "Chercher des composants d'interface prêts à l'emploi",
-   "Vérifier licence et qualité avant de l'adopter"
-  ],
-  "coeur": false
- },
- {
-  "nom": "rareui",
-  "theme": "Design et UI",
-  "url": "",
-  "tarif": [
-   "Gratuit"
-  ],
-  "statut": "Noté",
-  "description": "Bibliothèque UI (non vérifiée).",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "design"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "rareui",
-  "accroche": "Bibliothèque de composants d'interface, non vérifiée pour l'instant",
-  "usage": [
-   "Parcourir des composants pour une maquette",
-   "Tester un composant avant de l'intégrer à un projet"
-  ],
-  "coeur": false
- },
- {
-  "nom": "palletism",
-  "theme": "Design et UI",
-  "url": "",
-  "tarif": [
-   "Gratuit"
-  ],
-  "statut": "Noté",
-  "description": "Palettes (non vérifié).",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "design"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "palletism",
-  "accroche": "Outil de palettes de couleurs, pas encore vérifié",
-  "usage": [
-   "Trouver une palette de couleurs pour un projet",
-   "Comparer des associations de couleurs avant de choisir"
-  ],
-  "coeur": false
- },
- {
-  "nom": "inspora",
-  "theme": "Design et UI",
-  "url": "",
-  "tarif": [
-   "Gratuit"
-  ],
-  "statut": "Noté",
-  "description": "Inspiration UI (non vérifié).",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "design"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "inspora",
-  "accroche": "Source d'inspiration pour le design d'interfaces, pas encore vérifiée",
-  "usage": [
-   "Chercher des idées d'interface avant une maquette",
-   "Rassembler des références visuelles pour un projet"
-  ],
-  "coeur": false
- },
- {
-  "nom": "layro",
-  "theme": "Design et UI",
-  "url": "",
-  "tarif": [
-   "Gratuit"
-  ],
-  "statut": "Noté",
-  "description": "Mises en page (non vérifié).",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "design"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "layro",
-  "accroche": "Outil de mises en page pour interfaces, pas encore vérifié",
-  "usage": [
-   "Trouver une structure de page pour un site",
-   "Comparer plusieurs mises en page avant de coder"
   ],
   "coeur": false
  },
@@ -10300,7 +9930,7 @@
  {
   "nom": "HyperFrames",
   "theme": "Design et UI",
-  "url": "",
+  "url": "https://github.com/heygen-com/hyperframes",
   "tarif": [
    "Gratuit"
   ],
@@ -10443,7 +10073,9 @@
    "Comprendre pourquoi le jeu d'évaluation resterait humain",
    "Voir où placer l'effort humain autour d'un agent"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2118807714520330240/img/B5SfALar6BJBl1L8.jpg",
+  "article": true
  },
  {
   "nom": "Hoodie : Loops & Graphs",
@@ -10493,56 +10125,9 @@
    "Apprendre à limiter la relecture à trois tours",
    "Savoir séparer rédacteur et relecteur dans un flux d'agents"
   ],
-  "coeur": true
- },
- {
-  "nom": "Simon Høiberg : distillation",
-  "theme": "Articles, études et méthodes",
-  "url": "",
-  "tarif": [
-   "Gratuit"
-  ],
-  "statut": "À lire",
-  "description": "LoRA sur Qwen 27B à partir des bons cas d'un modèle de pointe.",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "lecture"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "simon-hiberg-distillation",
-  "accroche": "Retour sur la distillation d'un modèle de pointe vers Qwen 27B par LoRA",
-  "usage": [
-   "Comprendre comment distiller un modèle de pointe par LoRA",
-   "Apprendre à garder les bons cas pour l'entraînement"
-  ],
-  "coeur": false
- },
- {
-  "nom": "Lauren Tan / Grok Bot",
-  "theme": "Articles, études et méthodes",
-  "url": "",
-  "tarif": [
-   "Gratuit"
-  ],
-  "statut": "À lire",
-  "description": "Avant une règle AGENTS.md : refondre, lint ou auto-vérification.",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "lecture"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "lauren-tan-grok-bot",
-  "accroche": "Conseils sur ce qu'il faut tenter avant d'ajouter une règle à AGENTS.md",
-  "usage": [
-   "Comprendre quand refondre le code plutôt qu'écrire une règle",
-   "Découvrir comment un lint remplace une consigne écrite",
-   "Voir comment faire vérifier son travail par l'agent lui-même"
-  ],
-  "coeur": false
+  "coeur": true,
+  "image_post": "https://pbs.twimg.com/media/HW8lBnfWkAATwDR?format=jpg&name=medium",
+  "article": true
  },
  {
   "nom": "RAG vs Graph RAG vs Agentic RAG",
@@ -10566,7 +10151,9 @@
    "Comprendre ce qui distingue RAG, Graph RAG et Agentic RAG",
    "Savoir quelle approche de RAG choisir selon son cas"
   ],
-  "coeur": true
+  "coeur": true,
+  "image_post": "https://pbs.twimg.com/tweet_video_thumb/HWwaBO7aQAAwKTg.jpg",
+  "article": true
  },
  {
   "nom": "e-means dans FAISS",
@@ -10590,32 +10177,8 @@
    "Découvrir la méthode e-means et son usage dans FAISS",
    "Apprendre les bases de la recherche vectorielle avec FAISS"
   ],
-  "coeur": false
- },
- {
-  "nom": "Cartes de Franky",
-  "theme": "Articles, études et méthodes",
-  "url": "",
-  "tarif": [
-   "Gratuit"
-  ],
-  "statut": "À lire",
-  "description": "Agents perso, stack locale, infra agents, dev open source.",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "lecture"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "cartes-de-franky",
-  "accroche": "Cartes sur agents perso, stack locale, infra d'agents et dev open source",
-  "usage": [
-   "Avoir une vue d'ensemble des agents personnels",
-   "Repérer les briques d'une stack d'IA locale",
-   "Découvrir l'infrastructure qui fait tourner des agents"
-  ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2120200450842443776/img/73DweZxBkIe2GYJG.jpg"
  },
  {
   "nom": "Jev + Opus 5.5 (−69 %)",
@@ -10666,33 +10229,9 @@
   "coeur": false
  },
  {
-  "nom": "Code Mode de Claude Code",
-  "theme": "Articles, études et méthodes",
-  "url": "",
-  "tarif": [
-   "Gratuit"
-  ],
-  "statut": "À lire",
-  "description": "≥ v2.1.323, JS pour appels d'outils parallèles.",
-  "offre": "",
-  "licence": "",
-  "tags": [
-   "lecture"
-  ],
-  "source": "Documents et fil",
-  "post": "",
-  "slug": "code-mode-de-claude-code",
-  "accroche": "Mode où Claude Code écrit du JavaScript pour appeler des outils en parallèle",
-  "usage": [
-   "Comprendre comment un script JavaScript lance des outils en parallèle",
-   "Savoir à partir de quelle version de Claude Code l'utiliser"
-  ],
-  "coeur": false
- },
- {
   "nom": "Reddit r/LocalAIStack : réglages Qwen3.6",
   "theme": "Articles, études et méthodes",
-  "url": "",
+  "url": "https://www.reddit.com/r/LocalAIStack/",
   "tarif": [
    "Gratuit"
   ],
@@ -10813,7 +10352,7 @@
  {
   "nom": "free-llm-api-resources (cheahjs)",
   "theme": "Listes et catalogues",
-  "url": "https://github.com/cheahjs/free-llm-api-resources",
+  "url": "https://github.com/jtig37/free-llm-api-resources",
   "tarif": [
    "Gratuit"
   ],
@@ -10837,7 +10376,7 @@
  {
   "nom": "agents-radar",
   "theme": "Listes et catalogues",
-  "url": "",
+  "url": "https://github.com/duanyytop/agents-radar",
   "tarif": [
    "Gratuit"
   ],
@@ -10891,15 +10430,15 @@
    "Gratuit",
    "Open source"
   ],
-  "statut": "Noté",
+  "statut": "Écarté",
   "description": "Terminal d'abord avec une vraie UI : orchestrateur qui lance des panneaux workers (Claude, Codex, toute CLI), un worktree par panneau, approbations depuis le téléphone.",
-  "offre": "",
-  "licence": "",
+  "offre": "AGPL, tarifs flous ; déjà couvert par T3.",
+  "licence": "AGPL",
   "tags": [
    "worktree",
    "cockpit"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/ParsaKhaz/status/2122126172209475944",
   "slug": "pane-runpane-com",
   "accroche": "Orchestrateur en terminal qui lance des agents en panneaux, chacun dans son worktree",
@@ -12167,7 +11706,9 @@
    "Repérer les crédits pour étudiants et mainteneurs open source",
    "Comparer les paliers gratuits avant de choisir un fournisseur"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HNH6BhrXgAA1h-6?format=jpg&name=medium",
+  "article": true
  },
  {
   "nom": "Claude Code : crédit offert (/claim-credit)",
@@ -12547,7 +12088,7 @@
    "llm",
    "local"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/UnderdogAI/status/2108021482983133395",
   "slug": "underdog-saluki-27b",
   "accroche": "Version compressée de Qwen 3.8 27B qui tient en 7,9 Go",
@@ -12570,12 +12111,12 @@
   "statut": "Noté",
   "description": "GGUF les plus précis, tourne sur 12 Go.",
   "offre": "",
-  "licence": "",
+  "licence": "Apache 2.0",
   "tags": [
    "llm",
    "local"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/Capetlevrai/status/2120537590525046787",
   "slug": "unsloth-qwen3-8-27b-dynamic-v3-1-gguf",
   "accroche": "Fichiers GGUF de Qwen3.8-27B quantifiés par Unsloth, utilisables avec 12 Go",
@@ -12658,7 +12199,7 @@
    "llm",
    "local"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/xiax0603/status/2108894859402867134",
   "slug": "qwen4-27b-qwen4-max-annonce",
   "accroche": "Annonce de Qwen4-27B et Qwen4-Max avec poids ouverts publiés en même temps",
@@ -12712,7 +12253,7 @@
    "llm",
    "local"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/NousResearch/status/2118822925445050435",
   "slug": "arete-27b-nous-research",
   "accroche": "Version de Qwen3.8-27B post-entraînée par Nous Research",
@@ -12739,7 +12280,7 @@
    "llm",
    "local"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/Israfilv2/status/2119452019832541504",
   "slug": "modeles-abliterated-uncensored-spark-x2-6-4b-gemma-4-deepsee",
   "accroche": "Signets de modèles ouverts modifiés pour ne plus refuser de répondre",
@@ -13736,7 +13277,7 @@
   "tags": [
    "design"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/neropursue/status/2120052107780784507",
   "slug": "inspora-design",
   "accroche": "Inspiration d'interfaces pour les vibecoders qui créent avec l'IA",
@@ -13760,7 +13301,7 @@
   "tags": [
    "design"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/Kritiisayss/status/2119694418378903943",
   "slug": "layro-dev",
   "accroche": "Mises en page gratuites à réutiliser pour ses sites",
@@ -13928,7 +13469,7 @@
   "tags": [
    "design"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/shadcnlabs/status/2120502720079835550",
   "slug": "ruixen-com",
   "accroche": "Bibliothèque de composants UI pensée pour travailler avec Claude",
@@ -13952,7 +13493,7 @@
   "tags": [
    "design"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/SwamiMalode/status/2120571988993597701",
   "slug": "rareui-com",
   "accroche": "Ressources d'interface pour sortir du rendu générique de l'IA",
@@ -13976,7 +13517,7 @@
   "tags": [
    "design"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/adityawaslost/status/2120764025348784426",
   "slug": "palletism-art",
   "accroche": "Palettes de couleurs pour ses projets de design",
@@ -15127,9 +14668,9 @@
   "coeur": false
  },
  {
-  "nom": "hashicorp/skills",
+  "nom": "hashicorp/agent-skills",
   "theme": "Catalogue des 1 116 skills",
-  "url": "https://github.com/hashicorp/skills",
+  "url": "https://github.com/hashicorp/agent-skills",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -15969,7 +15510,7 @@
  {
   "nom": "testdino/playwright-skill",
   "theme": "Catalogue des 1 116 skills",
-  "url": "https://github.com/testdino/playwright-skill",
+  "url": "",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -16019,7 +15560,7 @@
  {
   "nom": "JoeGaebel/outside-in-tdd",
   "theme": "Catalogue des 1 116 skills",
-  "url": "https://github.com/JoeGaebel/outside-in-tdd",
+  "url": "",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -16044,7 +15585,7 @@
  {
   "nom": "angakh/pr-create-fetch",
   "theme": "Catalogue des 1 116 skills",
-  "url": "https://github.com/angakh/pr-create-fetch",
+  "url": "",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -16345,7 +15886,7 @@
  {
   "nom": "agentward-ai/sanitize",
   "theme": "Catalogue des 1 116 skills",
-  "url": "https://github.com/agentward-ai/sanitize",
+  "url": "",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -16396,7 +15937,7 @@
  {
   "nom": "snyk/snyk-fix",
   "theme": "Catalogue des 1 116 skills",
-  "url": "https://github.com/snyk/snyk-fix",
+  "url": "",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -16446,7 +15987,7 @@
  {
   "nom": "foxj77/k8s-skills",
   "theme": "Catalogue des 1 116 skills",
-  "url": "https://github.com/foxj77/k8s-skills",
+  "url": "",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -17199,7 +16740,7 @@
  {
   "nom": "qdrant/qdrant-skills",
   "theme": "Catalogue des 1 116 skills",
-  "url": "https://github.com/qdrant/qdrant-skills",
+  "url": "",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -17249,7 +16790,7 @@
  {
   "nom": "SHADOWPR0/beautiful-prose",
   "theme": "Catalogue des 1 116 skills",
-  "url": "https://github.com/SHADOWPR0/beautiful-prose",
+  "url": "https://github.com/SHADOWPR0/beautiful_prose",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -17274,7 +16815,7 @@
  {
   "nom": "wshuyi/x-article-publisher",
   "theme": "Catalogue des 1 116 skills",
-  "url": "https://github.com/wshuyi/x-article-publisher",
+  "url": "",
   "tarif": [
    "Gratuit",
    "Open source"
@@ -17586,7 +17127,7 @@
   "tags": [
    "catalogue"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/Mr_Buzzoni/status/2047644016632557700",
   "slug": "article-i-found-1-116-claude-code-skills",
   "accroche": "Panorama de skills Claude Code avec méthode pour les trier",
@@ -17595,7 +17136,9 @@
    "Apprendre à juger la fiabilité d'une skill",
    "Repérer les skills avec des CVE connues"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HGo8LJ6WAAAEJTa?format=jpg&name=medium",
+  "article": true
  },
  {
   "nom": "Claude Code team : vérification",
@@ -17619,7 +17162,8 @@
    "Comprendre comment vérifier le travail d'un agent",
    "Découvrir pourquoi les tests end-to-end deviennent abordables"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/card_img/2122436121120350208/nh_XQGbf?format=png&name=medium"
  },
  {
   "nom": "Self-hosted Claude Managed Agents (bêta privée)",
@@ -17630,12 +17174,12 @@
   ],
   "statut": "À lire",
   "description": "Héberger harness, sandboxes et historique chez soi.",
-  "offre": "",
+  "offre": "Bêta réservée aux organisations.",
   "licence": "",
   "tags": [
    "lecture"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/ClaudeDevs/status/2120938988165091693",
   "slug": "self-hosted-claude-managed-agents-beta-privee",
   "accroche": "Héberger soi-même le harness et les sandboxes des agents Claude",
@@ -17643,7 +17187,8 @@
    "Découvrir comment héberger les agents Claude chez soi",
    "Comprendre l'intérêt de garder harness et historique en interne"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HW8VZz7bgAAnGFL?format=jpg&name=medium"
  },
  {
   "nom": "Code Mode (doc officielle)",
@@ -17659,7 +17204,7 @@
   "tags": [
    "lecture"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/TekonBurns/status/2121311300928364717",
   "slug": "code-mode-doc-officielle",
   "accroche": "Documentation sur le mode où Claude code pour appeler des outils",
@@ -17667,7 +17212,8 @@
    "Comprendre comment Claude parallélise les appels d'outils",
    "Découvrir le mode d'écriture de JavaScript par l'agent"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2121264716265799680/img/etqwFLkGmlYlMRkm.jpg"
  },
  {
   "nom": "PSA advisor Fable",
@@ -17716,7 +17262,9 @@
    "Organiser contexte, tâches et sorties en dossiers",
    "Appliquer la règle des deux passes"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HUuEEAvWEAAhED-?format=jpg&name=medium",
+  "article": true
  },
  {
   "nom": "Simon Høiberg : qualité Opus avec Qwen 27B",
@@ -17732,7 +17280,7 @@
   "tags": [
    "lecture"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/SimonHoiberg/status/2120132843669979347",
   "slug": "simon-hiberg-qualite-opus-avec-qwen-27b",
   "accroche": "Approche pour rapprocher un petit modèle de la qualité d'Opus",
@@ -17740,7 +17288,8 @@
    "Comprendre la distillation sur des cas réels filtrés",
    "Découvrir l'usage de LoRA pour spécialiser un modèle"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/ext_tw_video_thumb/2120132759221932033/pu/img/c4-nwBmWSJR13UZM.jpg"
  },
  {
   "nom": "Lauren Tan : « All code is slop, except mine »",
@@ -17756,7 +17305,7 @@
   "tags": [
    "lecture"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/0x_kaize/status/2121997657858281657",
   "slug": "lauren-tan-all-code-is-slop-except-mine",
   "accroche": "Réflexion sur la bonne réaction quand un agent se trompe",
@@ -17764,7 +17313,9 @@
    "Comprendre quoi faire quand un agent se trompe",
    "Éviter d'empiler des règles dans AGENTS.md"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HXLZjfpbYAAJ_4Z?format=jpg&name=medium",
+  "article": true
  },
  {
   "nom": "Limestone : CLAUDE.md périmé",
@@ -17788,7 +17339,8 @@
    "Comprendre l'impact d'un CLAUDE.md périmé",
    "Corriger le problème avec une seule phrase"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/card_img/2121406034056998912/AL6aalFg?format=png&name=medium"
  },
  {
   "nom": "FrankYouChill : stack d'agents open source",
@@ -17804,7 +17356,7 @@
   "tags": [
    "lecture"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/FrankYouChill/status/2119643701139894365",
   "slug": "frankyouchill-stack-d-agents-open-source",
   "accroche": "Panorama d'une stack open source pour développer des agents",
@@ -17812,7 +17364,8 @@
    "Découvrir une stack d'outils pour développer des agents",
    "Choisir ses outils de développement d'agents"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HWfs-DWXAAAdo5D?format=jpg&name=medium"
  },
  {
   "nom": "FrankYouChill : stack d'agent personnel",
@@ -17836,7 +17389,8 @@
    "Découvrir les outils d'un agent IA personnel",
    "Composer sa propre stack d'agent"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HWySjGjbYAAuFdp?format=jpg&name=medium"
  },
  {
   "nom": "FrankYouChill : stack d'infra d'agents",
@@ -17860,7 +17414,8 @@
    "Comprendre l'infrastructure derrière des agents",
    "Choisir les briques d'infrastructure adaptées"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HWp8SmkWQAEHm1A?format=jpg&name=medium"
  },
  {
   "nom": "FrankYouChill : stack IA locale",
@@ -17884,7 +17439,8 @@
    "Découvrir des exemples de stack IA locale",
    "Comparer des outils pour l'IA en local"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HW1QXhObcAAXqjc?format=jpg&name=medium"
  },
  {
   "nom": "Second Brain Guide (Brucky)",
@@ -17908,7 +17464,9 @@
    "Apprendre à éviter de se répéter avec Claude",
    "Mettre en place un second cerveau pour l'agent"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2119534505497133056/img/M2gHAcu36vGrCGLk.jpg",
+  "article": true
  },
  {
   "nom": "How to Set Up Claude Once (Yarchi)",
@@ -17932,7 +17490,9 @@
    "Configurer la mémoire et les projets de Claude",
    "Suivre les étapes inspirées des notes d'Anthropic"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HQ2GiclWcAAXqXl?format=jpg&name=medium",
+  "article": true
  },
  {
   "nom": "CyrilXBT : première équipe d'agents avec Opus 5.5",
@@ -17956,7 +17516,9 @@
    "Découvrir une organisation en lead, scout, maker et critic",
    "S'inspirer pour monter une équipe de sous-agents"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HWJntcSWgAA6tYh?format=jpg&name=medium",
+  "article": true
  },
  {
   "nom": "Anthropic : formation de 2 h sur les agents Claude",
@@ -17980,7 +17542,8 @@
    "Apprendre à construire un agent autonome",
    "Réduire le besoin de supervision d'un agent"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HIiHV7PWoAAhHdL?format=jpg&name=medium"
  },
  {
   "nom": "Anthropic : workshop Claude Code de 30 min",
@@ -18004,7 +17567,8 @@
    "Découvrir Claude Code en trente minutes",
    "Apprendre les bases auprès de son créateur"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HG2rDwpbUAAA-hk?format=jpg&name=medium"
  },
  {
   "nom": "Anthropic : agents qui se promptent eux-mêmes",
@@ -18028,7 +17592,9 @@
    "Comprendre comment un système se prompte lui-même",
    "S'inspirer pour automatiser la génération de prompts"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HU8rDx7XIAA8dGG?format=jpg&name=medium",
+  "article": true
  },
  {
   "nom": "Comment les ingénieurs d'Anthropic promptent Claude Code",
@@ -18052,7 +17618,8 @@
    "Apprendre comment les ingénieurs d'Anthropic rédigent leurs prompts",
    "Améliorer sa façon de prompter Claude Code"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HUgDC0CXEAASwSy?format=jpg&name=medium"
  },
  {
   "nom": "Felix Rieseberg : être plus ambitieux avec l'IA",
@@ -18100,7 +17667,8 @@
    "Comprendre les limites de compréhension des LLM",
    "Mieux cerner ce que les modèles saisissent"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HUX9pi4XgAAxKJQ?format=jpg&name=medium"
  },
  {
   "nom": "Masterclass SEO d'Anthropic",
@@ -18124,7 +17692,9 @@
    "Apprendre les bases du SEO",
    "Découvrir l'approche d'Anthropic sur le référencement"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HWv217pXYAEA-Lc?format=jpg&name=medium",
+  "article": true
  },
  {
   "nom": "Claude Security",
@@ -18148,7 +17718,9 @@
    "Comprendre comment un agent audite la sécurité sur GitHub",
    "Découvrir une revue de sécurité automatisée"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2112997615306424320/img/sMCgiJN5BEFAFZON.jpg",
+  "article": true
  },
  {
   "nom": "Meta : LLM sans tokenizer",
@@ -18172,7 +17744,8 @@
    "Comprendre l'intérêt d'un LLM sans tokenizer",
    "Découvrir une alternative à la tokenisation"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HVOXu1gaEAAGY5u?format=jpg&name=medium"
  },
  {
   "nom": "300 agents Claude Code en parallèle avec vérification",
@@ -18196,7 +17769,9 @@
    "Découvrir comment faire tourner des agents en parallèle",
    "Comprendre le rôle de la vérification à grande échelle"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HNlPS-NXgAA-bPL?format=jpg&name=medium",
+  "article": true
  },
  {
   "nom": "Codex configure un VPS et déploie un MCP en 15 min",
@@ -18244,7 +17819,8 @@
    "Comprendre les risques des routeurs LLM tiers",
    "Savoir qu'un routeur voit prompts et secrets"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HFglir2bQAA0zmC?format=jpg&name=medium"
  },
  {
   "nom": "Steering de neurones sur Qwen3.5 4B",
@@ -18388,7 +17964,8 @@
    "Apprendre à construire un site avec Fable",
    "Suivre des tutoriels pas à pas"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2120196396644958209/img/oecAIkoVhs2qdAGs.jpg"
  },
  {
   "nom": "Vasuman : article à coller dans Claude Code",
@@ -18412,7 +17989,9 @@
    "Coller l'article dans Claude Code comme contexte",
    "Fournir des consignes prêtes à l'emploi à l'agent"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HS5_mtsaMAA2zTd?format=jpg&name=medium",
+  "article": true
  },
  {
   "nom": "7 prompts Gemini pour améliorer un CV",
@@ -18532,7 +18111,8 @@
    "Participer à un concours d'optimisation de kernel",
    "Optimiser la vitesse d'exécution de Muse Spark"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/card_img/2118584009068265472/hphEAKfq?format=jpg&name=medium"
  },
  {
   "nom": "Concours UE (AD5)",
@@ -18556,7 +18136,8 @@
    "Postuler à un poste dans les institutions européennes",
    "Préparer le concours de recrutement de l'UE"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/media/HAe7wV_XkAA4j6V?format=jpg&name=medium"
  },
  {
   "nom": "OpenAI problème n°109 (multiplication entière)",
@@ -18580,7 +18161,8 @@
    "Contribuer à une recherche sur les bornes",
    "Travailler sur un problème ouvert de multiplication"
   ],
-  "coeur": false
+  "coeur": false,
+  "image_post": "https://pbs.twimg.com/card_img/2122881965686996992/wTSPHuaE?format=jpg&name=medium"
  },
  {
   "nom": "Bots de trading Grok / Polymarket / hft.md / quants.md",
@@ -18638,7 +18220,7 @@
   "tags": [
    "écarté"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/Rivonn/status/2108416734894100918",
   "slug": "dsh-plugin-deepseek-kimi-gratuits-sans-cle",
   "accroche": "Plugin d'accès gratuit à des modèles, en zone grise",
@@ -18660,7 +18242,7 @@
   "tags": [
    "écarté"
   ],
-  "source": "Signets X",
+  "source": "Documents et fil + Signets X",
   "post": "https://x.com/atomicagent_io/status/2119918110752846094",
   "slug": "atomic-agent-fusion",
   "accroche": "Produit commercial mis de côté dans cette sélection",

@@ -23,11 +23,41 @@
   "logo": "https://github.com/HKUDS.png?size=64",
   "image": "https://opengraph.githubassets.com/1/HKUDS/nanobot"
  },
+ "nanoclaw": {
+  "verifie": "2026-11-18",
+  "status": 0,
+  "logo": "https://github.com/nanocoai.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/nanocoai/nanoclaw"
+ },
+ "ironclaw": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/nearai.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/nearai/ironclaw"
+ },
+ "picoclaw": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/sipeed.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/sipeed/picoclaw"
+ },
+ "cowagent": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/zhayujie.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/zhayujie/CowAgent"
+ },
  "letta-ex-memgpt": {
   "verifie": "2026-11-18",
   "status": 200,
   "logo": "https://github.com/letta-ai.png?size=64",
   "image": "https://opengraph.githubassets.com/1/letta-ai/letta"
+ },
+ "openjarvis": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/open-jarvis.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/open-jarvis/OpenJarvis"
  },
  "elizaos": {
   "verifie": "2026-11-18",
@@ -40,6 +70,29 @@
   "status": 200,
   "logo": "https://github.com/openinterpreter.png?size=64",
   "image": "https://opengraph.githubassets.com/1/openinterpreter/open-interpreter"
+ },
+ "opendots-copilotkit": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/CopilotKit.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/CopilotKit/OpenDots"
+ },
+ "openai-dots": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/6iFRMxhUWyxFR6zpThf2Am/1f826b5095ca8854064989ecec465049/SEO_Banner_2400x1350_04.png?w=1600&h=900&fit=fill"
+ },
+ "gemini-spark": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://www.gstatic.com/lamda/images/gemini_sparkle_4g_512_lt_f94943af3be039176192d.png"
+ },
+ "grok-bot": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://x.ai/apple-icon.png?apple-icon.167itqrsbgzm4.png?dpl=c0d48929bf2ad6f96d687d8baedfc7bef44b5448",
+  "image": "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.2syi5no49g9nu.png?dpl=c0d48929bf2ad6f96d687d8baedfc7bef44b5448"
  },
  "t3-code": {
   "verifie": "2026-11-18",
@@ -65,6 +118,24 @@
   "logo": "https://openbot.run/apple-touch-icon.png",
   "image": "https://openbot.run/social/home.jpg"
  },
+ "oh-my-openagent": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/code-yeongyu.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/code-yeongyu/oh-my-openagent"
+ },
+ "bernstein": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/sipyourdrink-ltd.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/sipyourdrink-ltd/bernstein"
+ },
+ "orchestrai": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/samshapley.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/samshapley/OrchestrAI"
+ },
  "claude-code": {
   "verifie": "2026-11-18",
   "status": 200,
@@ -89,7 +160,19 @@
   "logo": "https://github.com/openai.png?size=64",
   "image": "https://opengraph.githubassets.com/1/openai/codex"
  },
+ "pi": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/earendil-works.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/earendil-works/pi"
+ },
  "antigravity-ide-appli-agy": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://antigravity.google/apple-touch-icon.png",
+  "image": "https://antigravity.google/og/index.png"
+ },
+ "antigravity-cli-agy": {
   "verifie": "2026-11-18",
   "status": 200,
   "logo": "https://antigravity.google/apple-touch-icon.png",
@@ -113,6 +196,18 @@
   "logo": "https://github.com/features.png?size=64",
   "image": "https://opengraph.githubassets.com/1/features/copilot"
  },
+ "github-copilot-cli": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/github.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/github/copilot-cli"
+ },
+ "cagent": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/docker.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/docker/cagent"
+ },
  "cursor": {
   "verifie": "2026-11-18",
   "status": 200,
@@ -124,6 +219,12 @@
   "status": 200,
   "logo": "https://mistral.ai/favicon.ico",
   "image": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp"
+ },
+ "grok-cli": {
+  "verifie": "2026-11-18",
+  "status": 0,
+  "logo": "https://github.com/superagent-ai.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/superagent-ai/grok-cli"
  },
  "cline": {
   "verifie": "2026-11-18",
@@ -144,9 +245,15 @@
  },
  "qwen-code": {
   "verifie": "2026-11-18",
-  "status": 200,
+  "status": 0,
   "logo": "https://github.com/QwenLM.png?size=64",
   "image": "https://opengraph.githubassets.com/1/QwenLM/qwen-code"
+ },
+ "claude-in-chrome": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://claude.com/icon.svg",
+  "image": "https://assets.claude.com/347a6904eea261cb28ab3feba64450143ee64e16.jpg?w=1200&h=630&fit=crop"
  },
  "claude-code-router": {
   "verifie": "2026-11-18",
@@ -177,6 +284,12 @@
   "status": 200,
   "logo": "https://hermesagents.net/apple-touch-icon.png",
   "image": "https://hermesagents.net/android-chrome-512x512.png"
+ },
+ "hermes-opencode-acp": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/jovylle.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/jovylle/hermes-opencode-acp"
  },
  "requesty": {
   "verifie": "2026-11-18",
@@ -254,9 +367,9 @@
  },
  "github-models": {
   "verifie": "2026-11-18",
-  "status": 404,
-  "logo": "https://github.com/marketplace.png?size=64",
-  "image": "https://opengraph.githubassets.com/1/marketplace/models"
+  "status": 200,
+  "logo": "https://docs.github.com/assets/cb-345/images/site/favicon.png",
+  "image": "https://docs.github.com/assets/cb-345/images/social-cards/github-models.png"
  },
  "hugging-face-inference": {
   "verifie": "2026-11-18",
@@ -282,11 +395,34 @@
   "logo": "https://platform.claude.com/apple-touch-icon.png",
   "image": "https://platform.claude.com/images/og-claude-platform.png"
  },
+ "qwen4-max": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
+  "image": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png"
+ },
+ "kimi-k3": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://platform.kimi.ai/favicon.ico",
+  "image": "https://platform.kimi.ai/og.png?v=1"
+ },
+ "glm-5-3": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://z-cdn.chatglm.cn/z-ai/static/logo.svg"
+ },
  "grok-xai": {
   "verifie": "2026-11-18",
   "status": 200,
   "logo": "https://x.ai/apple-icon.png?apple-icon.167itqrsbgzm4.png?dpl=c0d48929bf2ad6f96d687d8baedfc7bef44b5448",
   "image": "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.2syi5no49g9nu.png?dpl=c0d48929bf2ad6f96d687d8baedfc7bef44b5448"
+ },
+ "inception-mercury": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://framerusercontent.com/images/y5L2OctMTnQDhiVDBUBArywmSY.png",
+  "image": "https://framerusercontent.com/images/jvH9PxsLxbi0h1ST3yZUzzpby10.png"
  },
  "claude-pro": {
   "verifie": "2026-11-18",
@@ -315,6 +451,11 @@
  "perplexity-education-pro": {
   "verifie": "2026-11-18",
   "status": 403
+ },
+ "chatgpt-plus-etudiant": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://chatgpt.com/cdn/assets/favicon-180x180.9e0103ce69.png"
  },
  "oracle-cloud-always-free": {
   "verifie": "2026-11-18",
@@ -514,7 +655,9 @@
  },
  "datacamp": {
   "verifie": "2026-11-18",
-  "status": 403
+  "status": 200,
+  "logo": "https://www.datacamp.com/favicon.ico",
+  "image": "https://www.datacamp.com/datacamp-socials-share.png"
  },
  "weights-biases": {
   "verifie": "2026-11-18",
@@ -529,7 +672,9 @@
  },
  "snowflake": {
   "verifie": "2026-11-18",
-  "status": 403
+  "status": 200,
+  "logo": "https://www.snowflake.com/etc.clientlibs/snowflake-site/clientlibs/clientlib-react/resources/apple-touch-icon.png?v=3",
+  "image": "https://www.snowflake.com/content/dam/snowflake-site/general/technical/default-og-image/snowflake-social-share.png"
  },
  "databricks-free-edition": {
   "verifie": "2026-11-18",
@@ -542,6 +687,100 @@
   "status": 200,
   "logo": "https://www.ibm.com/content/dam/adobe-cms/default-images/apple-touch-icon-57x57.png",
   "image": "https://www.ibm.com/content/dam/adobe-cms/default-images/Leadspace-bg-img-desktop.png/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
+ },
+ "qwen3-6-35b-a3b": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://huggingface.co/favicon.ico",
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/unsloth/Qwen3.6-35B-A3B-GGUF.png"
+ },
+ "gemma-4-26b-a4b-qat": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://deepmind.google/favicon.ico"
+ },
+ "gemma-4-12b": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://deepmind.google/favicon.ico"
+ },
+ "qwen3-8-27b-gsq-rco-ista-daslab": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://huggingface.co/favicon.ico",
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF.png"
+ },
+ "gpt-oss-20b": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://huggingface.co/favicon.ico",
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/openai/gpt-oss-20b.png"
+ },
+ "lfm2-5-2-6b-liquid": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://www.liquid.ai/apple-icon.png?apple-icon.3242q9u7hvs55.png",
+  "image": "https://www.liquid.ai/og/og-default.jpg"
+ },
+ "lfm3-1-7b-liquid": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://www.liquid.ai/apple-icon.png?apple-icon.3242q9u7hvs55.png",
+  "image": "https://www.liquid.ai/og/og-default.jpg"
+ },
+ "nemotron-3-5-lightning-30b-a3b": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://huggingface.co/favicon.ico",
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/nvidia.png"
+ },
+ "qwen3-5-9b": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://huggingface.co/favicon.ico",
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/Qwen.png"
+ },
+ "qwen2-0-5b": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://huggingface.co/favicon.ico",
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Qwen/Qwen2-0.5B.png"
+ },
+ "bespoke-nimble-9b-v3": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://huggingface.co/favicon.ico",
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ggml-org/Bespoke-Nimble-9B-v3-GGUF.png"
+ },
+ "clef-flash-9b": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://huggingface.co/favicon.ico",
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ggml-org/Clef-Flash-GGUF.png"
+ },
+ "d1-3b-liquid": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://huggingface.co/favicon.ico",
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/LiquidAI/d1-3B-GGUF.png"
+ },
+ "laya": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/NandhaKishorM.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/NandhaKishorM/laya"
+ },
+ "decision-index-0-3-1-multimodalart": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://huggingface.co/favicon.ico",
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/multimodalart.png"
+ },
+ "ollajev": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/nvkudva.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/nvkudva/ollajev"
  },
  "embeddinggemma-2": {
   "verifie": "2026-11-18",
@@ -569,7 +808,7 @@
  },
  "llama-cpp-llama-server": {
   "verifie": "2026-11-18",
-  "status": 200,
+  "status": 0,
   "logo": "https://github.com/ggml-org.png?size=64",
   "image": "https://opengraph.githubassets.com/1/ggml-org/llama.cpp"
  },
@@ -585,17 +824,41 @@
   "logo": "https://omlx.ai/images/icon-rounded-dark.svg",
   "image": "https://omlx.ai/images/omlx_dashboard_light.png"
  },
+ "mtplx": {
+  "verifie": "2026-11-18",
+  "status": 0,
+  "logo": "https://github.com/youssofal.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/youssofal/mtplx"
+ },
  "lm-studio": {
   "verifie": "2026-11-18",
   "status": 200,
   "logo": "https://lmstudio.ai/assets/marketing/logo-192x192.png",
   "image": "https://files.lmstudio.ai/bionic/lm-studio-bionic-og.jpg"
  },
+ "local-model-explorer": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://huggingface.co/favicon.ico",
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/LocalLLaMA.png"
+ },
+ "llmfit": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/AlexsJones.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/AlexsJones/llmfit"
+ },
  "localmaxxing-com": {
   "verifie": "2026-11-18",
   "status": 200,
   "logo": "https://localmaxxing.com/favicon.svg",
   "image": "https://www.localmaxxing.com/api/og"
+ },
+ "mac-llm-bench": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/enescingoz.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/enescingoz/mac-llm-bench"
  },
  "omlx-ai-benchmarks": {
   "verifie": "2026-11-18",
@@ -614,11 +877,28 @@
   "status": 200,
   "logo": "https://gorilla.cs.berkeley.edu/favicon.ico"
  },
+ "siliconbench-arxiv-2609-19169": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
+  "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+ },
+ "fineenvs-multi-harness-rl": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/adithya-s-k.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/adithya-s-k/FineEnvs"
+ },
  "artificial-analysis": {
   "verifie": "2026-11-18",
   "status": 200,
   "logo": "https://artificialanalysis.ai/favicon.ico",
   "image": "https://artificialanalysis.ai/opengraph-image.png?ab13fbb533329573"
+ },
+ "caffeinate-i": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://ss64.com/favicon.svg"
  },
  "unsloth-studio-desktop": {
   "verifie": "2026-11-18",
@@ -704,6 +984,64 @@
   "logo": "https://supermemory.ai/apple-touch-icon.png?v=2",
   "image": "https://supermemory.ai/og-image.png"
  },
+ "memos": {
+  "verifie": "2026-11-18",
+  "status": 0,
+  "logo": "https://github.com/MemTensor.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/MemTensor/MemOS"
+ },
+ "mempalace": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/MemPalace.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/MemPalace/mempalace"
+ },
+ "memu": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/NevaMind-AI.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/NevaMind-AI/memU"
+ },
+ "openviking": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/volcengine.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/volcengine/OpenViking"
+ },
+ "hindsight": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/vectorize-io.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/vectorize-io/hindsight"
+ },
+ "agentmemory": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/rohitg00.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/rohitg00/agentmemory"
+ },
+ "agentcore-memory-aws": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png"
+ },
+ "foundry-memory": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://ai.azure.com/favicon.ico"
+ },
+ "google-cloud-memory-bank": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://www.gstatic.com/devrel-devsite/prod/vc11e4c9d4c060345ba98585d538d4546e842f4a6ee5c5f9e85be4bd345767217/clouddocs/images/favicons/onecloud/super_cloud.png",
+  "image": "https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png"
+ },
+ "claude-mem": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/thedotmack.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/thedotmack/claude-mem"
+ },
  "brave-search-api": {
   "verifie": "2026-11-18",
   "status": 200,
@@ -784,9 +1122,31 @@
  },
  "ragflow": {
   "verifie": "2026-11-18",
-  "status": 200,
+  "status": 0,
   "logo": "https://github.com/infiniflow.png?size=64",
   "image": "https://opengraph.githubassets.com/1/infiniflow/ragflow"
+ },
+ "azure-ai-search": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://azure.microsoft.com/favicon.ico?v2"
+ },
+ "bedrock-knowledge-bases": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png"
+ },
+ "google-cloud-rag-engine": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://www.gstatic.com/devrel-devsite/prod/vc11e4c9d4c060345ba98585d538d4546e842f4a6ee5c5f9e85be4bd345767217/clouddocs/images/favicons/onecloud/super_cloud.png",
+  "image": "https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png"
+ },
+ "openai-file-search": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://developers.openai.com/favicon.png",
+  "image": "https://developers.openai.com/og/api/docs/guides/tools-file-search.png"
  },
  "playwright": {
   "verifie": "2026-11-18",
@@ -804,6 +1164,12 @@
   "status": 200,
   "logo": "https://www.stagehand.dev/apple-icon.png?apple-icon.3_vqjztxzz_km.png",
   "image": "https://stagehand.dev/opengraph-image.png?opengraph-image.0tcx71yo14ho0.png"
+ },
+ "agent-browser": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/vercel-labs.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/vercel-labs/agent-browser"
  },
  "browserbase": {
   "verifie": "2026-11-18",
@@ -846,9 +1212,15 @@
   "status": 200,
   "logo": "https://pipedream.com/assets/favicon.svg"
  },
- "toolhive": {
+ "tinyfish": {
   "verifie": "2026-11-18",
   "status": 200,
+  "logo": "https://www.tinyfish.ai/favicon-for-app/apple-icon.png",
+  "image": "https://www.tinyfish.ai/opengraph-image"
+ },
+ "toolhive": {
+  "verifie": "2026-11-18",
+  "status": 0,
   "logo": "https://github.com/stacklok.png?size=64",
   "image": "https://opengraph.githubassets.com/1/stacklok/toolhive"
  },
@@ -870,11 +1242,29 @@
   "logo": "https://framerusercontent.com/images/F0p1OYJhm4LaPzZZoDW2IdGjdt0.png",
   "image": "https://framerusercontent.com/assets/aI2OLG2Ou8MfFTRSq6CA2ViD48.png"
  },
+ "workato-enterprise-mcp": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://www.workato.com/favicon.ico",
+  "image": "https://public-workato-files.s3.us-east-2.amazonaws.com/Uploads/workato-logo-1.png"
+ },
+ "cua-driver-computer-use": {
+  "verifie": "2026-11-18",
+  "status": 0,
+  "logo": "https://github.com/trycua.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/trycua/cua"
+ },
  "ghidra-mcp-ghidra": {
   "verifie": "2026-11-18",
   "status": 200,
   "logo": "https://github.githubassets.com/favicons/favicon.svg",
-  "image": "https://opengraph.githubassets.com/fb8c430cde6f52d5b836e0e7447c670bae781a370cfe8cdcb9db4fdffde3455f/NationalSecurityAgency/ghidra"
+  "image": "https://opengraph.githubassets.com/80dd6bf0f676da77444d435d4991096eaae474e36a513b77b119736d4b4de6ab/NationalSecurityAgency/ghidra"
+ },
+ "phone-harness-plugin-hermes": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/phone-harness.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/phone-harness/phone-harness"
  },
  "e2b": {
   "verifie": "2026-11-18",
@@ -899,11 +1289,23 @@
   "logo": "https://gvisor.dev/assets/favicons/favicon-16x16.png",
   "image": "https://gvisor.dev/assets/logos/logo_solo_on_white_bordered.svg"
  },
+ "docker-sandboxes": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://docs.docker.com/favicon.ico",
+  "image": "https://docs.docker.com/images/thumbnail.webp"
+ },
  "coder": {
   "verifie": "2026-11-18",
   "status": 200,
   "logo": "https://coder.com/favicon-180x180-light.png",
   "image": "https://coder.com/_next/static/media/OpenGraph.f7fb2003.jpg"
+ },
+ "cubesandbox": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/TencentCloud.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/TencentCloud/CubeSandbox"
  },
  "modal-sandboxes": {
   "verifie": "2026-11-18",
@@ -927,6 +1329,12 @@
   "status": 200,
   "logo": "https://github.com/anthropic-experimental.png?size=64",
   "image": "https://opengraph.githubassets.com/1/anthropic-experimental/sandbox-runtime"
+ },
+ "openai-hosted-sandboxes": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://developers.openai.com/favicon.png",
+  "image": "https://developers.openai.com/og/api/docs.png"
  },
  "agno": {
   "verifie": "2026-11-18",
@@ -957,6 +1365,12 @@
   "status": 200,
   "logo": "https://openai.github.io/openai-agents-python/images/favicon-platform.svg"
  },
+ "claude-managed-agents": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://platform.claude.com/apple-touch-icon.png",
+  "image": "https://platform.claude.com/docs/images/og-claude-platform-docs.png"
+ },
  "cloudflare-agents-sdk": {
   "verifie": "2026-11-18",
   "status": 200,
@@ -968,6 +1382,17 @@
   "status": 200,
   "logo": "https://workflow-sdk.dev/favicon.ico?favicon.3jinoj-4qwkaw.ico",
   "image": "https://workflow-sdk.dev/og"
+ },
+ "alibaba-agentrun": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://img.alicdn.com/tfs/TB1ugg7M9zqK1RjSZPxXXc4tVXa-32-32.png",
+  "image": "https://img.alicdn.com/imgextra/i3/O1CN01MFtVzX1U9b7T38r3V_!!6000000002475-2-tps-200-200.png"
+ },
+ "byteplus-agentkit": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://sf-bpcms.bytepluscdn.com/obj/byteplus-public-aiso/portal/assets/favicon-16x16"
  },
  "copilotkit": {
   "verifie": "2026-11-18",
@@ -1294,6 +1719,16 @@
   "logo": "https://sf16-web-tos-buz.capcutstatic.com/obj/capcut-web-buz-sg/common/images/lv_web-2.ico",
   "image": "https://p16-seeyou-sg.ibyteimg.com/tos-alisg-i-2zwwjm3azk-sg/af60401275b14f6684c2af1f7564d717~tplv-2zwwjm3azk-image.image"
  },
+ "amphetamine": {
+  "verifie": "2026-11-18",
+  "status": 429
+ },
+ "wblock": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/0xCUB3.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/0xCUB3/wBlock"
+ },
  "aerospace": {
   "verifie": "2026-11-18",
   "status": 200,
@@ -1509,7 +1944,7 @@
  },
  "impeccable-pbakaus": {
   "verifie": "2026-11-18",
-  "status": 200,
+  "status": 0,
   "logo": "https://github.com/pbakaus.png?size=64",
   "image": "https://opengraph.githubassets.com/1/pbakaus/impeccable"
  },
@@ -1539,6 +1974,10 @@
   "verifie": "2026-11-18",
   "status": 200
  },
+ "regles-de-karpathy-claude-md": {
+  "verifie": "2026-11-18",
+  "status": 200
+ },
  "skills-integrees-claude-docx-pptx-xlsx-pdf-deep-research-ski": {
   "verifie": "2026-11-18",
   "status": 200
@@ -1548,6 +1987,14 @@
   "status": 200
  },
  "career-ops": {
+  "verifie": "2026-11-18",
+  "status": 200
+ },
+ "ai-job-search": {
+  "verifie": "2026-11-18",
+  "status": 200
+ },
+ "aihot": {
   "verifie": "2026-11-18",
   "status": 200
  },
@@ -1573,6 +2020,12 @@
   "logo": "https://www.remotion.dev/img/favicon.png",
   "image": "https://www.remotion.dev/img/social-preview.png"
  },
+ "hyperframes": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/heygen-com.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/heygen-com/hyperframes"
+ },
  "astro-starlight": {
   "verifie": "2026-11-18",
   "status": 200,
@@ -1586,33 +2039,55 @@
  },
  "advisor-de-claude-code": {
   "verifie": "2026-11-18",
-  "status": 200
+  "status": 200,
+  "logo": "https://code.claude.com/docs/mintlify-assets/_mintlify/favicons/claude-code/pLsy-mRpNksna2sx/_generated/favicon/apple-touch-icon.png",
+  "image": "https://claude-code.mintlify.site/docs/_mintlify/api/og/v2?division=Getting+started&title=Overview&description=Claude+Code+is+an+agentic+coding+tool+that+reads+your+codebase%2C+edits+files%2C+runs+commands%2C+and+integrates+with+your+development+tools.+Available+in+your+termin&theme=e2d30309a4005a9870b526a1&signature=9fc1f5490837ef57d6afa7ac8a2d34d3eab43a058bd46143c97c569c1e79c305"
+ },
+ "reddit-r-localaistack-reglages-qwen3-6": {
+  "verifie": "2026-11-18",
+  "status": 403
  },
  "ban-anthropic-des-jetons-d-abonnement-tiers": {
   "verifie": "2026-11-18",
-  "status": 200
+  "status": 200,
+  "logo": "https://cybersecuritynews.com/wp-content/uploads/2025/12/cropped-CSN-Favico-180x180.webp",
+  "image": "http://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Ends-OpenClaw-Subscriptions.webp"
  },
  "bans-google-antigravity-via-outils-tiers": {
   "verifie": "2026-11-18",
-  "status": 200
+  "status": 200,
+  "logo": "https://github.com/google-gemini.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/google-gemini/gemini-cli"
  },
  "openbot-vs-hermes-agent-copilotkit": {
   "verifie": "2026-11-18",
-  "status": 200
+  "status": 200,
+  "logo": "https://www.copilotkit.ai/favicon.ico",
+  "image": "https://cdn.sanity.io/images/y3fjfzcd/production/704723c463f91d3c03053e54655d289576cd8018-3200x2000.png?w=1200&h=630&fit=crop&auto=format"
  },
  "best-self-hosted-ai-agents-2026-ssd-nodes": {
   "verifie": "2026-11-18",
-  "status": 200
+  "status": 200,
+  "logo": "https://www.ssdnodes.com/learn/assets/ssdnodes-touch-icon-180.png",
+  "image": "https://www.ssdnodes.com/learn/og/best-self-hosted-ai-agents.png"
  },
  "free-llm-api-resources-cheahjs": {
   "verifie": "2026-11-18",
-  "status": 404,
-  "logo": "https://github.com/cheahjs.png?size=64",
-  "image": "https://opengraph.githubassets.com/1/cheahjs/free-llm-api-resources"
+  "status": 200,
+  "logo": "https://github.com/jtig37.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/jtig37/free-llm-api-resources"
+ },
+ "agents-radar": {
+  "verifie": "2026-11-18",
+  "status": 0,
+  "logo": "https://github.com/duanyytop.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/duanyytop/agents-radar"
  },
  "hermes-agent-docs-fallback-providers": {
   "verifie": "2026-11-18",
-  "status": 200
+  "status": 200,
+  "logo": "https://hermes-agent.nousresearch.com/docs/img/favicon.ico",
+  "image": "https://hermes-agent.nousresearch.com/docs/img/hermes-agent-banner.png"
  },
  "pane-runpane-com": {
   "verifie": "2026-11-18",
@@ -1774,7 +2249,9 @@
  },
  "openai-api-credits-d-essai": {
   "verifie": "2026-11-18",
-  "status": 403
+  "status": 200,
+  "logo": "https://platform.openai.com/favicon-platform.svg",
+  "image": "https://cdn.openai.com/API/images/platform-opengraph.png"
  },
  "gemini-4-hydrogen-gratuit-dans-ai-studio": {
   "verifie": "2026-11-18",
@@ -1809,7 +2286,7 @@
  },
  "openai-codex-for-oss": {
   "verifie": "2026-11-18",
-  "status": 403
+  "status": 404
  },
  "programmes-startups-openai-anthropic-google-cloud-nvidia-inc": {
   "verifie": "2026-11-18",
@@ -1914,7 +2391,7 @@
  },
  "airllm": {
   "verifie": "2026-11-18",
-  "status": 200,
+  "status": 0,
   "logo": "https://github.com/lyogavin.png?size=64",
   "image": "https://opengraph.githubassets.com/1/lyogavin/airllm"
  },
@@ -2291,7 +2768,7 @@
  },
  "statusline-claude-code-couteuse-gist": {
   "verifie": "2026-11-18",
-  "status": 200
+  "status": 0
  },
  "anthropics-skills": {
   "verifie": "2026-11-18",
@@ -2315,7 +2792,7 @@
  },
  "hashicorp-skills": {
   "verifie": "2026-11-18",
-  "status": 404
+  "status": 200
  },
  "firecrawl-firecrawl-claude-plugin": {
   "verifie": "2026-11-18",
@@ -2447,21 +2924,9 @@
   "verifie": "2026-11-18",
   "status": 200
  },
- "testdino-playwright-skill": {
-  "verifie": "2026-11-18",
-  "status": 404
- },
  "kahlilr23-cypress-agent-skill": {
   "verifie": "2026-11-18",
   "status": 200
- },
- "joegaebel-outside-in-tdd": {
-  "verifie": "2026-11-18",
-  "status": 404
- },
- "angakh-pr-create-fetch": {
-  "verifie": "2026-11-18",
-  "status": 404
  },
  "safishamsi-graphify": {
   "verifie": "2026-11-18",
@@ -2473,7 +2938,7 @@
  },
  "mukul975-anthropic-cybersecurity-skills": {
   "verifie": "2026-11-18",
-  "status": 200
+  "status": 0
  },
  "eyadkelleh-awesome-claude-skills-security": {
   "verifie": "2026-11-18",
@@ -2503,25 +2968,13 @@
   "verifie": "2026-11-18",
   "status": 200
  },
- "agentward-ai-sanitize": {
-  "verifie": "2026-11-18",
-  "status": 404
- },
  "sushegaad-claude-skills-governance-risk-and-compliance": {
   "verifie": "2026-11-18",
   "status": 200
  },
- "snyk-snyk-fix": {
-  "verifie": "2026-11-18",
-  "status": 404
- },
  "lukasniessen-terrashark": {
   "verifie": "2026-11-18",
   "status": 200
- },
- "foxj77-k8s-skills": {
-  "verifie": "2026-11-18",
-  "status": 404
  },
  "sigridjineth-hello-ansible-skills": {
   "verifie": "2026-11-18",
@@ -2639,21 +3092,13 @@
   "verifie": "2026-11-18",
   "status": 200
  },
- "qdrant-qdrant-skills": {
-  "verifie": "2026-11-18",
-  "status": 404
- },
  "greensock-gsap-skills": {
   "verifie": "2026-11-18",
   "status": 200
  },
  "shadowpr0-beautiful-prose": {
   "verifie": "2026-11-18",
-  "status": 404
- },
- "wshuyi-x-article-publisher": {
-  "verifie": "2026-11-18",
-  "status": 404
+  "status": 200
  },
  "garethmanning-claude-education-skills": {
   "verifie": "2026-11-18",
@@ -2705,11 +3150,15 @@
  },
  "felix-rieseberg-etre-plus-ambitieux-avec-l-ia": {
   "verifie": "2026-11-18",
-  "status": 200
+  "status": 200,
+  "logo": "https://felixrieseberg.com/favicon.ico",
+  "image": "https://storage.ghost.io/c/89/e0/89e08557-681a-40be-8264-278bf46d6b25/content/images/2026/10/facebook-card.jpg"
  },
  "mistral-ai-scientist-internship-2027": {
   "verifie": "2026-11-18",
-  "status": 200
+  "status": 200,
+  "logo": "https://cdn.ashbyprd.com/cdn_assets/b4d1584cccbb4f55348edb9387a747254bef1bac/apple-touch-icon.png",
+  "image": "https://app.ashbyhq.com/api/images/org-theme-social/a407e227-97ff-42c5-a3d6-05bfcd9b7f3d/faadf0e7-59d3-4537-bbed-d4729e535140/522bcfa6-d049-4c96-9bdd-106a6700a731.png"
  },
  "muse-spark-open-kernel-challenge": {
   "verifie": "2026-11-18",
@@ -2717,11 +3166,15 @@
  },
  "concours-ue-ad5": {
   "verifie": "2026-11-18",
-  "status": 200
+  "status": 200,
+  "logo": "https://eu-careers.europa.eu/themes/contrib/oe_theme/images/favicons/eu/favicon.png",
+  "image": "https://eu-careers.europa.eu/profiles/contrib/ewcms/modules/ewcms_seo/assets/images/eu-socialmedia-fallback.png"
  },
  "openai-probleme-n109-multiplication-entiere": {
   "verifie": "2026-11-18",
-  "status": 200
+  "status": 200,
+  "logo": "https://github.com/CrocSwap.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/CrocSwap/integer-mult-bounds"
  },
  "cliproxyapi": {
   "verifie": "2026-11-18",
