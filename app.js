@@ -115,12 +115,17 @@ function renderShelf() {
   const counts = {};
   for (const it of items) if (it.statut !== "Écarté") counts[rayonOf[it.theme].nom] = (counts[rayonOf[it.theme].nom] || 0) + 1;
   const mobile = matchMedia("(max-width: 760px)").matches;
-  const heights = mobile ? [170, 150, 180, 160, 175, 150, 165, 158] : [250, 226, 262, 214, 242, 256, 222, 246];
+  // Proportions d'un vrai livre : hauteur 3 à 7 fois l'épaisseur. L'épaisseur suit la racine du nombre d'outils.
+  const heights = mobile ? [238, 216, 250, 208, 232, 246, 220, 240] : [372, 336, 388, 318, 358, 382, 342, 366];
+  const [wMin, wMax] = mobile ? [30, 48] : [64, 116];
+  const roots = rayons.map((r) => Math.sqrt(counts[r.nom] || 1));
+  const lo = Math.min(...roots), hi = Math.max(...roots);
   $("shelf").innerHTML = rayons.map((r, i) => {
     const n = counts[r.nom] || 0;
+    const w = Math.round(wMin + ((roots[i] - lo) / (hi - lo || 1)) * (wMax - wMin));
     return `<button class="spine" type="button" data-rayon="${esc(r.nom)}" aria-pressed="${state.rayon === r.nom}"
-      style="--n:${Math.sqrt(Math.max(n, 20)).toFixed(2)};height:${heights[i % heights.length]}px;background:${r.couleur}" title="${esc(r.nom)} : ${n} outils">${esc(r.nom)} <small>${n}</small></button>`;
-  }).join("");
+      style="--c:${r.couleur};width:${w}px;height:${heights[i % heights.length]}px" title="${esc(r.nom)} : ${n} outils">${esc(r.nom)} <small>${n}</small></button>`;
+  }).join("") + '<span class="bookend" aria-hidden="true"></span>';
 }
 
 function renderChips() {
