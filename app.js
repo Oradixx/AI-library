@@ -198,10 +198,10 @@ function accessLinks(it) {
   const out = [];
   if (url) {
     const host = new URL(url).hostname.replace(/^www\./, "");
-    const label = host === "github.com" ? "Ouvrir le dépôt GitHub" : host === "huggingface.co" ? "Ouvrir sur Hugging Face" : host === "x.com" ? "Lire l'article" : `Ouvrir ${host}`;
+    const label = host === "github.com" ? "Ouvrir le dépôt GitHub" : host === "huggingface.co" ? "Ouvrir sur Hugging Face" : host === "x.com" ? (it.article ? "Lire l'article" : "Voir le post X") : `Ouvrir ${host}`;
     out.push(`<a class="btn primary" href="${esc(url)}" target="_blank" rel="noopener">${esc(label)}</a>`);
   }
-  if (safeUrl(it.post)) out.push(`<a class="btn${url ? "" : " primary"}" href="${esc(it.post)}" target="_blank" rel="noopener">${it.article ? "Lire l'article" : "Voir le post X"}</a>`);
+  if (safeUrl(it.post) && it.post !== it.url) out.push(`<a class="btn${url ? "" : " primary"}" href="${esc(it.post)}" target="_blank" rel="noopener">${it.article ? "Lire l'article" : "Voir le post X"}</a>`);
   const search = `https://duckduckgo.com/?q=${encodeURIComponent(it.nom)}`;
   out.push(`<a class="btn${url || it.post ? "" : " primary"}" href="${search}" target="_blank" rel="noopener">Chercher sur le web</a>`);
   const broken = url && (m.status === 404 || m.status === 410);

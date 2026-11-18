@@ -43,7 +43,7 @@
  },
  "cowagent": {
   "verifie": "2026-11-18",
-  "status": 200,
+  "status": 0,
   "logo": "https://github.com/zhayujie.png?size=64",
   "image": "https://opengraph.githubassets.com/1/zhayujie/CowAgent"
  },
@@ -79,7 +79,9 @@
  },
  "openai-dots": {
   "verifie": "2026-11-18",
-  "status": 403
+  "status": 200,
+  "logo": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
+  "image": "https://images.ctfassets.net/kftzwdyauwt9/6iFRMxhUWyxFR6zpThf2Am/1f826b5095ca8854064989ecec465049/SEO_Banner_2400x1350_04.png?w=1600&h=900&fit=fill"
  },
  "gemini-spark": {
   "verifie": "2026-11-18",
@@ -249,7 +251,9 @@
  },
  "claude-in-chrome": {
   "verifie": "2026-11-18",
-  "status": 403
+  "status": 200,
+  "logo": "https://claude.com/icon.svg",
+  "image": "https://assets.claude.com/347a6904eea261cb28ab3feba64450143ee64e16.jpg?w=1200&h=630&fit=crop"
  },
  "claude-code-router": {
   "verifie": "2026-11-18",
@@ -651,7 +655,9 @@
  },
  "datacamp": {
   "verifie": "2026-11-18",
-  "status": 403
+  "status": 200,
+  "logo": "https://www.datacamp.com/favicon.ico",
+  "image": "https://www.datacamp.com/datacamp-socials-share.png"
  },
  "weights-biases": {
   "verifie": "2026-11-18",
@@ -666,7 +672,9 @@
  },
  "snowflake": {
   "verifie": "2026-11-18",
-  "status": 403
+  "status": 200,
+  "logo": "https://www.snowflake.com/etc.clientlibs/snowflake-site/clientlibs/clientlib-react/resources/apple-touch-icon.png?v=3",
+  "image": "https://www.snowflake.com/content/dam/snowflake-site/general/technical/default-og-image/snowflake-social-share.png"
  },
  "databricks-free-edition": {
   "verifie": "2026-11-18",
@@ -836,7 +844,7 @@
  },
  "llmfit": {
   "verifie": "2026-11-18",
-  "status": 200,
+  "status": 0,
   "logo": "https://github.com/AlexsJones.png?size=64",
   "image": "https://opengraph.githubassets.com/1/AlexsJones/llmfit"
  },
@@ -1114,7 +1122,7 @@
  },
  "ragflow": {
   "verifie": "2026-11-18",
-  "status": 200,
+  "status": 0,
   "logo": "https://github.com/infiniflow.png?size=64",
   "image": "https://opengraph.githubassets.com/1/infiniflow/ragflow"
  },
@@ -1242,7 +1250,7 @@
  },
  "cua-driver-computer-use": {
   "verifie": "2026-11-18",
-  "status": 200,
+  "status": 0,
   "logo": "https://github.com/trycua.png?size=64",
   "image": "https://opengraph.githubassets.com/1/trycua/cua"
  },
@@ -1250,7 +1258,7 @@
   "verifie": "2026-11-18",
   "status": 200,
   "logo": "https://github.githubassets.com/favicons/favicon.svg",
-  "image": "https://opengraph.githubassets.com/0ed423494d11182a7b847a647b7cd1c769ae1b38b7b1315f3a2b0463b19c707d/NationalSecurityAgency/ghidra"
+  "image": "https://opengraph.githubassets.com/c81267595e22c3022848b553bba9403f80b5593e88ebb38207ab547fd4442710/NationalSecurityAgency/ghidra"
  },
  "phone-harness-plugin-hermes": {
   "verifie": "2026-11-18",
@@ -1708,14 +1716,12 @@
  "capcut": {
   "verifie": "2026-11-18",
   "status": 200,
-  "logo": "https://sf16-web-tos-buz.capcutcdn-us.com/obj/capcut-web-buz-tx/common/images/lv_web-2.ico",
-  "image": "https://p16-seeyou-useast5.capcutcdn-us.com/tos-useast5-i-2zwwjm3azk-tx/af60401275b14f6684c2af1f7564d717~tplv-2zwwjm3azk-image.image"
+  "logo": "https://sf16-web-tos-buz.capcutstatic.com/obj/capcut-web-buz-sg/common/images/lv_web-2.ico",
+  "image": "https://p16-seeyou-sg.ibyteimg.com/tos-alisg-i-2zwwjm3azk-sg/af60401275b14f6684c2af1f7564d717~tplv-2zwwjm3azk-image.image"
  },
  "amphetamine": {
   "verifie": "2026-11-18",
-  "status": 200,
-  "logo": "https://apps.apple.com/assets/favicon/favicon-180.png",
-  "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b9/93/46/b99346d8-5dcd-e78a-25fe-8810a64771ce/AppIcon-0-0-85-220-0-4-0-2x.png/1200x630wa.jpg"
+  "status": 429
  },
  "wblock": {
   "verifie": "2026-11-18",
@@ -2103,9 +2109,7 @@
  },
  "insideout-sh": {
   "verifie": "2026-11-18",
-  "status": 200,
-  "logo": "https://insideout.sh/brand/logo/apple-touch-icon.png?v=3",
-  "image": "https://insideout.sh/og.jpg"
+  "status": 0
  },
  "paperclip": {
   "verifie": "2026-11-18",
@@ -2245,7 +2249,9 @@
  },
  "openai-api-credits-d-essai": {
   "verifie": "2026-11-18",
-  "status": 403
+  "status": 200,
+  "logo": "https://platform.openai.com/favicon-platform.svg",
+  "image": "https://cdn.openai.com/API/images/platform-opengraph.png"
  },
  "gemini-4-hydrogen-gratuit-dans-ai-studio": {
   "verifie": "2026-11-18",
@@ -2296,7 +2302,9 @@
  },
  "claude-code-credit-offert-claim-credit": {
   "verifie": "2026-11-18",
-  "status": 403
+  "status": 200,
+  "logo": "https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c129d018a-0ZbJsTbu.png",
+  "image": "https://claude.ai/images/code/Web-v2.png"
  },
  "cloudflare-durable-objects-pour-codex": {
   "verifie": "2026-11-18",
@@ -2495,8 +2503,7 @@
  },
  "firstprinciplesapproach-dev": {
   "verifie": "2026-11-18",
-  "status": 200,
-  "logo": "https://firstprinciplesapproach.dev/favicon.svg"
+  "status": 0
  },
  "fanout-sh": {
   "verifie": "2026-11-18",
@@ -2557,8 +2564,7 @@
  },
  "massgrave-dev-mas": {
   "verifie": "2026-11-18",
-  "status": 200,
-  "logo": "https://massgrave.dev/favicon.ico"
+  "status": 0
  },
  "inspora-design": {
   "verifie": "2026-11-18",
@@ -2568,9 +2574,7 @@
  },
  "layro-dev": {
   "verifie": "2026-11-18",
-  "status": 200,
-  "logo": "https://layro.dev/apple-touch-icon.png?v=gold-1",
-  "image": "https://layro.dev/og/home.png?v=d8"
+  "status": 0
  },
  "ui-watermelon-sh": {
   "verifie": "2026-11-18",
@@ -2584,7 +2588,9 @@
  },
  "designeer-xyz": {
   "verifie": "2026-11-18",
-  "status": 403
+  "status": 200,
+  "logo": "https://designeer.xyz/apple-icon.png",
+  "image": "https://designeer.xyz/og_image.png"
  },
  "designeng-tools": {
   "verifie": "2026-11-18",
@@ -2616,9 +2622,7 @@
  },
  "palletism-art": {
   "verifie": "2026-11-18",
-  "status": 200,
-  "logo": "https://palletism.art/apple-touch-icon.png",
-  "image": "https://palletism.art/og.jpg"
+  "status": 0
  },
  "amicro-dev": {
   "verifie": "2026-11-18",
@@ -3158,9 +3162,7 @@
  },
  "muse-spark-open-kernel-challenge": {
   "verifie": "2026-11-18",
-  "status": 200,
-  "logo": "https://openkernelchallenge.dev/apple-touch-icon.png",
-  "image": "https://openkernelchallenge.dev/opengraph-kernels.jpg?v=7"
+  "status": 0
  },
  "concours-ue-ad5": {
   "verifie": "2026-11-18",
@@ -3179,5 +3181,205 @@
   "status": 200,
   "logo": "https://github.com/router-for-me.png?size=64",
   "image": "https://opengraph.githubassets.com/1/router-for-me/CLIProxyAPI"
+ },
+ "horizonx": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://horizonx.so/static/media/favicon-180.png?v=hx10",
+  "image": "https://horizonx.so/static/media/og-default-v6.jpg"
+ },
+ "transitions-dev": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://transitions.dev/assets/favicon-light-mode.png?v=4",
+  "image": "https://transitions.dev/assets/og-main.jpg"
+ },
+ "boardui": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://www.boardui.com/apple-icon.png?apple-icon.398mmd7-he26p.png",
+  "image": "https://www.boardui.com/og_image.png"
+ },
+ "obsidian-ui": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://www.obsidianui.dev/apple-icon.png?apple-icon.025bbwt1veatx.png",
+  "image": "https://cdn-new.obsidianui.dev/og-image.png?v=3"
+ },
+ "aceternity-ui": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://ui.aceternity.com/apple-icon.png?2deb28af3ac52d4d",
+  "image": "https://ui.aceternity.com/banner.png"
+ },
+ "astryx": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://astryx.atmeta.com/favicon.svg",
+  "image": "https://astryx.atmeta.com/images/Astryx-Banner.png"
+ },
+ "llmlingua-microsoft": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/microsoft.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/microsoft/LLMLingua"
+ },
+ "rtk": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/rtk-ai.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/rtk-ai/rtk"
+ },
+ "gptcache": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/zilliztech.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/zilliztech/GPTCache"
+ },
+ "portkey-ai-gateway": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/Portkey-AI.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/Portkey-AI/gateway"
+ },
+ "semantic-router": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/aurelio-labs.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/aurelio-labs/semantic-router"
+ },
+ "pybreaker": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/danielfm.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/danielfm/pybreaker"
+ },
+ "arize-phoenix": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/Arize-ai.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/Arize-ai/phoenix"
+ },
+ "chonkie": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/feyninc.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/feyninc/chonkie"
+ },
+ "flagembedding-bge": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/FlagOpen.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/FlagOpen/FlagEmbedding"
+ },
+ "prefect": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/PrefectHQ.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/PrefectHQ/prefect"
+ },
+ "celery": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/celery.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/celery/celery"
+ },
+ "apscheduler": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/agronholm.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/agronholm/apscheduler"
+ },
+ "requests-cache": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/requests-cache.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/requests-cache/requests-cache"
+ },
+ "hishel": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://github.com/karpetrosyan.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/karpetrosyan/hishel"
+ },
+ "typesafe-sdk-jev": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://framerusercontent.com/images/kcuF2BEp5XaVfkmFB634IPRKQH0.png",
+  "image": "https://framerusercontent.com/images/RtIGTDwO43jR4ZDilesXiR5znc.jpg"
+ },
+ "cursor-cloud-agents": {
+  "verifie": "2026-11-18",
+  "status": 403
+ },
+ "algrow-mcp-youtube": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://algrow.online/static/images/logo.png?v=2025",
+  "image": "https://algrow.online/static/images/algrow-og-image.png"
+ },
+ "claude-code-hook-stop-et-loop": {
+  "verifie": "2026-11-18",
+  "status": 200
+ },
+ "your-grok-bot-is-burning-money-harness-fixes-it": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+  "image": "https://pbs.twimg.com/media/HXQRsE-akAA7HZm?format=webp&name=large"
+ },
+ "300-grok-bots-pour-0-02-par-semaine-20-depots": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+  "image": "https://pbs.twimg.com/amplify_video_thumb/2122663479241052160/img/7K66uOMvO29OiG8W?format=webp&name=large"
+ },
+ "harness-loops-graphs-les-7-niveaux-m4lka": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+  "image": "https://pbs.twimg.com/media/HVegcI_W0AAQV7H?format=webp&name=large"
+ },
+ "prompt-context-harness-loop-graph-les-5-niveaux-livsun": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+  "image": "https://pbs.twimg.com/media/HV9EUUpWgAAQxL_?format=webp&name=large"
+ },
+ "harness-loop-graph-les-3-couches-whitemon": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+  "image": "https://pbs.twimg.com/media/HWm0whLXEAAsKJb?format=webp&name=large"
+ },
+ "karpathy-70-minutes-sur-l-usage-des-llm": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+  "image": "https://pbs.twimg.com/amplify_video_thumb/2123041321233354752/img/cwmCI71CGwiHnmDX?format=webp&name=large"
+ },
+ "karpathy-cours-gratuit-de-2-heures": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+  "image": "https://pbs.twimg.com/amplify_video_thumb/2122716778203648000/img/02p7PaOZBDcBvoF3?format=webp&name=large"
+ },
+ "anthropic-un-harness-claude-code-en-10-minutes": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+  "image": "https://pbs.twimg.com/amplify_video_thumb/2122718408915501056/img/Bw2UIccOloXPnvhF?format=webp&name=large"
+ },
+ "addy-osmani-loop-engineering": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://addyosmani.com/assets/images/favicons/apple-touch-icon-57x57.png",
+  "image": "https://res.cloudinary.com/ddxwdqwkr/image/upload/w_1600,h_836,q_100/l_text:Karla_72_bold:AddyOsmani.com,co_rgb:ffe4e6,c_fit,w_1400,h_240/fl_layer_apply,g_south_west,x_100,y_180/l_text:Karla_48:addyosmani.com%2520%25C2%25B7%2520,co_rgb:ffe4e680,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_100/l_twitter_name:addyosmani/c_thumb,g_face,r_max,w_380,h_380,q_100/fl_layer_apply,w_140,g_north_west,x_100,y_100/v1681336739/addy/grain-gradient.png"
+ },
+ "how-to-print-money-with-gta-vi-guide-youtube": {
+  "verifie": "2026-11-18",
+  "status": 200,
+  "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
+  "image": "https://pbs.twimg.com/media/HXWeVEUXkAAguzh?format=webp&name=large"
  }
 }

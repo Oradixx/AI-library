@@ -18321,5 +18321,862 @@
    "Vérifier les conditions d'usage avant de brancher un abonnement"
   ],
   "coeur": false
+ },
+ {
+  "nom": "HorizonX",
+  "theme": "Design et UI",
+  "url": "https://horizonx.so",
+  "tarif": [
+   "Freemium"
+  ],
+  "statut": "Noté",
+  "description": "Bibliothèque d'assets UI premium.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "design"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/neropursue/status/2122942055928254957",
+  "coeur": false,
+  "accroche": "Bibliothèque d'assets d'interface haut de gamme",
+  "usage": [
+   "Trouver des visuels d'interface prêts à l'emploi",
+   "Donner un rendu soigné à une maquette"
+  ],
+  "slug": "horizonx"
+ },
+ {
+  "nom": "transitions.dev",
+  "theme": "Design et UI",
+  "url": "https://transitions.dev",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "Noté",
+  "description": "Transitions d'interface fluides.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "design",
+   "animation"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/neropursue/status/2122942055928254957",
+  "coeur": false,
+  "accroche": "Collection de transitions d'interface fluides",
+  "usage": [
+   "Animer le passage entre deux écrans",
+   "Copier une transition pour un composant React"
+  ],
+  "slug": "transitions-dev"
+ },
+ {
+  "nom": "BoardUI",
+  "theme": "Design et UI",
+  "url": "https://boardui.com",
+  "tarif": [
+   "Freemium"
+  ],
+  "statut": "Noté",
+  "description": "Composants UI pour produits modernes.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "design"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/neropursue/status/2122942055928254957",
+  "coeur": false,
+  "accroche": "Composants d'interface pour produits modernes",
+  "usage": [
+   "Monter rapidement l'interface d'un produit",
+   "Récupérer des blocs de tableau de bord"
+  ],
+  "slug": "boardui"
+ },
+ {
+  "nom": "Obsidian UI",
+  "theme": "Design et UI",
+  "url": "https://obsidianui.dev",
+  "tarif": [
+   "Freemium"
+  ],
+  "statut": "Noté",
+  "description": "Composants React animés.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "design",
+   "react"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/neropursue/status/2122942055928254957",
+  "coeur": false,
+  "accroche": "Composants React animés à intégrer dans un site",
+  "usage": [
+   "Ajouter des animations à une page React",
+   "Rendre un portfolio plus vivant"
+  ],
+  "slug": "obsidian-ui"
+ },
+ {
+  "nom": "Aceternity UI",
+  "theme": "Design et UI",
+  "url": "https://ui.aceternity.com",
+  "tarif": [
+   "Freemium"
+  ],
+  "statut": "Noté",
+  "description": "Composants React animés (Tailwind, Framer Motion).",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "design",
+   "react"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/neropursue/status/2122942055928254957",
+  "coeur": false,
+  "accroche": "Composants React animés avec Tailwind et Framer Motion",
+  "usage": [
+   "Créer un héro de landing page animé",
+   "Copier un composant animé dans un projet Next.js"
+  ],
+  "slug": "aceternity-ui"
+ },
+ {
+  "nom": "Astryx",
+  "theme": "Design et UI",
+  "url": "https://astryx.atmeta.com",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "Noté",
+  "description": "Design system React personnalisable.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "design",
+   "react"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/neropursue/status/2122942055928254957",
+  "coeur": false,
+  "accroche": "Design system React personnalisable",
+  "usage": [
+   "Partir d'un design system cohérent pour une appli",
+   "Adapter les composants à sa charte"
+  ],
+  "slug": "astryx"
+ },
+ {
+  "nom": "LLMLingua (Microsoft)",
+  "theme": "Coûts, cache et fiabilité",
+  "url": "https://github.com/microsoft/LLMLingua",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Compresse les longues entrées avant que le modèle les lise, en gardant faits et contraintes.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "coûts"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "coeur": false,
+  "accroche": "Compression de prompts qui garde les faits utiles",
+  "usage": [
+   "Réduire le coût des longs prompts",
+   "Faire tenir plus de contexte dans la fenêtre"
+  ],
+  "slug": "llmlingua-microsoft"
+ },
+ {
+  "nom": "rtk",
+  "theme": "Coûts, cache et fiabilité",
+  "url": "https://github.com/rtk-ai/rtk",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Compresse les sorties de commandes courantes avant qu'elles entrent dans la conversation.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "coûts"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "coeur": false,
+  "accroche": "Compresse les sorties de terminal avant l'agent",
+  "usage": [
+   "Éviter que des logs répétitifs remplissent le contexte",
+   "Réduire les tokens d'un agent de code"
+  ],
+  "slug": "rtk"
+ },
+ {
+  "nom": "GPTCache",
+  "theme": "Coûts, cache et fiabilité",
+  "url": "https://github.com/zilliztech/GPTCache",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Sert des réponses déjà générées à des requêtes similaires.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "coûts"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "coeur": false,
+  "accroche": "Cache sémantique de réponses de LLM",
+  "usage": [
+   "Ne pas repayer une réponse déjà calculée",
+   "Accélérer les requêtes répétées"
+  ],
+  "slug": "gptcache"
+ },
+ {
+  "nom": "Portkey AI Gateway",
+  "theme": "Coûts, cache et fiabilité",
+  "url": "https://github.com/Portkey-AI/gateway",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Passerelle unique qui met en cache les réponses d'API et applique des règles communes.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "coûts"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "coeur": false,
+  "accroche": "Passerelle d'API LLM avec cache et règles partagées",
+  "usage": [
+   "Centraliser les appels de plusieurs workflows",
+   "Mettre en cache les réponses répétées"
+  ],
+  "slug": "portkey-ai-gateway"
+ },
+ {
+  "nom": "Semantic Router",
+  "theme": "Coûts, cache et fiabilité",
+  "url": "https://github.com/aurelio-labs/semantic-router",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Associe une requête à un workflow avec des embeddings locaux au lieu d'un gros modèle.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "coûts"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "coeur": false,
+  "accroche": "Routage de requêtes par embeddings locaux",
+  "usage": [
+   "Choisir la prochaine étape sans appeler un gros modèle",
+   "Router des demandes vers le bon workflow"
+  ],
+  "slug": "semantic-router"
+ },
+ {
+  "nom": "pybreaker",
+  "theme": "Coûts, cache et fiabilité",
+  "url": "https://github.com/danielfm/pybreaker",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Coupe les appels à un service qui échoue en boucle (circuit breaker).",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "coûts"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "coeur": false,
+  "accroche": "Disjoncteur qui stoppe les appels à un service en panne",
+  "usage": [
+   "Empêcher une dépendance cassée de boucler sans fin",
+   "Protéger un agent des réessais coûteux"
+  ],
+  "slug": "pybreaker"
+ },
+ {
+  "nom": "Arize Phoenix",
+  "theme": "Coûts, cache et fiabilité",
+  "url": "https://github.com/Arize-ai/phoenix",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Trace les workflows IA, repère les appels répétés et compare la qualité.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "coûts"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "coeur": false,
+  "accroche": "Traçage et évaluation de workflows IA",
+  "usage": [
+   "Voir où un agent dépense ses tokens",
+   "Vérifier qu'une optimisation ne dégrade pas la qualité"
+  ],
+  "slug": "arize-phoenix"
+ },
+ {
+  "nom": "Chonkie",
+  "theme": "RAG, recherche et bases vectorielles",
+  "url": "https://github.com/feyninc/chonkie",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Découpe les longs documents en morceaux pour une recherche plus précise.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "rag"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "coeur": false,
+  "accroche": "Découpage de documents pour le RAG",
+  "usage": [
+   "Préparer des documents pour une base vectorielle",
+   "Récupérer seulement les passages utiles"
+  ],
+  "slug": "chonkie"
+ },
+ {
+  "nom": "FlagEmbedding (BGE)",
+  "theme": "RAG, recherche et bases vectorielles",
+  "url": "https://github.com/FlagOpen/FlagEmbedding",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Embeddings et reranking des passages avant génération.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "rag",
+   "embeddings"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "coeur": false,
+  "accroche": "Embeddings et reranking pour garder les bons passages",
+  "usage": [
+   "Reclasser les résultats d'une recherche vectorielle",
+   "Retirer les passages hors sujet du prompt"
+  ],
+  "slug": "flagembedding-bge"
+ },
+ {
+  "nom": "Prefect",
+  "theme": "Outils dev et productivité",
+  "url": "https://github.com/PrefectHQ/prefect",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Orchestration de workflows Python avec cache des tâches réussies.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "python"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "coeur": false,
+  "accroche": "Orchestration de workflows Python avec cache",
+  "usage": [
+   "Ne pas relancer une étape déjà réussie",
+   "Planifier un pipeline de données"
+  ],
+  "slug": "prefect"
+ },
+ {
+  "nom": "Celery",
+  "theme": "Outils dev et productivité",
+  "url": "https://github.com/celery/celery",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "File de tâches en arrière-plan pour Python.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "python"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "coeur": false,
+  "accroche": "File de tâches Python en arrière-plan",
+  "usage": [
+   "Déporter les appels de modèle dans des workers",
+   "Gérer l'attente et la distribution en code"
+  ],
+  "slug": "celery"
+ },
+ {
+  "nom": "APScheduler",
+  "theme": "Outils dev et productivité",
+  "url": "https://github.com/agronholm/apscheduler",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Planificateur de tâches en Python.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "python"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "coeur": false,
+  "accroche": "Planificateur de tâches légères en Python",
+  "usage": [
+   "Lancer des vérifications à heure fixe",
+   "Regrouper le travail non urgent avant l'agent"
+  ],
+  "slug": "apscheduler"
+ },
+ {
+  "nom": "requests-cache",
+  "theme": "Outils dev et productivité",
+  "url": "https://github.com/requests-cache/requests-cache",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Cache des réponses HTTP avec règles d'expiration.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "python"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "coeur": false,
+  "accroche": "Cache HTTP pour les scripts Python",
+  "usage": [
+   "Réutiliser des données encore valides",
+   "Éviter de retélécharger une page inchangée"
+  ],
+  "slug": "requests-cache"
+ },
+ {
+  "nom": "Hishel",
+  "theme": "Outils dev et productivité",
+  "url": "https://github.com/karpetrosyan/hishel",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Cache et revalidation HTTP pour httpx.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "python"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "coeur": false,
+  "accroche": "Cache HTTP avec revalidation pour httpx",
+  "usage": [
+   "Ne pas réanalyser une réponse inchangée",
+   "Accélérer un outil de collecte web"
+  ],
+  "slug": "hishel"
+ },
+ {
+  "nom": "TypeSafe SDK (Jev)",
+  "theme": "Modèles de décision et classement",
+  "url": "https://typesafe.ai",
+  "tarif": [
+   "Payant"
+  ],
+  "statut": "À tester",
+  "description": "SDK Python de Jev : on envoie un état et des questions typées (choice, score, noul), il renvoie des réponses typées avec probabilités.",
+  "offre": "Selon l'article : 0,042 $ par million de tokens en entrée, sortie gratuite, 70 à 500 ms.",
+  "licence": "",
+  "tags": [
+   "décision",
+   "jev"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122662343306059780",
+  "coeur": false,
+  "accroche": "SDK pour poser à Jev des questions typées avec probabilités",
+  "usage": [
+   "Router chaque étape vers le bon modèle",
+   "Bloquer une action risquée selon une probabilité",
+   "Noter un brouillon avant publication"
+  ],
+  "slug": "typesafe-sdk-jev"
+ },
+ {
+  "nom": "Cursor Cloud Agents",
+  "theme": "Agents de code et harnais (CLI)",
+  "url": "https://cursor.com/agents",
+  "tarif": [
+   "Payant"
+  ],
+  "statut": "Noté",
+  "description": "Agents Cursor dans des VM isolées, lancés par unité de travail.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "cloud"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122662343306059780",
+  "coeur": false,
+  "accroche": "Agents de code Cursor qui tournent dans des VM isolées",
+  "usage": [
+   "Lancer un agent par unité de travail testable",
+   "Faire coder sans toucher sa machine"
+  ],
+  "slug": "cursor-cloud-agents"
+ },
+ {
+  "nom": "Algrow (MCP YouTube)",
+  "theme": "Outils d'agent, MCP et navigateur",
+  "url": "https://algrow.online",
+  "tarif": [
+   "Payant"
+  ],
+  "statut": "Noté",
+  "description": "Données YouTube à jour (vues par jour, outliers, formats de titres) branchées à Claude ou ChatGPT par MCP.",
+  "offre": "1 $ pour 3 jours d'essai d'après l'article (contenu sponsorisé).",
+  "licence": "",
+  "tags": [
+   "mcp",
+   "youtube"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/treyscalez/status/2122782441996009843",
+  "coeur": false,
+  "accroche": "Données YouTube en temps réel pour un agent via MCP",
+  "usage": [
+   "Trouver les vidéos qui montent sur un sujet",
+   "Repérer les formats de titres qui marchent"
+  ],
+  "slug": "algrow-mcp-youtube"
+ },
+ {
+  "nom": "Claude Code : hook Stop et /loop",
+  "theme": "Skills et plugins choisis",
+  "url": "https://code.claude.com/docs",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "À tester",
+  "description": "Un hook Stop qui lance les tests et renvoie le code 2 empêche l'agent de finir tant que les tests échouent ; /loop relance une tâche à intervalle régulier.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "claude-code"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/L1vsun/status/2116519560631205914",
+  "coeur": false,
+  "accroche": "Empêcher Claude Code de finir tant que les tests échouent",
+  "usage": [
+   "Bloquer « terminé » si les tests sont rouges",
+   "Relancer une tâche toutes les 30 minutes avec /loop"
+  ],
+  "slug": "claude-code-hook-stop-et-loop"
+ },
+ {
+  "nom": "Your Grok Bot Is Burning Money : Harness Fixes It",
+  "theme": "Articles, études et méthodes",
+  "url": "https://x.com/irongiantXBT/status/2122662343306059780",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "À lire",
+  "description": "Quatre couches : Grok écrit, Jev décide, le harness applique les règles, l'essaim passe à l'échelle. 10 prompts : chef qui route sans exécuter, contrat par bot, /workspace, trois portes (source, preuve, action), HANDOFF.md, ACTION_LOG.md.",
+  "offre": "",
+  "licence": "",
+  "tags": [],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122662343306059780",
+  "coeur": false,
+  "accroche": "Séparer écriture, décision, règles et essaim pour un agent moins cher",
+  "usage": [
+   "Écrire un contrat en 5 champs pour chaque bot",
+   "Confier les petites décisions à un modèle de décision",
+   "Mettre trois portes avant toute action externe"
+  ],
+  "image_post": "https://pbs.twimg.com/media/HXQRsE-akAA7HZm?format=jpg&name=medium",
+  "article": true,
+  "slug": "your-grok-bot-is-burning-money-harness-fixes-it"
+ },
+ {
+  "nom": "300 Grok bots pour 0,02 $ par semaine : 20 dépôts",
+  "theme": "Articles, études et méthodes",
+  "url": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "À lire",
+  "description": "Couper les vérifications inutiles, ne pas relire tout l'historique, arrêter les boucles de réessai : filtrer avant de lire, réutiliser avant de générer.",
+  "offre": "",
+  "licence": "",
+  "tags": [],
+  "source": "Signets X",
+  "post": "https://x.com/irongiantXBT/status/2122709093102285099",
+  "coeur": false,
+  "accroche": "Liste de 20 dépôts pour réduire le coût d'un essaim d'agents",
+  "usage": [
+   "Trouver où un agent gaspille des tokens",
+   "Choisir un outil de cache, de compression ou de routage"
+  ],
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2122663479241052160/img/7K66uOMvO29OiG8W.jpg",
+  "slug": "300-grok-bots-pour-0-02-par-semaine-20-depots"
+ },
+ {
+  "nom": "Harness, Loops, Graphs : les 7 niveaux (m4lka)",
+  "theme": "Articles, études et méthodes",
+  "url": "https://x.com/m4lkxx/status/2114338456750997922",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "À lire",
+  "description": "Échelle en 7 niveaux, du chat à l'apprentissage : harness (mains, mémoire, murs), boucle (vérification qui peut échouer, retour qui converge), graphe (forme du travail, portes).",
+  "offre": "",
+  "licence": "",
+  "tags": [],
+  "source": "Signets X",
+  "post": "https://x.com/m4lkxx/status/2114338456750997922",
+  "coeur": false,
+  "accroche": "Échelle en 7 niveaux pour rendre un agent vraiment autonome",
+  "usage": [
+   "Savoir quelle couche manque à son agent",
+   "Écrire la vérification avant le code",
+   "Arrêter une boucle qui répète la même erreur"
+  ],
+  "image_post": "https://pbs.twimg.com/media/HVegcI_W0AAQV7H?format=png&name=medium",
+  "article": true,
+  "slug": "harness-loops-graphs-les-7-niveaux-m4lka"
+ },
+ {
+  "nom": "Prompt → Context → Harness → Loop → Graph : les 5 niveaux (Livsun)",
+  "theme": "Articles, études et méthodes",
+  "url": "https://x.com/L1vsun/status/2116519560631205914",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "À lire",
+  "description": "Feuille de route en 5 niveaux de l'ingénierie IA, avec le hook Stop de Claude Code, la commande /loop et le « loop engineering » d'Addy Osmani.",
+  "offre": "",
+  "licence": "",
+  "tags": [],
+  "source": "Signets X",
+  "post": "https://x.com/L1vsun/status/2116519560631205914",
+  "coeur": false,
+  "accroche": "Feuille de route en cinq niveaux de l'ingénierie IA",
+  "usage": [
+   "Passer du prompt au contexte puis au harness",
+   "Remplacer la saisie manuelle par des boucles",
+   "Découvrir les références clés du sujet"
+  ],
+  "image_post": "https://pbs.twimg.com/media/HV9EUUpWgAAQxL_?format=jpg&name=medium",
+  "article": true,
+  "slug": "prompt-context-harness-loop-graph-les-5-niveaux-livsun"
+ },
+ {
+  "nom": "Harness, Loop, Graph : les 3 couches (Whitemon)",
+  "theme": "Articles, études et méthodes",
+  "url": "https://x.com/0xWhitemon/status/2119430401701621865",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "À lire",
+  "description": "Un harness en 6 parties : contrat (done_when), carte AGENTS.md, outils étroits, mémoire PROGRESS.md, murs, traces. Puis la boucle et le graphe.",
+  "offre": "",
+  "licence": "",
+  "tags": [],
+  "source": "Signets X",
+  "post": "https://x.com/0xWhitemon/status/2119430401701621865",
+  "coeur": false,
+  "accroche": "Les trois couches qui décident si un agent fonctionne",
+  "usage": [
+   "Rédiger un contrat de tâche avec une condition de fin",
+   "Remplacer un long manuel par une carte AGENTS.md",
+   "Tracer chaque exécution pour corriger la suivante"
+  ],
+  "image_post": "https://pbs.twimg.com/media/HWm0whLXEAAsKJb?format=jpg&name=medium",
+  "article": true,
+  "slug": "harness-loop-graph-les-3-couches-whitemon"
+ },
+ {
+  "nom": "Karpathy : 70 minutes sur l'usage des LLM",
+  "theme": "Articles, études et méthodes",
+  "url": "https://x.com/sh1zuki_web2/status/2123048947828613617",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "À lire",
+  "description": "Vidéo : prompts, contexte, outils, workflows, et comment travaillent les meilleurs utilisateurs.",
+  "offre": "",
+  "licence": "",
+  "tags": [],
+  "source": "Signets X",
+  "post": "https://x.com/sh1zuki_web2/status/2123048947828613617",
+  "coeur": false,
+  "accroche": "Vidéo de Karpathy sur la bonne façon de travailler avec les LLM",
+  "usage": [
+   "Revoir les bases du prompt et du contexte",
+   "Comprendre comment structurer un workflow"
+  ],
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2123041321233354752/img/cwmCI71CGwiHnmDX.jpg",
+  "slug": "karpathy-70-minutes-sur-l-usage-des-llm"
+ },
+ {
+  "nom": "Karpathy : cours gratuit de 2 heures",
+  "theme": "Articles, études et méthodes",
+  "url": "https://x.com/0xkichiro/status/2122723009752387971",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "À lire",
+  "description": "Cours vidéo : prompts, agents, harness, boucles, graphes.",
+  "offre": "",
+  "licence": "",
+  "tags": [],
+  "source": "Signets X",
+  "post": "https://x.com/0xkichiro/status/2122723009752387971",
+  "coeur": false,
+  "accroche": "Cours vidéo gratuit de deux heures sur les agents",
+  "usage": [
+   "Se former aux agents en une soirée",
+   "Relier prompts, harness, boucles et graphes"
+  ],
+  "slug": "karpathy-cours-gratuit-de-2-heures"
+ },
+ {
+  "nom": "Anthropic : un harness Claude Code en 10 minutes",
+  "theme": "Articles, études et méthodes",
+  "url": "https://x.com/ReyAInami/status/2122727131159343557",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "À lire",
+  "description": "Vidéo : une ingénieure d'Anthropic construit un harness complet depuis un terminal vide.",
+  "offre": "",
+  "licence": "",
+  "tags": [],
+  "source": "Signets X",
+  "post": "https://x.com/ReyAInami/status/2122727131159343557",
+  "coeur": false,
+  "accroche": "Vidéo qui monte un harness Claude Code en direct",
+  "usage": [
+   "Voir un harness construit pas à pas",
+   "Comprendre les boucles auto-améliorantes"
+  ],
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2122718408915501056/img/Bw2UIccOloXPnvhF.jpg",
+  "slug": "anthropic-un-harness-claude-code-en-10-minutes"
+ },
+ {
+  "nom": "Addy Osmani : Loop Engineering",
+  "theme": "Articles, études et méthodes",
+  "url": "https://addyosmani.com",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "À lire",
+  "description": "Essai qui définit le loop engineering : se remplacer comme celui qui prompte l'agent.",
+  "offre": "",
+  "licence": "",
+  "tags": [],
+  "source": "Signets X",
+  "post": "https://x.com/L1vsun/status/2116519560631205914",
+  "coeur": false,
+  "accroche": "Essai qui définit l'ingénierie de boucles pour agents",
+  "usage": [
+   "Concevoir des boucles qui promptent les agents",
+   "Découper automatisations, worktrees, skills et sous-agents"
+  ],
+  "slug": "addy-osmani-loop-engineering"
+ },
+ {
+  "nom": "Agentic Harness Engineering (Fudan, Peking)",
+  "theme": "Articles, études et méthodes",
+  "url": "",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "À lire",
+  "description": "Papier : un agent réécrit le harness d'un autre agent ; Terminal-Bench 2 passe de 69,7 % à 77,0 % d'après l'article de Livsun.",
+  "offre": "",
+  "licence": "",
+  "tags": [],
+  "source": "Signets X",
+  "post": "https://x.com/L1vsun/status/2116519560631205914",
+  "coeur": false,
+  "accroche": "Papier où un agent améliore le harness d'un autre agent",
+  "usage": [
+   "Comprendre ce qui compte dans un harness",
+   "Voir pourquoi le prompt système pèse peu"
+  ],
+  "slug": "agentic-harness-engineering-fudan-peking"
+ },
+ {
+  "nom": "How To Print Money With GTA VI (guide YouTube)",
+  "theme": "Articles, études et méthodes",
+  "url": "https://x.com/treyscalez/status/2122782441996009843",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "Noté",
+  "description": "Guide pour une chaîne YouTube GTA VI avec un agent et le MCP Algrow (contenu sponsorisé).",
+  "offre": "Contenu sponsorisé. Acheter un compte âgé enfreint les conditions de YouTube.",
+  "licence": "",
+  "tags": [],
+  "source": "Signets X",
+  "post": "https://x.com/treyscalez/status/2122782441996009843",
+  "coeur": false,
+  "accroche": "Guide de chaîne YouTube piloté par un agent et le MCP Algrow",
+  "usage": [
+   "Trouver des idées de vidéos avec un agent",
+   "Voir un exemple d'usage d'un MCP de données"
+  ],
+  "image_post": "https://pbs.twimg.com/media/HXWeVEUXkAAguzh?format=jpg&name=medium",
+  "article": true,
+  "slug": "how-to-print-money-with-gta-vi-guide-youtube"
  }
 ]

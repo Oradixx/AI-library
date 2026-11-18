@@ -9,6 +9,13 @@ Bibliothèque en ligne d'outils tech, design et agents IA, d'API et de routeurs,
 - Fiche par outil : description, cas d'usage, offre, liens d'accès, outils du même sous-thème. Lien direct : `#outil=<slug>`, ou la page de partage `outil/<slug>/` (aperçu avec image sur X, Slack…).
 - Les outils écartés sont masqués par défaut (« Plus de filtres »).
 
+## Collecte
+
+- Source principale : les signets X, du plus récent au plus ancien déjà traité.
+- Quand un signet cite un article, ou cite un post qui mène à un article, on lit aussi l'article et on en tire les outils et références.
+- Images : bannière pour les articles et lectures, image du site ou carte GitHub pour les outils, jamais pour les skills (sauf coups de cœur).
+- Aucune information personnelle dans les fiches.
+
 ## Données
 
 - `data/outils.json` : un objet par outil (`slug`, `nom`, `theme`, `url`, `tarif`, `statut`, `description`, `accroche`, `usage`, `offre`, `licence`, `tags`, `source`, `post`, `coeur`, `image_post`).
