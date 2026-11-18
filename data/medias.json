@@ -43,7 +43,7 @@
  },
  "cowagent": {
   "verifie": "2026-11-18",
-  "status": 0,
+  "status": 200,
   "logo": "https://github.com/zhayujie.png?size=64",
   "image": "https://opengraph.githubassets.com/1/zhayujie/CowAgent"
  },
@@ -79,9 +79,7 @@
  },
  "openai-dots": {
   "verifie": "2026-11-18",
-  "status": 200,
-  "logo": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
-  "image": "https://images.ctfassets.net/kftzwdyauwt9/6iFRMxhUWyxFR6zpThf2Am/1f826b5095ca8854064989ecec465049/SEO_Banner_2400x1350_04.png?w=1600&h=900&fit=fill"
+  "status": 403
  },
  "gemini-spark": {
   "verifie": "2026-11-18",
@@ -251,9 +249,7 @@
  },
  "claude-in-chrome": {
   "verifie": "2026-11-18",
-  "status": 200,
-  "logo": "https://claude.com/icon.svg",
-  "image": "https://assets.claude.com/347a6904eea261cb28ab3feba64450143ee64e16.jpg?w=1200&h=630&fit=crop"
+  "status": 403
  },
  "claude-code-router": {
   "verifie": "2026-11-18",
@@ -655,9 +651,7 @@
  },
  "datacamp": {
   "verifie": "2026-11-18",
-  "status": 200,
-  "logo": "https://www.datacamp.com/favicon.ico",
-  "image": "https://www.datacamp.com/datacamp-socials-share.png"
+  "status": 403
  },
  "weights-biases": {
   "verifie": "2026-11-18",
@@ -672,9 +666,7 @@
  },
  "snowflake": {
   "verifie": "2026-11-18",
-  "status": 200,
-  "logo": "https://www.snowflake.com/etc.clientlibs/snowflake-site/clientlibs/clientlib-react/resources/apple-touch-icon.png?v=3",
-  "image": "https://www.snowflake.com/content/dam/snowflake-site/general/technical/default-og-image/snowflake-social-share.png"
+  "status": 403
  },
  "databricks-free-edition": {
   "verifie": "2026-11-18",
@@ -844,7 +836,7 @@
  },
  "llmfit": {
   "verifie": "2026-11-18",
-  "status": 0,
+  "status": 200,
   "logo": "https://github.com/AlexsJones.png?size=64",
   "image": "https://opengraph.githubassets.com/1/AlexsJones/llmfit"
  },
@@ -1122,7 +1114,7 @@
  },
  "ragflow": {
   "verifie": "2026-11-18",
-  "status": 0,
+  "status": 200,
   "logo": "https://github.com/infiniflow.png?size=64",
   "image": "https://opengraph.githubassets.com/1/infiniflow/ragflow"
  },
@@ -1250,7 +1242,7 @@
  },
  "cua-driver-computer-use": {
   "verifie": "2026-11-18",
-  "status": 0,
+  "status": 200,
   "logo": "https://github.com/trycua.png?size=64",
   "image": "https://opengraph.githubassets.com/1/trycua/cua"
  },
@@ -1716,12 +1708,14 @@
  "capcut": {
   "verifie": "2026-11-18",
   "status": 200,
-  "logo": "https://sf16-web-tos-buz.capcutstatic.com/obj/capcut-web-buz-sg/common/images/lv_web-2.ico",
-  "image": "https://p16-seeyou-sg.ibyteimg.com/tos-alisg-i-2zwwjm3azk-sg/af60401275b14f6684c2af1f7564d717~tplv-2zwwjm3azk-image.image"
+  "logo": "https://sf16-web-tos-buz.capcutcdn-us.com/obj/capcut-web-buz-tx2/common/images/lv_web-2.ico",
+  "image": "https://p16-seeyou-useast8.capcutcdn-us.com/tos-useast8-i-2zwwjm3azk-tx2/af60401275b14f6684c2af1f7564d717~tplv-2zwwjm3azk-image.image"
  },
  "amphetamine": {
   "verifie": "2026-11-18",
-  "status": 429
+  "status": 200,
+  "logo": "https://apps.apple.com/assets/favicon/favicon-180.png",
+  "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b9/93/46/b99346d8-5dcd-e78a-25fe-8810a64771ce/AppIcon-0-0-85-220-0-4-0-2x.png/1200x630wa.jpg"
  },
  "wblock": {
   "verifie": "2026-11-18",
@@ -2109,7 +2103,9 @@
  },
  "insideout-sh": {
   "verifie": "2026-11-18",
-  "status": 0
+  "status": 200,
+  "logo": "https://insideout.sh/brand/logo/apple-touch-icon.png?v=3",
+  "image": "https://insideout.sh/og.jpg"
  },
  "paperclip": {
   "verifie": "2026-11-18",
@@ -2249,9 +2245,7 @@
  },
  "openai-api-credits-d-essai": {
   "verifie": "2026-11-18",
-  "status": 200,
-  "logo": "https://platform.openai.com/favicon-platform.svg",
-  "image": "https://cdn.openai.com/API/images/platform-opengraph.png"
+  "status": 403
  },
  "gemini-4-hydrogen-gratuit-dans-ai-studio": {
   "verifie": "2026-11-18",
@@ -2302,9 +2296,7 @@
  },
  "claude-code-credit-offert-claim-credit": {
   "verifie": "2026-11-18",
-  "status": 200,
-  "logo": "https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c129d018a-0ZbJsTbu.png",
-  "image": "https://claude.ai/images/code/Web-v2.png"
+  "status": 403
  },
  "cloudflare-durable-objects-pour-codex": {
   "verifie": "2026-11-18",
@@ -2503,7 +2495,8 @@
  },
  "firstprinciplesapproach-dev": {
   "verifie": "2026-11-18",
-  "status": 0
+  "status": 200,
+  "logo": "https://firstprinciplesapproach.dev/favicon.svg"
  },
  "fanout-sh": {
   "verifie": "2026-11-18",
@@ -2564,7 +2557,8 @@
  },
  "massgrave-dev-mas": {
   "verifie": "2026-11-18",
-  "status": 0
+  "status": 200,
+  "logo": "https://massgrave.dev/favicon.ico"
  },
  "inspora-design": {
   "verifie": "2026-11-18",
@@ -2574,7 +2568,9 @@
  },
  "layro-dev": {
   "verifie": "2026-11-18",
-  "status": 0
+  "status": 200,
+  "logo": "https://layro.dev/apple-touch-icon.png?v=gold-1",
+  "image": "https://layro.dev/og/home.png?v=d8"
  },
  "ui-watermelon-sh": {
   "verifie": "2026-11-18",
@@ -2588,9 +2584,7 @@
  },
  "designeer-xyz": {
   "verifie": "2026-11-18",
-  "status": 200,
-  "logo": "https://designeer.xyz/apple-icon.png",
-  "image": "https://designeer.xyz/og_image.png"
+  "status": 403
  },
  "designeng-tools": {
   "verifie": "2026-11-18",
@@ -2622,7 +2616,9 @@
  },
  "palletism-art": {
   "verifie": "2026-11-18",
-  "status": 0
+  "status": 200,
+  "logo": "https://palletism.art/apple-touch-icon.png",
+  "image": "https://palletism.art/og.jpg"
  },
  "amicro-dev": {
   "verifie": "2026-11-18",
@@ -3162,7 +3158,9 @@
  },
  "muse-spark-open-kernel-challenge": {
   "verifie": "2026-11-18",
-  "status": 0
+  "status": 200,
+  "logo": "https://openkernelchallenge.dev/apple-touch-icon.png",
+  "image": "https://openkernelchallenge.dev/opengraph-kernels.jpg?v=7"
  },
  "concours-ue-ad5": {
   "verifie": "2026-11-18",
