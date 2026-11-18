@@ -1,0 +1,85 @@
+[
+ {
+  "nom": "Agents",
+  "couleur": "#2f6a5c",
+  "themes": [
+   "Agents personnels permanents",
+   "Orchestrateurs et cockpits d'agents",
+   "Agents de code et harnais (CLI)",
+   "Frameworks et runtimes d'agents",
+   "Mémoire d'agent",
+   "Outils d'agent, MCP et navigateur",
+   "Sandboxes"
+  ]
+ },
+ {
+  "nom": "Modèles",
+  "couleur": "#4a3f7a",
+  "themes": [
+   "Modèles locaux (LLM)",
+   "Modèles de décision et classement",
+   "Embeddings, OCR et documents",
+   "Moteurs d'inférence locale",
+   "Mesure et benchmarks",
+   "Fine-tuning et ML"
+  ]
+ },
+ {
+  "nom": "API et offres",
+  "couleur": "#80552a",
+  "themes": [
+   "Fournisseurs d'API et modèles cloud",
+   "Routeurs et proxys LLM",
+   "Abonnements IA et offres grand public",
+   "Offres étudiantes et packs"
+  ]
+ },
+ {
+  "nom": "Héberger",
+  "couleur": "#3b5a7a",
+  "themes": [
+   "Hébergement, VPS et PaaS",
+   "GPU et calcul",
+   "Réseau et exposition"
+  ]
+ },
+ {
+  "nom": "Construire",
+  "couleur": "#5a5a2f",
+  "themes": [
+   "Outils dev et productivité",
+   "Data, bases et backend",
+   "RAG, recherche et bases vectorielles",
+   "DevOps et infra",
+   "Terminal et shell",
+   "Mac : applications",
+   "Extensions VS Code",
+   "Sites et générateurs de docs"
+  ]
+ },
+ {
+  "nom": "Design",
+  "couleur": "#7a3b4f",
+  "themes": [
+   "Design et UI"
+  ]
+ },
+ {
+  "nom": "Skills",
+  "couleur": "#44506a",
+  "themes": [
+   "Skills et plugins choisis",
+   "Catalogue des 1 116 skills"
+  ]
+ },
+ {
+  "nom": "Lire et apprendre",
+  "couleur": "#6b4a3a",
+  "themes": [
+   "Articles, études et méthodes",
+   "Listes et catalogues",
+   "Opportunités et concours",
+   "Écartés"
+  ]
+ }
+]

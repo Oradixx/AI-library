@@ -1,0 +1,27 @@
+name: Proposer un outil
+description: Suggérer un outil, une API, un hébergement, une skill ou une lecture pour la bibliothèque.
+title: "Outil : "
+labels: ["proposition"]
+body:
+  - type: input
+    id: nom
+    attributes:
+      label: Nom de l'outil
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Lien officiel
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: rayon
+    attributes:
+      label: Rayon
+      options: [Agents, Modèles, API et offres, Héberger, Construire, Design, Skills, Lire et apprendre]
+  - type: textarea
+    id: usage
+    attributes:
+      label: À quoi il sert, et l'offre gratuite ou étudiante s'il y en a une
