@@ -40,16 +40,24 @@ button, input, select, summary { font: 15px/1.3 var(--display); color: var(--ink
 /* En-tête */
 .hero { padding: 36px clamp(16px, 4vw, 48px) 0; }
 .top { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; align-items: flex-start; }
-.intro { max-width: 60ch; }
-h1 { margin: 0 0 10px; font: 800 clamp(48px, 8.5vw, 104px)/0.9 var(--display); letter-spacing: -0.03em; }
-h1 a { color: inherit; text-decoration: none; }
-.intro p { margin: 0 0 26px; color: var(--ink-soft); font-size: 17px; }
+/* Enseigne : plaque bleu nuit, lettres dorées et doubles filets, comme les dos des livres */
+.plate { margin: 0 0 30px; display: inline-block; }
+.plate a {
+  display: inline-flex; align-items: baseline; gap: .28em; text-decoration: none;
+  padding: .32em .62em .38em; border-radius: 6px; background: #1d2a45;
+  font: 600 clamp(40px, 6.2vw, 78px)/1 var(--text); letter-spacing: .01em; font-variation-settings: "opsz" 72;
+  color: #e9cf8e; background-image: linear-gradient(180deg, rgba(255, 255, 255, .06), rgba(0, 0, 0, .18));
+  box-shadow: inset 0 0 0 1px rgba(233, 207, 142, .55), inset 0 0 0 7px #1d2a45, inset 0 0 0 8px rgba(233, 207, 142, .35), 0 10px 18px -12px rgba(0, 0, 0, .6);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .45);
+}
+.plate-ai { font: 800 .82em/1 var(--display); letter-spacing: .04em; color: #f3dfa6; }
+.plate a:hover { color: #f6e2a8; }
 .links { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; font: 15px/1.4 var(--display); padding-top: 8px; }
 .links span { color: var(--ink-soft); font-size: 13.5px; }
 
 /* Étagère : des reliures hautes et fines. Épaisseur = nombre d'outils, hauteur variable comme sur une vraie étagère. */
 .shelf {
-  display: flex; align-items: flex-end; gap: 3px; overflow-x: auto; padding-top: 18px;
+  width: fit-content; max-width: 100%; display: flex; align-items: flex-end; gap: 3px; overflow-x: auto; padding-top: 18px;
   border-bottom: 14px solid var(--board); box-shadow: 0 12px 12px -12px rgba(0, 0, 0, .45);
 }
 .spine {
@@ -69,7 +77,28 @@ h1 a { color: inherit; text-decoration: none; }
 .spine small { font: 400 13px var(--display); opacity: .85; }
 .spine:hover { filter: brightness(1.1); }
 .spine[aria-pressed="true"] { transform: rotate(180deg) translateY(16px); }
-.bookend { flex: 0 0 auto; width: 12px; height: 150px; margin-left: 2px; border-radius: 3px 3px 0 0; background: var(--board); }
+/* Pile de livres couchés : de vrais raccourcis */
+.stack { flex: 0 0 auto; display: flex; flex-direction: column; align-items: flex-start; margin-left: 10px; }
+.lying {
+  position: relative; display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  height: 46px; padding: 0 22px; border: 0; border-radius: 3px; cursor: pointer; text-decoration: none;
+  color: #f7f4ec; font: 600 15px/1 var(--display); background-color: var(--c);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(255, 255, 255, .12) 38%, rgba(0, 0, 0, .06) 62%, rgba(0, 0, 0, .32));
+  transition: transform .2s ease, filter .2s ease;
+}
+.lying::before, .lying::after { content: ""; position: absolute; top: 6px; bottom: 6px; width: 2px; border-radius: 1px; background: rgba(240, 214, 150, .55); }
+.lying::before { left: 9px; box-shadow: 5px 0 0 rgba(240, 214, 150, .55); }
+.lying::after { right: 9px; box-shadow: -5px 0 0 rgba(240, 214, 150, .55); }
+.lying small { font: 400 12px var(--display); opacity: .85; }
+.lying:hover { filter: brightness(1.1); }
+.lying[aria-pressed="true"] { transform: translateX(10px); }
+.l3 { --c: #5c4a2c; width: 204px; margin-left: 14px; }
+.l2 { --c: #2f5a6b; width: 226px; margin-left: 2px; }
+.l1 { --c: #7a2e3a; width: 248px; }
+@media (prefers-reduced-motion: reduce) { .lying { transition: none; } }
+/* Montant qui termine l'étagère */
+.upright { flex: 0 0 auto; align-self: stretch; width: 18px; margin-left: 12px; margin-top: -18px; border-radius: 4px 4px 0 0; background: var(--board);
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, .12), rgba(0, 0, 0, .22)); }
 @media (prefers-reduced-motion: reduce) { .spine { transition: none; } }
 
 /* Barre de recherche et filtres */
@@ -180,7 +209,10 @@ footer { padding: 0 clamp(16px, 4vw, 48px) 40px; color: var(--ink-soft); font: 1
   .spine::after { bottom: 8px; box-shadow: 0 -4px 0 rgba(240, 214, 150, .55); }
   .spine small { font-size: 11px; }
   .spine[aria-pressed="true"] { transform: rotate(180deg) translateY(12px); }
-  .bookend { width: 8px; height: 100px; }
+  .stack { display: none; }
+  .upright { width: 10px; margin-left: 4px; margin-top: -14px; }
+  .plate a { font-size: 34px; }
+  .plate { margin-bottom: 18px; }
   .chips { flex-wrap: nowrap; overflow-x: auto; width: 100%; }
   .chip { white-space: nowrap; }
   .entry > a, .entry.reading > a { grid-template-columns: 32px minmax(0, 1fr); }

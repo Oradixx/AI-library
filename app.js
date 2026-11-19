@@ -11,8 +11,8 @@ const CHIPS = [
 ];
 const RANK = { "À tester": 0, "À lire": 1, "": 2, "Noté": 2, "Écarté": 9 };
 
-let items = [], rayons = [], medias = {}, bySlug = {}, rayonOf = {};
-const state = { rayon: "", theme: "", q: "", tarifs: new Set(), outil: "" };
+let items = [], rayons = [], medias = {}, bySlug = {}, rayonOf = {}, maxLot = 1;
+const state = { rayon: "", theme: "", q: "", tarifs: new Set(), outil: "", vue: "" };
 let lastList = [];
 let lastFocus = null;
 
@@ -31,6 +31,7 @@ function readHash() {
   state.q = p.get("q") || "";
   state.tarifs = new Set((p.get("tarif") || "").split(",").filter(Boolean));
   state.outil = p.get("outil") || "";
+  state.vue = p.get("vue") || "";
   $("q").value = state.q;
 }
 function hashFor(over = {}) {
@@ -40,6 +41,7 @@ function hashFor(over = {}) {
   if (s.theme) p.set("theme", s.theme);
   if (s.q) p.set("q", s.q);
   if (s.tarifs.size) p.set("tarif", [...s.tarifs].join(","));
+  if (s.vue) p.set("vue", s.vue);
   if (s.outil) p.set("outil", s.outil);
   const h = p.toString();
   return h ? "#" + h : location.pathname + location.search;
@@ -125,7 +127,11 @@ function renderShelf() {
     const w = Math.round(wMin + ((roots[i] - lo) / (hi - lo || 1)) * (wMax - wMin));
     return `<button class="spine" type="button" data-rayon="${esc(r.nom)}" aria-pressed="${state.rayon === r.nom}"
       style="--c:${r.couleur};width:${w}px;height:${heights[i % heights.length]}px" title="${esc(r.nom)} : ${n} outils">${esc(r.nom)} <small>${n}</small></button>`;
-  }).join("") + '<span class="bookend" aria-hidden="true"></span>';
+  }).join("") + `<div class="stack" role="group" aria-label="Raccourcis">
+      <a class="lying l3" href="${REPO}/issues/new?template=outil.yml" target="_blank" rel="noopener">Proposer un outil</a>
+      <button class="lying l2" type="button" data-vue="nouveautes" aria-pressed="${state.vue === "nouveautes"}">Nouveautés <small>${items.filter((it) => it.lot === maxLot).length}</small></button>
+      <button class="lying l1" type="button" data-home aria-pressed="${!state.rayon && !state.vue && !filtersActive()}">Coups de cœur</button>
+    </div><span class="upright" aria-hidden="true"></span>`;
 }
 
 function renderChips() {
@@ -209,10 +215,22 @@ function viewResults() {
   lastList = rayons.flatMap((r) => list.filter((it) => rayonOf[it.theme].nom === r.nom));
 }
 
+function viewNouveautes() {
+  const list = sorted(filtered(true).filter((it) => (it.lot || 1) === maxLot));
+  $("list").innerHTML = `<div class="rayon-head"><h2>Nouveautés</h2><p>Derniers outils et lectures ajoutés depuis les signets.</p></div>` +
+    rayons.map((r) => {
+      const g = list.filter((it) => rayonOf[it.theme].nom === r.nom);
+      return g.length ? groupBlock(r.nom, g) : "";
+    }).join("");
+  $("count").textContent = `${list.length} nouveauté(s)`;
+  lastList = rayons.flatMap((r) => list.filter((it) => rayonOf[it.theme].nom === r.nom));
+}
+
 function render() {
   renderShelf();
   renderChips();
   if (state.rayon) viewRayon();
+  else if (state.vue === "nouveautes") viewNouveautes();
   else if (filtersActive()) viewResults();
   else viewSelection();
 }
@@ -291,10 +309,17 @@ document.addEventListener("click", (e) => {
     if (!$("fiche").contains(o)) lastFocus = o;
     return openFiche(o.dataset.outil);
   }
+  const nv = e.target.closest("[data-vue]");
+  if (nv) {
+    state.vue = nv.dataset.vue; state.rayon = ""; state.theme = "";
+    replaceHash(); render();
+    $("list").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    return;
+  }
   const r = e.target.closest("[data-rayon]");
   if (r) {
     state.rayon = state.rayon === r.dataset.rayon && r.classList.contains("spine") ? "" : r.dataset.rayon;
-    state.theme = "";
+    state.theme = ""; state.vue = "";
     replaceHash(); render();
     $("list").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
     return;
@@ -303,8 +328,10 @@ document.addEventListener("click", (e) => {
   if (t) { state.theme = t.dataset.theme; replaceHash(); return render(); }
   const c = e.target.closest("[data-chip]");
   if (c) { const id = c.dataset.chip; state.tarifs.has(id) ? state.tarifs.delete(id) : state.tarifs.add(id); replaceHash(); return render(); }
-  if (e.target.closest("[data-home]") || e.target.id === "home") {
-    e.preventDefault(); state.rayon = ""; state.theme = ""; replaceHash(); return render();
+  if (e.target.closest("[data-home]") || e.target.closest("#home")) {
+    e.preventDefault(); state.rayon = ""; state.theme = ""; state.vue = ""; state.q = ""; state.tarifs.clear();
+    $("q").value = ""; $("statut").value = ""; $("source").value = "";
+    replaceHash(); return render();
   }
   if (e.target.closest("[data-close]") || e.target.id === "veil") return closeFiche();
   const s = e.target.closest("[data-step]");
@@ -336,6 +363,7 @@ Promise.all([getJSON("data/outils.json"), getJSON("data/rayons.json"), getJSON("
     for (const r of rayons) for (const t of r.themes) rayonOf[t] = r;
     items = data.map((it) => ({ ...it, coeur: !!it.coeur, _hay: norm([it.nom, it.accroche, it.description, it.offre, it.theme, it.licence, ...(it.usage || []), ...(it.tags || [])].join(" ")) }));
     for (const it of items) bySlug[it.slug] = it;
+    maxLot = Math.max(1, ...items.map((it) => it.lot || 1));
     const statuts = [...new Set(items.map((i) => i.statut).filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr"));
     for (const s of statuts) $("statut").insertAdjacentHTML("beforeend", `<option>${esc(s)}</option>`);
     $("maj").textContent = `Mis à jour le ${MAJ}`;
