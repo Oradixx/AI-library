@@ -163,6 +163,7 @@ function viewRayon() {
     ...r.themes.filter(tcount).map((t) => `<button class="tab" type="button" data-theme="${esc(t)}" aria-pressed="${state.theme === t}">${esc(t)} <small>${tcount(t)}</small></button>`)].join("");
   let body;
   if (!list.length) body = `<p class="empty">Aucun outil ne correspond dans ce rayon. Retirez un filtre ou cherchez un autre mot.</p>`;
+  else if (state.tarifs.size > 1) body = chipGroups(list).map(([label, g]) => groupBlock(label, g)).join("");
   else if (state.theme || !multi || $("tri").value === "nom") body = `<ul class="entries">${list.map(row).join("")}</ul>`;
   else body = r.themes.map((t) => list.filter((it) => it.theme === t)).filter((g) => g.length).map((g) => groupBlock(g[0].theme, g)).join("");
   $("list").innerHTML = `<div class="rayon-head"><span class="swatch" style="background:${r.couleur}"></span><h2>${esc(r.nom)}</h2>
@@ -172,12 +173,32 @@ function viewRayon() {
   lastList = state.theme || $("tri").value === "nom" ? list : r.themes.flatMap((t) => list.filter((it) => it.theme === t));
 }
 
+// Plusieurs tarifs choisis : une section par tarif (le plus rare d'abord), pour que chacun reste visible.
+function chipGroups(list) {
+  const chips = CHIPS.filter((c) => state.tarifs.has(c.id));
+  const match = (it, c) => (it.tarif || []).some((t) => c.match.includes(t));
+  chips.sort((a, b) => list.filter((it) => match(it, a)).length - list.filter((it) => match(it, b)).length);
+  const seen = new Set();
+  return chips.map((c) => {
+    const g = list.filter((it) => !seen.has(it.slug) && match(it, c));
+    g.forEach((it) => seen.add(it.slug));
+    return [c.label, g];
+  }).filter(([, g]) => g.length);
+}
+
 function viewResults() {
   const list = sorted(filtered(true));
   if (!list.length) {
     $("list").innerHTML = `<p class="empty">Aucun outil ne correspond. Retirez un filtre ou essayez un autre mot.</p>`;
     $("count").textContent = "0 résultat";
     lastList = [];
+    return;
+  }
+  if (state.tarifs.size > 1) {
+    const groups = chipGroups(list);
+    $("list").innerHTML = groups.map(([label, g]) => `<div class="rayon-head"><h2>${esc(label)}</h2><p>${g.length} outil(s)</p></div><ul class="entries">${g.map(row).join("")}</ul>`).join("");
+    $("count").textContent = `${list.length} résultat(s) : ` + groups.map(([label, g]) => `${g.length} ${label.toLowerCase()}`).join(", ");
+    lastList = groups.flatMap(([, g]) => g);
     return;
   }
   $("list").innerHTML = rayons.map((r) => {
