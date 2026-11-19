@@ -112,19 +112,35 @@ function pick(it) {
 
 // ---------- Vues ----------
 function renderShelf() {
-  const counts = {};
-  for (const it of items) if (it.statut !== "Écarté") counts[rayonOf[it.theme].nom] = (counts[rayonOf[it.theme].nom] || 0) + 1;
+  const counts = {}, tcounts = {};
+  for (const it of items) if (it.statut !== "Écarté") {
+    const rn = rayonOf[it.theme].nom;
+    counts[rn] = (counts[rn] || 0) + 1;
+    tcounts[it.theme] = (tcounts[it.theme] || 0) + 1;
+  }
   const mobile = matchMedia("(max-width: 760px)").matches;
-  // Proportions d'un vrai livre : hauteur 3 à 7 fois l'épaisseur. L'épaisseur suit la racine du nombre d'outils.
-  const heights = mobile ? [238, 216, 250, 208, 232, 246, 220, 240] : [372, 336, 388, 318, 358, 382, 342, 366];
-  const [wMin, wMax] = mobile ? [30, 48] : [64, 116];
+  const shelf = $("shelf");
+  // Chaque rayon = un grand livre titré, suivi de ses tomes (un par sous-thème, visibles sur grand écran).
+  // Les largeurs se répartissent pour remplir toute l'étagère ; les hauteurs grandissent un peu sur les très grands écrans.
+  const k = mobile ? 1 : Math.min(1.22, Math.max(1, (shelf.clientWidth || 1184) / 1400));
+  const heights = (mobile ? [238, 216, 250, 208, 232, 246, 220, 240] : [372, 336, 388, 318, 358, 382, 342, 366]).map((h) => Math.round(h * k));
   const roots = rayons.map((r) => Math.sqrt(counts[r.nom] || 1));
   const lo = Math.min(...roots), hi = Math.max(...roots);
-  $("shelf").innerHTML = rayons.map((r, i) => {
+  const SHADES = ["#000 16%", "#fff 9%", "#000 7%", "#fff 15%", "#000 22%", "#fff 4%"];
+  shelf.innerHTML = rayons.map((r, i) => {
     const n = counts[r.nom] || 0;
-    const w = Math.round(wMin + ((roots[i] - lo) / (hi - lo || 1)) * (wMax - wMin));
-    return `<button class="spine" type="button" data-rayon="${esc(r.nom)}" aria-pressed="${state.rayon === r.nom}"
-      style="--c:${r.couleur};width:${w}px;height:${heights[i % heights.length]}px" title="${esc(r.nom)} : ${n} outils">${esc(r.nom)} <small>${n}</small></button>`;
+    const h = heights[i % heights.length];
+    const grow = (50 + ((roots[i] - lo) / (hi - lo || 1)) * 34).toFixed(1);
+    const main = `<button class="spine" type="button" data-rayon="${esc(r.nom)}" aria-pressed="${state.rayon === r.nom}"
+      style="--c:${r.couleur};--g:${grow};height:${h}px" title="${esc(r.nom)} : ${n} outils">${esc(r.nom)} <small>${n}</small></button>`;
+    const subs = r.themes.filter((t) => t !== "Écartés" && tcounts[t]);
+    const vols = subs.length < 2 ? "" : subs.map((t, j) => {
+      const on = state.rayon === r.nom && state.theme === t ? " on" : "";
+      return `<button class="spine vol${on}" type="button" tabindex="-1" data-vol="${esc(t)}" data-rayon-of="${esc(r.nom)}"
+        aria-label="${esc(r.nom)}, ${esc(t)} : ${tcounts[t]} outils" title="${esc(t)} : ${tcounts[t]} outils"
+        style="--c:color-mix(in srgb, ${r.couleur}, ${SHADES[j % SHADES.length]});--g:${(10 + Math.sqrt(tcounts[t]) * 2.2).toFixed(1)};height:${h}px"></button>`;
+    }).join("");
+    return main + vols;
   }).join("") + '<span class="bookend" aria-hidden="true"></span>';
 }
 
@@ -270,6 +286,14 @@ document.addEventListener("click", (e) => {
     if (!$("fiche").contains(o)) lastFocus = o;
     return openFiche(o.dataset.outil);
   }
+  const v = e.target.closest("[data-vol]");
+  if (v) {
+    state.rayon = v.dataset.rayonOf;
+    state.theme = v.dataset.vol;
+    replaceHash(); render();
+    $("list").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    return;
+  }
   const r = e.target.closest("[data-rayon]");
   if (r) {
     state.rayon = state.rayon === r.dataset.rayon && r.classList.contains("spine") ? "" : r.dataset.rayon;
@@ -305,7 +329,8 @@ window.addEventListener("popstate", () => {
 $("q").addEventListener("input", () => { state.q = $("q").value.trim(); replaceHash(); render(); });
 for (const id of ["statut", "source", "tri", "ecartes"]) $(id).addEventListener("input", render);
 window.addEventListener("scroll", () => { $("haut").hidden = window.scrollY < 1200; }, { passive: true });
-matchMedia("(max-width: 760px)").addEventListener("change", renderShelf);
+let shelfFrame = 0;
+window.addEventListener("resize", () => { cancelAnimationFrame(shelfFrame); shelfFrame = requestAnimationFrame(renderShelf); });
 
 // ---------- Chargement ----------
 const getJSON = (u) => fetch(u).then((r) => (r.ok ? r.json() : Promise.reject(new Error(u))));
