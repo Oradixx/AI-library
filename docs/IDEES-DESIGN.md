@@ -8,7 +8,7 @@ Constat : sur grand écran, les 8 livres s'arrêtent vers le milieu de la planch
 
 Tentatives :
 1. **Tomes par sous-thème** (commit `abf2068`, annulé) : un tome fin par sous-thème à côté de chaque grand livre, largeurs fluides pour remplir toute la planche. Rejeté : trop chargé, l'étagère n'avait pas besoin d'être remplie à tout prix.
-2. **Pile de livres couchés + montant d'étagère** (commit `de2b6d2`, annulé) : après les livres debout, trois livres couchés servant de raccourcis (« Coups de cœur », « Nouveautés », « Proposer un outil »), puis un montant vertical qui termine la planche. Idée retenue, rendu jugé peu esthétique.
+2. **Pile de livres couchés + montant d'étagère** (commit `3fb2249`, annulé) : après les livres debout, trois livres couchés servant de raccourcis (« Coups de cœur », « Nouveautés », « Proposer un outil »), puis un montant vertical qui termine la planche. Idée retenue, rendu jugé peu esthétique.
 
 À retravailler pour la piste 2 :
 - proportions de la pile (livres couchés trop longs et trop épais par rapport aux livres debout, pile trop basse) ;
@@ -20,7 +20,7 @@ Tentatives :
 
 Le sous-texte sous « AI library » est à retirer.
 
-Testé (commit `de2b6d2`, annulé) : enseigne bleu nuit, lettres dorées et double filet comme les dos de livres. Jugé peu esthétique en l'état.
+Testé (commit `3fb2249`, annulé) : enseigne bleu nuit, lettres dorées et double filet comme les dos de livres. Jugé peu esthétique en l'état.
 
 Autres pistes non testées :
 - lettres en relief posées debout sur l'étagère, comme des lettres décoratives à côté des livres ;
