@@ -25,8 +25,7 @@
    "Garder un assistant qui se souvient de vos projets",
    "Enchaîner des modèles gratuits avec bascule sur quota"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "OpenClaw",
@@ -52,8 +51,7 @@
    "Ajouter des capacités en installant des skills existantes",
    "Faire tourner un assistant permanent sur une machine isolée"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ZeroClaw",
@@ -81,8 +79,7 @@
    "Valider chaque action de l'agent avant son exécution",
    "Remplacer Hermes quand la mémoire du serveur manque"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "nanobot",
@@ -109,8 +106,7 @@
    "Faire tourner un assistant sur un serveur modeste",
    "Adapter un agent existant à ses propres besoins"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "NanoClaw",
@@ -137,8 +133,7 @@
    "Faire tourner un assistant personnel avec peu de ressources",
    "Limiter ce qu'un agent peut toucher sur la machine"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "IronClaw",
@@ -165,8 +160,7 @@
    "Limiter les dégâts possibles d'un agent autonome",
    "Installer un assistant léger sur une petite machine"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "PicoClaw",
@@ -193,8 +187,7 @@
    "Garder un agent actif sans laisser son ordinateur allumé",
    "Tester un agent personnel sur du matériel embarqué"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "CowAgent",
@@ -220,8 +213,7 @@
    "Essayer un assistant permanent sur une machine isolée",
    "Suivre son évolution avant de l'adopter"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Letta (ex-MemGPT)",
@@ -248,8 +240,7 @@
    "Construire un assistant qui se souvient de vos échanges passés",
    "Étudier une architecture de mémoire hiérarchique pour agents"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenJarvis",
@@ -275,8 +266,7 @@
    "Préparer sa journée à partir de son calendrier",
    "Suivre l'actualité d'un sujet sans tout lire"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ElizaOS",
@@ -303,8 +293,7 @@
    "Publier sur X depuis un agent automatisé",
    "Déployer un même bot sur plusieurs messageries"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Open Interpreter",
@@ -331,8 +320,7 @@
    "Analyser des données locales sans écrire le script soi-même",
    "Automatiser des tâches répétitives depuis le terminal"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Open Duet (Anil-matcha)",
@@ -359,8 +347,7 @@
    "Faire travailler ensemble Claude Code, Codex et Gemini CLI",
    "Brancher des modèles locaux via Ollama ou LM Studio"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenDot (ndunl075)",
@@ -384,8 +371,7 @@
    "Faire travailler un agent sur son abonnement ChatGPT",
    "Essayer un agent personnel sur un poste Windows"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenDots (CopilotKit)",
@@ -409,8 +395,7 @@
    "Essayer une alternative open source à OpenAI dots",
    "Lire le code d'un agent inspiré d'OpenAI dots"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenAI dots",
@@ -434,8 +419,7 @@
    "Confier des tâches courantes à l'agent d'OpenAI",
    "Comparer l'agent d'OpenAI aux agents personnels open source"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Gemini Spark",
@@ -460,8 +444,7 @@
    "Confier des tâches à un agent avec son abonnement Google",
    "Comparer l'agent de Google aux agents auto-hébergés"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Grok Bot",
@@ -486,8 +469,7 @@
    "Laisser un agent travailler sans occuper votre machine",
    "Confier des tâches longues à un bot toujours actif"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenMausBot",
@@ -513,8 +495,7 @@
    "Faire collaborer plusieurs bots sur une même tâche",
    "Réutiliser ses CLI Claude, Codex et Grok dans une équipe"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "T3 Code",
@@ -540,8 +521,7 @@
    "Isoler chaque tâche dans son propre worktree",
    "Suivre plusieurs fils d'agents en parallèle"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "t3boat",
@@ -567,8 +547,7 @@
    "Faire tourner des agents hors de son ordinateur",
    "Payer le calcul à la minute plutôt qu'au mois"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Timon",
@@ -596,8 +575,7 @@
    "Basculer de modèle quand un quota est atteint",
    "Installer le daemon sur un serveur pour travailler à distance"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "OpenBot (openbot.run)",
@@ -624,8 +602,7 @@
    "Donner à chaque agent son propre navigateur",
    "Suivre ses agents depuis l'appli mobile"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "Oh My OpenAgent",
@@ -652,8 +629,7 @@
    "Ajouter une couche d'orchestration à son installation OpenCode",
    "Comparer Sisyphus aux autres orchestrateurs d'agents"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Bernstein",
@@ -678,8 +654,7 @@
    "Attribuer un rôle distinct à chaque agent CLI",
    "Faire travailler plusieurs agents CLI sur un même projet"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OrchestrAI",
@@ -704,8 +679,7 @@
    "Répartir des tâches entre plusieurs fournisseurs d'IA",
    "Éviter de dépendre d'un seul fournisseur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "um-agent-coder",
@@ -730,8 +704,7 @@
    "Répartir un projet de code entre agents aux rôles différents",
    "Coordonner plusieurs agents CLI depuis un seul outil"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "keel (Avid)",
@@ -757,8 +730,7 @@
    "Trancher entre des options préparées à l'avance",
    "Garder une trace de chaque décision prise"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "better-vault",
@@ -785,8 +757,7 @@
    "Organiser ses sources en carnets thématiques",
    "Brancher Ollama ou LM Studio comme moteur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Claude Code",
@@ -812,8 +783,7 @@
    "Planifier avec Opus puis coder avec Sonnet grâce à opusplan",
    "Coder sur le quota de son abonnement Claude Pro"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenCode",
@@ -839,8 +809,7 @@
    "Travailler sur du code confidentiel avec un modèle local",
    "Changer de modèle sans changer d'outil"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Crush",
@@ -866,8 +835,7 @@
    "Coder en local avec Gemma 4 sur un projet confidentiel",
    "Travailler avec un agent de code dans le terminal"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Codex CLI",
@@ -893,8 +861,7 @@
    "Faire écrire ou corriger du code depuis le terminal",
    "Obtenir un second avis sur un changement de code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Pi",
@@ -919,8 +886,7 @@
    "Comprendre la boucle de base d'un agent de code",
    "Reprendre sa structure comme point de départ d'un harnais"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Antigravity (IDE, appli, agy)",
@@ -946,8 +912,7 @@
    "Passer de l'IDE au terminal avec la CLI agy",
    "Discuter d'un projet dans l'appli de chat"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Antigravity CLI (agy)",
@@ -973,8 +938,7 @@
    "Lancer des tâches de code depuis le terminal",
    "Migrer ses habitudes Gemini CLI vers agy"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Gemini CLI",
@@ -1000,8 +964,7 @@
    "Utiliser Gemini en terminal avec sa propre clé API",
    "Faire tourner d'anciens scripts basés sur Gemini CLI"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Kiro",
@@ -1027,8 +990,7 @@
    "Utiliser ses crédits gratuits mensuels pour de petites tâches",
    "Déclencher des actions automatiques à l'enregistrement d'un fichier"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "GitHub Copilot (Free)",
@@ -1052,8 +1014,7 @@
    "Compléter des lignes de code pendant la frappe",
    "Générer du code répétitif dans VS Code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "GitHub Copilot CLI",
@@ -1078,8 +1039,7 @@
    "Demander des commandes ou du code depuis le terminal",
    "Utiliser Copilot hors de l'éditeur de code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "cagent",
@@ -1105,8 +1065,7 @@
    "Décrire un agent dans un fichier de configuration",
    "Faire tourner des agents dans l'écosystème Docker"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Cursor",
@@ -1131,8 +1090,7 @@
    "Compléter du code pendant la frappe",
    "Poser des questions sur le code de son projet"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Mistral Vibe",
@@ -1157,8 +1115,7 @@
    "Coder avec un modèle européen de Mistral",
    "Profiter du plan éducation pour un usage étudiant"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Grok CLI",
@@ -1183,8 +1140,7 @@
    "Coder avec les modèles Grok depuis le terminal",
    "Comparer Grok aux autres agents de code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Cline",
@@ -1210,8 +1166,7 @@
    "Brancher le modèle de son choix via une clé API",
    "Faire coder un agent sans quitter VS Code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Aider",
@@ -1237,8 +1192,7 @@
    "Garder chaque modification dans un commit Git",
    "Modifier plusieurs fichiers d'un projet depuis le terminal"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Goose",
@@ -1265,8 +1219,7 @@
    "Étendre l'agent avec des serveurs MCP",
    "Automatiser des tâches de développement en local"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Qwen Code",
@@ -1292,8 +1245,7 @@
    "Coder avec les modèles Qwen depuis le terminal",
    "Brancher Qwen Code dans un client compatible ACP"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Claude in Chrome",
@@ -1319,8 +1271,7 @@
    "Faire naviguer Claude sur un site pour une tâche",
    "Automatiser des démarches répétitives dans le navigateur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "claude-code-router",
@@ -1346,8 +1297,7 @@
    "Écrire ses propres règles de routage entre modèles",
    "Envoyer les tâches simples vers un modèle moins cher"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "LLMRouter",
@@ -1374,8 +1324,7 @@
    "Expérimenter des stratégies de routage entre modèles en Python",
    "Intégrer le routage dans un plugin d'agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "LiteLLM",
@@ -1402,8 +1351,7 @@
    "Basculer automatiquement vers une autre API sur erreur 429",
    "Centraliser les clés API derrière un seul point d'accès"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "RouteLLM",
@@ -1428,8 +1376,7 @@
    "Réduire les coûts en réservant le modèle fort aux requêtes difficiles",
    "Étudier une méthode de routage publiée par LMSYS"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "RouteLabs Router",
@@ -1453,8 +1400,7 @@
    "Garder les requêtes sensibles sur un modèle local",
    "Envoyer les requêtes ordinaires vers un modèle cloud"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "llm-localfirst",
@@ -1479,8 +1425,7 @@
    "Traiter en local les données confidentielles",
    "Limiter les envois vers le cloud au strict nécessaire"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ogentic-router",
@@ -1505,8 +1450,7 @@
    "Séparer les requêtes privées des requêtes publiques",
    "Comparer ce routeur aux autres routeurs de confidentialité"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "hermes proxy",
@@ -1531,8 +1475,7 @@
    "Brancher Aider, Cline ou Codex sur un abonnement",
    "Comprendre comment un abonnement peut être exposé en API"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "hermes-opencode-acp",
@@ -1558,8 +1501,7 @@
    "Donner à Hermes accès aux modèles gratuits d'OpenCode",
    "Passer par le vrai client OpenCode plutôt qu'un appel direct"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "freeride-h",
@@ -1585,8 +1527,7 @@
    "Garder Hermes actif quand un quota gratuit tombe",
    "Basculer d'un modèle gratuit à un autre automatiquement"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Requesty",
@@ -1611,8 +1552,7 @@
    "Vérifier quels modèles gratuits restent disponibles et jusqu'à quand",
    "Accéder à plusieurs modèles par un seul routeur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenCode Zen",
@@ -1638,8 +1578,7 @@
    "Choisir DeepSeek ou GLM pour bénéficier de la zéro rétention",
    "Traiter de longs documents grâce au contexte étendu"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "OpenCode Go",
@@ -1663,8 +1602,7 @@
    "Continuer à coder quand le quota gratuit est épuisé",
    "Payer un abonnement plutôt que dépendre du quota gratuit"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenRouter",
@@ -1691,8 +1629,7 @@
    "Comparer plusieurs modèles sans ouvrir plusieurs comptes",
    "Réserver les modèles gratuits aux données non sensibles"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Google AI Studio (Gemini API)",
@@ -1718,8 +1655,7 @@
    "Brancher Gemini dans un agent tiers sans enfreindre les règles",
    "Tester des prompts avant de les intégrer à une application"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "DeepSeek API",
@@ -1743,8 +1679,7 @@
    "Brancher DeepSeek V4 Flash dans un agent ou un script",
    "Payer seulement les tokens réellement consommés"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Groq",
@@ -1769,8 +1704,7 @@
    "Obtenir des réponses rapides dans une application interactive",
    "Prototyper gratuitement dans la limite des quotas"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Cerebras",
@@ -1795,8 +1729,7 @@
    "Tester un modèle rapide sur des tâches courtes",
    "Ajouter Cerebras comme secours dans une chaîne de modèles"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Mistral La Plateforme",
@@ -1822,8 +1755,7 @@
    "Analyser des images avec Pixtral",
    "Traiter ses requêtes sur des serveurs basés à Paris"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "NVIDIA NIM",
@@ -1848,8 +1780,7 @@
    "Tester des modèles sans les installer sur sa machine",
    "Réserver ce service aux données non confidentielles"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Cloudflare Workers AI",
@@ -1873,8 +1804,7 @@
    "Ajouter de l'IA à un Worker Cloudflare",
    "Prototyper dans la limite du quota gratuit quotidien"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Ollama Cloud",
@@ -1899,8 +1829,7 @@
    "Lancer des modèles trop lourds pour sa machine",
    "Garder ses habitudes Ollama tout en passant au cloud"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Nous Portal",
@@ -1924,8 +1853,7 @@
    "Appeler les modèles Hermes depuis une application",
    "Brancher Hermes Agent sur l'API de Nous Research"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "GitHub Models",
@@ -1950,8 +1878,7 @@
    "Tester des modèles sans créer de compte supplémentaire",
    "Prototyper une fonctionnalité IA avant de payer une API"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Hugging Face Inference",
@@ -1975,8 +1902,7 @@
    "Essayer un modèle du Hub sans le télécharger",
    "Prototyper des tâches simples sans appel d'outils"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Cohere",
@@ -2001,8 +1927,7 @@
    "Créer des embeddings pour une recherche sémantique",
    "Tester l'API dans la limite des appels gratuits mensuels"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "SambaNova",
@@ -2026,8 +1951,7 @@
    "Tester ponctuellement un modèle hébergé rapide",
    "Ajouter un secours dans une chaîne de fournisseurs"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Anthropic API",
@@ -2052,8 +1976,7 @@
    "Intégrer Claude dans une application ou un script",
    "Brancher Claude dans un outil tiers en restant dans les règles"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Qwen4-Max",
@@ -2077,8 +2000,7 @@
    "Confier des tâches lourdes à un modèle hébergé par Qwen",
    "Comparer ce modèle aux modèles ouverts exécutables en local"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Kimi K3",
@@ -2102,8 +2024,7 @@
    "Comprendre le principe d'une cascade sur confiance calibrée",
    "Intégrer Kimi K3 dans une cascade de modèles"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "GLM-5.3",
@@ -2127,8 +2048,7 @@
    "Coder gratuitement avec GLM Flash dans OpenCode",
    "Comparer GLM à DeepSeek sur les mêmes tâches"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Grok (xAI)",
@@ -2152,8 +2072,7 @@
    "Discuter avec l'assistant Grok pour des questions courantes",
    "Appeler les modèles Grok depuis une application"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Inception Mercury",
@@ -2177,8 +2096,7 @@
    "Tester un modèle de diffusion pour générer du texte",
    "Brancher Mercury comme modèle dans OpenBot"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Claude Pro",
@@ -2204,8 +2122,7 @@
    "Créer des artifacts comme une page web ou un schéma",
    "Coder avec Claude Code sur le même abonnement"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Google AI Plus",
@@ -2232,8 +2149,7 @@
    "Interroger ses sources dans Gemini Notebook",
    "Profiter d'un an offert en tant qu'étudiant"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Google AI Pro / Ultra",
@@ -2259,8 +2175,7 @@
    "Essayer Gemini 4 Argon avec un abonnement payant",
    "Activer l'agent Gemini Spark inclus dès Google AI Pro"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Gemini Notebook (ex-NotebookLM)",
@@ -2287,8 +2202,7 @@
    "Écouter une synthèse audio de ses sources",
    "Réviser un cours à partir de ses notes"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Gemini Deep Research",
@@ -2314,8 +2228,7 @@
    "Comparer des offres ou des produits avant un choix",
    "Préparer un dossier documenté avec ses sources"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Perplexity Education Pro",
@@ -2340,8 +2253,7 @@
    "Chercher une information avec des sources citées",
    "Préparer un exposé à partir de recherches sourcées"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ChatGPT Plus étudiant",
@@ -2365,8 +2277,7 @@
    "Vérifier son éligibilité selon son pays d'études",
    "Comparer avec les offres étudiantes disponibles en France"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Oracle Cloud Always Free",
@@ -2391,8 +2302,7 @@
    "Faire tourner de petits services web en continu",
    "Tester un serveur Linux sans frais"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "Azure for Students",
@@ -2418,8 +2328,7 @@
    "Choisir une taille de VM couverte pour préserver le crédit",
    "Découvrir les services Azure dans le cadre de ses études"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "Google Cloud (e2-micro + essai)",
@@ -2446,8 +2355,7 @@
    "Explorer les services Google Cloud avec le crédit d'essai",
    "Surveiller le trafic sortant pour éviter les frais"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "AWS (Free plan, Lightsail, S3)",
@@ -2472,8 +2380,7 @@
    "Stocker des fichiers sur S3 pendant la période gratuite",
    "Prévoir une migration avant la fermeture du compte"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Northflank",
@@ -2498,8 +2405,7 @@
    "Programmer des tâches récurrentes avec les cron inclus",
    "Associer une base de données à une petite application"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Koyeb",
@@ -2523,8 +2429,7 @@
    "Héberger une petite API ou un site léger",
    "Déployer un service en Europe depuis un dépôt GitHub"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Render",
@@ -2548,8 +2453,7 @@
    "Héberger une démo qui peut attendre son réveil",
    "Déployer un site web depuis un dépôt Git"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Heroku",
@@ -2574,8 +2478,7 @@
    "Déployer une application web avec un simple git push",
    "Utiliser le crédit du GitHub Student Pack pour héberger"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Hugging Face Spaces",
@@ -2602,8 +2505,7 @@
    "Partager une démo de modèle avec un lien public",
    "Tester un modèle sur GPU avec ZeroGPU"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "InstaBox",
@@ -2628,8 +2530,7 @@
    "Tester un projet sans occuper son ordinateur"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HWdeIYJbsAAsyG1?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HWdeIYJbsAAsyG1?format=jpg&name=medium"
  },
  {
   "nom": "Hetzner Cloud",
@@ -2653,8 +2554,7 @@
    "Héberger un agent personnel actif jour et nuit",
    "Faire tourner plusieurs petits services sur un serveur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OVH VPS",
@@ -2678,8 +2578,7 @@
    "Héberger ses services chez un fournisseur français",
    "Administrer un serveur Debian complet"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Fly.io",
@@ -2703,8 +2602,7 @@
    "Déployer une application conteneurisée dans plusieurs régions",
    "Héberger une application Docker sans gérer de serveur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Railway",
@@ -2728,8 +2626,7 @@
    "Déployer une application depuis un dépôt GitHub",
    "Ajouter une base de données à un projet"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "DigitalOcean",
@@ -2753,8 +2650,7 @@
    "Louer un VPS pour un projet personnel",
    "Héberger une application web sur une machine virtuelle"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "GitHub Codespaces",
@@ -2781,8 +2677,7 @@
    "Tester une branche dans un environnement propre",
    "Utiliser les heures incluses avec GitHub Pro"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "GitHub Pages",
@@ -2807,8 +2702,7 @@
    "Mettre en ligne un site à chaque push",
    "Relier son propre nom de domaine à un site"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "boat.dev",
@@ -2832,8 +2726,7 @@
    "Louer une machine seulement le temps d'une tâche",
    "Faire tourner des agents T3 Code sur une machine distante"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Umbrel",
@@ -2858,8 +2751,7 @@
    "Héberger ses propres services à la maison",
    "Installer OpenBot depuis sa page dédiée sur Umbrel"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Kaggle",
@@ -2883,8 +2775,7 @@
    "Entraîner un petit modèle sur GPU sans frais",
    "Participer à des compétitions de machine learning"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Modal",
@@ -2910,8 +2801,7 @@
    "Isoler le code d'un agent dans un bac à sable",
    "Utiliser le crédit mensuel offert pour des essais GPU"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Lightning AI",
@@ -2935,8 +2825,7 @@
    "Entraîner ou tester un modèle sur GPU en ligne",
    "Garder un Studio CPU pour le développement courant"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Google Colab",
@@ -2962,8 +2851,7 @@
    "Partager un notebook d'expérience avec d'autres personnes",
    "Suivre un tutoriel de machine learning pas à pas"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "awesome-free-compute-2026",
@@ -2987,8 +2875,7 @@
    "Repérer des offres gratuites de GPU et de serveurs",
    "Comparer les conditions des offres de calcul gratuit"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Tailscale",
@@ -3013,8 +2900,7 @@
    "Relier ordinateur, téléphone et serveur dans un même réseau",
    "Ouvrir l'interface d'un agent seulement à ses appareils"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "Cloudflare Tunnel",
@@ -3039,8 +2925,7 @@
    "Utiliser le domaine du Student Pack avec Cloudflare",
    "Montrer une application locale sans configurer le routeur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Cloudflare WARP",
@@ -3064,8 +2949,7 @@
    "Chiffrer sa connexion sur un Wi-Fi public",
    "Remplacer le DNS de son fournisseur d'accès"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Nginx",
@@ -3091,8 +2975,7 @@
    "Protéger une interface par mot de passe hors réseau autorisé",
    "Servir les pages d'un site statique"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "nftables",
@@ -3116,8 +2999,7 @@
    "Fermer tous les ports d'un VPS sauf SSH",
    "Limiter l'accès d'un service à certaines adresses IP"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "fail2ban",
@@ -3141,8 +3023,7 @@
    "Bloquer les tentatives répétées de connexion SSH",
    "Freiner les essais de mots de passe sur un serveur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Cloudflare Workers / Durable Objects",
@@ -3169,8 +3050,7 @@
    "Garder un état partagé avec les Durable Objects",
    "Déplacer un agent sans changer l'adresse de son webhook"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "n8n",
@@ -3197,8 +3077,7 @@
    "Déclencher une automatisation à la réception d'un webhook",
    "Héberger ses automatisations sur son propre serveur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "GitHub Student Developer Pack",
@@ -3223,8 +3102,7 @@
    "Activer chaque offre seulement au moment du besoin",
    "Utiliser les IDE JetBrains gratuitement pendant ses études"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "JetBrains (licence étudiante)",
@@ -3250,8 +3128,7 @@
    "Coder en Python avec PyCharm",
    "Obtenir la licence via le GitHub Student Pack"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "GitKraken",
@@ -3277,8 +3154,7 @@
    "Résoudre des conflits de fusion sans ligne de commande",
    "Obtenir l'offre via le GitHub Student Pack"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "DataCamp",
@@ -3303,8 +3179,7 @@
    "Apprendre Python ou SQL pour l'analyse de données",
    "Suivre des cours data pendant la période offerte"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Weights & Biases",
@@ -3330,8 +3205,7 @@
    "Enregistrer les paramètres et résultats de chaque expérience",
    "Partager ses résultats d'expériences avec son équipe"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "MotherDuck",
@@ -3356,8 +3230,7 @@
    "Partager une base DuckDB avec d'autres personnes",
    "Tester une alternative légère à Snowflake"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Snowflake",
@@ -3382,8 +3255,7 @@
    "Analyser de gros volumes de données en SQL",
    "Découvrir un entrepôt de données pendant l'essai gratuit"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Databricks Free Edition",
@@ -3408,8 +3280,7 @@
    "Apprendre Spark sur des notebooks hébergés",
    "Traiter des données volumineuses avec Spark"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "IBM watsonx",
@@ -3434,8 +3305,7 @@
    "Découvrir les outils d'IA d'IBM",
    "Expérimenter des modèles d'IA sur la plateforme d'IBM"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Qwen3.6-35B-A3B",
@@ -3462,8 +3332,7 @@
    "Lancer le modèle sous llama-server avec une température basse",
    "Traiter des contenus confidentiels sur sa machine"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "Tiel-Coder-35B-A3B",
@@ -3489,8 +3358,7 @@
    "Comparer ce modèle aux autres modèles locaux de code",
    "Tester des tâches de code en local"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Gemma 4 26B-A4B QAT",
@@ -3516,8 +3384,7 @@
    "Générer du texte rapidement sur un Mac M5",
    "Prévoir une quantification de secours UD-Q3_K_XL"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Gemma 4 12B",
@@ -3543,8 +3410,7 @@
    "Suivre ses résultats avant de l'adopter en local",
    "Comparer ce modèle aux autres modèles locaux"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Qwen3.8-27B GSQ-RCO (ISTA-DASLab)",
@@ -3570,8 +3436,7 @@
    "Lancer des traitements par lots pendant la nuit",
    "Viser la qualité quand la vitesse importe peu"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "gpt-oss 20B",
@@ -3597,8 +3462,7 @@
    "Traiter des textes en anglais en local",
    "Tester un modèle ouvert d'OpenAI sur sa machine"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "LFM2.5-2.6B (Liquid)",
@@ -3624,8 +3488,7 @@
    "Extraire des champs d'un document en local",
    "Faire tourner un extracteur avec peu de mémoire"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "LFM3-1.7B (Liquid)",
@@ -3651,8 +3514,7 @@
    "Tester l'extraction d'informations sur une petite machine",
    "Comparer ce modèle à LFM2.5 pour l'extraction"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Occamy-1.0 (Accio)",
@@ -3678,8 +3540,7 @@
    "Faire appeler des outils à un agent local",
    "Tester un modèle local pour des tâches d'agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Ornith-1.5-35B-A3B",
@@ -3705,8 +3566,7 @@
    "Générer du code en local sans envoyer ses sources",
    "Comparer ce modèle aux autres modèles de code locaux"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Bonsai 2 27B",
@@ -3732,8 +3592,7 @@
    "Installer le fork PrismML pour lancer ce modèle",
    "Tester le modèle avec MTPLX"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Nemotron 3.5 Lightning 30B-A3B",
@@ -3759,8 +3618,7 @@
    "Tester une quantification Q2 sur une machine de 24 Go",
    "Évaluer la perte de qualité due à la compression"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Qwen3.5-9B",
@@ -3786,8 +3644,7 @@
    "Comparer ce modèle à Jackrong v2 sur ses tâches",
    "Faire tourner un petit modèle sur une machine modeste"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Jackrong v2",
@@ -3813,8 +3670,7 @@
    "Comparer ce modèle à Qwen3.5-9B",
    "Vérifier ses résultats sur ses propres tâches"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Qwen2-0.5B",
@@ -3841,8 +3697,7 @@
    "Illustrer en TD le fonctionnement d'un LLM",
    "Tester un pipeline d'inférence sans gros besoin de mémoire"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Qwen3.8-35B-A3B-Distill (empero-ai)",
@@ -3867,8 +3722,7 @@
    "Comparer une variante communautaire au modèle Qwen officiel",
    "Vérifier l'origine d'un modèle avant de le télécharger"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Bespoke Nimble 9B v3",
@@ -3894,8 +3748,7 @@
    "Choisir la v3 plutôt que la v2 proposée par Ollama",
    "Comparer son score Decision Index aux autres décideurs"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Clef-Flash 9B",
@@ -3921,8 +3774,7 @@
    "Vérifier sa version d'Ollama avant de charger le modèle",
    "Comparer son score Decision Index aux autres décideurs 9B"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "d1-3B (Liquid)",
@@ -3948,8 +3800,7 @@
    "Confier les décisions d'un agent à un modèle léger",
    "Tester un décideur sur une machine à mémoire limitée"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Laya",
@@ -3975,8 +3826,7 @@
    "Servir le modèle avec laya-serve",
    "Faire tourner un décideur sur une machine modeste"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Winnow-12B",
@@ -4001,8 +3851,7 @@
    "Comparer ce décideur 12B aux autres modèles du Decision Index",
    "Tester ce décideur sur ses propres questions de décision"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "JevK5 9B v0.3.3",
@@ -4027,8 +3876,7 @@
    "Comparer ce décideur aux autres modèles 9B du classement",
    "Évaluer ce décideur sur un jeu de questions maison"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "vLLM-SR Lux 9B",
@@ -4053,8 +3901,7 @@
    "Situer ce décideur 9B parmi ses concurrents du Decision Index",
    "Tester ce décideur sur des questions de son propre domaine"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Perplexity Decider v1.1 27B",
@@ -4079,8 +3926,7 @@
    "Servir de référence haute pour comparer les autres décideurs",
    "Tester un décideur 27B sur une machine autre qu'un Mac"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Fastino GLiDE",
@@ -4105,8 +3951,7 @@
    "Évaluer GLiDE face aux autres décideurs du Decision Index",
    "Essayer un décideur bien classé sur un cas réel"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Jev (API)",
@@ -4132,8 +3977,7 @@
    "Apprendre à rédiger ses questions pour le point d'accès /v1/systemone",
    "Comparer ce décideur API aux décideurs locaux"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Kev 27B",
@@ -4159,8 +4003,7 @@
    "Filtrer les décisions selon la confiance donnée par le modèle",
    "Comparer la calibration des décideurs avec la mesure ECE"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Decision Index 0.3.1 (multimodalart)",
@@ -4185,8 +4028,7 @@
    "Comparer les décideurs sur un même score",
    "Choisir un décideur avant de l'intégrer à un agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ollajev",
@@ -4211,8 +4053,7 @@
    "Retrouver la source des informations publiées sur Jev",
    "Vérifier une donnée sur Jev avant de s'y fier"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "EmbeddingGemma 2",
@@ -4238,8 +4079,7 @@
    "Générer des embeddings avec le mode embeddings de llama-server",
    "Alimenter une base vectorielle sans passer par une API"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Unlimited OCR (Baidu)",
@@ -4266,8 +4106,7 @@
    "Préparer des archives numérisées pour la recherche plein texte"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2109080319286824960/img/xjE8_udaU_MyqnbF.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2109080319286824960/img/xjE8_udaU_MyqnbF.jpg"
  },
  {
   "nom": "BERT multilingue",
@@ -4293,8 +4132,7 @@
    "Entraîner un repérage d'entités nommées sur du français",
    "Obtenir des représentations de texte pour un modèle maison"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Docling (IBM)",
@@ -4320,8 +4158,7 @@
    "Récupérer les tableaux d'un rapport PDF sans les retaper",
    "Extraire les formules d'un article scientifique en Markdown"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "MarkItDown (Microsoft)",
@@ -4347,8 +4184,7 @@
    "Donner le contenu d'une présentation PowerPoint à un LLM",
    "Convertir un enregistrement audio en texte Markdown"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "llama.cpp / llama-server",
@@ -4374,8 +4210,7 @@
    "Utiliser /v1/systemone avec un build b11483 ou ultérieur",
    "Régler l'attention flash et le budget de raisonnement au lancement"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "Ollama",
@@ -4401,8 +4236,7 @@
    "Augmenter la taille de contexte, fixée à 4 096 par défaut",
    "Désactiver la réflexion pour obtenir un JSON exploitable"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "oMLX",
@@ -4429,8 +4263,7 @@
    "Faire tourner des modèles MLX sur un Mac Apple Silicon",
    "Comparer ses performances grâce aux mesures publiées sur omlx.ai"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "MTPLX",
@@ -4456,8 +4289,7 @@
    "Accélérer la génération d'un modèle dense sans perte de qualité",
    "Essayer le décodage multi-jetons sur un Mac"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "LM Studio",
@@ -4482,8 +4314,7 @@
    "Discuter avec un modèle local depuis une interface de chat",
    "Exposer un modèle local comme serveur compatible OpenAI"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Pulsar / Splash",
@@ -4508,8 +4339,7 @@
    "Faire tourner des modèles Qwen avec un moteur dédié sur Mac",
    "Comparer ces moteurs récents à llama.cpp ou oMLX"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "m5-bridge",
@@ -4534,8 +4364,7 @@
    "Appeler le modèle local depuis un agent compatible MCP",
    "Déléguer une sous-tâche au modèle local depuis une session d'agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Local Model Explorer",
@@ -4559,8 +4388,7 @@
    "Vérifier qu'un modèle GGUF tient dans la mémoire de sa machine",
    "Choisir la quantification adaptée à sa mémoire disponible"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "llmfit",
@@ -4584,8 +4412,7 @@
    "Contrôler qu'un modèle tient en mémoire avant de le lancer",
    "Recouper le résultat ailleurs pour les formats NVFP4 et MXFP4"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "localmaxxing.com",
@@ -4609,8 +4436,7 @@
    "Consulter des mesures publiées avant de choisir un modèle local",
    "Comparer ses propres résultats à des mesures publiées"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "mac-llm-bench",
@@ -4634,8 +4460,7 @@
    "Consulter des mesures de modèles locaux faites sur Mac",
    "Estimer ce qu'un modèle donnera sur son propre Mac"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "omlx.ai/benchmarks",
@@ -4659,8 +4484,7 @@
    "Consulter les performances mesurées du moteur oMLX",
    "Comparer oMLX à d'autres moteurs avant de l'adopter"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "llama-bench",
@@ -4685,8 +4509,7 @@
    "Comparer deux quantifications d'un même modèle",
    "Tester l'effet d'une option de lancement sur la vitesse"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "BFCL",
@@ -4710,8 +4533,7 @@
    "Choisir un modèle pour les appels d'outils d'un agent",
    "Comparer modèles ouverts et fermés sur l'usage d'outils"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "SiliconBench (arXiv 2609.19169)",
@@ -4735,8 +4557,7 @@
    "Découvrir qu'un même modèle peut varier selon le moteur",
    "Comparer les moteurs d'inférence à partir de mesures réelles"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "FineEnvs / multi-harness-rl",
@@ -4761,8 +4582,7 @@
    "Prendre en compte le harnais avant de comparer deux modèles",
    "Découvrir l'entraînement par renforcement sur plusieurs harnais"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Harness Learning (arXiv 2609.35738)",
@@ -4787,8 +4607,7 @@
    "Apprendre à améliorer un agent sans modifier les poids du modèle"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/card_img/2120026792912429056/-gu_bE6z?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/card_img/2120026792912429056/-gu_bE6z?format=jpg&name=medium"
  },
  {
   "nom": "Artificial Analysis",
@@ -4812,8 +4631,7 @@
    "Comparer la qualité de plusieurs modèles avant d'en choisir un",
    "Repérer un modèle au bon rapport qualité-prix pour une tâche"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "caffeinate -i",
@@ -4838,8 +4656,7 @@
    "Garder le Mac éveillé pendant un téléchargement de modèle",
    "Préfixer une commande pour bloquer la veille jusqu'à sa fin"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Unsloth (Studio, Desktop)",
@@ -4865,8 +4682,7 @@
    "Suivre le notebook Colab pour affiner Qwen3.5-4B",
    "Récupérer des modèles quantifiés GGUF Dynamic pour l'inférence locale"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "Hugging Face / transformers",
@@ -4892,8 +4708,7 @@
    "Charger et affiner un modèle avec la bibliothèque transformers",
    "Publier ses propres modèles et jeux de données"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "PyTorch",
@@ -4918,8 +4733,7 @@
    "Prototyper un modèle d'apprentissage profond en Python",
    "Accélérer les calculs sur GPU ou puce Apple Silicon"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "TensorFlow",
@@ -4944,8 +4758,7 @@
    "Déployer un modèle sur mobile ou dans le navigateur",
    "Reprendre un projet existant écrit en TensorFlow"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "SHAP",
@@ -4970,8 +4783,7 @@
    "Classer les variables selon leur influence sur le modèle",
    "Justifier une décision de modèle auprès d'un public non technique"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "LIME",
@@ -4996,8 +4808,7 @@
    "Expliquer la prédiction d'un modèle boîte noire sur une image",
    "Vérifier qu'un classifieur s'appuie sur les bons indices"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "FAISS",
@@ -5022,8 +4833,7 @@
    "Regrouper des vecteurs avec l'algorithme k-means intégré",
    "Construire un index vectoriel sans serveur de base de données"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Manim / ManimGX",
@@ -5048,8 +4858,7 @@
    "Produire une vidéo explicative à partir d'un script Python",
    "Illustrer le fonctionnement d'un algorithme par l'animation"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Mem0",
@@ -5075,8 +4884,7 @@
    "Auto-héberger gratuitement la mémoire d'un agent",
    "Ajouter une mémoire persistante à un chatbot existant"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Zep",
@@ -5101,8 +4909,7 @@
    "Extraire les entités citées dans les conversations",
    "Donner à un assistant le contexte des sessions passées"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Graphiti",
@@ -5128,8 +4935,7 @@
    "Savoir quelle information était vraie à une date donnée",
    "Relier personnes, projets et événements dans une mémoire"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Cognee",
@@ -5155,8 +4961,7 @@
    "Donner à un agent une mémoire reliant les concepts entre eux",
    "Interroger des documents en suivant les liens entre sujets"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Honcho",
@@ -5182,8 +4987,7 @@
    "Garder une trace des goûts et habitudes de chaque utilisateur",
    "Personnaliser un assistant utilisé par plusieurs personnes"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Supermemory",
@@ -5207,8 +5011,7 @@
    "Stocker notes et documents pour qu'un agent les retrouve",
    "Donner à un agent l'accès à ses connaissances passées"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "MemOS",
@@ -5232,8 +5035,7 @@
    "Donner une mémoire durable à un agent conversationnel",
    "Organiser ce qu'un agent retient au fil des échanges"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "MemPalace",
@@ -5257,8 +5059,7 @@
    "Ranger la mémoire d'un agent selon une structure de palais",
    "Retrouver un souvenir d'agent par son emplacement dans le palais"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "memU",
@@ -5282,8 +5083,7 @@
    "Ajouter une mémoire à un petit agent sans infrastructure lourde",
    "Conserver le contexte d'un assistant entre deux sessions"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenViking",
@@ -5307,8 +5107,7 @@
    "Reprendre une tâche d'agent après un redémarrage",
    "Sauvegarder l'avancement d'un agent sur une tâche longue"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Hindsight",
@@ -5332,8 +5131,7 @@
    "Garder la trace des réussites et erreurs d'un agent",
    "Réutiliser ce qui a marché lors d'une tâche précédente"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "AgentMemory",
@@ -5357,8 +5155,7 @@
    "Enregistrer les événements d'une session d'agent",
    "Rappeler à un agent ses échanges précédents"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "AgentCore Memory (AWS)",
@@ -5382,8 +5179,7 @@
    "Ajouter une mémoire à un agent hébergé sur AWS",
    "Confier la mémoire d'un agent à un service géré"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Foundry Memory",
@@ -5407,8 +5203,7 @@
    "Donner une mémoire aux agents créés dans Microsoft Foundry",
    "Rester dans l'écosystème Azure pour la mémoire d'agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Google Cloud Memory Bank",
@@ -5432,8 +5227,7 @@
    "Ajouter une mémoire long terme à un agent Vertex AI",
    "Retenir les informations d'un utilisateur entre ses sessions"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Memori Cloud",
@@ -5457,8 +5251,7 @@
    "Confier la mémoire durable d'un agent à un service hébergé",
    "Éviter de gérer soi-même une base de mémoire"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "TencentDB Agent Memory",
@@ -5482,8 +5275,7 @@
    "Ajouter une mémoire à un agent hébergé chez Tencent Cloud",
    "Confier le stockage de la mémoire d'agent à un service géré"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "claude-mem",
@@ -5507,8 +5299,7 @@
    "Conserver le contexte entre deux sessions de Claude Code",
    "Étudier une approche de mémoire pour Claude Code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Brave Search API",
@@ -5533,8 +5324,7 @@
    "Récupérer des résultats de recherche en JSON dans une appli",
    "Ancrer les réponses d'un LLM sur des pages web récentes"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Tavily",
@@ -5559,8 +5349,7 @@
    "Brancher la recherche web dans un framework comme LangChain",
    "Alimenter un assistant de veille avec des sources citées"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Exa",
@@ -5585,8 +5374,7 @@
    "Chercher des articles similaires à une page donnée",
    "Fournir des sources web à un agent de recherche"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Firecrawl",
@@ -5611,8 +5399,7 @@
    "Préparer le contenu d'un site pour un index RAG",
    "Extraire le texte d'une page web en Markdown"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Chroma",
@@ -5638,8 +5425,7 @@
    "Stocker des embeddings en local sans serveur dédié",
    "Chercher des passages similaires dans ses documents"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Qdrant",
@@ -5665,8 +5451,7 @@
    "Filtrer une recherche vectorielle par métadonnées",
    "Servir la recherche sémantique d'une application RAG"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Milvus",
@@ -5691,8 +5476,7 @@
    "Indexer de grands volumes d'embeddings sur plusieurs machines",
    "Passer d'un prototype local à un déploiement distribué"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Weaviate",
@@ -5717,8 +5501,7 @@
    "Combiner recherche par mots-clés et par sens dans une requête",
    "Stocker objets et vecteurs ensemble pour une application RAG"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "pgvector",
@@ -5744,8 +5527,7 @@
    "Garder données et embeddings dans la même base",
    "Combiner filtres SQL et similarité vectorielle dans une requête"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "LlamaIndex",
@@ -5771,8 +5553,7 @@
    "Construire un assistant qui répond à partir de ses documents",
    "Brancher une base vectorielle à un pipeline RAG"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Haystack",
@@ -5798,8 +5579,7 @@
    "Construire un moteur de questions-réponses sur ses documents",
    "Changer de modèle ou de base sans réécrire le pipeline"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "LightRAG",
@@ -5824,8 +5604,7 @@
    "Répondre à des questions qui relient plusieurs documents",
    "Tester un RAG à graphe sans infrastructure lourde"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Microsoft GraphRAG",
@@ -5851,8 +5630,7 @@
    "Répondre à des questions globales sur une collection entière",
    "Explorer les liens entre personnes et organisations d'un corpus"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "RAGFlow",
@@ -5877,8 +5655,7 @@
    "Déployer un RAG complet sans l'assembler pièce par pièce",
    "Interroger des documents complexes comme des PDF avec tableaux"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Azure AI Search",
@@ -5902,8 +5679,7 @@
    "Ajouter un moteur de recherche à une application Azure",
    "Alimenter un RAG d'entreprise avec des documents indexés"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Bedrock Knowledge Bases",
@@ -5927,8 +5703,7 @@
    "Interroger des documents stockés sur S3 avec un modèle Bedrock",
    "Monter un RAG sans coder l'ingestion des documents"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Google Cloud RAG Engine",
@@ -5952,8 +5727,7 @@
    "Ancrer les réponses d'un modèle Gemini sur ses documents",
    "Monter un RAG géré dans un projet Google Cloud"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenAI File Search",
@@ -5977,8 +5751,7 @@
    "Répondre à des questions sur des fichiers déposés dans l'API",
    "Créer un assistant documentaire sans héberger de base vectorielle"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Playwright",
@@ -6004,8 +5777,7 @@
    "Automatiser des tâches répétitives dans un navigateur",
    "Faire des captures d'écran de pages web en série"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Browser Use",
@@ -6031,8 +5803,7 @@
    "Collecter des informations sur plusieurs sites sans script dédié",
    "Décrire une tâche web en langage naturel et la déléguer"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Stagehand",
@@ -6057,8 +5828,7 @@
    "Extraire des données structurées d'une page avec une consigne",
    "Combiner code classique et actions décrites en langage naturel"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "agent-browser",
@@ -6083,8 +5853,7 @@
    "Donner à un agent de code l'accès à un navigateur",
    "Ouvrir et parcourir une page web depuis le terminal"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Browserbase",
@@ -6109,8 +5878,7 @@
    "Faire tourner des automatisations web sans serveur local",
    "Exécuter des sessions de navigation en parallèle"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Chrome DevTools MCP",
@@ -6136,8 +5904,7 @@
    "Faire analyser les requêtes réseau d'une page par un agent",
    "Inspecter le DOM d'une page avec un assistant de code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Midscene.js",
@@ -6163,8 +5930,7 @@
    "Décrire une action à l'écran en langage naturel",
    "Tester une application à partir de ce qu'elle affiche"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "FastMCP",
@@ -6190,8 +5956,7 @@
    "Publier un serveur MCP maison en quelques lignes",
    "Relier une API interne à un client MCP comme Claude"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Composio",
@@ -6215,8 +5980,7 @@
    "Connecter un agent à Gmail, Slack ou GitHub",
    "Gérer l'authentification des comptes utilisateurs pour un agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Nango",
@@ -6241,8 +6005,7 @@
    "Synchroniser des données d'une API externe dans son appli",
    "Éviter de coder soi-même le rafraîchissement des jetons"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Pipedream Connect",
@@ -6266,8 +6029,7 @@
    "Laisser un agent agir dans les comptes de ses utilisateurs",
    "Ajouter des intégrations d'API à son produit sans les coder"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "TinyFish",
@@ -6291,8 +6053,7 @@
    "Confier à un agent une tâche répétitive sur des sites web",
    "Collecter des informations sur plusieurs sites automatiquement"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ToolHive",
@@ -6317,8 +6078,7 @@
    "Lancer un serveur MCP isolé dans un conteneur",
    "Gérer plusieurs serveurs MCP depuis un même outil"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Apify MCP",
@@ -6342,8 +6102,7 @@
    "Lancer un scraper Apify depuis un assistant compatible MCP",
    "Récupérer des données de sites web pour un agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Docker MCP Gateway",
@@ -6368,8 +6127,7 @@
    "Exposer plusieurs serveurs MCP à un client par une seule connexion",
    "Faire tourner des serveurs MCP dans des conteneurs Docker"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Zapier MCP",
@@ -6393,8 +6151,7 @@
    "Faire déclencher une action Zapier par un assistant IA",
    "Relier un agent aux applications déjà connectées dans Zapier"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Workato Enterprise MCP",
@@ -6418,8 +6175,7 @@
    "Ouvrir les intégrations Workato d'une entreprise à des agents",
    "Brancher des agents sur des outils métier déjà intégrés"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "cua-driver (Computer Use)",
@@ -6445,8 +6201,7 @@
    "Automatiser des logiciels qui n'ont pas d'API",
    "Utiliser le même pilote Computer Use qu'OpenBot"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Ghidra + MCP Ghidra",
@@ -6472,8 +6227,7 @@
    "Installer Ghidra avec Homebrew puis brancher le serveur MCP",
    "Faire expliquer du code décompilé par un agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Phone Harness (plugin Hermes)",
@@ -6499,8 +6253,7 @@
    "Piloter un iPhone par recopie d'écran depuis l'agent",
    "Valider chaque action de l'agent sur le téléphone"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Hermes X Bookmarks",
@@ -6524,8 +6277,7 @@
    "Trier ses signets X avec l'aide de l'agent Hermes",
    "Faire le ménage dans une longue liste de signets X"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Hermes Sheets",
@@ -6549,8 +6301,7 @@
    "Lancer des recherches avec Hermes depuis un tableur",
    "Partir d'une liste dans un tableur pour lancer des recherches"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Hermes Whiteboard",
@@ -6574,8 +6325,7 @@
    "Suivre les étapes d'une tâche longue confiée à Hermes",
    "Voir où en est l'agent dans son plan"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Hermes Shortcuts",
@@ -6600,8 +6350,7 @@
    "Lancer une demande à Hermes depuis un raccourci",
    "Intégrer Hermes dans une automatisation de l'app Raccourcis"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Hermes Home Assistant / Content Engine / ImageGen / YouTube Dock",
@@ -6625,8 +6374,7 @@
    "Relier Hermes à Home Assistant pour la domotique",
    "Générer des images depuis Hermes avec le plugin ImageGen"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "E2B",
@@ -6651,8 +6399,7 @@
    "Faire analyser un fichier de données par un agent dans le cloud",
    "Lancer une sandbox par tâche et la jeter ensuite"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Daytona",
@@ -6677,8 +6424,7 @@
    "Exécuter du code généré par IA sans toucher à sa machine",
    "Créer un environnement de travail isolé pour chaque agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Firecracker",
@@ -6704,8 +6450,7 @@
    "Construire sa propre plateforme de sandboxes pour agents",
    "Faire tourner des micro-VM sur un serveur Linux avec KVM"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "gVisor",
@@ -6730,8 +6475,7 @@
    "Exécuter des conteneurs non fiables avec une isolation renforcée",
    "Ajouter une couche de sécurité à Docker avec le runtime runsc"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Docker Sandboxes",
@@ -6755,8 +6499,7 @@
    "Lancer un agent dans un conteneur isolé de son système",
    "Limiter ce qu'un agent peut modifier sur sa machine"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Coder",
@@ -6782,8 +6525,7 @@
    "Définir des environnements de développement reproductibles avec Terraform",
    "Garder le code sur ses propres serveurs"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "CubeSandbox",
@@ -6807,8 +6549,7 @@
    "Exécuter le code d'un agent à l'écart de son système",
    "Tester un agent dans un environnement isolé avant production"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Modal Sandboxes",
@@ -6832,8 +6573,7 @@
    "Exécuter du code non fiable sans gérer de serveur",
    "Créer des sandboxes à la volée depuis un script Python"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Blaxel Sandboxes",
@@ -6857,8 +6597,7 @@
    "Exécuter le code d'un agent sans gérer d'infrastructure",
    "Lancer un environnement isolé à la demande pour chaque tâche"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Wasmer",
@@ -6884,8 +6623,7 @@
    "Faire tourner du code tiers dans un environnement cloisonné",
    "Distribuer un outil compilé en WebAssembly sur plusieurs systèmes"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Anthropic Sandbox Runtime",
@@ -6911,8 +6649,7 @@
    "Filtrer l'accès réseau d'une commande lancée par un agent",
    "Isoler un serveur MCP sans recourir à un conteneur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenAI-hosted Sandboxes",
@@ -6936,8 +6673,7 @@
    "Laisser un modèle OpenAI exécuter du code sans infrastructure propre",
    "Analyser des fichiers par du code exécuté côté OpenAI"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Agno",
@@ -6962,8 +6698,7 @@
    "Créer un agent Python avec outils et mémoire en peu de code",
    "Assembler plusieurs agents en équipe pour une tâche"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "LangGraph",
@@ -6989,8 +6724,7 @@
    "Reprendre un workflow d'agent après une interruption",
    "Ajouter une validation humaine au milieu d'un agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Mastra",
@@ -7015,8 +6749,7 @@
    "Construire un agent IA dans une appli Node.js",
    "Enchaîner des étapes d'IA dans un workflow TypeScript"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Temporal",
@@ -7042,8 +6775,7 @@
    "Relancer automatiquement les étapes qui échouent",
    "Orchestrer des processus métier de longue durée"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenAI Agents SDK",
@@ -7069,8 +6801,7 @@
    "Faire passer la main entre agents selon la demande",
    "Suivre l'exécution d'un agent grâce au traçage intégré"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Claude Managed Agents",
@@ -7094,8 +6825,7 @@
    "Faire tourner un agent Claude sans gérer son infrastructure",
    "Confier l'hébergement et l'exécution d'un agent à Anthropic"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Cloudflare Agents SDK",
@@ -7120,8 +6850,7 @@
    "Garder l'état d'un agent entre deux requêtes",
    "Planifier des tâches récurrentes exécutées par un agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Workflow DevKit (Vercel)",
@@ -7146,8 +6875,7 @@
    "Écrire en TypeScript un processus long qui survit aux redémarrages",
    "Reprendre une tâche d'agent là où elle s'est arrêtée"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Alibaba AgentRun",
@@ -7171,8 +6899,7 @@
    "Déployer des agents sur l'infrastructure d'Alibaba Cloud",
    "Faire tourner un agent à côté des autres services Alibaba Cloud"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "BytePlus AgentKit",
@@ -7196,8 +6923,7 @@
    "Déployer des agents sur l'infrastructure BytePlus",
    "Héberger un agent avec les autres services BytePlus"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "CopilotKit",
@@ -7223,8 +6949,7 @@
    "Laisser un agent lire et modifier l'état de l'interface",
    "Afficher en direct les actions d'un agent à l'utilisateur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ACP (Agent Client Protocol)",
@@ -7249,8 +6974,7 @@
    "Utiliser un même agent dans plusieurs éditeurs compatibles",
    "Brancher son propre agent dans Zed ou un autre client ACP"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "MCP (Model Context Protocol)",
@@ -7276,8 +7000,7 @@
    "Connecter un agent à ses fichiers ou à une API",
    "Écrire un serveur MCP pour exposer un service interne"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "PostgreSQL",
@@ -7303,8 +7026,7 @@
    "Interroger des tables avec des requêtes SQL",
    "Ajouter des vecteurs avec l'extension pgvector"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "TimescaleDB",
@@ -7330,8 +7052,7 @@
    "Analyser des métriques dans le temps avec du SQL",
    "Suivre l'évolution de prix ou d'indicateurs sur la durée"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "MongoDB",
@@ -7356,8 +7077,7 @@
    "Stocker des données au schéma souple sans tables fixes",
    "Prototyper une appli dont la structure des données évolue"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Cassandra",
@@ -7383,8 +7103,7 @@
    "Garder un service disponible même si un nœud tombe",
    "Interroger les données avec CQL, proche du SQL"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Neo4j",
@@ -7410,8 +7129,7 @@
    "Explorer un graphe de connaissances avec des requêtes Cypher",
    "Stocker le graphe d'un système GraphRAG"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Elasticsearch",
@@ -7437,8 +7155,7 @@
    "Centraliser et fouiller des journaux applicatifs",
    "Combiner mots-clés et vecteurs dans une même recherche"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Apache Spark / PySpark",
@@ -7464,8 +7181,7 @@
    "Transformer des fichiers Parquet à grande échelle",
    "Entraîner des modèles simples sur un cluster avec MLlib"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Parquet",
@@ -7491,8 +7207,7 @@
    "Lire seulement les colonnes utiles d'un jeu de données",
    "Échanger des données entre Spark, DuckDB et pandas"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "DuckDB",
@@ -7518,8 +7233,7 @@
    "Analyser des données dans un notebook Python",
    "Joindre plusieurs fichiers de données dans une seule requête"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "dbt",
@@ -7545,8 +7259,7 @@
    "Tester la qualité des données à chaque transformation",
    "Générer la documentation et le lignage d'un projet data"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Grafana",
@@ -7572,8 +7285,7 @@
    "Visualiser les mesures d'un benchmark dans un tableau de bord",
    "Recevoir une alerte quand une métrique dépasse un seuil"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Streamlit",
@@ -7599,8 +7311,7 @@
    "Créer un tableau de bord interactif sans écrire de HTML",
    "Faire une interface de démonstration pour un modèle"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "FastAPI",
@@ -7626,8 +7337,7 @@
    "Créer le backend d'une application web en Python",
    "Valider les données reçues grâce aux types Python"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Express",
@@ -7653,8 +7363,7 @@
    "Servir les pages d'un site depuis Node.js",
    "Ajouter des middlewares pour l'authentification ou les journaux"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Gradio",
@@ -7680,8 +7389,7 @@
    "Publier une démo sur Hugging Face Spaces",
    "Tester un modèle avec une interface de chat en quelques lignes"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenFisca",
@@ -7707,8 +7415,7 @@
    "Simuler l'effet d'une réforme fiscale sur des cas types",
    "Interroger le moteur de calcul via son API web"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "FAERS",
@@ -7733,8 +7440,7 @@
    "Interroger les déclarations via l'API openFDA",
    "Repérer des signaux de sécurité à vérifier ensuite"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Grand débat national (open data)",
@@ -7759,8 +7465,7 @@
    "Extraire les idées récurrentes des réponses libres",
    "Tester des outils de traitement du langage sur du français"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Docker",
@@ -7786,8 +7491,7 @@
    "Reproduire le même environnement sur chaque machine",
    "Construire une image à partir d'un Dockerfile"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OrbStack",
@@ -7813,8 +7517,7 @@
    "Créer une machine virtuelle Linux sur son Mac",
    "Lancer un cluster Kubernetes local pour des tests"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "Kubernetes / GKE",
@@ -7840,8 +7543,7 @@
    "Redémarrer automatiquement les conteneurs défaillants",
    "Faire gérer son cluster par Google Cloud avec GKE"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "GitHub Actions",
@@ -7867,8 +7569,7 @@
    "Publier un paquet ou une image après un tag",
    "Planifier une tâche récurrente avec un cron"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "GHCR",
@@ -7894,8 +7595,7 @@
    "Partager une image publique liée à un dépôt",
    "Récupérer une image privée avec un jeton GitHub"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "PyPI",
@@ -7921,8 +7621,7 @@
    "Vérifier les versions disponibles d'un paquet",
    "Publier depuis la CI sans stocker de jeton"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Jira",
@@ -7948,8 +7647,7 @@
    "Suivre un bug du signalement à la correction",
    "Visualiser l'avancement sur un tableau Kanban"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Git",
@@ -7975,8 +7673,7 @@
    "Travailler sur une branche sans toucher au code principal",
    "Comparer les changements avant de les valider"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "gh (GitHub CLI)",
@@ -8002,8 +7699,7 @@
    "Consulter et commenter les issues d'un dépôt",
    "Suivre l'exécution d'un workflow GitHub Actions"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Homebrew",
@@ -8029,8 +7725,7 @@
    "Installer des applications graphiques grâce aux casks",
    "Recréer son installation à partir d'un Brewfile"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "uv",
@@ -8056,8 +7751,7 @@
    "Installer une version précise de Python",
    "Lancer un outil Python sans l'installer avec uvx"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "miniforge",
@@ -8083,8 +7777,7 @@
    "Installer des paquets scientifiques depuis conda-forge",
    "Utiliser conda sans le canal par défaut d'Anaconda"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Node.js",
@@ -8110,8 +7803,7 @@
    "Exécuter des outils en ligne de commande installés via npm",
    "Écrire des scripts d'automatisation en JavaScript"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Vitest",
@@ -8137,8 +7829,7 @@
    "Relancer les tests à chaque modification en mode watch",
    "Mesurer la couverture de code des tests"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ESLint",
@@ -8164,8 +7855,7 @@
    "Imposer des règles de code communes à une équipe",
    "Corriger automatiquement une partie des problèmes avec --fix"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Ruff",
@@ -8191,8 +7881,7 @@
    "Formater le code Python à la place de Black",
    "Remplacer Flake8 et isort par un seul outil"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Quarto",
@@ -8218,8 +7907,7 @@
    "Publier un site web à partir de documents Quarto",
    "Créer des présentations avec code, équations et citations"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Zotero",
@@ -8245,8 +7933,7 @@
    "Insérer citations et bibliographie dans un document Word",
    "Partager une bibliothèque de références avec un groupe"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "VS Code",
@@ -8271,8 +7958,7 @@
    "Travailler à distance sur un serveur ou un conteneur",
    "Gérer Git sans quitter l'éditeur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "IntelliJ IDEA",
@@ -8297,8 +7983,7 @@
    "Gérer des projets Maven ou Gradle",
    "Utiliser la licence étudiante gratuite de JetBrains"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "RStudio",
@@ -8323,8 +8008,7 @@
    "Rédiger des rapports avec R Markdown ou Quarto",
    "Gérer les packages et les projets R"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Warp",
@@ -8349,8 +8033,7 @@
    "Demander une commande en langage naturel",
    "Partager des commandes enregistrées avec son équipe"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Raycast",
@@ -8375,8 +8058,7 @@
    "Consulter l'historique du presse-papier",
    "Installer des extensions depuis le Raycast Store"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "TablePlus",
@@ -8401,8 +8083,7 @@
    "Modifier des lignes dans une vue en tableau",
    "Exécuter des requêtes SQL et exporter les résultats"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "DBeaver Community",
@@ -8427,8 +8108,7 @@
    "Visualiser le schéma d'une base sous forme de diagramme",
    "Exporter des tables en CSV ou en Excel"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "MongoDB Compass",
@@ -8453,8 +8133,7 @@
    "Construire un pipeline d'agrégation étape par étape",
    "Analyser le schéma et les index d'une collection"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "AlDente",
@@ -8479,8 +8158,7 @@
    "Laisser le MacBook branché sans le charger à fond",
    "Recharger complètement la batterie avant un déplacement"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Ice",
@@ -8505,8 +8183,7 @@
    "Afficher les icônes masquées au survol ou au clic",
    "Retrouver les icônes cachées derrière l'encoche"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Maccy",
@@ -8531,8 +8208,7 @@
    "Épingler les extraits que l'on colle souvent",
    "Rechercher dans l'historique avec un raccourci clavier"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "KeyClu",
@@ -8556,8 +8232,7 @@
    "Afficher les raccourcis de l'application ouverte",
    "Apprendre les raccourcis d'une nouvelle application"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Boring Notch",
@@ -8581,8 +8256,7 @@
    "Contrôler la musique en cours depuis l'encoche",
    "Déposer des fichiers sur une étagère temporaire"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "AppCleaner",
@@ -8607,8 +8281,7 @@
    "Retrouver préférences et caches laissés par une app",
    "Libérer de l'espace disque"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Syntax Highlight",
@@ -8633,8 +8306,7 @@
    "Vérifier un script sans ouvrir d'éditeur",
    "Choisir le thème de couleurs des aperçus"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "IINA",
@@ -8659,8 +8331,7 @@
    "Regarder une vidéo en incrustation sur l'écran",
    "Télécharger des sous-titres depuis l'application"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "CapCut",
@@ -8685,8 +8356,7 @@
    "Générer des sous-titres automatiques",
    "Ajouter transitions, musique et textes animés"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Amphetamine",
@@ -8711,8 +8381,7 @@
    "Empêcher la veille tant qu'une application tourne",
    "Déclencher une session selon des conditions choisies"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "wBlock",
@@ -8736,8 +8405,7 @@
    "Naviguer dans Safari sans publicités",
    "Choisir les listes de filtres à appliquer"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "AeroSpace",
@@ -8762,8 +8430,7 @@
    "Passer d'un espace de travail à l'autre au clavier",
    "Configurer ses raccourcis dans un fichier texte"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Loop",
@@ -8788,8 +8455,7 @@
    "Placer une fenêtre d'un geste de souris",
    "Déplacer une fenêtre vers un autre écran"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Karabiner-Elements",
@@ -8814,8 +8480,7 @@
    "Créer des raccourcis complexes avec des règles",
    "Adapter un clavier externe à la disposition Mac"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Shottr",
@@ -8840,8 +8505,7 @@
    "Extraire le texte d'une capture",
    "Mesurer des distances en pixels à l'écran"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Microsoft 365",
@@ -8866,8 +8530,7 @@
    "Analyser des données dans Excel",
    "Organiser des réunions et discussions sur Teams"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "AltStore PAL",
@@ -8892,8 +8555,7 @@
    "Télécharger des applis absentes de l'App Store",
    "Ajouter des sources d'applications tierces"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Delta",
@@ -8918,8 +8580,7 @@
    "Utiliser une manette Bluetooth pour jouer",
    "Sauvegarder une partie à tout moment"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Safe Exam Browser",
@@ -8944,8 +8605,7 @@
    "Bloquer l'accès aux autres applications pendant une épreuve",
    "Ouvrir un quiz Moodle en mode sécurisé"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Google Chrome",
@@ -8970,8 +8630,7 @@
    "Installer des extensions du Chrome Web Store",
    "Déboguer une page web avec les DevTools"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Microsoft Edge",
@@ -8996,8 +8655,7 @@
    "Lire et annoter un PDF dans le navigateur",
    "Ranger ses onglets à la verticale"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "starship",
@@ -9023,8 +8681,7 @@
    "Voir la version de Python ou de Node du projet",
    "Garder le même prompt dans zsh, bash ou fish"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "zoxide",
@@ -9049,8 +8706,7 @@
    "Aller dans un dossier en tapant une partie de son nom",
    "Choisir parmi plusieurs dossiers avec fzf"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "fzf",
@@ -9076,8 +8732,7 @@
    "Ouvrir un fichier en tapant quelques lettres de son nom",
    "Ajouter un menu interactif à ses propres scripts"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "eza",
@@ -9103,8 +8758,7 @@
    "Afficher l'arborescence d'un dossier",
    "Repérer les types de fichiers grâce aux icônes"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "bat",
@@ -9130,8 +8784,7 @@
    "Voir les lignes modifiées par rapport à Git",
    "Colorer l'aperçu des fichiers dans fzf"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "fd",
@@ -9157,8 +8810,7 @@
    "Chercher en ignorant les fichiers listés dans .gitignore",
    "Lancer une commande sur chaque fichier trouvé"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ripgrep",
@@ -9184,8 +8836,7 @@
    "Filtrer la recherche par type de fichier",
    "Chercher avec une expression régulière"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "lazygit",
@@ -9211,8 +8862,7 @@
    "Réorganiser des commits par rebase interactif",
    "Résoudre des conflits de fusion"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "btop",
@@ -9238,8 +8888,7 @@
    "Arrêter un processus depuis l'interface",
    "Suivre le trafic réseau en temps réel"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "tlrc (tldr)",
@@ -9265,8 +8914,7 @@
    "Lire des exemples avant d'ouvrir la page man",
    "Consulter les exemples hors ligne grâce au cache local"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "JetBrains Mono Nerd Font",
@@ -9292,8 +8940,7 @@
    "Utiliser une police lisible dans l'éditeur et le terminal",
    "Activer les ligatures de code dans l'éditeur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ms-python.python",
@@ -9318,8 +8965,7 @@
    "Lancer et déboguer un script Python",
    "Exécuter les tests pytest depuis l'éditeur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ms-python.vscode-pylance",
@@ -9344,8 +8990,7 @@
    "Repérer les erreurs de type avant l'exécution",
    "Aller à la définition d'une fonction ou d'une classe"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ms-python.debugpy",
@@ -9370,8 +9015,7 @@
    "Inspecter les variables pendant l'exécution",
    "Attacher le débogueur à un processus Python distant"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ms-python.vscode-python-envs",
@@ -9396,8 +9040,7 @@
    "Installer ou retirer des paquets dans l'environnement actif",
    "Passer d'un environnement Python à un autre"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "charliermarsh.ruff",
@@ -9422,8 +9065,7 @@
    "Formater le fichier Python à l'enregistrement",
    "Trier les imports automatiquement"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ms-toolsai.jupyter (+ keymap, renderers, cell-tags, slideshow)",
@@ -9448,8 +9090,7 @@
    "Afficher graphiques et tableaux dans les sorties",
    "Marquer les cellules pour en faire un diaporama"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "reditorsupport.r",
@@ -9474,8 +9115,7 @@
    "Voir les données et graphiques R dans l'éditeur",
    "Obtenir complétion et diagnostics via languageserver"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "eamodio.gitlens",
@@ -9500,8 +9140,7 @@
    "Parcourir l'historique d'un fichier",
    "Comparer des branches ou des commits"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "usernamehw.errorlens",
@@ -9525,8 +9164,7 @@
    "Lire les messages d'erreur sans survoler le code",
    "Repérer les lignes en erreur grâce à la surbrillance"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "yzhang.markdown-all-in-one",
@@ -9551,8 +9189,7 @@
    "Mettre du texte en gras ou en italique au clavier",
    "Formater les tableaux Markdown automatiquement"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "shd101wyy.markdown-preview-enhanced",
@@ -9577,8 +9214,7 @@
    "Afficher des formules mathématiques avec KaTeX",
    "Exporter un document en PDF ou en HTML"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ms-azuretools.vscode-docker / vscode-containers",
@@ -9603,8 +9239,7 @@
    "Lire les journaux d'un conteneur en cours",
    "Générer les fichiers Docker d'un projet existant"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "github.copilot-chat",
@@ -9629,8 +9264,7 @@
    "Faire modifier plusieurs fichiers en mode agent",
    "Générer des tests pour une fonction"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "google.geminicodeassist",
@@ -9655,8 +9289,7 @@
    "Poser des questions sur son code dans un chat",
    "Générer du code à partir d'un commentaire"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "google.gemini-cli-vscode-ide-companion",
@@ -9680,8 +9313,7 @@
    "Donner à Gemini CLI le contexte des fichiers ouverts",
    "Relire les modifications proposées dans le diff de VS Code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "prompt-deeper",
@@ -9706,8 +9338,7 @@
    "Faire préciser méthodes, outils et matière première",
    "Ajouter un critère de validation vérifiable au résultat"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "tri-signets",
@@ -9732,8 +9363,7 @@
    "Trier une pile de signets et de liens accumulés",
    "Évaluer une skill, un plugin ou un serveur MCP"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "which-skills",
@@ -9758,8 +9388,7 @@
    "Retrouver un connecteur oublié dans son catalogue",
    "Lancer /which-skills quand on hésite sur l'outil"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "alleger-projet",
@@ -9784,8 +9413,7 @@
    "Supprimer doublons et versions dépassées d'un projet Claude",
    "Réorganiser un projet autour d'un fichier INDEX.md court"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Impeccable (pbakaus)",
@@ -9809,8 +9437,7 @@
    "Améliorer le design front d'un portfolio",
    "Éviter les interfaces génériques produites par l'IA"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "Hallmark (nutlope)",
@@ -9834,8 +9461,7 @@
    "Guider un agent IA sur le design d'une interface",
    "Comparer ses résultats avec ceux d'Impeccable"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "mattpocock/skills",
@@ -9860,8 +9486,7 @@
    "Diagnostiquer un bug méthodiquement avec un agent",
    "Préparer la passation d'une session à la suivante"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "cloudflare/security-audit-skill",
@@ -9886,8 +9511,7 @@
    "Repérer des failles courantes dans son code",
    "Lancer un audit ponctuel, la skill étant gourmande"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "diagram-design",
@@ -9911,8 +9535,7 @@
    "Générer un schéma d'architecture pour une documentation",
    "Illustrer un processus par un diagramme"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ppt-master",
@@ -9936,8 +9559,7 @@
    "Convertir un rapport PDF en diapositives",
    "Préparer une présentation à partir d'un document Word"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "lintapple",
@@ -9961,8 +9583,7 @@
    "Lancer une vérification de lint depuis un agent",
    "Vérifier que Node 22 ou plus est installé avant usage"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Règles de Karpathy (CLAUDE.md)",
@@ -9987,8 +9608,7 @@
    "Limiter les changements aux lignes liées à la tâche",
    "Garder un code simple, sans abstraction inutile"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Anatomy (wheresryan22)",
@@ -10012,8 +9632,7 @@
    "Tester une skill pour le plaisir",
    "Voir jusqu'où une skill change le comportement d'un agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Socratic tutor (Jane Street)",
@@ -10038,8 +9657,7 @@
    "Vérifier sa compréhension sans recevoir directement la réponse",
    "Préparer un examen par le dialogue"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Skills intégrées Claude (docx, pptx, xlsx, pdf, deep-research, skill-creator…)",
@@ -10064,8 +9682,7 @@
    "Extraire le texte ou remplir un formulaire PDF",
    "Créer sa propre skill avec skill-creator"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ECC (en bloc)",
@@ -10089,8 +9706,7 @@
    "Consulter les règles du pack une par une",
    "Reprendre seulement les règles utiles à son projet"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Outils « Mac éveillé » modifiant settings.json",
@@ -10114,8 +9730,7 @@
    "Empêcher la mise en veille pendant une session Claude Code",
    "Vérifier les changements apportés à ~/.claude/settings.json"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "career-ops",
@@ -10139,8 +9754,7 @@
    "Trier des offres d'emploi selon son profil",
    "Adapter son CV à une offre précise"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ai-job-search",
@@ -10164,8 +9778,7 @@
    "Surveiller de nouvelles offres d'emploi",
    "Comparer ses résultats avec ceux de career-ops"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "AIHOT",
@@ -10189,8 +9802,7 @@
    "Faire une veille régulière des nouvelles offres",
    "Comparer sa couverture avec d'autres outils de veille"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "/prune-tests",
@@ -10215,8 +9827,7 @@
    "Repérer les tests toujours verts qui ne vérifient rien",
    "Alléger une suite de tests avant une refonte"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Limestone : règle de précédence AGENTS.md",
@@ -10241,8 +9852,7 @@
    "Ajouter la phrase dans AGENTS.md ou CLAUDE.md",
    "Tester la règle sur un projet aux consignes anciennes"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "uiarc.dev",
@@ -10266,8 +9876,7 @@
    "Donner un style distinctif à une interface web",
    "Récupérer des composants pour un prototype"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "affectui.com",
@@ -10291,8 +9900,7 @@
    "Assembler une maquette à partir d'écrans existants",
    "Trouver un composant prêt pour son interface"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "Remotion",
@@ -10317,8 +9925,7 @@
    "Produire des vidéos personnalisées à partir de données",
    "Rendre la vidéo en MP4 en ligne de commande"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "HyperFrames",
@@ -10342,8 +9949,7 @@
    "Créer la vidéo de démo d'un produit en code",
    "Modifier une démo en changeant le code, sans remontage"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Motion Lab",
@@ -10367,8 +9973,7 @@
    "Structurer une vidéo de démo étape par étape",
    "Préparer la vidéo de démo d'un projet"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Astro / Starlight",
@@ -10394,8 +9999,7 @@
    "Ajouter une recherche intégrée à sa doc",
    "Proposer une documentation en plusieurs langues"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "MkDocs Material",
@@ -10421,8 +10025,7 @@
    "Publier sa doc sur GitHub Pages",
    "Ajouter recherche, onglets et mode sombre"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Jev + Kimi K3",
@@ -10446,8 +10049,7 @@
    "Comprendre une cascade de modèles fondée sur la confiance calibrée",
    "Apprendre des règles pour bien écrire ses questions"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "« The End of Harness Engineering »",
@@ -10473,8 +10075,7 @@
   ],
   "coeur": false,
   "image_post": "https://pbs.twimg.com/amplify_video_thumb/2118807714520330240/img/B5SfALar6BJBl1L8.jpg",
-  "article": true,
-  "lot": 1
+  "article": true
  },
  {
   "nom": "Hoodie : Loops & Graphs",
@@ -10499,8 +10100,7 @@
    "Savoir fixer des conditions d'arrêt chiffrées",
    "Comprendre où placer des portes selon la réversibilité"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Hoodie : rédacteur ≠ relecteur",
@@ -10527,8 +10127,7 @@
   ],
   "coeur": true,
   "image_post": "https://pbs.twimg.com/media/HW8lBnfWkAATwDR?format=jpg&name=medium",
-  "article": true,
-  "lot": 1
+  "article": true
  },
  {
   "nom": "RAG vs Graph RAG vs Agentic RAG",
@@ -10554,8 +10153,7 @@
   ],
   "coeur": true,
   "image_post": "https://pbs.twimg.com/tweet_video_thumb/HWwaBO7aQAAwKTg.jpg",
-  "article": true,
-  "lot": 1
+  "article": true
  },
  {
   "nom": "e-means dans FAISS",
@@ -10580,8 +10178,7 @@
    "Apprendre les bases de la recherche vectorielle avec FAISS"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2120200450842443776/img/73DweZxBkIe2GYJG.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2120200450842443776/img/73DweZxBkIe2GYJG.jpg"
  },
  {
   "nom": "Jev + Opus 5.5 (−69 %)",
@@ -10605,8 +10202,7 @@
    "Comprendre comment le routage entre modèles réduit les coûts",
    "Voir comment les économies de routage ont été modélisées"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Advisor de Claude Code",
@@ -10630,8 +10226,7 @@
    "Apprendre à demander l'avis d'Opus en travaillant avec Sonnet",
    "Savoir que les appels à l'advisor comptent dans les limites"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Reddit r/LocalAIStack : réglages Qwen3.6",
@@ -10656,8 +10251,7 @@
    "Comprendre l'effet de l'option --reasoning-format none",
    "Découvrir le réglage ngram conseillé dans le fil"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Ban Anthropic des jetons d'abonnement tiers",
@@ -10681,8 +10275,7 @@
    "Comprendre ce que l'interdiction change pour OpenClaw et les outils tiers",
    "Savoir que la règle s'applique depuis le 4 avril 2026"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Bans Google Antigravity via outils tiers",
@@ -10706,8 +10299,7 @@
    "Comprendre le risque d'utiliser Antigravity via des outils tiers",
    "Découvrir des cas de comptes suspendus pour OAuth tiers"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenBot vs Hermes Agent (CopilotKit)",
@@ -10731,8 +10323,7 @@
    "Voir en quoi OpenBot et Hermes Agent diffèrent",
    "Savoir que l'auteur du comparatif édite OpenBot"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Best self-hosted AI agents 2026 (SSD Nodes)",
@@ -10756,8 +10347,7 @@
    "Découvrir les principaux agents auto-hébergeables",
    "Comparer des agents avant de choisir où les héberger"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "free-llm-api-resources (cheahjs)",
@@ -10781,8 +10371,7 @@
    "Trouver une API gratuite pour un prototype",
    "Comparer les limites des offres gratuites"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "agents-radar",
@@ -10806,8 +10395,7 @@
    "Repérer les dépôts d'agents qui gagnent en popularité",
    "Faire une veille régulière des projets IA"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Hermes Agent docs : fallback providers",
@@ -10832,8 +10420,7 @@
    "Alterner entre plusieurs clés API d'un même fournisseur",
    "Basculer de fournisseur en cas d'erreur ou de quota"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Pane (runpane.com)",
@@ -10860,8 +10447,7 @@
    "Isoler chaque agent dans son propre worktree Git",
    "Approuver les actions des agents depuis son téléphone"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "herdr / Herdr GPUI",
@@ -10886,8 +10472,7 @@
    "Faire tourner plusieurs agents dans des panneaux",
    "Suivre ses agents dans une appli native légère"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "orchestrator.inc",
@@ -10911,8 +10496,7 @@
    "Coordonner plusieurs agents sur un même projet",
    "Comparer avec insideout.sh, cité dans le même fil"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "insideout.sh",
@@ -10936,8 +10520,7 @@
    "Explorer un outil destiné aux ingénieurs IA",
    "Comparer ses fonctions avec celles d'orchestrator.inc"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Paperclip",
@@ -10963,8 +10546,7 @@
    "Répartir des rôles entre plusieurs agents autonomes",
    "Superviser une équipe d'agents depuis une interface"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Cua Spaces SDK",
@@ -10988,8 +10570,7 @@
    "Donner à un agent une machine sur laquelle agir",
    "Choisir où tourne la machine de l'agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Strawberry 1.0",
@@ -11014,8 +10595,7 @@
    "Partager des tâches de navigation assistée en équipe"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2114634365208567808/img/kxMM5g5eFCuhWi2O.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2114634365208567808/img/kxMM5g5eFCuhWi2O.jpg"
  },
  {
   "nom": "Midas",
@@ -11039,8 +10619,7 @@
    "Lancer un agent de code dérivé d'OpenCode",
    "Confronter ses scores annoncés à des tests indépendants"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Unharnessed",
@@ -11065,8 +10644,7 @@
    "Comparer un harnais minimal à un harnais riche en outils",
    "Vérifier le score annoncé sur Terminal-Bench"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "insomnia",
@@ -11094,8 +10672,7 @@
    "Basculer sur le partage de connexion"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2108786960982851584/img/M_92RTZkt5fABEl_.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2108786960982851584/img/M_92RTZkt5fABEl_.jpg"
  },
  {
   "nom": "OpenMuse (CopilotKit)",
@@ -11120,8 +10697,7 @@
    "Héberger son propre agent personnel",
    "Garder ses données sur sa machine ou son serveur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "open-grokbot",
@@ -11146,8 +10722,7 @@
    "Faire tourner un agent proche de Grok Bot chez soi",
    "Étudier le fonctionnement de Grok Bot dans le code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Retours OpenBot vs Hermes",
@@ -11172,8 +10747,7 @@
    "Apprendre qu'OpenBot se connecte sans Tailscale",
    "Voir pourquoi garder deux agents au quotidien"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Migration Grok Bot → MausBot → OpenBot : leçons",
@@ -11199,8 +10773,7 @@
    "Comprendre comment changer d'agent sans tout refaire"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HXS32nXWkAAl_BO?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HXS32nXWkAAl_BO?format=jpg&name=medium"
  },
  {
   "nom": "Setup IA 100 % gratuit (Hermes + OpenCode)",
@@ -11225,8 +10798,7 @@
    "Voir comment prévoir un modèle local de secours avec Ollama",
    "Repérer des outils gratuits pour voix, vidéo et notes"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Hermes Agent Plugin Hackathon",
@@ -11250,8 +10822,7 @@
    "Découvrir les plugins présentés au hackathon",
    "Trouver des idées de plugins pour Hermes Agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "HermesWatcher : 9 plugins Hermes",
@@ -11277,8 +10848,7 @@
    "Exploiter ses signets X depuis Hermes",
    "Générer des images ou du contenu depuis Hermes"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Yeta",
@@ -11303,8 +10873,7 @@
    "Tester DeepSeek V4.1 Flash avec les crédits d'inscription",
    "Appeler le modèle depuis ses scripts via l'API"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "BeatAPI",
@@ -11330,8 +10899,7 @@
    "Comparer DeepSeek V4.1 Flash et Gemini 3.8 Flash sans payer",
    "Faire des essais ponctuels, limités à environ une requête par minute"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Infron",
@@ -11356,8 +10924,7 @@
    "Envoyer jusqu'à 1 000 requêtes par jour à DeepSeek V4.1 Flash",
    "Prototyper une appli IA sans frais d'API"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "River AI",
@@ -11382,8 +10949,7 @@
    "Utiliser les 25 $ de crédits offerts à l'inscription",
    "Tester DeepSeek V4.1 Flash sur un vrai projet"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Freebuff",
@@ -11408,8 +10974,7 @@
    "Utiliser DeepSeek sans payer pendant les heures gratuites",
    "Planifier ses tâches lourdes sur les créneaux gratuits"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "WorkBuddy",
@@ -11434,8 +10999,7 @@
    "Utiliser DeepSeek V4.1 Flash au quotidien sans payer",
    "Essayer le modèle sur des tâches de travail courantes"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Qoder",
@@ -11461,8 +11025,7 @@
    "Utiliser gratuitement des modèles Flash pour coder",
    "Déléguer une tâche de code à l'agent de l'IDE"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Token Harbor",
@@ -11487,8 +11050,7 @@
    "Essayer des modèles par API sans donner de carte bancaire",
    "Prototyper une appli IA avec l'allocation gratuite"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "IteraCompute",
@@ -11514,8 +11076,7 @@
    "Traiter de longs textes avec un contexte de 128K",
    "Réserver aux projets publics, sans code privé"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Intern Discovery",
@@ -11541,8 +11102,7 @@
    "Comparer DeepSeek V4, Qwen 3.8 27B et GLM 5.3",
    "Réserver aux contenus publics, la plateforme étant tierce"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Dolphin API",
@@ -11568,8 +11128,7 @@
    "Vérifier que le coupon est encore disponible",
    "Tester DeepSeek V4.1 Flash sans engager de budget"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ADCode",
@@ -11594,8 +11153,7 @@
    "Coder avec GLM 5.3 Flash ou Qwen 3.8 27B sans payer",
    "Essayer le modèle MiMo dans un éditeur de code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "AiSpace",
@@ -11620,8 +11178,7 @@
    "Tester DeepSeek V4.1 Flash sans créer de compte",
    "Analyser de longs documents grâce à 1M de contexte"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "zro.moonmath.ai",
@@ -11647,8 +11204,7 @@
    "Utiliser GLM 5.3 Flash dans Cursor avec la même clé",
    "Profiter d'un usage gratuit chaque jour"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "freeinference.org (Harvard)",
@@ -11674,8 +11230,7 @@
    "Comparer GLM, DeepSeek, Qwen et MiniMax gratuitement",
    "Réserver aux prompts publics, car ils sont journalisés"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Qiniu Cloud (conatus-free)",
@@ -11701,8 +11256,7 @@
    "Lancer des agents avec appels d'outils et 1M de contexte",
    "Prévoir une vérification d'identité à l'inscription"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Fireworks AI",
@@ -11727,8 +11281,7 @@
    "Affiner gratuitement Muse Glimmer 30B jusqu'au 30 novembre",
    "Prévoir le coût de l'inférence du modèle affiné"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ZCode (Z.ai)",
@@ -11753,8 +11306,7 @@
    "Coder avec GLM 5.3 ou GLM 5.3 Flash",
    "Surveiller une nouvelle offre de tokens, la précédente ayant expiré"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "DeepAI Code",
@@ -11779,8 +11331,7 @@
    "Faire écrire ou corriger du code par un gros modèle",
    "Dépanner un bout de code sans abonnement"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "NVIDIA NIM : Kimi K3.1, DeepSeek V4.1 Flash, GLM 5.3 Flash",
@@ -11806,8 +11357,7 @@
    "Configurer un client avec la base URL integrate.api.nvidia.com/v1",
    "Créer une clé sur build.nvidia.com sans carte bancaire"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Experiential Labs",
@@ -11833,8 +11383,7 @@
    "Comparer ses réponses avec la version d'origine du modèle"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2108431599411113985/img/7ZOsBI_dByS1HOSw.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2108431599411113985/img/7ZOsBI_dByS1HOSw.jpg"
  },
  {
   "nom": "Hal-X THX-01 API",
@@ -11860,8 +11409,7 @@
    "Tester THX-01 avant de l'installer en local"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HUV7-IxbsAEx4aP?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HUV7-IxbsAEx4aP?format=jpg&name=medium"
  },
  {
   "nom": "Frontier Access",
@@ -11887,8 +11435,7 @@
    "Comparer son prix avec celui de l'accès officiel",
    "Éviter d'y faire passer des données privées"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "xAI API",
@@ -11914,8 +11461,7 @@
    "Profiter des 25 $ de crédits offerts chaque mois",
    "Obtenir 150 $ par mois en acceptant le partage de données"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenAI API (crédits d'essai)",
@@ -11941,8 +11487,7 @@
    "Prototyper une appli avec environ 5 $ de crédits",
    "Utiliser les crédits avant leur expiration après 3 mois"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Gemini 4 Hydrogen (gratuit dans AI Studio)",
@@ -11967,8 +11512,7 @@
    "Vérifier dans AI Studio si l'accès gratuit est réel",
    "Tester un contexte annoncé d'un million de tokens"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Cursor Pro étudiant",
@@ -11992,8 +11536,7 @@
    "Coder avec Cursor Pro grâce à son statut étudiant",
    "Vérifier l'offre en cours sur la page étudiante de Cursor"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Claude for Education",
@@ -12017,8 +11560,7 @@
    "Utiliser Claude dans le cadre de ses études",
    "Vérifier si son université a un partenariat avec Anthropic"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Perplexity Pro (.edu)",
@@ -12042,8 +11584,7 @@
    "Activer Perplexity Pro avec son adresse .edu",
    "Faire des recherches sourcées pour ses cours ou mémoires"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "GitHub Copilot via Student Pack",
@@ -12067,8 +11608,7 @@
    "Coder avec Copilot dans son éditeur sans payer",
    "Vérifier que les activations ont repris avant de faire la demande"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Claude Max pour mainteneurs open source",
@@ -12092,8 +11632,7 @@
    "Maintenir ses projets open source avec Claude Max 20x",
    "Vérifier les critères de dépôts dépendants et de PR fusionnées"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenAI Codex for OSS",
@@ -12117,8 +11656,7 @@
    "Demander des crédits Codex pour un projet open source",
    "Déléguer à Codex des tâches de maintenance sur ses dépôts"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Programmes startups (OpenAI, Anthropic, Google Cloud, NVIDIA Inception)",
@@ -12143,8 +11681,7 @@
    "Comparer les montants offerts par OpenAI, Anthropic et Google Cloud",
    "Candidater au programme NVIDIA Inception"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Article « Hidden Free Tiers of Every Major AI Lab »",
@@ -12171,8 +11708,7 @@
   ],
   "coeur": false,
   "image_post": "https://pbs.twimg.com/media/HNH6BhrXgAA1h-6?format=jpg&name=medium",
-  "article": true,
-  "lot": 1
+  "article": true
  },
  {
   "nom": "Claude Code : crédit offert (/claim-credit)",
@@ -12196,8 +11732,7 @@
    "Vérifier si /claim-credit propose de nouveau un crédit",
    "Comprendre comment réclamer un crédit depuis Claude Code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Cloudflare (Durable Objects pour Codex)",
@@ -12222,8 +11757,7 @@
    "Profiter du palier gratuit de Cloudflare pour un agent",
    "Réduire une facture d'hébergement par rapport à Vercel"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Learn to Cloud",
@@ -12248,8 +11782,7 @@
    "Savoir quelles compétences viser pour un poste dans le cloud",
    "Préparer une reconversion vers un métier du cloud"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Liquid d1.2 / d1.2-ultra",
@@ -12275,8 +11808,7 @@
    "Classer des contenus variés avec un seul modèle",
    "Comparer leurs scores sur le Decision Index"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Open d1 (Liquid)",
@@ -12302,8 +11834,7 @@
    "Décider en quelques millisecondes avec d1 3B sur une RTX 3090",
    "Adapter le modèle à ses besoins grâce aux poids ouverts"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "THX-01",
@@ -12330,8 +11861,7 @@
    "Tester le modèle par son API gratuite"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HUV7-IxbsAEx4aP?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HUV7-IxbsAEx4aP?format=jpg&name=medium"
  },
  {
   "nom": "Drex 1.5",
@@ -12358,8 +11888,7 @@
    "Utiliser le modèle dans OpenCode avec 128k de contexte"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HUN-q0hakAEAIf-?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HUN-q0hakAEAIf-?format=jpg&name=medium"
  },
  {
   "nom": "clef-text-0.6b (CoreML / ANE)",
@@ -12384,8 +11913,7 @@
    "Classer des tickets en local sur un Mac Apple Silicon",
    "Intégrer un modèle de décision dans une appli via CoreML"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "laya-mlx",
@@ -12412,8 +11940,7 @@
    "Garder un modèle de décision léger, d'environ 1 Go"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2101473523734859776/img/j5AV90PrPcCnBilP.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2101473523734859776/img/j5AV90PrPcCnBilP.jpg"
  },
  {
   "nom": "Atomic Chat",
@@ -12438,8 +11965,7 @@
    "Essayer Laya ou d1 sur son ordinateur",
    "Prendre des décisions en local sans envoyer ses données"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Évaluation de Jev pour classer des tweets (Agoratlas)",
@@ -12465,8 +11991,7 @@
    "Comprendre ce que vaut un modèle de décision en français",
    "Choisir entre modèle de décision et LLM pour un classement"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Unsloth : entraîner son propre modèle de décision",
@@ -12492,8 +12017,7 @@
    "Suivre un notebook gratuit qui tourne avec 8 Go de VRAM",
    "Apprendre les étapes d'un fine-tuning avec Unsloth"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Jev harness PDF (Diogo Almeida)",
@@ -12519,8 +12043,7 @@
    "Comprendre comment réduire le temps et le coût d'inférence"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2119267316533780480/img/_APaUCyg0-TS1fXu.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2119267316533780480/img/_APaUCyg0-TS1fXu.jpg"
  },
  {
   "nom": "TwIL-8B",
@@ -12547,8 +12070,7 @@
    "Comparer ses résultats aux modèles frontière sur ses tâches"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2118033549718659072/img/-NUI-Lc2yf8EOpA6.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2118033549718659072/img/-NUI-Lc2yf8EOpA6.jpg"
  },
  {
   "nom": "Underdog Saluki 27B",
@@ -12576,8 +12098,7 @@
    "Économiser de la mémoire face au modèle d'origine"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HUEyQ1hbMAANWRT?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HUEyQ1hbMAANWRT?format=jpg&name=medium"
  },
  {
   "nom": "Unsloth Qwen3.8-27B Dynamic V3.1 GGUF",
@@ -12604,8 +12125,7 @@
    "Choisir une quantification adaptée à sa mémoire",
    "Faire tourner un modèle 27B sur 12 Go"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Qwen3.8 Flash Next",
@@ -12633,8 +12153,7 @@
    "Installer le modèle en un clic avec Strata"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HT9BCN2aUAEppCE?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HT9BCN2aUAEppCE?format=jpg&name=medium"
  },
  {
   "nom": "Nemotron 3.5 Super VL",
@@ -12662,8 +12181,7 @@
    "Tester une architecture hybride Mamba-Transformer"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HUN6kJTWkAAWbKU?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HUN6kJTWkAAWbKU?format=jpg&name=medium"
  },
  {
   "nom": "Qwen4-27B / Qwen4-Max (annonce)",
@@ -12690,8 +12208,7 @@
    "Préparer un test local de Qwen4-27B dès sa sortie"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HURMsbQaEAAA-UR?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HURMsbQaEAAA-UR?format=jpg&name=medium"
  },
  {
   "nom": "Modèle 1,7B dans Pi",
@@ -12718,8 +12235,7 @@
    "Gérer le modèle directement depuis le harness Pi"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2120662981860335616/img/k6rZy89KfrBSrQDj.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2120662981860335616/img/k6rZy89KfrBSrQDj.jpg"
  },
  {
   "nom": "Arete-27B (Nous Research)",
@@ -12746,8 +12262,7 @@
    "Consulter l'évaluation publiée sur 803 prompts",
    "Comparer ses réponses à celles de Qwen3.8-27B"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Modèles abliterated / uncensored (spark-x2.6-4b, Gemma 4, DeepSeek, GLM, Qwen)",
@@ -12774,8 +12289,7 @@
    "Comparer leur comportement à celui des modèles d'origine"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2119451321367707648/img/JQqePJjRWMvSyFdK.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2119451321367707648/img/JQqePJjRWMvSyFdK.jpg"
  },
  {
   "nom": "DeepInfer (DeepSeek)",
@@ -12800,8 +12314,7 @@
    "Servir des modèles DeepSeek sur ses propres serveurs",
    "Étudier comment DeepSeek sert ses modèles en production"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Strata",
@@ -12826,8 +12339,7 @@
    "Installer un modèle de 125B en un clic",
    "Utiliser un gros modèle local sans serveur dédié"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "glm-flash-lite",
@@ -12853,8 +12365,7 @@
    "Décharger une partie du modèle sur le SSD",
    "Réutiliser une RTX 3090 pour un gros modèle"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "AirLLM",
@@ -12880,8 +12391,7 @@
    "Tester un gros modèle sans carte graphique haut de gamme",
    "Réserver aux tâches où la lenteur est acceptable"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "oMLX 0.7.1.dev1",
@@ -12907,8 +12417,7 @@
    "Accélérer le traitement des prompts avec le prefill par lots",
    "Gérer ses modèles depuis une interface web"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "mlx-vlm",
@@ -12933,8 +12442,7 @@
    "Décrire ou analyser des images en local sur un Mac",
    "Poser des questions sur une image sans passer par le cloud"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Google Foresight",
@@ -12959,8 +12467,7 @@
    "Exécuter un modèle d'IA sur l'appareil, sans serveur",
    "Garder les données des utilisateurs sur leur appareil"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "inference-optimisation-skill",
@@ -12985,8 +12492,7 @@
    "Accélérer un modèle local avec l'aide d'un agent",
    "Ajuster la configuration de son moteur d'inférence"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Recette DeepSeek V4.1 Flash sur 2× DGX Spark",
@@ -13013,8 +12519,7 @@
    "Savoir quel débit attendre, environ 75 tokens par seconde"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HU-y7I8XQAA1U7x?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HU-y7I8XQAA1U7x?format=jpg&name=medium"
  },
  {
   "nom": "Compression 13B en moins de 1 Go (Samsung)",
@@ -13040,8 +12545,7 @@
    "Comprendre comment faire tenir un gros modèle en peu de mémoire"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HUJDm6RbAAExj1I?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HUJDm6RbAAExj1I?format=jpg&name=medium"
  },
  {
   "nom": "DigUp",
@@ -13068,8 +12572,7 @@
    "Chercher dans ses PDF et son code sans envoyer de données",
    "Indexer ses fichiers avec EmbeddingGemma 2 en local"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Youtu-Parsing-Omni (Tencent)",
@@ -13095,8 +12598,7 @@
    "Préparer des documents pour une recherche ou un RAG",
    "Comparer ses résultats sur OmniParsingBench"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "oruk",
@@ -13121,8 +12623,7 @@
    "Repérer l'émotion d'une personne dans un enregistrement",
    "Ajouter la transcription vocale à une appli par API"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "VoiceStudio",
@@ -13148,8 +12649,7 @@
    "Transcrire un enregistrement sans l'envoyer en ligne",
    "Créer une voix de synthèse à partir de sa propre voix"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "REA (Reverse Engineer Anything)",
@@ -13173,8 +12673,7 @@
    "Comprendre comment une application est construite",
    "Confier l'analyse d'une appli à un agent IA"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Ghidra (NSA)",
@@ -13199,8 +12698,7 @@
    "Analyser un logiciel malveillant dans un cadre de sécurité",
    "Automatiser des analyses avec des scripts Java ou Python"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "fsearch",
@@ -13225,8 +12723,7 @@
    "Lancer une recherche de fichiers depuis Raycast",
    "Chercher plus vite qu'avec le Finder"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Plexo",
@@ -13250,8 +12747,7 @@
    "Accélérer le téléchargement d'un gros fichier",
    "Utiliser deux connexions Internet en même temps"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Tov",
@@ -13275,8 +12771,7 @@
    "Essayer un nouveau langage quand on connaît TypeScript",
    "Comparer ses performances à Rust sur un petit projet"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "tsc-rs",
@@ -13301,8 +12796,7 @@
    "Comparer ses résultats au compilateur TypeScript officiel"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HUBfr2kboAA_PzX?format=png&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HUBfr2kboAA_PzX?format=png&name=medium"
  },
  {
   "nom": "remark-math / KaTeX",
@@ -13327,8 +12821,7 @@
    "Afficher les formules avec KaTeX sur un site ou un blog",
    "Ajouter des maths à une appli React avec react-markdown"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Moonlight (patch HiDPI)",
@@ -13354,8 +12847,7 @@
    "Diffuser depuis un PC équipé de Sunshine"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HUNTUNUWsAA8cg3?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HUNTUNUWsAA8cg3?format=jpg&name=medium"
  },
  {
   "nom": "Omarchy sur Mac",
@@ -13379,8 +12871,7 @@
    "Installer Omarchy sur un MacBook Air M4",
    "Découvrir l'environnement Omarchy sur du matériel Apple"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "refactoring.guru (design patterns)",
@@ -13405,8 +12896,7 @@
    "Savoir quand appliquer chaque patron dans son code",
    "Repérer les patrons à réunir dans une skill"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "systemdesign.io",
@@ -13431,8 +12921,7 @@
    "Préparer un entretien technique de system design",
    "Comprendre les compromis d'une architecture"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "firstprinciplesapproach.dev",
@@ -13456,8 +12945,7 @@
    "Apprendre un sujet en repartant de ses bases",
    "Comprendre le pourquoi d'une technique avant le comment"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "fanout.sh",
@@ -13481,8 +12969,7 @@
    "Apprendre un nouveau sujet tech à son rythme",
    "Explorer des sujets tech variés au même endroit"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "buncho.live",
@@ -13507,8 +12994,7 @@
    "Organiser son apprentissage du machine learning",
    "Préparer une candidature d'ingénieur IA"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "bencho.dev",
@@ -13532,8 +13018,7 @@
    "Consulter des benchmarks utiles aux développeurs",
    "S'appuyer sur des mesures avant un choix technique"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "usefulshelf.co",
@@ -13557,8 +13042,7 @@
    "Découvrir des outils utiles sélectionnés au même endroit",
    "Trouver un outil pour une tâche précise"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "learn.ratishfolio.com",
@@ -13582,8 +13066,7 @@
    "Trouver des ressources pour apprendre un sujet tech",
    "Compléter sa formation avec des contenus gratuits"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "mkdir.directory",
@@ -13607,8 +13090,7 @@
    "Découvrir de nouveaux outils pour développeurs",
    "Chercher une alternative à un outil déjà utilisé"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "context.dev",
@@ -13632,8 +13114,7 @@
    "Donner à un agent le contexte dont il a besoin",
    "Améliorer les réponses d'un agent en enrichissant son contexte"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ported2browser.com",
@@ -13657,8 +13138,7 @@
    "Lancer un logiciel sans rien installer",
    "Découvrir des logiciels portés sur le web"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "driftbase.app",
@@ -13682,8 +13162,7 @@
    "Tester l'appli maintenant que l'accès est ouvert",
    "Évaluer si elle s'intègre à son travail quotidien"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Melty MCP",
@@ -13708,8 +13187,7 @@
    "Demander à un agent de produire un mashup musical"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HUXpx1YWoAAUBy5.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HUXpx1YWoAAUBy5.jpg"
  },
  {
   "nom": "Commute map (temps de trajet)",
@@ -13734,8 +13212,7 @@
    "Voir les quartiers accessibles en 20 minutes de transports"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2033209717649235968/img/zARJZv7Ks-sy05PY.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2033209717649235968/img/zARJZv7Ks-sy05PY.jpg"
  },
  {
   "nom": "EloShapes",
@@ -13759,8 +13236,7 @@
    "Comparer la forme et la taille de souris avant achat",
    "Choisir un tapis de souris gaming parmi de nombreux modèles"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "massgrave.dev (MAS)",
@@ -13785,8 +13261,7 @@
    "Consulter la documentation de ces scripts non officiels"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/card_img/2121850611343949824/RnseEvcs?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/card_img/2121850611343949824/RnseEvcs?format=jpg&name=medium"
  },
  {
   "nom": "inspora.design",
@@ -13810,8 +13285,7 @@
    "Trouver des idées d'interface avant de lancer un agent",
    "Montrer un exemple visuel à l'IA pour guider le design"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "layro.dev",
@@ -13835,8 +13309,7 @@
    "Démarrer une page à partir d'une mise en page existante",
    "Gagner du temps sur la structure d'un site"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ui.watermelon.sh",
@@ -13860,8 +13333,7 @@
    "Ajouter des composants d'interface à un projet web",
    "Assembler une interface sans tout coder soi-même"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "underrated.space",
@@ -13885,8 +13357,7 @@
    "Découvrir des ressources design peu connues",
    "Varier ses sources d'inspiration visuelle"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "designeer.xyz",
@@ -13910,8 +13381,7 @@
    "Donner un style plus personnel à une interface générée",
    "Corriger le rendu générique d'un site fait par IA"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "designeng.tools",
@@ -13935,8 +13405,7 @@
    "Trouver des outils qui relient maquette et code",
    "Équiper sa pratique de design engineer"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "insposite.com",
@@ -13960,8 +13429,7 @@
    "Trouver des idées pour la page d'accueil d'un projet",
    "Comparer plusieurs styles de sites avant de concevoir"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "opensourceui.in",
@@ -13985,8 +13453,7 @@
    "Réutiliser des composants UI open source dans une appli",
    "Accélérer le montage d'une interface web"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ruixen.com",
@@ -14010,8 +13477,7 @@
    "Donner à Claude des composants prêts à assembler",
    "Construire une interface plus vite avec un agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "rareui.com",
@@ -14035,8 +13501,7 @@
    "Trouver des interfaces moins génériques que celles de l'IA",
    "Inspirer un agent avec des exemples d'UI soignés"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "palletism.art",
@@ -14060,8 +13525,7 @@
    "Choisir une palette de couleurs pour un site",
    "Trouver des couleurs qui vont bien ensemble"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Plonk",
@@ -14086,8 +13550,7 @@
    "Choisir la personnalité qui colle à son produit"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/card_img/2121253655449853952/vOPlCkxA?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/card_img/2121253655449853952/vOPlCkxA?format=jpg&name=medium"
  },
  {
   "nom": "Amicro.dev",
@@ -14111,8 +13574,7 @@
    "Améliorer le design d'un projet codé avec l'IA",
    "Trouver des repères visuels pour guider un agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "skill-issue.in",
@@ -14136,8 +13598,7 @@
    "Trouver des idées pour améliorer une interface",
    "Progresser en design d'interface"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "stickitupx",
@@ -14161,8 +13622,7 @@
    "Créer des stickers gratuitement depuis le navigateur",
    "Décorer un projet ou une présentation avec des stickers"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "kite.new",
@@ -14186,8 +13646,7 @@
    "Définir couleurs et espacements sous forme de design tokens",
    "Garder une interface cohérente d'une page à l'autre"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "gui (brijr)",
@@ -14211,8 +13670,7 @@
    "Faire concevoir une interface par un agent IA",
    "Combiner un agent de design avec l'outil Paper"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Paper",
@@ -14236,8 +13694,7 @@
    "Concevoir une maquette avec l'aide d'un agent IA",
    "Faire modifier un design existant par un agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "homerun.app",
@@ -14261,8 +13718,7 @@
    "Voir ce qu'Opus 5.5 et Higgsfield produisent ensemble",
    "S'inspirer d'une refonte de site faite avec l'IA"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Higgsfield",
@@ -14286,8 +13742,7 @@
    "Créer des visuels pour un site ou une campagne",
    "Générer de courtes vidéos à partir d'images"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "elayadesign AI designer skill",
@@ -14311,8 +13766,7 @@
    "Faire concevoir une landing page par un agent",
    "Améliorer le design d'une page de présentation existante"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ManimGX",
@@ -14336,8 +13790,7 @@
    "Faire produire des animations 3D par un agent",
    "Créer des vidéos explicatives plus vite qu'avec ManimCE"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "promo-video-generator",
@@ -14361,8 +13814,7 @@
    "Créer une vidéo pour le lancement d'un produit",
    "Présenter un projet en vidéo"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Opus 5.5 pour le motion design",
@@ -14387,8 +13839,7 @@
    "Comprendre ce qu'un modèle peut remplacer dans After Effects"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2108897781645488128/img/FhSyXjBAt6UR56qz.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2108897781645488128/img/FhSyXjBAt6UR56qz.jpg"
  },
  {
   "nom": "ComfyUI (challenge Open Source Higgsfield)",
@@ -14413,8 +13864,7 @@
    "Générer des images et vidéos en local avec des modèles ouverts",
    "Participer au challenge open source de Higgsfield"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Implicit-surface 3D (GLSL)",
@@ -14439,8 +13889,7 @@
    "Découvrir la modélisation 3D par surfaces implicites"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2108707357320736768/img/bXptaJO4WLAG-aj-.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2108707357320736768/img/bXptaJO4WLAG-aj-.jpg"
  },
  {
   "nom": "Portfolio hancore.dev",
@@ -14464,8 +13913,7 @@
    "Trouver des idées pour son propre portfolio",
    "Observer la mise en page d'un portfolio soigné"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Portfolio 0z5a.github.io",
@@ -14489,8 +13937,7 @@
    "S'inspirer d'une page d'accueil de portfolio",
    "Étudier ce qui rend une page d'accueil agréable"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Brosses : dessiner des chaînes",
@@ -14515,8 +13962,7 @@
    "Ajouter des chaînes à une illustration"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2043417861608054784/img/sxnlNsB57LOyBvPK.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2043417861608054784/img/sxnlNsB57LOyBvPK.jpg"
  },
  {
   "nom": "addyosmani/agent-skills",
@@ -14541,8 +13987,7 @@
    "Donner de bonnes pratiques d'ingénierie à son agent",
    "Améliorer la qualité du code produit par un agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "kepano/obsidian-skills",
@@ -14567,8 +14012,7 @@
    "Faire écrire des notes au format Obsidian par un agent",
    "Créer des liens et propriétés valides dans son coffre"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "google/elephant-goldfish-model",
@@ -14594,8 +14038,7 @@
    "Soumettre un plan à des critiques sans contexte préalable",
    "Repérer les failles d'une conception avant de la coder"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Ponytail",
@@ -14620,8 +14063,7 @@
    "Garder des changements courts et ciblés avec Claude",
    "Réduire le code à relire après une session"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "last30days-skill",
@@ -14647,8 +14089,7 @@
    "Savoir ce que la communauté pense d'un outil",
    "Préparer un article avec des avis récents"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Humanizer",
@@ -14673,8 +14114,7 @@
    "Retirer les tournures typiques de l'IA d'un texte",
    "Relire un article ou un e-mail rédigé par Claude"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Graphify",
@@ -14699,8 +14139,7 @@
    "Aider Claude à comprendre un gros projet",
    "Poser des questions sur l'architecture d'une base de code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "taste-skill (senlindesign)",
@@ -14725,8 +14164,7 @@
    "S'inspirer du style d'un site de référence",
    "Transmettre le style extrait à un agent qui code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "TasteSkill v2 (Leonxlnx)",
@@ -14752,8 +14190,7 @@
    "Définir une direction artistique et ses assets avec un agent",
    "Vérifier le rendu dans le navigateur avant de livrer"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Scrapling",
@@ -14778,8 +14215,7 @@
    "Extraire des données de pages web pour Claude",
    "Automatiser une collecte de données en Python"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "gods-eye-view",
@@ -14804,8 +14240,7 @@
    "Simuler la vue d'un satellite espion en 3D",
    "Découvrir ce qu'on peut construire en 3D dans un navigateur"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "andrej-karpathy-skills",
@@ -14831,8 +14266,7 @@
    "Obtenir des changements simples et ciblés",
    "Ajouter ces règles à son fichier CLAUDE.md"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "mattpocock/skills : handoff",
@@ -14858,8 +14292,7 @@
    "Résumer l'état d'un travail avant de vider le contexte",
    "Transmettre un travail en cours à un autre agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "janestreet/agent_skills (Socratic tutor)",
@@ -14884,8 +14317,7 @@
    "Apprendre un sujet en répondant aux questions de l'IA",
    "Comprendre son propre code au lieu de recevoir la réponse"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OpenClaw test-audit skill",
@@ -14910,8 +14342,7 @@
    "Alléger une suite de tests devenue trop lourde",
    "Vérifier que la couverture reste stable après le nettoyage"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Caveman (skill)",
@@ -14935,8 +14366,7 @@
    "Réduire la longueur des réponses de l'agent",
    "Économiser des tokens sur de longues sessions"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Headroom (proxy)",
@@ -14960,8 +14390,7 @@
    "Réduire le contexte envoyé au modèle à chaque requête",
    "Allonger une session avant d'atteindre la limite de contexte"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Context Mode (MCP)",
@@ -14985,8 +14414,7 @@
    "Éviter que les sorties d'outils remplissent le contexte",
    "Tenir des sessions plus longues sans saturer le contexte"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Skillsync",
@@ -15010,8 +14438,7 @@
    "Garder les mêmes skills d'un environnement à l'autre",
    "Mettre à jour ses skills depuis un seul endroit"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Statusline Claude Code coûteuse (gist)",
@@ -15036,8 +14463,7 @@
    "Comprendre pourquoi une statusline peut gaspiller des tokens",
    "Vérifier le coût de sa propre statusline Claude Code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Prompt Lauren Tan : request.bind",
@@ -15061,8 +14487,7 @@
    "Vérifier qu'une action d'agent respecte les permissions",
    "Aligner un agent sur les décisions déjà prises par l'équipe"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Claude Code : un modèle par rôle",
@@ -15087,8 +14512,7 @@
    "Confier la recherche à Haiku pour réduire les coûts",
    "Ajouter un critique qui tente de casser le travail"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Opus plans → Sonnet builds → Fable tests",
@@ -15112,8 +14536,7 @@
    "Répartir planification, code et tests entre trois modèles",
    "Organiser un travail en étapes dans Claude Code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "anthropics/skills",
@@ -15139,8 +14562,7 @@
    "Tester une appli web avec la skill webapp-testing",
    "Écrire ses propres skills avec skill-creator"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "getsentry/sentry-for-ai",
@@ -15165,8 +14587,7 @@
    "Ajouter le suivi d'erreurs Sentry à une appli avec un agent",
    "Configurer le SDK Sentry de son framework"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "cloudflare/skills",
@@ -15192,8 +14613,7 @@
    "Stocker des données avec D1, R2 ou KV",
    "Créer un agent avec l'Agents SDK de Cloudflare"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "trailofbits/skills",
@@ -15219,8 +14639,7 @@
    "Chercher des variantes d'une faille déjà connue",
    "Repérer des réglages par défaut non sécurisés"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "MicrosoftDocs/Agent-Skills",
@@ -15246,8 +14665,7 @@
    "Suivre les bonnes pratiques Microsoft pour le cloud",
    "Coder en Python, Rust ou TypeScript sur Azure"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "hashicorp/agent-skills",
@@ -15273,8 +14691,7 @@
    "Tester et refactorer son infrastructure en code",
    "Importer des ressources existantes dans Terraform"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "firecrawl/firecrawl-claude-plugin",
@@ -15300,8 +14717,7 @@
    "Extraire des données structurées depuis des pages",
    "Lancer des recherches web depuis l'agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "awslabs/agent-plugins",
@@ -15327,8 +14743,7 @@
    "Construire un front avec Amplify",
    "Migrer une base de données vers AWS"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "microsoft/azure-skills",
@@ -15354,8 +14769,7 @@
    "Gérer des ressources Azure depuis l'agent",
    "Utiliser Foundry MCP pour les modèles"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "digitalocean-labs/do-app-platform-skills",
@@ -15380,8 +14794,7 @@
    "Déployer une application sur DigitalOcean",
    "Configurer App Platform pour un projet web"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "pulumi/agent-skills",
@@ -15407,8 +14820,7 @@
    "Automatiser le déploiement avec l'Automation API",
    "Décrire son infrastructure en langage courant"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "neondatabase-labs/ai-rules",
@@ -15433,8 +14845,7 @@
    "Configurer une base Postgres sur Neon",
    "Suivre les bonnes pratiques Neon dans son code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "supabase/agent-skills",
@@ -15460,8 +14871,7 @@
    "Appliquer les règles de sécurité Supabase",
    "Écrire des requêtes conformes aux conventions Supabase"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "planetscale/claude-plugin",
@@ -15486,8 +14896,7 @@
    "Créer des branches de base de données MySQL",
    "Optimiser les index d'une base MySQL"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ClickHouse/clickhouse",
@@ -15512,8 +14921,7 @@
    "Écrire des requêtes analytiques sur ClickHouse",
    "Modéliser des tables pour de gros volumes"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "remotion-dev/skills",
@@ -15538,8 +14946,7 @@
    "Générer une vidéo à partir de composants React",
    "Automatiser le rendu de vidéos personnalisées"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "WordPress/wordpress",
@@ -15565,8 +14972,7 @@
    "Développer un plugin sur mesure",
    "Administrer un site avec WP-CLI"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "figma",
@@ -15591,8 +14997,7 @@
    "Connecter des composants Figma au code",
    "Maintenir un design system cohérent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "google-gemini",
@@ -15618,8 +15023,7 @@
    "Utiliser Vertex AI pour déployer des modèles",
    "Construire une expérience temps réel avec la Live API"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "stripe",
@@ -15645,8 +15049,7 @@
    "Gérer des abonnements et des factures",
    "Suivre les bonnes pratiques de sécurité des paiements"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "better-auth",
@@ -15672,8 +15075,7 @@
    "Activer la double authentification",
    "Gérer des comptes par organisation"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "fal-ai-community",
@@ -15699,8 +15101,7 @@
    "Améliorer la résolution d'un média",
    "Créer du contenu audio ou 3D"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "sanity-io",
@@ -15725,8 +15126,7 @@
    "Structurer le contenu d'un site",
    "Optimiser le référencement des pages"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "tinybirdco",
@@ -15751,8 +15151,7 @@
    "Construire des pipelines de données en temps réel",
    "Exposer des données analytiques via une API"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "callstackincubator",
@@ -15777,8 +15176,7 @@
    "Construire une application mobile multiplateforme",
    "Suivre les bonnes pratiques React Native"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "typefully",
@@ -15803,8 +15201,7 @@
    "Rédiger des publications pour X ou LinkedIn",
    "Programmer du contenu sur Threads et Bluesky"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "replicate",
@@ -15829,8 +15226,7 @@
    "Lancer un modèle d'IA hébergé",
    "Intégrer une génération d'images dans une application"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ComposioHQ",
@@ -15855,8 +15251,7 @@
    "Relier un agent à des outils tiers",
    "Automatiser des actions entre applications"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "trycourier",
@@ -15881,8 +15276,7 @@
    "Envoyer des notifications par e-mail ou SMS",
    "Centraliser les messages vers plusieurs canaux"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "VoltAgent/awesome-agent-skills",
@@ -15907,8 +15301,7 @@
    "Parcourir des skills d'agents prêtes à l'emploi",
    "Trouver une skill adaptée à son besoin"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "obra/superpowers",
@@ -15934,8 +15327,7 @@
    "Déboguer de façon systématique",
    "Lancer des agents en parallèle avec des worktrees Git"
   ],
-  "coeur": true,
-  "lot": 1
+  "coeur": true
  },
  {
   "nom": "alirezarezvani/claude-skills",
@@ -15961,8 +15353,7 @@
    "Outiller des tâches marketing ou réglementaires",
    "Assister des décisions de direction"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "wshobson/agents",
@@ -15987,8 +15378,7 @@
    "Choisir une skill d'agent selon la tâche",
    "Réutiliser des agents éprouvés par la communauté"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "NeoLabHQ/context-engineering-kit",
@@ -16014,8 +15404,7 @@
    "Structurer un projet avec le DDD",
    "Améliorer ses pratiques par itérations"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Jeffallan/claude-skills",
@@ -16041,8 +15430,7 @@
    "Automatiser le déploiement avec Terraform",
    "Mettre en place du monitoring"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "hamelsmu/evals-skills",
@@ -16067,8 +15455,7 @@
    "Mesurer la qualité des réponses d'un LLM",
    "Mettre en place des évaluations reproductibles"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "shareAI-lab/learn-claude-code",
@@ -16093,8 +15480,7 @@
    "Apprendre les bases de Claude Code",
    "Découvrir les flux de travail avec un agent"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "tirth8205/code-review-graph",
@@ -16119,8 +15505,7 @@
    "Visualiser les dépendances d'une base de code",
    "Repérer les zones à risque avant une revue"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "testdino/playwright-skill",
@@ -16145,8 +15530,7 @@
    "Écrire des tests end-to-end avec Playwright",
    "Automatiser les tests d'une interface web"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "KahlilR23/cypress-agent-skill",
@@ -16171,8 +15555,7 @@
    "Écrire des tests d'interface avec Cypress",
    "Réutiliser des patrons de test éprouvés"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "JoeGaebel/outside-in-tdd",
@@ -16197,8 +15580,7 @@
    "Développer en partant des tests d'acceptation",
    "Guider la conception par les tests"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "angakh/pr-create-fetch",
@@ -16223,8 +15605,7 @@
    "Créer une pull request automatiquement",
    "Récupérer une PR existante pour la traiter"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "safishamsi/graphify",
@@ -16249,8 +15630,7 @@
    "Visualiser l'architecture d'un projet",
    "Comprendre les liens entre modules"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "addyosmani (accessibility)",
@@ -16275,8 +15655,7 @@
    "Vérifier l'accessibilité d'une page web",
    "Corriger des problèmes de conformité WCAG"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ghostsecurity",
@@ -16302,8 +15681,7 @@
    "Détecter des secrets exposés",
    "Scanner les dépendances vulnérables"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "mukul975/Anthropic-Cybersecurity-Skills",
@@ -16328,8 +15706,7 @@
    "Aligner ses contrôles sur MITRE et NIST",
    "Outiller des tâches de cybersécurité défensive"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Eyadkelleh/awesome-claude-skills-security",
@@ -16354,8 +15731,7 @@
    "Mener un test d'intrusion autorisé",
    "Outiller une évaluation de sécurité"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "OWASP/www-project-agentic-skills-top-10",
@@ -16380,8 +15756,7 @@
    "Connaître les risques de sécurité des agents",
    "Évaluer un agent face aux menaces courantes"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "agamm/claude-code-owasp",
@@ -16406,8 +15781,7 @@
    "Vérifier une application contre l'OWASP Top 10",
    "Appliquer les exigences ASVS"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "BehiSecc/VibeSec-Skill",
@@ -16432,8 +15806,7 @@
    "Rechercher des failles IDOR, XSS ou SQLi",
    "Préparer un rapport de bug bounty"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "prompt-security/clawsec",
@@ -16458,8 +15831,7 @@
    "Suivre les nouvelles vulnérabilités CVE",
    "Détecter une dérive de configuration"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "wrsmith108/varlock-claude-skill",
@@ -16484,8 +15856,7 @@
    "Protéger les variables d'environnement sensibles",
    "Éviter d'exposer des secrets dans le code"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "jthack/ffuf_claude_skill",
@@ -16510,8 +15881,7 @@
    "Découvrir des chemins cachés sur un site",
    "Lancer un fuzzing autorisé avec ffuf"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "agentward-ai/sanitize",
@@ -16536,8 +15906,7 @@
    "Masquer des données personnelles avant partage",
    "Anonymiser un jeu de données"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
@@ -16563,8 +15932,7 @@
    "Documenter le respect du RGPD",
    "Suivre les exigences HIPAA ou DORA"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "snyk/snyk-fix",
@@ -16589,8 +15957,7 @@
    "Corriger des dépendances vulnérables",
    "Appliquer des correctifs de sécurité"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "LukasNiessen/terrashark",
@@ -16615,8 +15982,7 @@
    "Écrire du Terraform fiable",
    "Éviter les erreurs de configuration d'infrastructure"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "foxj77/k8s-skills",
@@ -16642,8 +16008,7 @@
    "Gérer les certificats avec cert-manager",
    "Appliquer des politiques avec Kyverno"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "sigridjineth/hello-ansible-skills",
@@ -16668,8 +16033,7 @@
    "Automatiser la configuration de serveurs",
    "Écrire des playbooks Ansible"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "phuryn/pm-skills",
@@ -16695,8 +16059,7 @@
    "Définir une stratégie produit",
    "Mener une phase de découverte"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "deanpeters/Product-Manager-Skills",
@@ -16721,8 +16084,7 @@
    "Outiller des tâches de gestion de produit",
    "Structurer la réflexion sur un produit"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "aaron-he-zhu/seo-geo-claude-skills",
@@ -16747,8 +16109,7 @@
    "Optimiser un site pour les moteurs de recherche",
    "Améliorer sa visibilité dans les réponses d'IA"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "AgriciDaniel/claude-seo",
@@ -16773,8 +16134,7 @@
    "Analyser le SEO d'un site",
    "Optimiser le contenu pour la recherche"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Eronred/aso-skills",
@@ -16799,8 +16159,7 @@
    "Optimiser une fiche sur les stores",
    "Améliorer le classement d'une application"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "coreyhaines31/marketingskills",
@@ -16825,8 +16184,7 @@
    "Préparer une campagne marketing",
    "Rédiger des contenus promotionnels"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ognjengt/founder-skills",
@@ -16851,8 +16209,7 @@
    "Rédiger des textes qui convertissent",
    "Optimiser le taux de conversion d'une page"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "EveryInc/charlie-cfo-skill",
@@ -16877,8 +16234,7 @@
    "Suivre les finances d'une petite entreprise",
    "Prendre des décisions budgétaires éclairées"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "lawvable/awesome-legal-skills",
@@ -16903,8 +16259,7 @@
    "Comprendre des points de droit du travail",
    "Préparer des documents juridiques de société"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "browser-use/video-use",
@@ -16929,8 +16284,7 @@
    "Monter une vidéo automatiquement",
    "Assembler des séquences à partir de consignes"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "splitbrain/ndemo",
@@ -16955,8 +16309,7 @@
    "Produire une vidéo de démonstration d'un produit",
    "Ajouter une narration à une démo"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "digitalsamba/claude-code-video-toolkit",
@@ -16981,8 +16334,7 @@
    "Générer une vidéo avec voix de synthèse",
    "Automatiser le montage avec ffmpeg"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "mfranzon/render",
@@ -17007,8 +16359,7 @@
    "Créer un modèle 3D depuis une description",
    "Afficher une scène Three.js générée"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "shi3z/sparkjs-skill",
@@ -17033,8 +16384,7 @@
    "Afficher une scène en Gaussian Splatting",
    "Intégrer un rendu 3D réaliste sur le web"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Besty0728/Unity-Skills",
@@ -17059,8 +16409,7 @@
    "Développer un jeu avec Unity",
    "Scripter des comportements dans Unity"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "jame581/GodotPrompter",
@@ -17085,8 +16434,7 @@
    "Créer un jeu avec Godot 4",
    "Écrire des scripts GDScript"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "htdt/godogen",
@@ -17111,8 +16459,7 @@
    "Générer un projet Godot depuis une idée",
    "Démarrer un jeu sans partir de zéro"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "VoltAgent/awesome-design-md",
@@ -17137,8 +16484,7 @@
    "S'inspirer des design systems de grandes marques",
    "Reproduire un style de marque dans un projet"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "smixs/creative-director-skill",
@@ -17163,8 +16509,7 @@
    "Obtenir une direction créative pour un projet",
    "Cadrer l'identité visuelle d'une marque"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "K-Dense-AI/scientific-agent-skills",
@@ -17189,8 +16534,7 @@
    "Outiller des analyses scientifiques",
    "Automatiser des tâches de recherche"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Orchestra-Research/AI-research-SKILLs",
@@ -17215,8 +16559,7 @@
    "Explorer la littérature en intelligence artificielle",
    "Structurer un projet de recherche IA"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "SNL-UCSB/paper-writing-skill",
@@ -17241,8 +16584,7 @@
    "Rédiger un article scientifique étape par étape",
    "Structurer un papier de recherche"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Imbad0202/academic-research-skills",
@@ -17267,8 +16609,7 @@
    "Lire et résumer des articles de recherche",
    "Relire un papier avant soumission"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "duckdb/duckdb-skills",
@@ -17293,8 +16634,7 @@
    "Analyser des fichiers de données en local",
    "Écrire des requêtes SQL rapides avec DuckDB"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "PSPDFKit-labs/nutrient-agent-skill",
@@ -17320,8 +16660,7 @@
    "Convertir des documents entre formats",
    "Signer un document électroniquement"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "kreuzberg-dev/kreuzberg",
@@ -17346,8 +16685,7 @@
    "Extraire le contenu de nombreux formats de fichiers",
    "Traiter des documents à grande échelle"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "farion1231/cc-switch",
@@ -17372,8 +16710,7 @@
    "Basculer rapidement entre plusieurs projets",
    "Garder un contexte propre par projet"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "czlonkowski/n8n-skills",
@@ -17398,8 +16735,7 @@
    "Créer un workflow d'automatisation n8n",
    "Connecter plusieurs services entre eux"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "qdrant/qdrant-skills",
@@ -17424,8 +16760,7 @@
    "Stocker des embeddings dans Qdrant",
    "Construire une recherche sémantique"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "greensock/gsap-skills",
@@ -17450,8 +16785,7 @@
    "Animer des éléments d'une page web",
    "Créer des transitions fluides avec GSAP"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "SHADOWPR0/beautiful-prose",
@@ -17476,8 +16810,7 @@
    "Améliorer le style d'un texte",
    "Rédiger une prose plus fluide"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "wshuyi/x-article-publisher",
@@ -17502,8 +16835,7 @@
    "Publier un article long sur X",
    "Mettre en forme un texte pour X"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "GarethManning/claude-education-skills",
@@ -17528,8 +16860,7 @@
    "Préparer des supports de cours",
    "Créer des exercices pour les élèves"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "ndpvt-web/deeptutor-claude-skill",
@@ -17554,8 +16885,7 @@
    "Obtenir un tutorat sur un sujet précis",
    "Réviser à partir de ses propres documents"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "danielcregg/moodle-mcq",
@@ -17580,8 +16910,7 @@
    "Générer des QCM pour Moodle",
    "Exporter des questions aux formats GIFT ou XML"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "zarazhangrui/codebase-to-course",
@@ -17606,8 +16935,7 @@
    "Transformer un dépôt en cours interactif",
    "Apprendre une base de code existante"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "RoundTable02/tutor-skills",
@@ -17632,8 +16960,7 @@
    "Réviser un sujet à l'aide de quiz",
    "Organiser ses supports de révision"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "jmagar/claude-homelab",
@@ -17659,8 +16986,7 @@
    "Mettre en place un réseau Tailscale",
    "Gérer le stockage avec ZFS"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "twostraws/swiftui-agent-skill",
@@ -17685,8 +17011,7 @@
    "Construire une interface avec SwiftUI",
    "Gérer les données avec SwiftData"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "actionbook/rust-skills",
@@ -17711,8 +17036,7 @@
    "Écrire du code Rust idiomatique",
    "Suivre les bonnes pratiques Rust"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "cloudai-x/threejs-skills",
@@ -17737,8 +17061,7 @@
    "Construire une scène 3D dans le navigateur",
    "Écrire des shaders et gérer les matériaux"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "travisvn/awesome-claude-skills",
@@ -17763,8 +17086,7 @@
    "Parcourir une liste de skills Claude",
    "Trouver une skill pour un besoin précis"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "alirezarezvani/claude-code-skill-factory",
@@ -17789,8 +17111,7 @@
    "Créer une nouvelle skill sur mesure",
    "Structurer une skill réutilisable"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Article : I found 1,116 Claude Code skills",
@@ -17817,8 +17138,7 @@
   ],
   "coeur": false,
   "image_post": "https://pbs.twimg.com/media/HGo8LJ6WAAAEJTa?format=jpg&name=medium",
-  "article": true,
-  "lot": 1
+  "article": true
  },
  {
   "nom": "Claude Code team : vérification",
@@ -17843,8 +17163,7 @@
    "Découvrir pourquoi les tests end-to-end deviennent abordables"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/card_img/2122436121120350208/nh_XQGbf?format=png&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/card_img/2122436121120350208/nh_XQGbf?format=png&name=medium"
  },
  {
   "nom": "Self-hosted Claude Managed Agents (bêta privée)",
@@ -17869,8 +17188,7 @@
    "Comprendre l'intérêt de garder harness et historique en interne"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HW8VZz7bgAAnGFL?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HW8VZz7bgAAnGFL?format=jpg&name=medium"
  },
  {
   "nom": "Code Mode (doc officielle)",
@@ -17895,8 +17213,7 @@
    "Découvrir le mode d'écriture de JavaScript par l'agent"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2121264716265799680/img/etqwFLkGmlYlMRkm.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2121264716265799680/img/etqwFLkGmlYlMRkm.jpg"
  },
  {
   "nom": "PSA advisor Fable",
@@ -17920,8 +17237,7 @@
    "Comprendre pourquoi une affirmation sur les limites est fausse",
    "Vérifier les quotas réels dans la documentation"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Hoodie : harness zéro code en 5 min",
@@ -17948,8 +17264,7 @@
   ],
   "coeur": false,
   "image_post": "https://pbs.twimg.com/media/HUuEEAvWEAAhED-?format=jpg&name=medium",
-  "article": true,
-  "lot": 1
+  "article": true
  },
  {
   "nom": "Simon Høiberg : qualité Opus avec Qwen 27B",
@@ -17974,8 +17289,7 @@
    "Découvrir l'usage de LoRA pour spécialiser un modèle"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/ext_tw_video_thumb/2120132759221932033/pu/img/c4-nwBmWSJR13UZM.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/ext_tw_video_thumb/2120132759221932033/pu/img/c4-nwBmWSJR13UZM.jpg"
  },
  {
   "nom": "Lauren Tan : « All code is slop, except mine »",
@@ -18001,8 +17315,7 @@
   ],
   "coeur": false,
   "image_post": "https://pbs.twimg.com/media/HXLZjfpbYAAJ_4Z?format=jpg&name=medium",
-  "article": true,
-  "lot": 1
+  "article": true
  },
  {
   "nom": "Limestone : CLAUDE.md périmé",
@@ -18027,8 +17340,7 @@
    "Corriger le problème avec une seule phrase"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/card_img/2121406034056998912/AL6aalFg?format=png&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/card_img/2121406034056998912/AL6aalFg?format=png&name=medium"
  },
  {
   "nom": "FrankYouChill : stack d'agents open source",
@@ -18053,8 +17365,7 @@
    "Choisir ses outils de développement d'agents"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HWfs-DWXAAAdo5D?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HWfs-DWXAAAdo5D?format=jpg&name=medium"
  },
  {
   "nom": "FrankYouChill : stack d'agent personnel",
@@ -18079,8 +17390,7 @@
    "Composer sa propre stack d'agent"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HWySjGjbYAAuFdp?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HWySjGjbYAAuFdp?format=jpg&name=medium"
  },
  {
   "nom": "FrankYouChill : stack d'infra d'agents",
@@ -18105,8 +17415,7 @@
    "Choisir les briques d'infrastructure adaptées"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HWp8SmkWQAEHm1A?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HWp8SmkWQAEHm1A?format=jpg&name=medium"
  },
  {
   "nom": "FrankYouChill : stack IA locale",
@@ -18131,8 +17440,7 @@
    "Comparer des outils pour l'IA en local"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HW1QXhObcAAXqjc?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HW1QXhObcAAXqjc?format=jpg&name=medium"
  },
  {
   "nom": "Second Brain Guide (Brucky)",
@@ -18158,8 +17466,7 @@
   ],
   "coeur": false,
   "image_post": "https://pbs.twimg.com/amplify_video_thumb/2119534505497133056/img/M2gHAcu36vGrCGLk.jpg",
-  "article": true,
-  "lot": 1
+  "article": true
  },
  {
   "nom": "How to Set Up Claude Once (Yarchi)",
@@ -18185,8 +17492,7 @@
   ],
   "coeur": false,
   "image_post": "https://pbs.twimg.com/media/HQ2GiclWcAAXqXl?format=jpg&name=medium",
-  "article": true,
-  "lot": 1
+  "article": true
  },
  {
   "nom": "CyrilXBT : première équipe d'agents avec Opus 5.5",
@@ -18212,8 +17518,7 @@
   ],
   "coeur": false,
   "image_post": "https://pbs.twimg.com/media/HWJntcSWgAA6tYh?format=jpg&name=medium",
-  "article": true,
-  "lot": 1
+  "article": true
  },
  {
   "nom": "Anthropic : formation de 2 h sur les agents Claude",
@@ -18238,8 +17543,7 @@
    "Réduire le besoin de supervision d'un agent"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HIiHV7PWoAAhHdL?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HIiHV7PWoAAhHdL?format=jpg&name=medium"
  },
  {
   "nom": "Anthropic : workshop Claude Code de 30 min",
@@ -18264,8 +17568,7 @@
    "Apprendre les bases auprès de son créateur"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HG2rDwpbUAAA-hk?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HG2rDwpbUAAA-hk?format=jpg&name=medium"
  },
  {
   "nom": "Anthropic : agents qui se promptent eux-mêmes",
@@ -18291,8 +17594,7 @@
   ],
   "coeur": false,
   "image_post": "https://pbs.twimg.com/media/HU8rDx7XIAA8dGG?format=jpg&name=medium",
-  "article": true,
-  "lot": 1
+  "article": true
  },
  {
   "nom": "Comment les ingénieurs d'Anthropic promptent Claude Code",
@@ -18317,8 +17619,7 @@
    "Améliorer sa façon de prompter Claude Code"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HUgDC0CXEAASwSy?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HUgDC0CXEAASwSy?format=jpg&name=medium"
  },
  {
   "nom": "Felix Rieseberg : être plus ambitieux avec l'IA",
@@ -18342,8 +17643,7 @@
    "Comprendre comment viser plus haut avec l'IA",
    "S'inspirer pour des projets IA plus ambitieux"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Karpathy : le fossé de compréhension des LLM",
@@ -18368,8 +17668,7 @@
    "Mieux cerner ce que les modèles saisissent"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HUX9pi4XgAAxKJQ?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HUX9pi4XgAAxKJQ?format=jpg&name=medium"
  },
  {
   "nom": "Masterclass SEO d'Anthropic",
@@ -18395,8 +17694,7 @@
   ],
   "coeur": false,
   "image_post": "https://pbs.twimg.com/media/HWv217pXYAEA-Lc?format=jpg&name=medium",
-  "article": true,
-  "lot": 1
+  "article": true
  },
  {
   "nom": "Claude Security",
@@ -18422,8 +17720,7 @@
   ],
   "coeur": false,
   "image_post": "https://pbs.twimg.com/amplify_video_thumb/2112997615306424320/img/sMCgiJN5BEFAFZON.jpg",
-  "article": true,
-  "lot": 1
+  "article": true
  },
  {
   "nom": "Meta : LLM sans tokenizer",
@@ -18448,8 +17745,7 @@
    "Découvrir une alternative à la tokenisation"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HVOXu1gaEAAGY5u?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HVOXu1gaEAAGY5u?format=jpg&name=medium"
  },
  {
   "nom": "300 agents Claude Code en parallèle avec vérification",
@@ -18475,8 +17771,7 @@
   ],
   "coeur": false,
   "image_post": "https://pbs.twimg.com/media/HNlPS-NXgAA-bPL?format=jpg&name=medium",
-  "article": true,
-  "lot": 1
+  "article": true
  },
  {
   "nom": "Codex configure un VPS et déploie un MCP en 15 min",
@@ -18500,8 +17795,7 @@
    "Voir un agent configurer un VPS de bout en bout",
    "Comprendre comment déployer un serveur MCP"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "26 routeurs LLM injectent des outils malveillants",
@@ -18526,8 +17820,7 @@
    "Savoir qu'un routeur voit prompts et secrets"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HFglir2bQAA0zmC?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HFglir2bQAA0zmC?format=jpg&name=medium"
  },
  {
   "nom": "Steering de neurones sur Qwen3.5 4B",
@@ -18551,8 +17844,7 @@
    "Découvrir le pilotage de neurones d'un modèle",
    "Comprendre comment orienter le comportement d'un LLM"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Opus 5.5 : 100 fichiers HTML créatifs",
@@ -18576,8 +17868,7 @@
    "Voir des exemples de HTML créatif généré",
    "S'inspirer des capacités créatives du modèle"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Le Jev qui fait mieux qu'Hermes pour 0,00001 $",
@@ -18601,8 +17892,7 @@
    "Comprendre quand un outil léger suffit",
    "Éviter de surdimensionner une tâche de tri"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Cloudflare vs Vercel : facture",
@@ -18626,8 +17916,7 @@
    "Comparer les coûts de Cloudflare et Vercel",
    "Anticiper sa facture d'hébergement selon le trafic"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Prime Agent : 2 000 agents réécrivent OpenCode en Rust",
@@ -18651,8 +17940,7 @@
    "Découvrir une réécriture massive assistée par des agents",
    "Comprendre comment coordonner beaucoup d'agents"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Construire des sites avec Claude Fable 5.2 (tutos)",
@@ -18677,8 +17965,7 @@
    "Suivre des tutoriels pas à pas"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2120196396644958209/img/oecAIkoVhs2qdAGs.jpg",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/amplify_video_thumb/2120196396644958209/img/oecAIkoVhs2qdAGs.jpg"
  },
  {
   "nom": "Vasuman : article à coller dans Claude Code",
@@ -18704,8 +17991,7 @@
   ],
   "coeur": false,
   "image_post": "https://pbs.twimg.com/media/HS5_mtsaMAA2zTd?format=jpg&name=medium",
-  "article": true,
-  "lot": 1
+  "article": true
  },
  {
   "nom": "7 prompts Gemini pour améliorer un CV",
@@ -18729,8 +18015,7 @@
    "Améliorer son CV avec des prompts Gemini",
    "Réécrire ses expériences de façon percutante"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Claude Cowork postule à 50 offres en 30 min",
@@ -18754,8 +18039,7 @@
    "Voir un agent postuler à des offres en série",
    "Comprendre comment automatiser des candidatures"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Mistral : AI Scientist Internship 2027",
@@ -18779,8 +18063,7 @@
    "Postuler à un stage de recherche chez Mistral",
    "Candidater depuis l'UE ou l'Amérique du Nord"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Hackathons de novembre (Kiroween, Gemma 4 sur Kaggle, Epic AI Megajam…)",
@@ -18804,8 +18087,7 @@
    "Trouver un hackathon IA auquel participer",
    "Choisir un concours en ligne"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Muse Spark Open Kernel Challenge",
@@ -18830,8 +18112,7 @@
    "Optimiser la vitesse d'exécution de Muse Spark"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/card_img/2118584009068265472/hphEAKfq?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/card_img/2118584009068265472/hphEAKfq?format=jpg&name=medium"
  },
  {
   "nom": "Concours UE (AD5)",
@@ -18856,8 +18137,7 @@
    "Préparer le concours de recrutement de l'UE"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/media/HAe7wV_XkAA4j6V?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/media/HAe7wV_XkAA4j6V?format=jpg&name=medium"
  },
  {
   "nom": "OpenAI problème n°109 (multiplication entière)",
@@ -18882,8 +18162,7 @@
    "Travailler sur un problème ouvert de multiplication"
   ],
   "coeur": false,
-  "image_post": "https://pbs.twimg.com/card_img/2122881965686996992/wTSPHuaE?format=jpg&name=medium",
-  "lot": 1
+  "image_post": "https://pbs.twimg.com/card_img/2122881965686996992/wTSPHuaE?format=jpg&name=medium"
  },
  {
   "nom": "Bots de trading Grok / Polymarket / hft.md / quants.md",
@@ -18905,8 +18184,7 @@
    "Repérer des promesses de gains à prendre avec prudence",
    "Comprendre pourquoi ces bots sont écartés"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "NODECODE Cyber v1 (DeepSeek abliterated)",
@@ -18928,8 +18206,7 @@
    "Identifier un modèle sans garde-fous",
    "Comprendre pourquoi il est écarté"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "dsh plugin (DeepSeek/Kimi gratuits sans clé)",
@@ -18951,8 +18228,7 @@
    "Comprendre pourquoi cet accès pose problème",
    "Repérer un usage qui usurpe un client"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Atomic Agent Fusion",
@@ -18974,8 +18250,7 @@
    "Situer un produit commercial parmi les outils",
    "Comprendre pourquoi il est écarté"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Firecrawl job tools",
@@ -18997,8 +18272,7 @@
    "Comprendre pourquoi la politique de données pose question",
    "Rester prudent sans information sur les données"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "Parasite SEO",
@@ -19020,8 +18294,7 @@
    "Comprendre en quoi consiste le SEO parasite",
    "Situer cette technique parmi les pratiques SEO"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "CLIProxyAPI",
@@ -19047,8 +18320,7 @@
    "Unifier plusieurs CLI derrière une même interface",
    "Vérifier les conditions d'usage avant de brancher un abonnement"
   ],
-  "coeur": false,
-  "lot": 1
+  "coeur": false
  },
  {
   "nom": "HorizonX",
@@ -19072,8 +18344,7 @@
    "Trouver des visuels d'interface prêts à l'emploi",
    "Donner un rendu soigné à une maquette"
   ],
-  "slug": "horizonx",
-  "lot": 2
+  "slug": "horizonx"
  },
  {
   "nom": "transitions.dev",
@@ -19098,8 +18369,7 @@
    "Animer le passage entre deux écrans",
    "Copier une transition pour un composant React"
   ],
-  "slug": "transitions-dev",
-  "lot": 2
+  "slug": "transitions-dev"
  },
  {
   "nom": "BoardUI",
@@ -19123,8 +18393,7 @@
    "Monter rapidement l'interface d'un produit",
    "Récupérer des blocs de tableau de bord"
   ],
-  "slug": "boardui",
-  "lot": 2
+  "slug": "boardui"
  },
  {
   "nom": "Obsidian UI",
@@ -19149,8 +18418,7 @@
    "Ajouter des animations à une page React",
    "Rendre un portfolio plus vivant"
   ],
-  "slug": "obsidian-ui",
-  "lot": 2
+  "slug": "obsidian-ui"
  },
  {
   "nom": "Aceternity UI",
@@ -19175,8 +18443,7 @@
    "Créer un héro de landing page animé",
    "Copier un composant animé dans un projet Next.js"
   ],
-  "slug": "aceternity-ui",
-  "lot": 2
+  "slug": "aceternity-ui"
  },
  {
   "nom": "Astryx",
@@ -19201,8 +18468,7 @@
    "Partir d'un design system cohérent pour une appli",
    "Adapter les composants à sa charte"
   ],
-  "slug": "astryx",
-  "lot": 2
+  "slug": "astryx"
  },
  {
   "nom": "LLMLingua (Microsoft)",
@@ -19227,8 +18493,7 @@
    "Réduire le coût des longs prompts",
    "Faire tenir plus de contexte dans la fenêtre"
   ],
-  "slug": "llmlingua-microsoft",
-  "lot": 2
+  "slug": "llmlingua-microsoft"
  },
  {
   "nom": "rtk",
@@ -19253,8 +18518,7 @@
    "Éviter que des logs répétitifs remplissent le contexte",
    "Réduire les tokens d'un agent de code"
   ],
-  "slug": "rtk",
-  "lot": 2
+  "slug": "rtk"
  },
  {
   "nom": "GPTCache",
@@ -19279,8 +18543,7 @@
    "Ne pas repayer une réponse déjà calculée",
    "Accélérer les requêtes répétées"
   ],
-  "slug": "gptcache",
-  "lot": 2
+  "slug": "gptcache"
  },
  {
   "nom": "Portkey AI Gateway",
@@ -19305,8 +18568,7 @@
    "Centraliser les appels de plusieurs workflows",
    "Mettre en cache les réponses répétées"
   ],
-  "slug": "portkey-ai-gateway",
-  "lot": 2
+  "slug": "portkey-ai-gateway"
  },
  {
   "nom": "Semantic Router",
@@ -19331,8 +18593,7 @@
    "Choisir la prochaine étape sans appeler un gros modèle",
    "Router des demandes vers le bon workflow"
   ],
-  "slug": "semantic-router",
-  "lot": 2
+  "slug": "semantic-router"
  },
  {
   "nom": "pybreaker",
@@ -19357,8 +18618,7 @@
    "Empêcher une dépendance cassée de boucler sans fin",
    "Protéger un agent des réessais coûteux"
   ],
-  "slug": "pybreaker",
-  "lot": 2
+  "slug": "pybreaker"
  },
  {
   "nom": "Arize Phoenix",
@@ -19383,8 +18643,7 @@
    "Voir où un agent dépense ses tokens",
    "Vérifier qu'une optimisation ne dégrade pas la qualité"
   ],
-  "slug": "arize-phoenix",
-  "lot": 2
+  "slug": "arize-phoenix"
  },
  {
   "nom": "Chonkie",
@@ -19409,8 +18668,7 @@
    "Préparer des documents pour une base vectorielle",
    "Récupérer seulement les passages utiles"
   ],
-  "slug": "chonkie",
-  "lot": 2
+  "slug": "chonkie"
  },
  {
   "nom": "FlagEmbedding (BGE)",
@@ -19436,8 +18694,7 @@
    "Reclasser les résultats d'une recherche vectorielle",
    "Retirer les passages hors sujet du prompt"
   ],
-  "slug": "flagembedding-bge",
-  "lot": 2
+  "slug": "flagembedding-bge"
  },
  {
   "nom": "Prefect",
@@ -19462,8 +18719,7 @@
    "Ne pas relancer une étape déjà réussie",
    "Planifier un pipeline de données"
   ],
-  "slug": "prefect",
-  "lot": 2
+  "slug": "prefect"
  },
  {
   "nom": "Celery",
@@ -19488,8 +18744,7 @@
    "Déporter les appels de modèle dans des workers",
    "Gérer l'attente et la distribution en code"
   ],
-  "slug": "celery",
-  "lot": 2
+  "slug": "celery"
  },
  {
   "nom": "APScheduler",
@@ -19514,8 +18769,7 @@
    "Lancer des vérifications à heure fixe",
    "Regrouper le travail non urgent avant l'agent"
   ],
-  "slug": "apscheduler",
-  "lot": 2
+  "slug": "apscheduler"
  },
  {
   "nom": "requests-cache",
@@ -19540,8 +18794,7 @@
    "Réutiliser des données encore valides",
    "Éviter de retélécharger une page inchangée"
   ],
-  "slug": "requests-cache",
-  "lot": 2
+  "slug": "requests-cache"
  },
  {
   "nom": "Hishel",
@@ -19566,8 +18819,7 @@
    "Ne pas réanalyser une réponse inchangée",
    "Accélérer un outil de collecte web"
   ],
-  "slug": "hishel",
-  "lot": 2
+  "slug": "hishel"
  },
  {
   "nom": "TypeSafe SDK (Jev)",
@@ -19593,8 +18845,7 @@
    "Bloquer une action risquée selon une probabilité",
    "Noter un brouillon avant publication"
   ],
-  "slug": "typesafe-sdk-jev",
-  "lot": 2
+  "slug": "typesafe-sdk-jev"
  },
  {
   "nom": "Cursor Cloud Agents",
@@ -19618,8 +18869,7 @@
    "Lancer un agent par unité de travail testable",
    "Faire coder sans toucher sa machine"
   ],
-  "slug": "cursor-cloud-agents",
-  "lot": 2
+  "slug": "cursor-cloud-agents"
  },
  {
   "nom": "Algrow (MCP YouTube)",
@@ -19644,8 +18894,7 @@
    "Trouver les vidéos qui montent sur un sujet",
    "Repérer les formats de titres qui marchent"
   ],
-  "slug": "algrow-mcp-youtube",
-  "lot": 2
+  "slug": "algrow-mcp-youtube"
  },
  {
   "nom": "Claude Code : hook Stop et /loop",
@@ -19669,8 +18918,7 @@
    "Bloquer « terminé » si les tests sont rouges",
    "Relancer une tâche toutes les 30 minutes avec /loop"
   ],
-  "slug": "claude-code-hook-stop-et-loop",
-  "lot": 2
+  "slug": "claude-code-hook-stop-et-loop"
  },
  {
   "nom": "Your Grok Bot Is Burning Money : Harness Fixes It",
@@ -19695,8 +18943,7 @@
   ],
   "image_post": "https://pbs.twimg.com/media/HXQRsE-akAA7HZm?format=jpg&name=medium",
   "article": true,
-  "slug": "your-grok-bot-is-burning-money-harness-fixes-it",
-  "lot": 2
+  "slug": "your-grok-bot-is-burning-money-harness-fixes-it"
  },
  {
   "nom": "300 Grok bots pour 0,02 $ par semaine : 20 dépôts",
@@ -19719,8 +18966,7 @@
    "Choisir un outil de cache, de compression ou de routage"
   ],
   "image_post": "https://pbs.twimg.com/amplify_video_thumb/2122663479241052160/img/7K66uOMvO29OiG8W.jpg",
-  "slug": "300-grok-bots-pour-0-02-par-semaine-20-depots",
-  "lot": 2
+  "slug": "300-grok-bots-pour-0-02-par-semaine-20-depots"
  },
  {
   "nom": "Harness, Loops, Graphs : les 7 niveaux (m4lka)",
@@ -19745,8 +18991,7 @@
   ],
   "image_post": "https://pbs.twimg.com/media/HVegcI_W0AAQV7H?format=png&name=medium",
   "article": true,
-  "slug": "harness-loops-graphs-les-7-niveaux-m4lka",
-  "lot": 2
+  "slug": "harness-loops-graphs-les-7-niveaux-m4lka"
  },
  {
   "nom": "Prompt → Context → Harness → Loop → Graph : les 5 niveaux (Livsun)",
@@ -19771,8 +19016,7 @@
   ],
   "image_post": "https://pbs.twimg.com/media/HV9EUUpWgAAQxL_?format=jpg&name=medium",
   "article": true,
-  "slug": "prompt-context-harness-loop-graph-les-5-niveaux-livsun",
-  "lot": 2
+  "slug": "prompt-context-harness-loop-graph-les-5-niveaux-livsun"
  },
  {
   "nom": "Harness, Loop, Graph : les 3 couches (Whitemon)",
@@ -19797,8 +19041,7 @@
   ],
   "image_post": "https://pbs.twimg.com/media/HWm0whLXEAAsKJb?format=jpg&name=medium",
   "article": true,
-  "slug": "harness-loop-graph-les-3-couches-whitemon",
-  "lot": 2
+  "slug": "harness-loop-graph-les-3-couches-whitemon"
  },
  {
   "nom": "Karpathy : 70 minutes sur l'usage des LLM",
@@ -19821,8 +19064,7 @@
    "Comprendre comment structurer un workflow"
   ],
   "image_post": "https://pbs.twimg.com/amplify_video_thumb/2123041321233354752/img/cwmCI71CGwiHnmDX.jpg",
-  "slug": "karpathy-70-minutes-sur-l-usage-des-llm",
-  "lot": 2
+  "slug": "karpathy-70-minutes-sur-l-usage-des-llm"
  },
  {
   "nom": "Karpathy : cours gratuit de 2 heures",
@@ -19844,8 +19086,7 @@
    "Se former aux agents en une soirée",
    "Relier prompts, harness, boucles et graphes"
   ],
-  "slug": "karpathy-cours-gratuit-de-2-heures",
-  "lot": 2
+  "slug": "karpathy-cours-gratuit-de-2-heures"
  },
  {
   "nom": "Anthropic : un harness Claude Code en 10 minutes",
@@ -19868,8 +19109,7 @@
    "Comprendre les boucles auto-améliorantes"
   ],
   "image_post": "https://pbs.twimg.com/amplify_video_thumb/2122718408915501056/img/Bw2UIccOloXPnvhF.jpg",
-  "slug": "anthropic-un-harness-claude-code-en-10-minutes",
-  "lot": 2
+  "slug": "anthropic-un-harness-claude-code-en-10-minutes"
  },
  {
   "nom": "Addy Osmani : Loop Engineering",
@@ -19891,8 +19131,7 @@
    "Concevoir des boucles qui promptent les agents",
    "Découper automatisations, worktrees, skills et sous-agents"
   ],
-  "slug": "addy-osmani-loop-engineering",
-  "lot": 2
+  "slug": "addy-osmani-loop-engineering"
  },
  {
   "nom": "Agentic Harness Engineering (Fudan, Peking)",
@@ -19914,8 +19153,7 @@
    "Comprendre ce qui compte dans un harness",
    "Voir pourquoi le prompt système pèse peu"
   ],
-  "slug": "agentic-harness-engineering-fudan-peking",
-  "lot": 2
+  "slug": "agentic-harness-engineering-fudan-peking"
  },
  {
   "nom": "How To Print Money With GTA VI (guide YouTube)",
@@ -19939,7 +19177,6 @@
   ],
   "image_post": "https://pbs.twimg.com/media/HXWeVEUXkAAguzh?format=jpg&name=medium",
   "article": true,
-  "slug": "how-to-print-money-with-gta-vi-guide-youtube",
-  "lot": 2
+  "slug": "how-to-print-money-with-gta-vi-guide-youtube"
  }
 ]
