@@ -6,7 +6,6 @@ claude-pro
 cursor-cloud-agents
 datacamp
 designeer-xyz
-freeinference-org-harvard
 openai-api-credits-d-essai
 openai-codex-for-oss
 openai-dots
