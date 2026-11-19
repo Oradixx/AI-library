@@ -329,7 +329,7 @@ window.addEventListener("scroll", () => { $("haut").hidden = window.scrollY < 12
 matchMedia("(max-width: 760px)").addEventListener("change", renderShelf);
 
 // ---------- Chargement ----------
-const getJSON = (u) => fetch(u).then((r) => (r.ok ? r.json() : Promise.reject(new Error(u))));
+const getJSON = (u) => fetch(u, { cache: "no-cache" }).then((r) => (r.ok ? r.json() : Promise.reject(new Error(u))));
 Promise.all([getJSON("data/outils.json"), getJSON("data/rayons.json"), getJSON("data/medias.json").catch(() => ({}))])
   .then(([data, rs, md]) => {
     rayons = rs; medias = md;
