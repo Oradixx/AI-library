@@ -10,14 +10,15 @@
   <meta property="og:description" content="Outils, API, hébergements, agents, skills et lectures, rangés en 8 rayons, avec les offres gratuites et étudiantes.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=202611212300">
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alegreya+Sans+SC:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=202611220100">
 </head>
 <body>
+  <a class="evite" href="#q" data-evite>Aller à la recherche</a>
   <nav id="rail" class="rail" aria-label="Accès rapide aux rayons" hidden></nav>
   <header class="salle">
     <div class="tete">
-      <h1><a href="./" id="home" aria-label="AI library"><span class="lettres" aria-hidden="true"><span style="--t:-2deg">A</span><span style="--t:1.5deg">I</span><span class="esp"></span><span style="--t:0deg">l</span><span style="--t:-1deg">i</span><span style="--t:2deg">b</span><span style="--t:-1.5deg">r</span><span style="--t:1deg">a</span><span style="--t:0deg">r</span><span style="--t:3deg">y</span></span></a></h1>
+      <h1><a href="./" id="home" aria-label="AI library"><span id="logo" aria-hidden="true">AI library</span></a></h1>
       <p class="meta"><span id="maj"></span><a href="https://github.com/Oradixx/AI-library">Code source</a></p>
     </div>
     <nav id="shelf" class="meuble" aria-label="Rayons et raccourcis"></nav>
@@ -35,17 +36,16 @@
       <details class="plus">
         <summary>Plus de filtres</summary>
         <div class="plus-corps">
-          <label>Statut <select id="statut"><option value="">Tous</option></select></label>
-          <label>Source <select id="source">
+          <label>Provenance <select id="source">
             <option value="">Toutes</option>
             <option value="Documents">Notes et documents</option>
-            <option value="Signets X">Signets X</option>
+            <option value="Signets X">Repérés sur X</option>
           </select></label>
           <label>Tri <select id="tri">
             <option value="pertinence">Recommandés d'abord</option>
             <option value="nom">Par nom</option>
           </select></label>
-          <label class="chk"><input id="ecartes" type="checkbox"> Afficher les écartés</label>
+          <label class="chk"><input id="ecartes" type="checkbox"> Afficher les outils écartés</label>
         </div>
       </details>
     </div>
@@ -62,6 +62,7 @@
   <footer>
     <p>Les quotas et offres gratuites changent souvent : vérifiez sur le site officiel avant de compter dessus. Les cas d'usage ont été rédigés avec une IA à partir des notes et restent à vérifier.</p>
   </footer>
-  <script src="app.js?v=202611212300"></script>
+  <script src="app.js?v=202611220100"></script>
+  <script src="logo.js?v=202611220100"></script>
 </body>
 </html>

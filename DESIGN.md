@@ -36,11 +36,10 @@ colors:
   shortcut-blue: "#34417a"
 typography:
   display:
-    fontFamily: "Alegreya Sans SC, Alegreya Sans, sans-serif"
+    fontFamily: "Alfa Slab One, serif"
     fontSize: "clamp(3rem, 7vw, 6rem)"
-    fontWeight: 700
-    lineHeight: 0.74
-    letterSpacing: "0.02em"
+    fontWeight: 400
+    lineHeight: 0.8
   headline:
     fontFamily: "Alegreya Sans SC, Alegreya Sans, sans-serif"
     fontSize: "2rem"
@@ -192,7 +191,7 @@ components:
 
 **Creative North Star: "Reliure toilée"**
 
-The site is a binder's room at night: a dark walnut wall, one real bookcase, and on its shelf eight buckram volumes, one per rayon. Their titles are stamped in hot-foil gold small caps between double filets, the way a bindery finishes a spine; the three largest volumes carry a dark leather title label. On the top of the case, seen slightly from above, stand the brass relief letters « AI library », each set by hand at its own small tilt. Everything below the case (search, price chips, shelf-lists of tools) reads as linen text on the same walnut wall, hanging off thin gold rules. A tool's fiche is a sheet of linen paper slid out from the right, headed by a band of its rayon's cloth.
+The site is a binder's room at night: a dark walnut wall, one real bookcase, and on its shelf eight buckram volumes, one per rayon. Their titles are stamped in hot-foil gold small caps between double filets, the way a bindery finishes a spine; the three largest volumes carry a dark leather title label. On the top of the case, seen slightly from above, rests the brass name in two welded pieces: « AI » standing flat on its feet, « library » leaning on the foot of its l and the loop of its y. Everything below the case (search, price chips, shelf-lists of tools) reads as linen text on the same walnut wall, hanging off thin gold rules. A tool's fiche is a sheet of linen paper slid out from the right, headed by a band of its rayon's cloth.
 
 The bookcase is a functional object, not a picture. Spine thickness encodes the number of tools in each rayon; pulling a spine opens it; the lying books against the right-hand upright are the three shortcuts (Coups de cœur, Nouveautés, Proposer un outil). Density is moderate: one large object at the top, then calm lists.
 
@@ -242,13 +241,14 @@ Price pills carry their own soft hues on walnut (Gratuit green, Étudiant blue, 
 
 ## Typography
 
-**Display Font:** Alegreya Sans SC (with Alegreya Sans, sans-serif)
+**Display Font:** Alfa Slab One (with serif), for the site title only
+**Stamp Font:** Alegreya Sans SC (with Alegreya Sans, sans-serif)
 **Body Font:** Alegreya Sans (with sans-serif)
 
-**Character:** Two cuts of one family. The small-caps cut is the binder's stamp and the brass founder's letter, used for anything titled; the regular cut is the reading face. The pairing stays humanist and warm without any serif display face.
+**Character:** A heavy slab serif is the cast brass of the nameplate; its slabs let the letters touch without their stems fusing. Below it, two cuts of one family: the small-caps cut is the binder's stamp, used for anything titled; the regular cut is the reading face.
 
 ### Hierarchy
-- **Display** (700, clamp(3rem, 7vw, 6rem), 0.74, 0.02em): the site title only, as brass relief letters. The tight line height lets the letters' feet rest on the case top.
+- **Display** (Alfa Slab One 400, clamp(3rem, 7vw, 6rem)): the site title only, drawn as SVG by `logo.js`. Letters of each word are moved together until they touch; each word rests on the convex edge under its centre of gravity, so « library » tilts onto its l and y. The brass thickness is the face scaled toward the vanishing point of the case top (its edges inset 1.4 % over 20px), and a contact shadow darkens where the brass is close to the wood. The plain text « AI library » shows until the drawing is ready.
 - **Headline** (700, 2rem, 1.1): rayon headings in Pale Foil; the fiche title (2rem, 0.02em) in Spine Foil on the band. 1.7rem on phone.
 - **Title** (700, 1.3rem, 1.2): sub-theme headings within a rayon, in linen.
 - **Title Small** (700, 1.1rem, 1.2, 0.05em): section headings inside the fiche (« À quoi ça sert », « Cas d'usage »), in the rayon cloth on paper.

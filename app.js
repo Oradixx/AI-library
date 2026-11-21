@@ -1,13 +1,14 @@
 // AI library : 8 rayons, sélection de coups de cœur, recherche et fiche outil.
 // Données : data/outils.json, data/rayons.json, data/medias.json (images, logos, état des liens).
 const $ = (id) => document.getElementById(id);
-const MAJ = "18 nov. 2026";
 const REPO = "https://github.com/Oradixx/AI-library";
 const CHIPS = [
   { id: "Gratuit", label: "Gratuit", match: ["Gratuit"] },
   { id: "Étudiant", label: "Étudiant", match: ["Étudiant"] },
   { id: "Open source", label: "Open source", match: ["Open source"] },
   { id: "Crédits", label: "Crédits offerts", match: ["Crédits", "Essai"] },
+  { id: "Freemium", label: "Freemium", match: ["Freemium"] },
+  { id: "Payant", label: "Payant", match: ["Payant"] },
 ];
 const RANK = { "À tester": 0, "À lire": 1, "": 2, "Noté": 2, "Écarté": 9 };
 
@@ -55,13 +56,12 @@ const pushHash = () => history.pushState(null, "", hashFor());
 // ---------- Filtres ----------
 function filtered(ignoreRayon = false, ignoreTarifs = false) {
   const words = norm(state.q).split(/\s+/).filter(Boolean);
-  const statut = $("statut").value, source = $("source").value, showOut = $("ecartes").checked || statut === "Écarté";
+  const source = $("source").value, showOut = $("ecartes").checked;
   const wanted = CHIPS.filter((c) => state.tarifs.has(c.id)).flatMap((c) => c.match);
   return items.filter((it) => {
     if (!ignoreRayon && state.rayon && (rayonOf[it.theme] || {}).nom !== state.rayon) return false;
     if (!ignoreRayon && state.theme && it.theme !== state.theme) return false;
     if (!showOut && it.statut === "Écarté") return false;
-    if (statut && it.statut !== statut) return false;
     if (source && !(it.source || "").includes(source)) return false;
     if (!ignoreTarifs && wanted.length && !(it.tarif || []).some((t) => wanted.includes(t))) return false;
     return words.every((w) => it._hay.includes(w));
@@ -73,7 +73,7 @@ function sorted(list) {
   return list.sort((a, b) => (b.coeur - a.coeur) || ((RANK[a.statut] ?? 2) - (RANK[b.statut] ?? 2)) || byName(a, b));
 }
 const plural = (n, one, many) => `${n} ${n > 1 ? many : one}`;
-const filtersActive = () => state.q || state.tarifs.size || $("statut").value || $("source").value;
+const filtersActive = () => state.q || state.tarifs.size || $("source").value;
 
 // ---------- Rendu des petits éléments ----------
 function logo(it, size = "") {
@@ -128,8 +128,8 @@ function renderShelf() {
   const home = !state.rayon && !state.vue && !filtersActive();
   $("shelf").innerHTML = `<div class="etage"><div class="rang">${spines}</div>
     <div class="pile" role="group" aria-label="Raccourcis">
-      <button class="couche c1" type="button" data-home aria-pressed="${home}">Coups de cœur</button>
-      <button class="couche c2" type="button" data-vue="nouveautes" aria-pressed="${state.vue === "nouveautes"}">Nouveautés <span class="n">${nouv}</span></button>
+      <button class="couche c1" type="button" data-home aria-pressed="${home}">Coups de cœur<span class="signet" aria-hidden="true"></span></button>
+      <button class="couche c2" type="button" data-vue="nouveautes" aria-pressed="${state.vue === "nouveautes"}">Nouveautés <span class="n">${nouv}</span><span class="signet" aria-hidden="true"></span></button>
       <a class="couche c3" href="${REPO}/issues/new?template=outil.yml" target="_blank" rel="noopener" aria-label="Proposer un outil (ouvre GitHub dans un nouvel onglet)">Proposer un outil</a>
       <span class="couche c4" aria-hidden="true"></span><span class="couche c5" aria-hidden="true"></span>
     </div></div>`;
@@ -182,8 +182,8 @@ function viewSelection() {
       <ul class="entries vedettes">${[...top, ...fill].map((it) => row(it, [], true)).join("")}</ul>
     </section>`;
   }).join("");
-  $("list").innerHTML = blocks;
-  $("count").textContent = `Sélection de coups de cœur. ${plural(items.filter((it) => it.statut !== "Écarté").length, "outil", "outils")} au total.`;
+  $("list").innerHTML = `<div class="intro"><h2>La sélection</h2><p>Trois coups de cœur par rayon. Ouvrez un livre de l'étagère pour parcourir tout le rayon.</p></div>` + blocks;
+  $("count").textContent = `${plural(items.filter((it) => it.statut !== "Écarté").length, "outil", "outils")} dans la bibliothèque.`;
   lastList = rayons.flatMap((r) => sorted(items.filter((it) => rayonOf[it.theme].nom === r.nom && it.coeur)));
 }
 
@@ -194,7 +194,7 @@ function groupBlock(title, list, skip = []) {
 // État vide : dire ce qui filtre et offrir de tout retirer.
 const joinFr = (l) => (l.length > 1 ? `${l.slice(0, -1).join(", ")} et ${l.at(-1)}` : l[0] || "");
 function emptyState(where) {
-  const filters = [...CHIPS.filter((c) => state.tarifs.has(c.id)).map((c) => c.label), $("statut").value, $("source").value && $("source").selectedOptions[0].text].filter(Boolean);
+  const filters = [...CHIPS.filter((c) => state.tarifs.has(c.id)).map((c) => c.label), $("source").value && $("source").selectedOptions[0].text].filter(Boolean);
   const what = (state.q ? ` à la recherche « ${state.q} »` : "") + (filters.length ? ` avec ${filters.length > 1 ? "les filtres" : "le filtre"} ${joinFr(filters)}` : "");
   const ailleurs = where && state.q ? filtered(true).length : 0;
   return `<div class="empty"><p>Aucun outil ne correspond${where}${esc(what)}.</p>
@@ -261,7 +261,7 @@ function viewResults() {
 
 function viewNouveautes() {
   const list = sorted(filtered(true).filter((it) => it.lot === maxLot));
-  $("list").innerHTML = !list.length ? `<div class="rayon-head"><h2>Nouveautés</h2></div>${emptyState(" parmi les nouveautés")}` : `<div class="rayon-head"><h2>Nouveautés</h2><p>Derniers outils et lectures ajoutés depuis les signets.</p>
+  $("list").innerHTML = !list.length ? `<div class="rayon-head"><h2>Nouveautés</h2></div>${emptyState(" parmi les nouveautés")}` : `<div class="rayon-head"><h2>Nouveautés</h2><p>Les derniers outils et lectures ajoutés au catalogue.</p>
     <button class="link-btn" type="button" data-home>Revenir à la sélection</button></div>` +
     rayons.map((r) => {
       const g = list.filter((it) => rayonOf[it.theme].nom === r.nom);
@@ -378,6 +378,7 @@ function focusList() {
 
 // ---------- Événements ----------
 document.addEventListener("click", (e) => {
+  if (e.target.closest("[data-evite]")) { e.preventDefault(); return $("q").focus(); }
   const o = e.target.closest("[data-outil]");
   if (o && !e.metaKey && !e.ctrlKey) {
     e.preventDefault();
@@ -415,7 +416,7 @@ document.addEventListener("click", (e) => {
   }
   if (e.target.closest("[data-home]") || e.target.closest("#home")) {
     e.preventDefault(); state.rayon = ""; state.theme = ""; state.vue = ""; state.q = ""; state.tarifs.clear();
-    $("q").value = ""; $("statut").value = ""; $("source").value = "";
+    $("q").value = ""; $("source").value = "";
     pushHash(); render();
     return focusList();
   }
@@ -425,7 +426,7 @@ document.addEventListener("click", (e) => {
     return focusList();
   }
   if (e.target.closest("[data-clear]")) {
-    state.q = ""; state.tarifs.clear(); $("q").value = ""; $("statut").value = ""; $("source").value = "";
+    state.q = ""; state.tarifs.clear(); $("q").value = ""; $("source").value = "";
     replaceHash(); render();
     return $("q").focus();
   }
@@ -451,24 +452,26 @@ window.addEventListener("popstate", () => {
   if (was && !$("fiche").hidden) { state.outil = was; closeFiche(false); }
 });
 $("q").addEventListener("input", () => { state.q = $("q").value.trim(); replaceHash(); render(); });
-for (const id of ["statut", "source", "tri", "ecartes"]) $(id).addEventListener("input", render);
+for (const id of ["source", "tri", "ecartes"]) $(id).addEventListener("input", render);
 window.addEventListener("scroll", () => { $("haut").hidden = window.scrollY < 1200; }, { passive: true });
 new ResizeObserver(sizeSpines).observe($("shelf"));
 // Le rail apparaît quand l'étagère sort de l'écran, pour changer de rayon sans remonter.
 new IntersectionObserver(([e]) => { $("rail").hidden = e.isIntersecting || !$("rail").childElementCount; }).observe($("shelf"));
 
 // ---------- Chargement ----------
-const getJSON = (u) => fetch(u, { cache: "no-cache" }).then((r) => (r.ok ? r.json() : Promise.reject(new Error(u))));
-Promise.all([getJSON("data/outils.json"), getJSON("data/rayons.json"), getJSON("data/medias.json").catch(() => ({}))])
+const getJSON = (u, then) => fetch(u, { cache: "no-cache" }).then((r) => (r.ok ? (then?.(r), r.json()) : Promise.reject(new Error(u))));
+// Date de mise à jour : celle du dernier déploiement, donnée par l'en-tête Last-Modified du catalogue.
+const majDe = (r) => {
+  const d = new Date(r.headers.get("Last-Modified") || "");
+  if (!isNaN(d)) $("maj").textContent = `Mis à jour le ${d.toLocaleDateString("fr-FR", { day: "numeric", month: "short", year: "numeric" })}`;
+};
+Promise.all([getJSON("data/outils.json", majDe), getJSON("data/rayons.json"), getJSON("data/medias.json").catch(() => ({}))])
   .then(([data, rs, md]) => {
     rayons = rs; medias = md;
     for (const r of rayons) for (const t of r.themes) rayonOf[t] = r;
     items = data.map((it) => ({ ...it, coeur: !!it.coeur, _hay: norm([it.nom, it.accroche, it.description, it.offre, it.theme, it.licence, ...(it.usage || []), ...(it.tags || [])].join(" ")) }));
     for (const it of items) bySlug[it.slug] = it;
     maxLot = Math.max(1, ...items.map((it) => it.lot || 1));
-    const statuts = [...new Set(items.map((i) => i.statut).filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr"));
-    for (const s of statuts) $("statut").insertAdjacentHTML("beforeend", `<option>${esc(s)}</option>`);
-    $("maj").textContent = `Mis à jour le ${MAJ}`;
     readHash();
     render();
     if (state.outil) openFiche(state.outil, false);

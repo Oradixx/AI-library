@@ -53,18 +53,20 @@ button { cursor: pointer; }
 :focus-visible { outline: 2px solid var(--or-clair); outline-offset: 3px; }
 h1, h2, h3 { margin: 0; text-wrap: balance; }
 p, li { text-wrap: pretty; }
+/* Lien d'évitement : visible seulement au clavier, il saute l'étagère jusqu'à la recherche. */
+.evite { position: absolute; top: -80px; left: 16px; z-index: 30; padding: 10px 16px; border-radius: 4px; background: var(--or-clair); color: var(--encre); font-weight: 700; text-decoration: none; }
+.evite:focus { top: 12px; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 
 /* ---------- En-tête ---------- */
 .salle { width: var(--large); margin: 0 auto; padding-top: 34px; }
 .tete { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 24px; }
-h1 { font-family: var(--sc); font-weight: 700; }
 .meta { margin: 0; display: flex; flex-wrap: wrap; gap: 4px 22px; color: var(--lin-3); font-size: 0.95rem; }
 .meta a { color: var(--lin); }
 
-/* Titre : lettres de laiton posées debout sur le dessus du meuble, placées à la main. */
+/* Titre : le nom en laiton posé sur le dessus du meuble. */
 .salle .tete { position: relative; align-items: flex-end; padding-bottom: 16px; }
-/* Le dessus du meuble, vu un peu d'en haut : les lettres y reposent. */
+/* Le dessus du meuble, vu un peu d'en haut : le titre y repose. Ses bords donnent le point de fuite du relief (logo.js). */
 .salle .tete::after {
   content: "";
   position: absolute;
@@ -75,33 +77,13 @@ h1 { font-family: var(--sc); font-weight: 700; }
   background: linear-gradient(#8a5f39, #7a5233 55%, #6a4529);
   clip-path: polygon(1.4% 0, 98.6% 0, 100% 100%, 0 100%);
 }
-.salle h1 { position: relative; z-index: 1; top: 13px; padding-left: 28px; font-size: clamp(3rem, 7vw, 6rem); line-height: 0.74; letter-spacing: 0.02em; }
-/* Ombre de contact des lettres sur le bois. */
-.salle h1::after {
-  content: "";
-  position: absolute;
-  left: 22px;
-  right: -6px;
-  bottom: 1px;
-  height: 8px;
-  z-index: -1;
-  background: radial-gradient(closest-side, rgba(0, 0, 0, 0.65), transparent);
-}
-.salle h1 a { display: inline-block; color: var(--laiton); text-decoration: none; }
-.lettres { display: inline-flex; align-items: flex-end; gap: 0.03em; }
-.lettres .esp { width: 0.32em; }
-.lettres span {
-  display: inline-block;
-  transform: rotate(var(--t, 0deg));
-  transform-origin: 50% 100%;
-  /* Chant éclairé, épaisseur du laiton vers le fond, puis ombre portée sur le mur. */
-  text-shadow: 1px -1px 0 #f4d27e, 2px -2px 0 #bf8f37, 3px -3px 0 #aa7e2f, 4px -4px 0 #966f28, 5px -5px 0 #826022, 6px -6px 0 #6f511c, 7px -7px 0 #5c4216;
-  /* Ombre courte, portée vers le fond, sur le dessus du meuble. */
-  filter: drop-shadow(3px -2px 2px rgba(0, 0, 0, 0.5));
-  transition: transform 0.25s var(--sortie);
-}
-.salle h1 a:hover .lettres span { transform: rotate(0deg); }
-.salle h1 a:hover { color: var(--laiton-clair); }
+/* Deux pièces de laiton soudées, dessinées par logo.js ; avant le dessin, le nom en texte du même laiton. */
+.salle h1 { position: relative; z-index: 1; top: 7px; padding-left: 28px; font: 400 clamp(3rem, 7vw, 6rem)/0.8 "Alfa Slab One", serif; }
+.salle h1 a { display: block; color: var(--laiton); text-decoration: none; }
+#logo { display: block; font-size: 0.86em; text-shadow: 1px -1px 0 #f4d27e, 3px -3px 0 #966f28, 5px -5px 0 #5c4216; }
+#logo svg { display: block; overflow: visible; text-shadow: none; }
+#logo .face { fill: var(--laiton); transition: fill 0.2s var(--sortie); }
+.salle h1 a:hover .face { fill: var(--laiton-clair); }
 .salle .meta { position: relative; z-index: 1; padding-bottom: 6px; }
 .salle .meuble { margin-top: 0; border-radius: 0 0 0 0; }
 
@@ -276,7 +258,10 @@ h1 { font-family: var(--sc); font-weight: 700; }
 .couche::after { right: 10px; }
 .couche .n { color: var(--lin); font: 700 0.9rem/1 "Alegreya Sans", sans-serif; font-variant-numeric: tabular-nums; }
 a.couche:hover, button.couche:hover, a.couche:focus-visible, button.couche:focus-visible { transform: translateX(-8px); }
-.couche[aria-pressed="true"] { transform: translateX(-12px); color: #f8e2a6; }
+/* Raccourci actif : tiré plus loin de la pile, avec un signet de soie qui pend sur le volume du dessous. */
+.couche[aria-pressed="true"] { z-index: 1; transform: translateX(-20px); color: #f8e2a6; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.45), 6px 0 10px -4px rgba(0, 0, 0, 0.6); }
+.signet { display: none; position: absolute; top: calc(100% - 4px); right: 40px; width: 11px; height: 13px; background: linear-gradient(90deg, #b8862c, var(--laiton-clair) 45%, #b8862c); clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 74%, 0 100%); filter: drop-shadow(0 2px 1px rgba(0, 0, 0, 0.5)); }
+.couche[aria-pressed="true"] .signet { display: block; }
 .c1 { --cc: #8a2b3c; --l: 214px; --m: 18px; }
 .c2 { --cc: #2a5444; --l: 238px; --m: 6px; }
 .c3 { --cc: #34417a; --l: 226px; --m: 12px; }
@@ -287,7 +272,7 @@ a.couche:hover, button.couche:hover, a.couche:focus-visible, button.couche:focus
 /* ---------- Recherche et filtres ---------- */
 .outils { width: var(--large); margin: 28px auto 0; }
 .ligne { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
-.recherche { position: relative; flex: 1 1 340px; }
+.recherche { position: relative; flex: 1 1 100%; }
 .recherche svg {
   position: absolute;
   left: 15px;
@@ -362,6 +347,10 @@ a.couche:hover, button.couche:hover, a.couche:focus-visible, button.couche:focus
 .plus-corps select { padding: 8px 10px; border: 1px solid var(--bord-champ); border-radius: 4px; background: var(--fond); }
 .plus-corps input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--or-clair); }
 .plus[open] { flex-basis: 100%; }
+/* Ouverture de l'accueil : un intertitre discret qui dit ce qu'est la sélection. */
+.intro { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; margin: 48px 0 -28px; }
+.intro h2 { font: 700 1.05rem/1.2 var(--sc); letter-spacing: 0.14em; color: var(--or); }
+.intro p { margin: 0; color: var(--lin-2); }
 .count { margin: 12px 0 0; color: var(--lin-3); font-size: 0.92rem; font-variant-numeric: tabular-nums; }
 
 /* ---------- Listes ---------- */
@@ -474,7 +463,7 @@ main:focus { outline: none; }
 .vedettes .logo, .vedettes .mono { width: 48px; height: 48px; }
 .vedettes .thumb { width: 112px; height: 63px; }
 .vedettes .coeur-mark { display: none; }
-.coeur-mark { margin-left: 6px; color: var(--or-clair); font: 500 0.85rem var(--sc); letter-spacing: 0.04em; }
+.coeur-mark { white-space: nowrap; margin-left: 6px; color: var(--or-clair); font: 500 0.85rem var(--sc); letter-spacing: 0.04em; }
 /* Lecture sans image : le monogramme prend le format de la miniature, la rangée reste alignée. */
 .entry.reading .mono { width: 96px; height: 54px; border-radius: 3px; font-size: 1.5rem; }
 .thumb { width: 96px; height: 54px; border-radius: 3px; object-fit: cover; background: #36251a; }
@@ -644,11 +633,9 @@ footer p { max-width: 58ch; margin: 0; color: var(--lin-3); font-size: 0.92rem; 
   :root { --haut-rayon: 12.25rem; --gout: 16px; --planche: 16px; }
   body { font-size: 1rem; }
   .salle { padding-top: 22px; }
-  /* Les lettres doivent toucher le meuble : la ligne d'infos passe au-dessus. */
+  /* Le titre doit toucher le meuble : la ligne d'infos passe au-dessus. */
   .salle .meta { order: -1; flex-basis: 100%; padding: 0 0 14px; }
-  .salle h1 { top: 10px; padding-left: 16px; }
-  .salle h1::after { left: 12px; }
-  .lettres span { text-shadow: 1px -1px 0 #f4d27e, 2px -2px 0 #bf8f37, 3px -3px 0 #a57a2c, 4px -4px 0 #8a6523, 5px -5px 0 #6f511c; filter: drop-shadow(2px -1px 1.5px rgba(0, 0, 0, 0.5)); }
+  .salle h1 { top: 4px; padding-left: 16px; }
   .meuble { --montant: 16px; margin-top: 18px; padding: 10px var(--montant) 10px 12px; }
   .meuble:empty { min-height: calc(var(--haut-rayon) + 3 * 34px + 2 * var(--planche) + 70px); }
   .meuble::before { top: 10px; bottom: 10px; left: 10px; }

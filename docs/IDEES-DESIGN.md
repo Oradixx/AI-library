@@ -6,7 +6,7 @@
 - **Pile de livres couchés et montant** : « Coups de cœur », « Nouveautés » et « Proposer un outil » sont posés sur deux volumes de fond, contre un vrai montant à droite. La planche est continue. Sur téléphone, la pile passe sur un second étage.
 - **Couleurs des livres couchés** : proches des toiles des rayons, sans effet « bouton ». On les tire vers la gauche au survol.
 - **Champ `lot`** dans `data/outils.json` : le plus grand lot = « Nouveautés » (lot 2 = signets du commit `8a30266`).
-- **Titre** : sous-texte retiré. Le titre est fait de lettres de laiton en relief posées debout sur le dessus du meuble (piste « lettres posées sur l'étagère »).
+- **Titre** : sous-texte retiré. Le nom est en laiton (Alfa Slab One) posé sur le dessus du meuble, en deux pièces soudées : « AI » à plat, « library » en biais sur le pied du l et la boucle du y. Le relief suit le point de fuite du meuble (`logo.js`). Essais écartés : petites capitales posées une à une, un seul bloc avec trait d'union (le I-l se lisait H) ou traverse au pied (le I se lisait L), polices sans empattements (les fûts se collent).
 
 Le système visuel est décrit dans `DESIGN.md`.
 
