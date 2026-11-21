@@ -16,6 +16,7 @@ const state = { rayon: "", theme: "", q: "", tarifs: new Set(), outil: "", vue: 
 let lastList = [];
 let lastFocus = null;
 let pouce = null;
+let fichePoussee = false;
 
 const norm = (s) => (s || "").toString().normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const esc = (s) => (s || "").toString().replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -48,6 +49,8 @@ function hashFor(over = {}) {
   return h ? "#" + h : location.pathname + location.search;
 }
 const replaceHash = () => history.replaceState(null, "", hashFor());
+// Changer de rayon ou de vue crée une entrée : le bouton Retour revient à la vue précédente.
+const pushHash = () => history.pushState(null, "", hashFor());
 
 // ---------- Filtres ----------
 function filtered(ignoreRayon = false, ignoreTarifs = false) {
@@ -95,6 +98,7 @@ function coverUrl(it) {
 }
 const accroche = (it) => it.accroche || it.description || "";
 
+// Sur les rangées, « Gratuit » reste implicite (plus de 80 % du catalogue) : seuls les vrais coûts et offres sont marqués.
 function row(it, skip, plain = false) {
   const reading = rayonName(it) === "Lire et apprendre" && !plain;
   const thumb = reading && coverUrl(it);
@@ -103,7 +107,7 @@ function row(it, skip, plain = false) {
   return `<li class="entry${reading ? " reading" : ""}"><a href="${hashFor({ outil: it.slug })}" data-outil="${esc(it.slug)}">
     ${visual}
     <span><span class="nom">${esc(it.nom)}</span>${it.coeur ? ' <span class="coeur-mark">Coup de cœur</span>' : ""}<span class="acc">${esc(accroche(it))}</span></span>
-    <span class="tags">${pills(it, 3, Array.isArray(skip) ? skip : [])}</span>
+    <span class="tags">${pills(it, 3, [...(Array.isArray(skip) ? skip : []), "Gratuit"])}</span>
   </a></li>`;
 }
 // ---------- Vues ----------
@@ -129,13 +133,16 @@ function renderShelf() {
       <a class="couche c3" href="${REPO}/issues/new?template=outil.yml" target="_blank" rel="noopener" aria-label="Proposer un outil (ouvre GitHub dans un nouvel onglet)">Proposer un outil</a>
       <span class="couche c4" aria-hidden="true"></span><span class="couche c5" aria-hidden="true"></span>
     </div></div>`;
+  $("rail").innerHTML = `<div class="rail-rang"><button class="rail-dos rail-accueil" type="button" data-home>Sélection</button>${rayons.map((r) =>
+    `<button class="rail-dos" type="button" data-rayon="${esc(r.nom)}" style="--c:${r.couleur}">${esc(r.nom)}</button>`).join("")}</div>`;
   updateShelf();
   sizeSpines();
 }
 // Les nombres ne changent pas après le chargement : on ne met à jour que les états pressés.
 function updateShelf() {
   const sh = $("shelf");
-  sh.querySelectorAll(".dos").forEach((d) => d.setAttribute("aria-pressed", state.rayon === d.dataset.rayon));
+  document.querySelectorAll(".dos, .rail-dos[data-rayon]").forEach((d) => d.setAttribute("aria-pressed", state.rayon === d.dataset.rayon));
+  $("rail").querySelector("[data-home]")?.setAttribute("aria-pressed", !state.rayon && !state.vue && !filtersActive());
   sh.querySelector("[data-home]").setAttribute("aria-pressed", !state.rayon && !state.vue && !filtersActive());
   sh.querySelector("[data-vue]").setAttribute("aria-pressed", state.vue === "nouveautes");
   sh.classList.toggle("ouvert", !!state.rayon);
@@ -189,8 +196,9 @@ const joinFr = (l) => (l.length > 1 ? `${l.slice(0, -1).join(", ")} et ${l.at(-1
 function emptyState(where) {
   const filters = [...CHIPS.filter((c) => state.tarifs.has(c.id)).map((c) => c.label), $("statut").value, $("source").value && $("source").selectedOptions[0].text].filter(Boolean);
   const what = (state.q ? ` à la recherche « ${state.q} »` : "") + (filters.length ? ` avec ${filters.length > 1 ? "les filtres" : "le filtre"} ${joinFr(filters)}` : "");
+  const ailleurs = where && state.q ? filtered(true).length : 0;
   return `<div class="empty"><p>Aucun outil ne correspond${where}${esc(what)}.</p>
-    <button class="link-btn" type="button" data-clear>Retirer les filtres</button></div>`;
+    ${ailleurs ? `<button class="link-btn" type="button" data-partout>Chercher « ${esc(state.q)} » dans toute la bibliothèque (${ailleurs})</button> ` : ""}<button class="link-btn" type="button" data-clear>Retirer les filtres</button></div>`;
 }
 
 function viewRayon() {
@@ -236,9 +244,11 @@ function viewResults() {
   }
   if (state.tarifs.size > 1) {
     const groups = chipGroups(list);
-    $("list").innerHTML = groups.map(([label, g, skip]) => `<div class="rayon-head"><h2>${esc(label)}</h2><p>${plural(g.length, "outil", "outils")}</p></div><ul class="entries">${g.map((it) => row(it, skip)).join("")}</ul>`).join("");
+    const parRayon = (g) => rayons.map((r) => g.filter((it) => rayonName(it) === r.nom)).filter((x) => x.length);
+    $("list").innerHTML = groups.map(([label, g, skip]) => `<div class="rayon-head"><h2>${esc(label)}</h2><p>${plural(g.length, "outil", "outils")}</p></div>` +
+      parRayon(g).map((x) => groupBlock(rayonName(x[0]), x, skip)).join("")).join("");
     $("count").textContent = `${plural(list.length, "résultat", "résultats")} : ` + groups.map(([label, g]) => `${g.length} ${label.toLowerCase()}`).join(", ");
-    lastList = groups.flatMap(([, g]) => g);
+    lastList = groups.flatMap(([, g]) => parRayon(g).flat());
     return;
   }
   $("list").innerHTML = rayons.map((r) => {
@@ -326,6 +336,7 @@ function openFiche(slug, push = true) {
   document.body.style.overflow = "hidden";
   state.outil = slug;
   if (push) history.pushState(null, "", hashFor());
+  fichePoussee = push || fichePoussee;
   f.scrollTop = 0;
   f.classList.remove("defile");
   pouce?.disconnect();
@@ -335,16 +346,18 @@ function openFiche(slug, push = true) {
 }
 
 // Pendant la fiche, le reste de la page sort du parcours clavier et des lecteurs d'écran.
-const setInert = (on) => document.querySelectorAll(".salle, .outils, main, footer, #haut").forEach((el) => { el.inert = on; });
+const setInert = (on) => document.querySelectorAll(".salle, .outils, main, footer, #haut, #rail").forEach((el) => { el.inert = on; });
 
 function closeFiche(push = true) {
+  // Fiche ouverte depuis la page : on revient en arrière plutôt que d'empiler une entrée de plus.
+  if (push && fichePoussee) { fichePoussee = false; return history.back(); }
   const was = state.outil;
   $("fiche").hidden = true;
   $("veil").hidden = true;
   setInert(false);
   document.body.style.overflow = "";
   state.outil = "";
-  if (push) history.pushState(null, "", hashFor());
+  if (push) replaceHash();
   if (!was) return;
   const back = lastFocus && document.contains(lastFocus) ? lastFocus : $("list").querySelector(`[data-outil="${CSS.escape(was)}"]`);
   if (back) back.focus();
@@ -368,13 +381,15 @@ document.addEventListener("click", (e) => {
   const o = e.target.closest("[data-outil]");
   if (o && !e.metaKey && !e.ctrlKey) {
     e.preventDefault();
-    if (!$("fiche").contains(o)) lastFocus = o;
+    // Depuis la fiche (« Dans le même rayon »), on remplace la fiche au lieu d'empiler l'historique.
+    if ($("fiche").contains(o)) { openFiche(o.dataset.outil, false); return replaceHash(); }
+    lastFocus = o;
     return openFiche(o.dataset.outil);
   }
   const nv = e.target.closest("[data-vue]");
   if (nv) {
     state.vue = nv.dataset.vue; state.rayon = ""; state.theme = "";
-    replaceHash(); render();
+    pushHash(); render();
     $("list").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
     return focusList();
   }
@@ -382,7 +397,7 @@ document.addEventListener("click", (e) => {
   if (r) {
     state.rayon = state.rayon === r.dataset.rayon && r.classList.contains("dos") ? "" : r.dataset.rayon;
     state.theme = ""; state.vue = "";
-    replaceHash(); render();
+    pushHash(); render();
     $("list").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
     return focusList();
   }
@@ -401,7 +416,12 @@ document.addEventListener("click", (e) => {
   if (e.target.closest("[data-home]") || e.target.closest("#home")) {
     e.preventDefault(); state.rayon = ""; state.theme = ""; state.vue = ""; state.q = ""; state.tarifs.clear();
     $("q").value = ""; $("statut").value = ""; $("source").value = "";
-    replaceHash(); render();
+    pushHash(); render();
+    return focusList();
+  }
+  if (e.target.closest("[data-partout]")) {
+    state.rayon = ""; state.theme = ""; state.vue = "";
+    pushHash(); render();
     return focusList();
   }
   if (e.target.closest("[data-clear]")) {
@@ -424,13 +444,18 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "ArrowLeft") step(-1);
 });
 window.addEventListener("popstate", () => {
+  const was = state.outil;
   readHash(); render();
-  state.outil ? openFiche(state.outil, false) : closeFiche(false);
+  if (state.outil) return openFiche(state.outil, false);
+  fichePoussee = false;
+  if (was && !$("fiche").hidden) { state.outil = was; closeFiche(false); }
 });
 $("q").addEventListener("input", () => { state.q = $("q").value.trim(); replaceHash(); render(); });
 for (const id of ["statut", "source", "tri", "ecartes"]) $(id).addEventListener("input", render);
 window.addEventListener("scroll", () => { $("haut").hidden = window.scrollY < 1200; }, { passive: true });
 new ResizeObserver(sizeSpines).observe($("shelf"));
+// Le rail apparaît quand l'étagère sort de l'écran, pour changer de rayon sans remonter.
+new IntersectionObserver(([e]) => { $("rail").hidden = e.isIntersecting || !$("rail").childElementCount; }).observe($("shelf"));
 
 // ---------- Chargement ----------
 const getJSON = (u) => fetch(u, { cache: "no-cache" }).then((r) => (r.ok ? r.json() : Promise.reject(new Error(u))));
