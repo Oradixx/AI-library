@@ -55,7 +55,7 @@ h1 { font-family: var(--sc); font-weight: 700; }
 .meta a { color: var(--lin); }
 
 /* Titre : lettres de laiton posées debout sur le dessus du meuble, placées à la main. */
-.salle .tete { position: relative; align-items: flex-end; padding-bottom: 12px; }
+.salle .tete { position: relative; align-items: flex-end; padding-bottom: 16px; }
 /* Le dessus du meuble, vu un peu d'en haut : les lettres y reposent. */
 .salle .tete::after {
   content: "";
@@ -63,21 +63,21 @@ h1 { font-family: var(--sc); font-weight: 700; }
   left: 0;
   right: 0;
   bottom: 0;
-  height: 14px;
-  background: linear-gradient(#94683f, #7a5233 60%, #6a4529);
+  height: 20px;
+  background: linear-gradient(#8a5f39, #7a5233 55%, #6a4529);
   clip-path: polygon(1.4% 0, 98.6% 0, 100% 100%, 0 100%);
 }
-.salle h1 { position: relative; z-index: 1; top: 10px; font-size: clamp(3rem, 7vw, 6rem); line-height: 0.74; letter-spacing: 0.02em; }
+.salle h1 { position: relative; z-index: 1; top: 13px; padding-left: 28px; font-size: clamp(3rem, 7vw, 6rem); line-height: 0.74; letter-spacing: 0.02em; }
 /* Ombre de contact des lettres sur le bois. */
 .salle h1::after {
   content: "";
   position: absolute;
-  left: 2%;
-  right: 4%;
-  bottom: -5px;
-  height: 10px;
+  left: 22px;
+  right: -6px;
+  bottom: 1px;
+  height: 8px;
   z-index: -1;
-  background: radial-gradient(closest-side, rgba(0, 0, 0, 0.6), transparent);
+  background: radial-gradient(closest-side, rgba(0, 0, 0, 0.65), transparent);
 }
 .salle h1 a { display: inline-block; color: #dcaa46; text-decoration: none; }
 .lettres { display: inline-flex; align-items: flex-end; gap: 0.03em; }
@@ -88,7 +88,8 @@ h1 { font-family: var(--sc); font-weight: 700; }
   transform-origin: 50% 100%;
   /* Chant éclairé, épaisseur du laiton vers le fond, puis ombre portée sur le mur. */
   text-shadow: 1px -1px 0 #f4d27e, 2px -2px 0 #bf8f37, 3px -3px 0 #aa7e2f, 4px -4px 0 #966f28, 5px -5px 0 #826022, 6px -6px 0 #6f511c, 7px -7px 0 #5c4216;
-  filter: drop-shadow(14px -8px 10px rgba(0, 0, 0, 0.55));
+  /* Ombre courte, portée vers le fond, sur le dessus du meuble. */
+  filter: drop-shadow(3px -2px 2px rgba(0, 0, 0, 0.5));
   transition: transform 0.25s var(--sortie);
 }
 .salle h1 a:hover .lettres span { transform: rotate(0deg); }
@@ -563,8 +564,9 @@ footer p { max-width: 58ch; margin: 0; color: var(--lin-3); font-size: 0.92rem; 
   .salle { padding-top: 22px; }
   /* Les lettres doivent toucher le meuble : la ligne d'infos passe au-dessus. */
   .salle .meta { order: -1; flex-basis: 100%; padding: 0 0 14px; }
-  .salle h1 { top: 7px; }
-  .lettres span { text-shadow: 1px -1px 0 #f4d27e, 2px -2px 0 #bf8f37, 3px -3px 0 #a57a2c, 4px -4px 0 #8a6523, 5px -5px 0 #6f511c; filter: drop-shadow(8px -5px 6px rgba(0, 0, 0, 0.55)); }
+  .salle h1 { top: 10px; padding-left: 16px; }
+  .salle h1::after { left: 12px; }
+  .lettres span { text-shadow: 1px -1px 0 #f4d27e, 2px -2px 0 #bf8f37, 3px -3px 0 #a57a2c, 4px -4px 0 #8a6523, 5px -5px 0 #6f511c; filter: drop-shadow(2px -1px 1.5px rgba(0, 0, 0, 0.5)); }
   .meuble { --montant: 16px; margin-top: 18px; padding: 10px var(--montant) 10px 12px; }
   .meuble:empty { min-height: calc(var(--haut-rayon) + 3 * 34px + 2 * var(--planche) + 70px); }
   .meuble::before { top: 10px; bottom: 10px; left: 10px; }
