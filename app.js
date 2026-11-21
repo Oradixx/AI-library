@@ -109,6 +109,7 @@ function row(it, skip, plain = false) {
 // ---------- Vues ----------
 // L'étagère : un livre par rayon, son épaisseur suit le nombre d'outils ; à droite, la pile de raccourcis couchés.
 function renderShelf() {
+  if ($("shelf").querySelector(".rang")) return updateShelf();
   const counts = {};
   for (const it of items) if (it.statut !== "Écarté") counts[rayonOf[it.theme].nom] = (counts[rayonOf[it.theme].nom] || 0) + 1;
   const tall = [0.93, 0.85, 0.98, 0.8, 0.9, 0.96, 0.87, 0.94];
@@ -128,8 +129,16 @@ function renderShelf() {
       <a class="couche c3" href="${REPO}/issues/new?template=outil.yml" target="_blank" rel="noopener" aria-label="Proposer un outil (ouvre GitHub dans un nouvel onglet)">Proposer un outil</a>
       <span class="couche c4" aria-hidden="true"></span><span class="couche c5" aria-hidden="true"></span>
     </div></div>`;
-  $("shelf").classList.toggle("ouvert", !!state.rayon);
+  updateShelf();
   sizeSpines();
+}
+// Les nombres ne changent pas après le chargement : on ne met à jour que les états pressés.
+function updateShelf() {
+  const sh = $("shelf");
+  sh.querySelectorAll(".dos").forEach((d) => d.setAttribute("aria-pressed", state.rayon === d.dataset.rayon));
+  sh.querySelector("[data-home]").setAttribute("aria-pressed", !state.rayon && !state.vue && !filtersActive());
+  sh.querySelector("[data-vue]").setAttribute("aria-pressed", state.vue === "nouveautes");
+  sh.classList.toggle("ouvert", !!state.rayon);
 }
 // Remplit la planche : épaisseur = base + k × outils, un seul k pour tous, réduit si un livre dépasse
 // 1/2,4 de sa hauteur. L'ordre des épaisseurs suit donc toujours l'ordre des nombres d'outils.
@@ -276,7 +285,7 @@ function accessList(it) {
 }
 const svg = (d) => `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${d}"/></svg>`;
 const ICO = { prec: svg("m15 5-7 7 7 7"), suiv: svg("m9 5 7 7-7 7"), fermer: svg("M6 6l12 12M18 6 6 18") };
-const linkBtn = (l, primary) => `<a class="btn${primary ? " primary" : ""}" href="${esc(l.href)}" target="_blank" rel="noopener">${esc(l.label)}</a>`;
+const linkBtn = (l, primary) => `<a class="btn${primary ? " primary" : ""}" href="${esc(l.href)}" target="_blank" rel="noopener">${esc(l.label)}<span class="sr"> (nouvel onglet)</span></a>`;
 function accessLinks(it, links) {
   const m = medias[it.slug] || {};
   const broken = safeUrl(it.url) && (m.status === 404 || m.status === 410);

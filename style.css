@@ -45,6 +45,7 @@ button, input, select { font: inherit; color: inherit; }
 button { cursor: pointer; }
 :focus-visible { outline: 2px solid var(--or-clair); outline-offset: 3px; }
 h1, h2, h3 { margin: 0; text-wrap: balance; }
+p, li { text-wrap: pretty; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 
 /* ---------- En-tête ---------- */
