@@ -27,6 +27,13 @@
   --noyer: repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.07) 0 2px, transparent 2px 11px, rgba(255, 255, 255, 0.025) 11px 13px, transparent 13px 23px),
     linear-gradient(90deg, #4c311e, #63412a 18%, #573823 52%, #684530 80%, #4a2f1c);
   --planche-bois: linear-gradient(#a7764b 0 3px, #7a5233 3px 5px, #6a4529 5px calc(100% - 3px), #4b301d calc(100% - 3px));
+  /* Jetons de composants : champs, filets dorés, cuir des pièces de titre, laiton du titre. */
+  --bord-champ: #6e4f36;
+  --or-filet: rgba(233, 196, 106, 0.5);
+  --or-voile: rgba(233, 196, 106, 0.12);
+  --cuir: #1a120d;
+  --laiton: #dcaa46;
+  --laiton-clair: #e8bb58;
 }
 
 * { box-sizing: border-box; }
@@ -80,7 +87,7 @@ h1 { font-family: var(--sc); font-weight: 700; }
   z-index: -1;
   background: radial-gradient(closest-side, rgba(0, 0, 0, 0.65), transparent);
 }
-.salle h1 a { display: inline-block; color: #dcaa46; text-decoration: none; }
+.salle h1 a { display: inline-block; color: var(--laiton); text-decoration: none; }
 .lettres { display: inline-flex; align-items: flex-end; gap: 0.03em; }
 .lettres .esp { width: 0.32em; }
 .lettres span {
@@ -94,7 +101,7 @@ h1 { font-family: var(--sc); font-weight: 700; }
   transition: transform 0.25s var(--sortie);
 }
 .salle h1 a:hover .lettres span { transform: rotate(0deg); }
-.salle h1 a:hover { color: #e8bb58; }
+.salle h1 a:hover { color: var(--laiton-clair); }
 .salle .meta { position: relative; z-index: 1; padding-bottom: 6px; }
 .salle .meuble { margin-top: 0; border-radius: 0 0 0 0; }
 
@@ -218,9 +225,9 @@ h1 { font-family: var(--sc); font-weight: 700; }
 .dos.piece .titre {
   padding: 16px 7px;
   border-radius: 2px;
-  background-color: #1a120d;
+  background-color: var(--cuir);
   background-image: var(--trame);
-  box-shadow: inset 0 0 0 1px rgba(240, 210, 131, 0.6), inset 0 0 0 3px #1a120d, inset 0 0 0 4px rgba(240, 210, 131, 0.35), 0 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 0 1px rgba(240, 210, 131, 0.6), inset 0 0 0 3px var(--cuir), inset 0 0 0 4px rgba(240, 210, 131, 0.35), 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 .dos .n { color: var(--lin); font-size: 0.92rem; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1; }
 .dos:hover, .dos:focus-visible { transform: translateY(-7px); box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.55), 12px -2px 16px -3px rgba(0, 0, 0, 0.55); }
@@ -298,7 +305,7 @@ a.couche:hover, button.couche:hover, a.couche:focus-visible, button.couche:focus
   width: 100%;
   height: 52px;
   padding: 0 16px 0 46px;
-  border: 1px solid #6e4f36;
+  border: 1px solid var(--bord-champ);
   border-radius: 4px;
   background: var(--fond);
   font-size: 1.08rem;
@@ -312,7 +319,7 @@ a.couche:hover, button.couche:hover, a.couche:focus-visible, button.couche:focus
   translate: 0 -50%;
   min-width: 24px;
   padding: 1px 7px;
-  border: 1px solid #6e4f36;
+  border: 1px solid var(--bord-champ);
   border-radius: 4px;
   color: var(--lin-3);
   font: 500 0.85rem/1.4 "Alegreya Sans", sans-serif;
@@ -320,18 +327,18 @@ a.couche:hover, button.couche:hover, a.couche:focus-visible, button.couche:focus
   pointer-events: none;
 }
 .recherche:focus-within .raccourci, .recherche input:not(:placeholder-shown) ~ .raccourci { display: none; }
-.recherche input:focus { border-color: var(--or); outline: 2px solid rgba(233, 196, 106, 0.45); outline-offset: 1px; }
+.recherche input:focus { border-color: var(--or); outline: 2px solid var(--or-filet); outline-offset: 1px; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {
   min-height: 44px;
   padding: 0 17px;
-  border: 1px solid rgba(233, 196, 106, 0.5);
+  border: 1px solid var(--or-filet);
   border-radius: 999px;
   background: transparent;
   font-weight: 500;
   transition: background-color 0.15s var(--sortie), color 0.15s var(--sortie);
 }
-.chip:hover { background: rgba(233, 196, 106, 0.12); }
+.chip:hover { background: var(--or-voile); }
 .chip[aria-pressed="true"] { background: var(--or-clair); border-color: var(--or-clair); color: var(--encre); }
 .chip .n { margin-left: 4px; color: var(--lin-3); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
 .chip[aria-pressed="true"] .n { color: var(--encre-2); }
@@ -352,7 +359,7 @@ a.couche:hover, button.couche:hover, a.couche:focus-visible, button.couche:focus
 .plus[open] summary { color: var(--or-clair); }
 .plus-corps { display: flex; flex-wrap: wrap; gap: 12px 20px; padding: 12px 0 4px; color: var(--lin-2); font-size: 0.95rem; }
 .plus-corps label { display: flex; align-items: center; gap: 8px; }
-.plus-corps select { padding: 8px 10px; border: 1px solid #6e4f36; border-radius: 4px; background: var(--fond); }
+.plus-corps select { padding: 8px 10px; border: 1px solid var(--bord-champ); border-radius: 4px; background: var(--fond); }
 .plus-corps input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--or-clair); }
 .plus[open] { flex-basis: 100%; }
 .count { margin: 12px 0 0; color: var(--lin-3); font-size: 0.92rem; font-variant-numeric: tabular-nums; }
@@ -378,19 +385,19 @@ main:focus { outline: none; }
 .link-btn {
   min-height: 40px;
   padding: 0 16px;
-  border: 1px solid rgba(233, 196, 106, 0.5);
+  border: 1px solid var(--or-filet);
   border-radius: 999px;
   background: transparent;
   color: var(--or-clair);
   font-weight: 500;
   white-space: nowrap;
 }
-.link-btn:hover { background: rgba(233, 196, 106, 0.12); }
+.link-btn:hover { background: var(--or-voile); }
 
 .sub { margin: 36px 0 6px; font: 700 1.3rem/1.2 var(--sc); letter-spacing: 0.03em; color: var(--lin); }
 .sub small, .tab small { color: var(--lin-3); font: 500 0.85rem "Alegreya Sans", sans-serif; font-variant-numeric: tabular-nums; margin-left: 4px; }
 /* Sous-thèmes : des intercalaires posés sur un filet, distincts des pastilles de tarif. */
-.tabs { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 16px; border-bottom: 1px solid rgba(233, 196, 106, 0.45); }
+.tabs { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 16px; border-bottom: 1px solid var(--or-filet); }
 .tabs:empty { display: none; }
 .tab {
   position: relative;
@@ -398,7 +405,7 @@ main:focus { outline: none; }
   margin-bottom: -1px;
   padding: 0 14px;
   border: 1px solid rgba(233, 196, 106, 0.28);
-  border-bottom-color: rgba(233, 196, 106, 0.45);
+  border-bottom-color: var(--or-filet);
   border-radius: 7px 7px 0 0;
   background: rgba(239, 231, 218, 0.04);
   font-size: 0.95rem;
@@ -406,7 +413,7 @@ main:focus { outline: none; }
   transition: background-color 0.15s var(--sortie);
 }
 .tab:hover { background: rgba(239, 231, 218, 0.09); }
-.tab[aria-pressed="true"] { border-color: rgba(233, 196, 106, 0.45); border-bottom-color: var(--mur); background: var(--mur); color: var(--or-clair); box-shadow: inset 0 2px 0 var(--or-clair); }
+.tab[aria-pressed="true"] { border-color: var(--or-filet); border-bottom-color: var(--mur); background: var(--mur); color: var(--or-clair); box-shadow: inset 0 2px 0 var(--or-clair); }
 
 .entries { list-style: none; margin: 0; padding: 0; }
 .entry a {
