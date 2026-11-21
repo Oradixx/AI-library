@@ -112,9 +112,11 @@ function renderShelf() {
   const counts = {};
   for (const it of items) if (it.statut !== "Écarté") counts[rayonOf[it.theme].nom] = (counts[rayonOf[it.theme].nom] || 0) + 1;
   const tall = [0.93, 0.85, 0.98, 0.8, 0.9, 0.96, 0.87, 0.94];
+  // Les trois plus gros volumes portent une pièce de titre en cuir.
+  const gros = rayons.map((r) => counts[r.nom] || 0).sort((a, b) => b - a)[2];
   const spines = rayons.map((r, i) => {
     const n = counts[r.nom] || 0;
-    return `<button class="dos" type="button" data-rayon="${esc(r.nom)}" data-n="${n}" aria-pressed="${state.rayon === r.nom}"
+    return `<button class="dos${n >= gros ? " piece" : ""}" type="button" data-rayon="${esc(r.nom)}" data-n="${n}" aria-pressed="${state.rayon === r.nom}"
       style="--c:${r.couleur};--h:${tall[i % tall.length]}" aria-label="${esc(r.nom)}, ${n} outils"><span class="titre">${esc(r.nom)}</span><span class="n">${n}</span></button>`;
   }).join("");
   const nouv = items.filter((it) => it.lot === maxLot && it.statut !== "Écarté").length;
