@@ -27,13 +27,13 @@ A hand-picked, organized catalog in French, not an exhaustive directory. Its ton
 - **Library model (keep):** 8 *rayons* (Agents, Modèles, API et offres, Héberger, Construire, Design, Skills, Lire et apprendre) defined in `data/rayons.json`, each a book standing on a shelf, each grouping sub-themes. Every tool has its own page in `outil/<slug>/` and a direct link `#outil=<slug>`.
 - **Filters:** search; price chips (Gratuit, Open source, Freemium, Payant, Étudiant, Crédits, Essai); with several prices selected, one section per price, rarest first; more filters (statut, source, sort, show rejected). Filter state lives in the URL hash.
 - **Home:** 3 *coups de cœur* per rayon (`"coeur": true`).
-- **Planned:** shortcuts « Coups de cœur », « Nouveautés », « Proposer un outil » (see `docs/IDEES-DESIGN.md`). « Nouveautés » needs a `lot` field (import batch number) in `data/outils.json`, highest lot = latest additions; the field does not exist yet.
+- **Shortcuts:** « Coups de cœur », « Nouveautés », « Proposer un outil ». « Nouveautés » shows the highest `lot` (import batch number) in `data/outils.json`: lot 1 = initial catalog, lot 2 = the bookmarks of commit `8a30266`. Each new import must use the next lot number.
 - **Technical:** static site, no build step, no framework: `index.html`, `style.css`, `app.js`, JSON data, Python standard-library scripts. Must stay fast and readable on phone and desktop.
 - **Language:** all visible text in French.
 
 ## Brand Commitments
-- Name: « AI library ». The subtitle under the title is to be removed.
-- The library metaphor (shelf, books standing for themes) is binding; the current visual look is not, and is to be rebuilt from a blank page.
+- Name: « AI library », with no subtitle under the title.
+- The library metaphor (shelf, books standing for themes) is binding. The visual world (« Reliure toilée ») is recorded in `DESIGN.md`.
 - `docs/IDEES-DESIGN.md` records wanted directions and rejected attempts with reasons; read it before visual work.
 
 ## Evidence on Hand
