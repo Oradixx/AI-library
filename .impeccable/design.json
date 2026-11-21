@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-21T17:37:26Z",
+  "generatedAt": "2026-11-21T18:20:50Z",
   "title": "Design System: AI library",
   "extensions": {
     "colorMeta": {
@@ -18,7 +18,8 @@
           "oklch(72% 0.099 83)",
           "oklch(84% 0.074 83)",
           "oklch(95% 0.047 83)"
-        ]
+        ],
+        "purpose": "Search focus border and coup-de-cœur pill."
       },
       "foil-gold-light": {
         "role": "primary",
@@ -51,6 +52,58 @@
           "oklch(84% 0.058 89)",
           "oklch(95% 0.037 89)"
         ]
+      },
+      "brass": {
+        "role": "primary",
+        "displayName": "Cast Brass",
+        "canonical": "#dcaa46",
+        "oklch": "oklch(76.6% 0.129 82)",
+        "tonalRamp": [
+          "oklch(15% 0.045 82)",
+          "oklch(26% 0.071 82)",
+          "oklch(38% 0.096 82)",
+          "oklch(49% 0.118 82)",
+          "oklch(61% 0.118 82)",
+          "oklch(72% 0.096 82)",
+          "oklch(84% 0.071 82)",
+          "oklch(95% 0.045 82)"
+        ],
+        "purpose": "Relief title letters at rest; the extrusion steps darker brass toward #5c4216."
+      },
+      "brass-light": {
+        "role": "primary",
+        "displayName": "Light Brass",
+        "canonical": "#e8bb58",
+        "oklch": "oklch(81.3% 0.127 85)",
+        "tonalRamp": [
+          "oklch(15% 0.045 85)",
+          "oklch(26% 0.070 85)",
+          "oklch(38% 0.094 85)",
+          "oklch(49% 0.116 85)",
+          "oklch(61% 0.116 85)",
+          "oklch(72% 0.094 85)",
+          "oklch(84% 0.070 85)",
+          "oklch(95% 0.045 85)"
+        ],
+        "purpose": "Relief title letters on hover."
+      },
+      "gold-outline": {
+        "role": "primary",
+        "displayName": "Gold Outline",
+        "canonical": "rgba(233, 196, 106, 0.5)",
+        "purpose": "1px outline of chips, link buttons, the tab rail; search focus ring."
+      },
+      "gold-wash": {
+        "role": "primary",
+        "displayName": "Gold Wash",
+        "canonical": "rgba(233, 196, 106, 0.12)",
+        "purpose": "Hover fill of chips and link buttons."
+      },
+      "gold-rule": {
+        "role": "neutral",
+        "displayName": "Gold Rule",
+        "canonical": "rgba(233, 196, 106, 0.22)",
+        "purpose": "Hairline under rayon headings and above the footer."
       },
       "walnut-wall": {
         "role": "neutral",
@@ -98,7 +151,8 @@
           "oklch(72% 0.042 55)",
           "oklch(84% 0.032 55)",
           "oklch(95% 0.020 55)"
-        ]
+        ],
+        "purpose": "Default wood of an uncoloured book."
       },
       "walnut-lip": {
         "role": "neutral",
@@ -114,7 +168,8 @@
           "oklch(72% 0.052 58)",
           "oklch(84% 0.039 58)",
           "oklch(95% 0.025 58)"
-        ]
+        ],
+        "purpose": "Face of the shelf plank and of the case top."
       },
       "walnut-light": {
         "role": "neutral",
@@ -147,6 +202,23 @@
           "oklch(84% 0.031 60)",
           "oklch(95% 0.020 60)"
         ]
+      },
+      "leather": {
+        "role": "neutral",
+        "displayName": "Dark Leather",
+        "canonical": "#1a120d",
+        "oklch": "oklch(19.1% 0.017 53)",
+        "tonalRamp": [
+          "oklch(15% 0.006 53)",
+          "oklch(26% 0.009 53)",
+          "oklch(38% 0.012 53)",
+          "oklch(49% 0.015 53)",
+          "oklch(61% 0.015 53)",
+          "oklch(72% 0.012 53)",
+          "oklch(84% 0.009 53)",
+          "oklch(95% 0.006 53)"
+        ],
+        "purpose": "Title label on the three largest spines, with weave and a double gold frame."
       },
       "linen": {
         "role": "neutral",
@@ -427,18 +499,12 @@
           "oklch(84% 0.054 272)",
           "oklch(95% 0.034 272)"
         ]
-      },
-      "gold-rule": {
-        "role": "neutral",
-        "displayName": "Gold Rule",
-        "canonical": "rgba(233, 196, 106, 0.22)",
-        "purpose": "Hairline under rayon headings and above the footer."
       }
     },
     "typographyMeta": {
       "display": {
         "displayName": "Display",
-        "purpose": "Site title « AI library » only, in Hot-Foil Gold."
+        "purpose": "Site title « AI library » only, as brass relief letters standing on the case top."
       },
       "headline": {
         "displayName": "Headline",
@@ -447,6 +513,10 @@
       "title": {
         "displayName": "Title",
         "purpose": "Sub-theme headings inside a rayon."
+      },
+      "title-small": {
+        "displayName": "Title Small",
+        "purpose": "Section headings inside the fiche, in the rayon cloth on paper."
       },
       "spine": {
         "displayName": "Spine stamp",
@@ -458,24 +528,44 @@
       },
       "label": {
         "displayName": "Label",
-        "purpose": "Price and status pills; all counts in tabular figures."
+        "purpose": "Price and status pills; all counts (spines, chips, tabs, result) in tabular figures."
       }
     },
     "textures": [
       {
         "name": "cloth-weave",
         "value": "repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px)",
-        "purpose": "Deliberate buckram weave on every cloth surface (spines, lying books, fiche band, monograms). Not noise to remove."
+        "purpose": "Deliberate buckram weave (--trame) on every cloth and leather surface (spines, title labels, lying books, fiche band, monograms). Not noise to remove."
       },
       {
         "name": "wood-grain",
         "value": "repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 2px, transparent 2px 11px, rgba(255,255,255,0.025) 11px 13px, transparent 13px 23px), linear-gradient(90deg, #4c311e, #63412a 18%, #573823 52%, #684530 80%, #4a2f1c)",
-        "purpose": "Deliberate walnut grain on the case; the upright uses a vertical variant with a lit inner chamfer."
+        "purpose": "Deliberate walnut grain of the case (--noyer); the upright uses a vertical variant with a lit inner chamfer."
+      },
+      {
+        "name": "back-panel",
+        "value": "repeating-linear-gradient(90deg, rgba(0,0,0,0.22) 0 2px, rgba(255,255,255,0.025) 2px 3px, transparent 3px 132px), linear-gradient(#2c1d14, #22160f)",
+        "purpose": "Deliberate dark walnut planks behind the books, light enough to receive the books' cast shadows; under top and side vignettes."
       },
       {
         "name": "shelf-plank",
         "value": "linear-gradient(#a7764b 0 3px, #7a5233 3px 5px, #6a4529 5px calc(100% - 3px), #4b301d calc(100% - 3px))",
-        "purpose": "Shelf plank: lit top edge, front face, dark underside."
+        "purpose": "Shelf plank (--planche-bois): lit top edge, front face, dark underside."
+      },
+      {
+        "name": "case-top",
+        "value": "linear-gradient(#8a5f39, #7a5233 55%, #6a4529); clip-path: polygon(1.4% 0, 98.6% 0, 100% 100%, 0 100%)",
+        "purpose": "20px top surface of the case seen from slightly above; the brass letters stand on it."
+      },
+      {
+        "name": "spine-cap",
+        "value": "linear-gradient(rgba(255,255,255,0.16) 0 2px, rgba(0,0,0,0.3) 2px 5px, transparent 5px)",
+        "purpose": "Leather head cap folded over the top of each spine."
+      },
+      {
+        "name": "brass-extrusion",
+        "value": "text-shadow: 1px -1px 0 #f4d27e, 2px -2px 0 #bf8f37, 3px -3px 0 #aa7e2f, 4px -4px 0 #966f28, 5px -5px 0 #826022, 6px -6px 0 #6f511c, 7px -7px 0 #5c4216",
+        "purpose": "Deliberate stepped thickness of the cast brass letters (five steps on phone). Material relief, not a hard offset shadow."
       }
     ],
     "shadows": [
@@ -485,24 +575,44 @@
         "purpose": "Under the bookcase only."
       },
       {
-        "name": "spine-contact",
-        "value": "2px 0 3px rgba(0,0,0,0.5)",
-        "purpose": "Standing book at rest."
+        "name": "upright-cast",
+        "value": "-8px 0 14px -6px rgba(0,0,0,0.6)",
+        "purpose": "Upright onto the end of the shelf."
+      },
+      {
+        "name": "plank-cast",
+        "value": "0 -6px 10px -4px rgba(0,0,0,0.55)",
+        "purpose": "Shelf plank onto the feet of the books."
+      },
+      {
+        "name": "spine-rest",
+        "value": "2px 0 3px rgba(0,0,0,0.5), 9px -5px 14px -3px rgba(0,0,0,0.6)",
+        "purpose": "Joint with the neighbour, then cast onto the back panel."
       },
       {
         "name": "spine-pulled",
-        "value": "2px 6px 10px rgba(0,0,0,0.55)",
+        "value": "2px 6px 10px rgba(0,0,0,0.55), 12px -2px 16px -3px rgba(0,0,0,0.55)",
         "purpose": "Spine on hover/focus."
       },
       {
         "name": "spine-open",
-        "value": "3px 12px 14px rgba(0,0,0,0.65)",
+        "value": "3px 12px 14px rgba(0,0,0,0.65), 14px 0 18px -3px rgba(0,0,0,0.55)",
         "purpose": "Spine while its rayon is open."
+      },
+      {
+        "name": "title-label",
+        "value": "inset 0 0 0 1px rgba(240,210,131,0.6), inset 0 0 0 3px #1a120d, inset 0 0 0 4px rgba(240,210,131,0.35), 0 1px 2px rgba(0,0,0,0.5)",
+        "purpose": "Double gold frame and slight lift of the leather title label."
       },
       {
         "name": "lying-contact",
         "value": "0 2px 3px rgba(0,0,0,0.45)",
         "purpose": "Lying shortcut book."
+      },
+      {
+        "name": "brass-letter",
+        "value": "drop-shadow(3px -2px 2px rgba(0,0,0,0.5))",
+        "purpose": "Short shadow of each brass letter onto the case top, with a radial contact shadow along the base."
       },
       {
         "name": "fiche-drawer",
@@ -524,7 +634,12 @@
       {
         "name": "book-pull",
         "value": "180ms",
-        "purpose": "Spine rises 7px on hover/focus, 12px when open; lying book slides 8px/12px left."
+        "purpose": "Spine rises 7px on hover/focus, 12px when open (8px on phone, no hover lift); lying book slides 8px/12px left."
+      },
+      {
+        "name": "letter-straighten",
+        "value": "250ms",
+        "purpose": "Brass letters rotate from their tilt to 0deg on title hover."
       },
       {
         "name": "chip-state",
@@ -552,16 +667,24 @@
         "value": "720px"
       }
     ],
-    "spineSizing": "app.js sizeSpines: width = base + k × tools, one global k for all spines (base 30px, 20px under 480px of shelf), k capped so no spine exceeds its height / 2.4; reruns on resize."
+    "spineSizing": "app.js sizeSpines: width = base + k × tools, one global k for all spines (base 30px, 20px under 480px of shelf), k capped so no spine exceeds its height / 2.4; reruns on resize. renderShelf gives the three largest rayons a leather title label (.piece)."
   },
   "components": [
+    {
+      "name": "Brass Title",
+      "kind": "custom",
+      "refersTo": "brass-title",
+      "description": "Cast brass relief letters standing on the case top, each with its own tilt; they straighten on hover.",
+      "html": "<div class=\"ds-room\"><a class=\"ds-title\" href=\"#\" aria-label=\"AI library\"><span class=\"ds-lettres\" aria-hidden=\"true\"><span style=\"--t:-2deg\">A</span><span style=\"--t:1.5deg\">I</span><span class=\"ds-esp\"></span><span style=\"--t:0deg\">l</span><span style=\"--t:-1deg\">i</span><span style=\"--t:2deg\">b</span><span style=\"--t:-1.5deg\">r</span><span style=\"--t:1deg\">a</span><span style=\"--t:0deg\">r</span><span style=\"--t:3deg\">y</span></span></a><div class=\"ds-top\"></div></div>",
+      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --or-filet:rgba(233,196,106,0.5); --or-voile:rgba(233,196,106,0.12); --laiton:#dcaa46; --laiton-clair:#e8bb58; --cuir:#1a120d; --bord-champ:#6e4f36; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --encre-2:#5e4c3c; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; --trame:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px); } .ds-room{position:relative;padding:24px 16px 0;background:var(--mur);} .ds-title{position:relative;z-index:1;top:13px;display:inline-block;padding-left:28px;color:var(--laiton);text-decoration:none;font:700 4.5rem/0.74 var(--sc);letter-spacing:.02em;} .ds-lettres{display:inline-flex;align-items:flex-end;gap:.03em;} .ds-esp{width:.32em;} .ds-lettres span{display:inline-block;transform:rotate(var(--t,0deg));transform-origin:50% 100%;text-shadow:1px -1px 0 #f4d27e,2px -2px 0 #bf8f37,3px -3px 0 #aa7e2f,4px -4px 0 #966f28,5px -5px 0 #826022,6px -6px 0 #6f511c,7px -7px 0 #5c4216;filter:drop-shadow(3px -2px 2px rgba(0,0,0,.5));transition:transform .25s var(--sortie);} .ds-title:hover{color:var(--laiton-clair);} .ds-title:hover .ds-lettres span{transform:rotate(0deg);} .ds-title:focus-visible{outline:2px solid var(--or-clair);outline-offset:3px;} .ds-top{height:20px;background:linear-gradient(#8a5f39,#7a5233 55%,#6a4529);clip-path:polygon(1.4% 0,98.6% 0,100% 100%,0 100%);}"
+    },
     {
       "name": "Spine",
       "kind": "custom",
       "refersTo": "spine",
-      "description": "One buckram volume per rayon; width set by sizeSpines from tool count; pulls up on hover/focus and stays pulled while open.",
-      "html": "<div class=\"ds-wall\"><button class=\"ds-dos\" style=\"--c:#22408f;width:62px\"><span class=\"ds-titre\">Modèles</span><span class=\"ds-n\">112</span></button><button class=\"ds-dos\" aria-pressed=\"true\" style=\"--c:#9a3019;width:48px\"><span class=\"ds-titre\">Design</span><span class=\"ds-n\">64</span></button></div>",
-      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; } .ds-wall{display:flex;align-items:flex-end;gap:3px;height:300px;padding:24px 16px 0;background:#1d130d;border-bottom:22px solid #7a5233;} .ds-dos{position:relative;height:270px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:36px 0 34px;border:0;border-radius:4px 4px 1px 1px;color:var(--or-dos);background-color:var(--c);background-image:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px),linear-gradient(90deg,rgba(0,0,0,0.32),rgba(255,255,255,0.1) 22%,rgba(255,255,255,0) 48%,rgba(0,0,0,0.18) 78%,rgba(0,0,0,0.4));box-shadow:2px 0 3px rgba(0,0,0,0.5);transition:transform .18s var(--sortie),box-shadow .18s var(--sortie);cursor:pointer;} .ds-dos::before,.ds-dos::after{content:'';position:absolute;left:6px;right:6px;height:7px;border-block:2px solid currentColor;opacity:.85;} .ds-dos::before{top:16px;} .ds-dos::after{bottom:16px;} .ds-titre{writing-mode:vertical-rl;transform:rotate(180deg);font:700 1.2rem/1 var(--sc);letter-spacing:.06em;white-space:nowrap;} .ds-n{color:var(--lin);font:700 .92rem/1 'Alegreya Sans',sans-serif;font-variant-numeric:tabular-nums;} .ds-dos:hover,.ds-dos:focus-visible{transform:translateY(-7px);box-shadow:2px 6px 10px rgba(0,0,0,.55);} .ds-dos:focus-visible{outline:2px solid var(--or-clair);outline-offset:3px;} .ds-dos[aria-pressed=true]{transform:translateY(-12px);box-shadow:3px 12px 14px rgba(0,0,0,.65);}"
+      "description": "One buckram volume per rayon; width set by sizeSpines from tool count; leather head cap; the largest carry a leather title label; pulls up on hover/focus and stays pulled while open.",
+      "html": "<div class=\"ds-wall\"><button class=\"ds-dos ds-piece\" style=\"--c:#22408f;width:62px\"><span class=\"ds-titre\">Modèles</span><span class=\"ds-n\">112</span></button><button class=\"ds-dos\" aria-pressed=\"true\" style=\"--c:#9a3019;width:48px\"><span class=\"ds-titre\">Design</span><span class=\"ds-n\">64</span></button></div>",
+      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --or-filet:rgba(233,196,106,0.5); --or-voile:rgba(233,196,106,0.12); --laiton:#dcaa46; --laiton-clair:#e8bb58; --cuir:#1a120d; --bord-champ:#6e4f36; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --encre-2:#5e4c3c; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; --trame:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px); } .ds-wall{display:flex;align-items:flex-end;gap:3px;height:300px;padding:24px 16px 0;background:repeating-linear-gradient(90deg,rgba(0,0,0,.22) 0 2px,rgba(255,255,255,.025) 2px 3px,transparent 3px 132px),linear-gradient(#2c1d14,#22160f);border-bottom:22px solid #7a5233;} .ds-dos{position:relative;height:270px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:36px 0 34px;border:0;border-radius:4px 4px 1px 1px;color:var(--or-dos);background-color:var(--c);background-image:linear-gradient(rgba(255,255,255,.16) 0 2px,rgba(0,0,0,.3) 2px 5px,transparent 5px),var(--trame),linear-gradient(90deg,rgba(0,0,0,.32),rgba(255,255,255,.1) 22%,rgba(255,255,255,0) 48%,rgba(0,0,0,.18) 78%,rgba(0,0,0,.4));box-shadow:2px 0 3px rgba(0,0,0,.5),9px -5px 14px -3px rgba(0,0,0,.6);transition:transform .18s var(--sortie),box-shadow .18s var(--sortie);cursor:pointer;} .ds-dos::before,.ds-dos::after{content:'';position:absolute;left:6px;right:6px;height:7px;border-block:2px solid currentColor;opacity:.85;} .ds-dos::before{top:16px;} .ds-dos::after{bottom:16px;} .ds-titre{writing-mode:vertical-rl;transform:rotate(180deg);font:700 1.2rem/1 var(--sc);letter-spacing:.06em;white-space:nowrap;} .ds-piece .ds-titre{padding:16px 7px;border-radius:2px;background-color:var(--cuir);background-image:var(--trame);box-shadow:inset 0 0 0 1px rgba(240,210,131,.6),inset 0 0 0 3px var(--cuir),inset 0 0 0 4px rgba(240,210,131,.35),0 1px 2px rgba(0,0,0,.5);} .ds-n{color:var(--lin);font:700 .92rem/1 'Alegreya Sans',sans-serif;font-variant-numeric:tabular-nums;} .ds-dos:hover,.ds-dos:focus-visible{transform:translateY(-7px);box-shadow:2px 6px 10px rgba(0,0,0,.55),12px -2px 16px -3px rgba(0,0,0,.55);} .ds-dos:focus-visible{outline:2px solid var(--or-clair);outline-offset:3px;} .ds-dos[aria-pressed=true]{transform:translateY(-12px);box-shadow:3px 12px 14px rgba(0,0,0,.65),14px 0 18px -3px rgba(0,0,0,.55);}"
     },
     {
       "name": "Lying Book",
@@ -569,31 +692,39 @@
       "refersTo": "lying-book",
       "description": "Shortcut book lying against the upright; pulled leftward on hover/focus.",
       "html": "<div class=\"ds-pile\"><button class=\"ds-couche\" style=\"--cc:#8a2b3c;width:214px;margin-right:18px\">Coups de cœur</button><button class=\"ds-couche\" style=\"--cc:#2a5444;width:238px;margin-right:6px\">Nouveautés <span class=\"ds-n\">24</span></button></div>",
-      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; } .ds-pile{display:flex;flex-direction:column;align-items:flex-end;padding:16px;background:#1d130d;} .ds-couche{position:relative;display:flex;align-items:center;gap:8px;height:40px;padding:0 30px;border:0;border-radius:4px 2px 2px 4px;color:var(--or-dos);background-color:var(--cc);background-image:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px),linear-gradient(rgba(255,255,255,.1),rgba(255,255,255,0) 35%,rgba(0,0,0,.1) 70%,rgba(0,0,0,.38));box-shadow:0 2px 3px rgba(0,0,0,.45);font:700 1.05rem/1 var(--sc);letter-spacing:.05em;transition:transform .18s var(--sortie);cursor:pointer;} .ds-couche::before,.ds-couche::after{content:'';position:absolute;top:6px;bottom:6px;width:7px;border-inline:2px solid currentColor;opacity:.85;} .ds-couche::before{left:10px;} .ds-couche::after{right:10px;} .ds-n{color:var(--lin);font:700 .9rem/1 'Alegreya Sans',sans-serif;font-variant-numeric:tabular-nums;} .ds-couche:hover,.ds-couche:focus-visible{transform:translateX(-8px);} .ds-couche:focus-visible{outline:2px solid var(--or-clair);outline-offset:3px;}"
+      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --or-filet:rgba(233,196,106,0.5); --or-voile:rgba(233,196,106,0.12); --laiton:#dcaa46; --laiton-clair:#e8bb58; --cuir:#1a120d; --bord-champ:#6e4f36; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --encre-2:#5e4c3c; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; --trame:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px); } .ds-pile{display:flex;flex-direction:column;align-items:flex-end;padding:16px;background:#1d130d;} .ds-couche{position:relative;display:flex;align-items:center;gap:8px;height:40px;padding:0 30px;border:0;border-radius:4px 2px 2px 4px;color:var(--or-dos);background-color:var(--cc);background-image:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px),linear-gradient(rgba(255,255,255,.1),rgba(255,255,255,0) 35%,rgba(0,0,0,.1) 70%,rgba(0,0,0,.38));box-shadow:0 2px 3px rgba(0,0,0,.45);font:700 1.05rem/1 var(--sc);letter-spacing:.05em;transition:transform .18s var(--sortie);cursor:pointer;} .ds-couche::before,.ds-couche::after{content:'';position:absolute;top:6px;bottom:6px;width:7px;border-inline:2px solid currentColor;opacity:.85;} .ds-couche::before{left:10px;} .ds-couche::after{right:10px;} .ds-n{color:var(--lin);font:700 .9rem/1 'Alegreya Sans',sans-serif;font-variant-numeric:tabular-nums;} .ds-couche:hover,.ds-couche:focus-visible{transform:translateX(-8px);} .ds-couche:focus-visible{outline:2px solid var(--or-clair);outline-offset:3px;}"
     },
     {
       "name": "Price Chip",
       "kind": "chip",
       "refersTo": "chip",
-      "description": "Toolbar price filter; gold-outlined pill, Pale Foil fill when selected.",
-      "html": "<div class=\"ds-bg\"><button class=\"ds-chip\">Gratuit</button> <button class=\"ds-chip\" aria-pressed=\"true\">Étudiant</button></div>",
-      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; } .ds-bg{padding:16px;background:var(--mur);} .ds-chip{min-height:44px;padding:0 17px;border:1px solid rgba(233,196,106,.5);border-radius:999px;background:transparent;color:var(--lin);font:500 1.0625rem 'Alegreya Sans',sans-serif;transition:background-color .15s var(--sortie),color .15s var(--sortie);cursor:pointer;} .ds-chip:hover{background:rgba(233,196,106,.12);} .ds-chip:focus-visible{outline:2px solid var(--or-clair);outline-offset:3px;} .ds-chip[aria-pressed=true]{background:var(--or-clair);border-color:var(--or-clair);color:var(--encre);}"
+      "description": "Toolbar price filter with a count of the tools it would give; Gold Outline pill, Pale Foil fill when selected, dashed border when it would give none.",
+      "html": "<div class=\"ds-bg\"><button class=\"ds-chip\">Gratuit <span class=\"ds-n\">214</span></button> <button class=\"ds-chip\" aria-pressed=\"true\">Étudiant <span class=\"ds-n\">38</span></button> <button class=\"ds-chip ds-vide\">Crédits offerts <span class=\"ds-n\">0</span></button></div>",
+      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --or-filet:rgba(233,196,106,0.5); --or-voile:rgba(233,196,106,0.12); --laiton:#dcaa46; --laiton-clair:#e8bb58; --cuir:#1a120d; --bord-champ:#6e4f36; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --encre-2:#5e4c3c; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; --trame:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px); } .ds-bg{padding:16px;background:var(--mur);} .ds-chip{min-height:44px;padding:0 17px;border:1px solid var(--or-filet);border-radius:999px;background:transparent;color:var(--lin);font:500 1.0625rem 'Alegreya Sans',sans-serif;transition:background-color .15s var(--sortie),color .15s var(--sortie);cursor:pointer;} .ds-chip:hover{background:var(--or-voile);} .ds-chip:focus-visible{outline:2px solid var(--or-clair);outline-offset:3px;} .ds-chip[aria-pressed=true]{background:var(--or-clair);border-color:var(--or-clair);color:var(--encre);} .ds-n{margin-left:4px;color:var(--lin-3);font-size:.85rem;font-variant-numeric:tabular-nums;} .ds-chip[aria-pressed=true] .ds-n{color:var(--encre-2);} .ds-vide:not([aria-pressed=true]){border-style:dashed;border-color:rgba(233,196,106,.35);color:var(--lin-2);}"
+    },
+    {
+      "name": "Sub-theme Tabs",
+      "kind": "nav",
+      "refersTo": "tab",
+      "description": "Index dividers on a gold rail for a rayon's sub-themes, distinct from the price pills.",
+      "html": "<div class=\"ds-bg\"><div class=\"ds-tabs\" role=\"group\"><button class=\"ds-tab\" aria-pressed=\"true\">Tout <small>112</small></button><button class=\"ds-tab\">Modèles ouverts <small>41</small></button><button class=\"ds-tab\">Benchmarks <small>9</small></button></div></div>",
+      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --or-filet:rgba(233,196,106,0.5); --or-voile:rgba(233,196,106,0.12); --laiton:#dcaa46; --laiton-clair:#e8bb58; --cuir:#1a120d; --bord-champ:#6e4f36; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --encre-2:#5e4c3c; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; --trame:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px); } .ds-bg{padding:16px;background:var(--mur);} .ds-tabs{display:flex;flex-wrap:wrap;gap:4px;border-bottom:1px solid var(--or-filet);} .ds-tab{min-height:40px;margin-bottom:-1px;padding:0 14px;border:1px solid rgba(233,196,106,.28);border-bottom-color:var(--or-filet);border-radius:7px 7px 0 0;background:rgba(239,231,218,.04);color:var(--lin);font:500 .95rem 'Alegreya Sans',sans-serif;transition:background-color .15s var(--sortie);cursor:pointer;} .ds-tab:hover{background:rgba(239,231,218,.09);} .ds-tab:focus-visible{outline:2px solid var(--or-clair);outline-offset:3px;} .ds-tab[aria-pressed=true]{border-color:var(--or-filet);border-bottom-color:var(--mur);background:var(--mur);color:var(--or-clair);box-shadow:inset 0 2px 0 var(--or-clair);} .ds-tab small{margin-left:4px;color:var(--lin-3);font:500 .85rem 'Alegreya Sans',sans-serif;font-variant-numeric:tabular-nums;}"
     },
     {
       "name": "Link Button",
       "kind": "button",
       "refersTo": "link-button",
-      "description": "Secondary action on the wall (Voir les N outils, Retirer les filtres).",
+      "description": "Secondary action on the wall (Revenir à la sélection, Voir les N outils, Retirer les filtres).",
       "html": "<div class=\"ds-bg\"><button class=\"ds-link-btn\">Voir les 112 outils</button></div>",
-      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; } .ds-bg{padding:16px;background:var(--mur);} .ds-link-btn{min-height:40px;padding:0 16px;border:1px solid rgba(233,196,106,.5);border-radius:999px;background:transparent;color:var(--or-clair);font:500 1.0625rem 'Alegreya Sans',sans-serif;white-space:nowrap;cursor:pointer;} .ds-link-btn:hover{background:rgba(233,196,106,.12);} .ds-link-btn:focus-visible{outline:2px solid var(--or-clair);outline-offset:3px;}"
+      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --or-filet:rgba(233,196,106,0.5); --or-voile:rgba(233,196,106,0.12); --laiton:#dcaa46; --laiton-clair:#e8bb58; --cuir:#1a120d; --bord-champ:#6e4f36; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --encre-2:#5e4c3c; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; --trame:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px); } .ds-bg{padding:16px;background:var(--mur);} .ds-link-btn{min-height:40px;padding:0 16px;border:1px solid var(--or-filet);border-radius:999px;background:transparent;color:var(--or-clair);font:500 1.0625rem 'Alegreya Sans',sans-serif;white-space:nowrap;cursor:pointer;} .ds-link-btn:hover{background:var(--or-voile);} .ds-link-btn:focus-visible{outline:2px solid var(--or-clair);outline-offset:3px;}"
     },
     {
       "name": "Search Field",
       "kind": "input",
       "refersTo": "search-field",
-      "description": "Main search, recessed into the walnut wall.",
-      "html": "<div class=\"ds-bg\"><label class=\"ds-search\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"m20 20-3.5-3.5\"/></svg><input type=\"search\" placeholder=\"Rechercher un outil, un usage…\"></label></div>",
-      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; } .ds-bg{padding:16px;background:var(--mur);} .ds-search{position:relative;display:block;} .ds-search svg{position:absolute;left:15px;top:50%;width:20px;height:20px;translate:0 -50%;fill:none;stroke:var(--lin-3);stroke-width:2;stroke-linecap:round;pointer-events:none;} .ds-search input{width:100%;height:52px;padding:0 16px 0 46px;border:1px solid #6e4f36;border-radius:4px;background:var(--fond);color:var(--lin);font:400 1.08rem 'Alegreya Sans',sans-serif;box-sizing:border-box;} .ds-search input::placeholder{color:var(--lin-3);} .ds-search input:focus{border-color:var(--or);outline:2px solid rgba(233,196,106,.45);outline-offset:1px;}"
+      "description": "Main search, recessed into the walnut wall, with a « / » key hint that hides on focus or once text is typed.",
+      "html": "<div class=\"ds-bg\"><label class=\"ds-search\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path d=\"m15.5 15.5 5 5\"/></svg><input type=\"search\" placeholder=\"Rechercher un outil, un usage…\"><kbd class=\"ds-key\" aria-hidden=\"true\">/</kbd></label></div>",
+      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --or-filet:rgba(233,196,106,0.5); --or-voile:rgba(233,196,106,0.12); --laiton:#dcaa46; --laiton-clair:#e8bb58; --cuir:#1a120d; --bord-champ:#6e4f36; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --encre-2:#5e4c3c; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; --trame:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px); } .ds-bg{padding:16px;background:var(--mur);} .ds-search{position:relative;display:block;} .ds-search svg{position:absolute;left:15px;top:50%;width:20px;height:20px;translate:0 -50%;fill:none;stroke:var(--lin-3);stroke-width:2;stroke-linecap:round;pointer-events:none;} .ds-search input{width:100%;height:52px;padding:0 16px 0 46px;border:1px solid var(--bord-champ);border-radius:4px;background:var(--fond);color:var(--lin);font:400 1.08rem 'Alegreya Sans',sans-serif;box-sizing:border-box;} .ds-search input::placeholder{color:var(--lin-3);} .ds-search input:focus{border-color:var(--or);outline:2px solid var(--or-filet);outline-offset:1px;} .ds-key{position:absolute;right:14px;top:50%;translate:0 -50%;min-width:24px;padding:1px 7px;border:1px solid var(--bord-champ);border-radius:4px;color:var(--lin-3);font:500 .85rem/1.4 'Alegreya Sans',sans-serif;text-align:center;pointer-events:none;} .ds-search:focus-within .ds-key,.ds-search input:not(:placeholder-shown)~.ds-key{display:none;}"
     },
     {
       "name": "Rayon Heading",
@@ -601,7 +732,7 @@
       "refersTo": "",
       "description": "Section head of a rayon: ribbon bookmark in the rayon cloth, gold small-caps title, gold hairline.",
       "html": "<div class=\"ds-bg\"><div class=\"ds-head\"><span class=\"ds-swatch\" style=\"background:#22408f\"></span><h2>Modèles</h2><p>Modèles ouverts, modèles fermés, benchmarks</p></div></div>",
-      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; } .ds-bg{padding:16px;background:var(--mur);} .ds-head{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:6px 14px;padding-bottom:14px;border-bottom:1px solid rgba(233,196,106,.22);} .ds-head h2{margin:0;font:700 2rem/1.1 var(--sc);letter-spacing:.03em;color:var(--or-clair);} .ds-head p{grid-column:1/-1;margin:0;color:var(--lin-2);font:400 1.0625rem/1.5 'Alegreya Sans',sans-serif;} .ds-swatch{width:14px;height:30px;clip-path:polygon(0 0,100% 0,100% 100%,50% 78%,0 100%);}"
+      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --or-filet:rgba(233,196,106,0.5); --or-voile:rgba(233,196,106,0.12); --laiton:#dcaa46; --laiton-clair:#e8bb58; --cuir:#1a120d; --bord-champ:#6e4f36; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --encre-2:#5e4c3c; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; --trame:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px); } .ds-bg{padding:16px;background:var(--mur);} .ds-head{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:6px 14px;padding-bottom:14px;border-bottom:1px solid rgba(233,196,106,.22);} .ds-head h2{margin:0;font:700 2rem/1.1 var(--sc);letter-spacing:.03em;color:var(--or-clair);} .ds-head p{grid-column:1/-1;margin:0;color:var(--lin-2);font:400 1.0625rem/1.5 'Alegreya Sans',sans-serif;} .ds-swatch{width:14px;height:30px;clip-path:polygon(0 0,100% 0,100% 100%,50% 78%,0 100%);}"
     },
     {
       "name": "Shelf-list Row",
@@ -609,73 +740,85 @@
       "refersTo": "",
       "description": "One tool in a shelf-list: monogram, name and accroche, outline price pills.",
       "html": "<div class=\"ds-bg\"><a class=\"ds-entry\" href=\"#\"><span class=\"ds-mono\" style=\"background-color:#22408f\">M</span><span><span class=\"ds-nom\">Mistral</span><span class=\"ds-acc\">Modèles ouverts, API européenne</span></span><span class=\"ds-pill\" style=\"color:#a7d39a\">Gratuit</span></a></div>",
-      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; } .ds-bg{padding:16px;background:var(--mur);} .ds-entry{display:grid;grid-template-columns:42px minmax(0,1fr) auto;align-items:center;gap:4px 16px;padding:12px 10px;border-bottom:1px solid rgba(239,231,218,.08);color:var(--lin);text-decoration:none;font:400 1.0625rem/1.5 'Alegreya Sans',sans-serif;} .ds-entry:hover{background:rgba(239,231,218,.05);} .ds-entry:focus-visible{outline:2px solid var(--or-clair);outline-offset:3px;} .ds-mono{display:grid;place-items:center;width:42px;height:42px;border-radius:6px;background-image:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px);color:var(--or-dos);font:700 1.25rem/1 var(--sc);} .ds-nom{font-weight:700;} .ds-acc{display:block;color:var(--lin-2);font-size:.95rem;} .ds-pill{padding:2px 9px;border:1px solid currentColor;border-radius:999px;font-size:.8rem;font-weight:500;white-space:nowrap;}"
+      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --or-filet:rgba(233,196,106,0.5); --or-voile:rgba(233,196,106,0.12); --laiton:#dcaa46; --laiton-clair:#e8bb58; --cuir:#1a120d; --bord-champ:#6e4f36; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --encre-2:#5e4c3c; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; --trame:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px); } .ds-bg{padding:16px;background:var(--mur);} .ds-entry{display:grid;grid-template-columns:42px minmax(0,1fr) auto;align-items:center;gap:4px 16px;padding:12px 10px;border-bottom:1px solid rgba(239,231,218,.08);color:var(--lin);text-decoration:none;font:400 1.0625rem/1.5 'Alegreya Sans',sans-serif;} .ds-entry:hover{background:rgba(239,231,218,.05);} .ds-entry:focus-visible{outline:2px solid var(--or-clair);outline-offset:3px;} .ds-mono{display:grid;place-items:center;width:42px;height:42px;border-radius:6px;background-image:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px);color:var(--or-dos);font:700 1.25rem/1 var(--sc);} .ds-nom{font-weight:700;} .ds-acc{display:block;color:var(--lin-2);font-size:.95rem;} .ds-pill{padding:2px 9px;border:1px solid currentColor;border-radius:999px;font-size:.8rem;font-weight:500;white-space:nowrap;}"
     },
     {
       "name": "Fiche",
       "kind": "card",
       "refersTo": "fiche",
-      "description": "Linen paper drawer with a band in the rayon cloth; primary link filled with that cloth (shown with ultramarine).",
-      "html": "<div class=\"ds-fiche\" style=\"--bind:#22408f\"><header class=\"ds-bande\"><h2>Mistral</h2><p>Modèles</p></header><div class=\"ds-body\"><p>Modèles ouverts et API, hébergés en Europe.</p><a class=\"ds-btn ds-primary\" href=\"#\">Ouvrir le site</a> <button class=\"ds-btn\">Fermer</button></div></div>",
-      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; } .ds-fiche{max-width:420px;background:var(--papier);color:var(--encre);font:400 1.0625rem/1.5 'Alegreya Sans',sans-serif;box-shadow:-24px 0 60px rgba(0,0,0,.55);} .ds-bande{position:relative;padding:16px 30px 34px;background-color:var(--bind);background-image:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px),linear-gradient(rgba(255,255,255,.07),rgba(0,0,0,.25));color:var(--lin);} .ds-bande::after{content:'';position:absolute;left:30px;right:30px;bottom:12px;height:7px;border-block:2px solid var(--or-dos);opacity:.8;} .ds-bande h2{margin:14px 0 0;color:var(--or-dos);font:700 2rem/1.1 var(--sc);letter-spacing:.02em;} .ds-bande p{margin:6px 0 0;font-size:.95rem;} .ds-body{padding:22px 30px 30px;} .ds-btn{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border:1px solid rgba(43,29,22,.45);border-radius:999px;background:transparent;color:var(--encre);font:500 1rem 'Alegreya Sans',sans-serif;text-decoration:none;cursor:pointer;} .ds-btn:hover{background:rgba(43,29,22,.07);} .ds-btn:focus-visible{outline:2px solid var(--or-clair);outline-offset:3px;} .ds-primary{background:var(--bind);border-color:var(--bind);color:#fff;} .ds-primary:hover{filter:brightness(1.12);background:var(--bind);}"
+      "description": "Linen paper drawer with a band in the rayon cloth; primary link filled with that cloth (shown with ultramarine); phone thumb bar with drawn SVG icon buttons.",
+      "html": "<div class=\"ds-fiche\" style=\"--bind:#22408f\"><header class=\"ds-bande\"><div class=\"ds-bar\"><button>Précédent</button><button>Suivant</button><button>Fermer</button></div><h2>Mistral</h2><p>Modèles › Modèles ouverts</p></header><div class=\"ds-body\"><p class=\"ds-acc\">Modèles ouverts et API, hébergés en Europe.</p><h3>À quoi ça sert</h3><p>Des modèles de langue à télécharger ou à appeler par API.</p></div><div class=\"ds-pouce\"><button class=\"ds-btn ds-ico\" aria-label=\"Outil précédent\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m15 5-7 7 7 7\"/></svg></button><a class=\"ds-btn ds-primary\" href=\"#\">Ouvrir mistral.ai</a><button class=\"ds-btn ds-ico\" aria-label=\"Outil suivant\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m9 5 7 7-7 7\"/></svg></button><button class=\"ds-btn ds-ico\" aria-label=\"Fermer la fiche\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 6l12 12M18 6 6 18\"/></svg></button></div></div>",
+      "css": ":host { --or:#d8a63c; --or-clair:#e9c46a; --or-dos:#f0d283; --or-filet:rgba(233,196,106,0.5); --or-voile:rgba(233,196,106,0.12); --laiton:#dcaa46; --laiton-clair:#e8bb58; --cuir:#1a120d; --bord-champ:#6e4f36; --lin:#efe7da; --lin-2:#cbbba5; --lin-3:#a8937a; --mur:#2b1d16; --fond:#1d130d; --papier:#f1ebe0; --encre:#2b1d16; --encre-2:#5e4c3c; --sortie:cubic-bezier(0.16,1,0.3,1); --sc:'Alegreya Sans SC','Alegreya Sans',sans-serif; --trame:repeating-linear-gradient(0deg, rgba(255,255,255,0.04) 0 1px, transparent 1px 3px), repeating-linear-gradient(90deg, rgba(0,0,0,0.07) 0 1px, transparent 1px 3px); } .ds-fiche{max-width:420px;background:var(--papier);color:var(--encre);font:400 1.0625rem/1.5 'Alegreya Sans',sans-serif;box-shadow:-24px 0 60px rgba(0,0,0,.55);} .ds-bande{position:relative;padding:16px 30px 34px;background-color:var(--bind);background-image:var(--trame),linear-gradient(rgba(255,255,255,.07),rgba(0,0,0,.25));color:var(--lin);} .ds-bande::after{content:'';position:absolute;left:30px;right:30px;bottom:12px;height:7px;border-block:2px solid var(--or-dos);opacity:.8;} .ds-bar{display:flex;justify-content:flex-end;gap:6px;} .ds-bar button{min-height:36px;padding:0 12px;border:1px solid rgba(239,231,218,.55);border-radius:999px;background:transparent;color:var(--lin);font:400 .9rem 'Alegreya Sans',sans-serif;cursor:pointer;} .ds-bar button:hover{background:rgba(255,255,255,.1);} .ds-bande h2{margin:14px 0 0;color:var(--or-dos);font:700 2rem/1.1 var(--sc);letter-spacing:.02em;} .ds-bande p{margin:6px 0 0;font-size:.95rem;} .ds-body{padding:20px 30px 24px;} .ds-body p{margin:0;text-wrap:pretty;} .ds-acc{color:var(--encre-2);font-size:1.15rem;font-style:italic;} .ds-body h3{margin:24px 0 6px;color:var(--bind);font:700 1.1rem/1.2 var(--sc);letter-spacing:.05em;} .ds-pouce{display:flex;gap:8px;padding:12px 16px;border-top:1px solid rgba(43,29,22,.15);background:var(--papier);} .ds-btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 18px;border:1px solid rgba(43,29,22,.45);border-radius:999px;background:transparent;color:var(--encre);font:500 1rem 'Alegreya Sans',sans-serif;text-decoration:none;cursor:pointer;} .ds-btn:hover{background:rgba(43,29,22,.07);} .ds-btn:focus-visible{outline:2px solid var(--bind);outline-offset:3px;} .ds-primary{flex:1;min-width:0;padding-inline:12px;background:var(--bind);border-color:var(--bind);color:#fff;} .ds-primary:hover{filter:brightness(1.12);background:var(--bind);} .ds-ico{width:44px;padding:0;flex:none;} .ds-ico svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}"
     }
   ],
   "narrative": {
     "northStar": "Reliure toilée",
-    "overview": "The site is a binder's room at night: a dark walnut wall, one real bookcase, and on its shelf eight buckram volumes, one per rayon. Their titles are stamped in hot-foil gold small caps between double filets, the way a bindery finishes a spine. Everything below the case (search, price chips, shelf-lists of tools) reads as linen text on the same walnut wall, hanging off thin gold rules. A tool's fiche is a sheet of linen paper slid out from the right, headed by a band of its rayon's cloth.\n\nThe bookcase is a functional object, not a picture. Spine thickness encodes the number of tools in each rayon; pulling a spine opens it; the lying books against the right-hand upright are the three shortcuts (Coups de cœur, Nouveautés, Proposer un outil). Density is moderate: one large object at the top, then calm lists.\n\nThe world explicitly rejects the directory pattern (a centered search hero over a grid of category cards).",
+    "overview": "The site is a binder's room at night: a dark walnut wall, one real bookcase, and on its shelf eight buckram volumes, one per rayon. Their titles are stamped in hot-foil gold small caps between double filets, the way a bindery finishes a spine; the three largest volumes carry a dark leather title label. On the top of the case, seen slightly from above, stand the brass relief letters « AI library », each set by hand at its own small tilt. Everything below the case (search, price chips, shelf-lists of tools) reads as linen text on the same walnut wall, hanging off thin gold rules. A tool's fiche is a sheet of linen paper slid out from the right, headed by a band of its rayon's cloth.\n\nThe bookcase is a functional object, not a picture. Spine thickness encodes the number of tools in each rayon; pulling a spine opens it; the lying books against the right-hand upright are the three shortcuts (Coups de cœur, Nouveautés, Proposer un outil). Density is moderate: one large object at the top, then calm lists.\n\nThe world explicitly rejects the directory pattern (a centered search hero over a grid of category cards).",
     "keyCharacteristics": [
-      "One continuous walnut bookcase with a true upright on the right that caps the shelf.",
-      "Buckram spines in saturated cloth colours, woven texture, gold small-caps titles and double filets.",
-      "Spine width proportional to tool count; spine height varies slightly per volume.",
+      "One continuous walnut bookcase: a visible top surface carrying the brass title, a back panel of dark walnut planks, a shelf plank, and a true upright on the right that caps the shelf.",
+      "Buckram spines in saturated cloth colours, woven texture, a leather head cap, gold small-caps titles and double filets; leather title labels on the three largest volumes.",
+      "Spine width proportional to tool count through one global coefficient; spine height varies slightly per volume.",
       "Linen text on walnut for reading; linen paper with dark ink for the fiche.",
-      "Pill-shaped controls outlined in faint gold; gold fill marks the selected state."
+      "Pill-shaped controls outlined in faint gold, gold fill for the selected state; sub-themes are index dividers, not pills."
     ],
     "rules": [
       {
         "name": "The Cloth Belongs To The Book Rule",
-        "body": "Saturated cloth colour appears only on things that are books or come from a book: spines, lying books, the ribbon bookmark, the fiche band and the fiche's primary button. UI chrome on the wall stays walnut, linen and gold.",
+        "body": "Saturated cloth colour appears only on things that are books or come from a book: spines, lying books, the ribbon bookmark, monograms, the fiche band and the fiche's primary button. UI chrome on the wall stays walnut, linen and gold.",
         "section": "colors"
       },
       {
         "name": "The Stamped Gold Rule",
-        "body": "Gold is metal, never a background wash. It appears as text, filets, hairlines, outlines and the fill of a selected control; never as a large tinted panel.",
+        "body": "Gold is metal, never a background panel. It appears as text, filets, hairlines, outlines, the fill of a selected control and a faint hover wash on a control; never as a large tinted surface.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Brass Nameplate Rule",
+        "body": "Brass is the cast metal of the title letters and nothing else. Every other gold on the page is foil.",
         "section": "colors"
       },
       {
         "name": "The Stamp Rule",
-        "body": "Small caps mean \"this is a title stamped on a book or a shelf heading\". Never set running text, buttons or metadata in the small-caps cut. The one small inline exception in the build is the « Coup de cœur » mark after a tool name.",
+        "body": "Small caps mean \"this is a title stamped on a book, a shelf heading, or the nameplate\". Never set running text, buttons or metadata in the small-caps cut. The one small inline exception in the build is the « Coup de cœur » mark after a tool name.",
         "section": "typography"
       },
       {
         "name": "The Tabular Count Rule",
-        "body": "Every number that counts tools is set in tabular figures so counts align on spines and in tabs.",
+        "body": "Every number that counts tools is set in tabular figures so counts align on spines, chips and tabs.",
         "section": "typography"
       },
       {
+        "name": "The Global Coefficient Rule",
+        "body": "Spine width is base + k × tools with a single k for all spines (`sizeSpines` in app.js; base 30px, 20px when the shelf is under 480px wide), so the order of thicknesses always follows the order of counts. k is capped so that no spine is wider than its own height divided by 2.4. It reruns on resize. Spine heights come from a fixed set of ratios (0.8 to 0.98 of case height) so the row reads as real books.",
+        "section": "layout"
+      },
+      {
         "name": "The Only The Case Is Lifted Rule",
-        "body": "Shadows belong to the bookcase, its books and the fiche drawer. Lists, toolbars and headings stay flat on the wall.",
+        "body": "Shadows belong to the bookcase (its top, books, plank and upright, and the brass letters standing on it), the fiche drawer and the back-to-top pill. Lists, toolbars, tabs and headings stay flat on the wall.",
         "section": "elevation"
       },
       {
         "name": "The Deliberate Texture Rule",
-        "body": "The woven cloth (`--trame`: two crossed 1px repeating linear gradients at 3px pitch) and the wood grain of the case and upright are repeating-gradient textures on purpose. They are the material of this world, rendered in CSS with no image files, and they are not noise to clean up. Every cloth surface (spines, lying books, the fiche band, monograms) carries the weave.",
+        "body": "The woven cloth (`--trame`: two crossed 1px repeating linear gradients at 3px pitch), the wood grain of the case (`--noyer`), the plank seams of the back panel, the grain of the upright and the stepped extrusion of the brass letters are repeating-gradient and layered-shadow textures on purpose. They are the material of this world, rendered in CSS with no image files, and they are not noise to clean up. Every cloth and leather surface (spines, title labels, lying books, the fiche band, monograms) carries the weave.",
         "section": "elevation"
       }
     ],
     "dos": [
       "**Do** let spine width carry the tool count through the single global coefficient in `sizeSpines`; never size one spine by hand.",
-      "**Do** take rayon colours from `data/rayons.json` and reuse that one value for spine, bookmark and fiche band.",
-      "**Do** stamp titles on cloth in Spine Foil small caps with double filets, and keep the woven texture on every cloth surface.",
-      "**Do** keep controls on the wall as gold-outlined pills, with Pale Foil fill only for the selected state.",
+      "**Do** take rayon colours from `data/rayons.json` and reuse that one value for spine, bookmark, monogram and fiche band.",
+      "**Do** stamp titles on cloth or leather in Spine Foil small caps with double filets, and keep the woven texture on every cloth and leather surface.",
+      "**Do** keep price and action controls on the wall as Gold Outline pills, with Pale Foil fill only for the selected state; keep sub-themes as index dividers on a rail.",
       "**Do** use tabular figures for every count.",
-      "**Do** keep the 180ms exponential ease-out for book movement and drop all motion under `prefers-reduced-motion`."
+      "**Do** keep the 180ms exponential ease-out for book movement and drop all motion under `prefers-reduced-motion`.",
+      "**Do** draw icons as inline stroked SVG (2px stroke, round caps), never as text glyphs."
     ],
     "donts": [
       "**Don't** turn the home into a centred search hero over a grid of category cards.",
-      "**Don't** put cloth colours on wall chrome (toolbar, lists, headings); they belong to books.",
+      "**Don't** put cloth colours on wall chrome (toolbar, lists, headings, tabs); they belong to books.",
       "**Don't** set body text, buttons or metadata in the small-caps cut.",
-      "**Don't** add shadows to flat wall elements; only the case, its books and the fiche are lifted.",
-      "**Don't** replace the repeating-gradient cloth and wood textures with flat fills or raster images."
+      "**Don't** add shadows to flat wall elements; only the case and what stands on it, the fiche and the back-to-top pill are lifted.",
+      "**Don't** use brass anywhere but the title letters.",
+      "**Don't** replace the repeating-gradient cloth, wood and plank textures or the brass extrusion with flat fills or raster images."
     ]
   }
 }
