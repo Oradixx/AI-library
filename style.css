@@ -303,9 +303,25 @@ a.couche:hover, button.couche:hover, a.couche:focus-visible, button.couche:focus
   font-size: 1.08rem;
 }
 .recherche input::placeholder { color: var(--lin-3); }
+/* Rappel du raccourci clavier, retiré dès qu'on tape ou qu'on est dans le champ. */
+.raccourci {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  translate: 0 -50%;
+  min-width: 24px;
+  padding: 1px 7px;
+  border: 1px solid #6e4f36;
+  border-radius: 4px;
+  color: var(--lin-3);
+  font: 500 0.85rem/1.4 "Alegreya Sans", sans-serif;
+  text-align: center;
+  pointer-events: none;
+}
+.recherche:focus-within .raccourci, .recherche input:not(:placeholder-shown) ~ .raccourci { display: none; }
 .recherche input:focus { border-color: var(--or); outline: 2px solid rgba(233, 196, 106, 0.45); outline-offset: 1px; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
-.chip, .tab {
+.chip {
   min-height: 44px;
   padding: 0 17px;
   border: 1px solid rgba(233, 196, 106, 0.5);
@@ -314,8 +330,11 @@ a.couche:hover, button.couche:hover, a.couche:focus-visible, button.couche:focus
   font-weight: 500;
   transition: background-color 0.15s var(--sortie), color 0.15s var(--sortie);
 }
-.chip:hover, .tab:hover { background: rgba(233, 196, 106, 0.12); }
-.chip[aria-pressed="true"], .tab[aria-pressed="true"] { background: var(--or-clair); border-color: var(--or-clair); color: var(--encre); }
+.chip:hover { background: rgba(233, 196, 106, 0.12); }
+.chip[aria-pressed="true"] { background: var(--or-clair); border-color: var(--or-clair); color: var(--encre); }
+.chip .n { margin-left: 4px; color: var(--lin-3); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] .n { color: var(--encre-2); }
+.chip.vide:not([aria-pressed="true"]) { opacity: 0.55; }
 .plus summary {
   min-height: 44px;
   display: flex;
@@ -368,10 +387,24 @@ main:focus { outline: none; }
 
 .sub { margin: 36px 0 6px; font: 700 1.3rem/1.2 var(--sc); letter-spacing: 0.03em; color: var(--lin); }
 .sub small, .tab small { color: var(--lin-3); font: 500 0.85rem "Alegreya Sans", sans-serif; font-variant-numeric: tabular-nums; margin-left: 4px; }
-.tab[aria-pressed="true"] small { color: var(--encre-2); }
-.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+/* Sous-thèmes : des intercalaires posés sur un filet, distincts des pastilles de tarif. */
+.tabs { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 16px; border-bottom: 1px solid rgba(233, 196, 106, 0.45); }
 .tabs:empty { display: none; }
-.tab { min-height: 38px; padding: 0 14px; font-size: 0.95rem; }
+.tab {
+  position: relative;
+  min-height: 40px;
+  margin-bottom: -1px;
+  padding: 0 14px;
+  border: 1px solid rgba(233, 196, 106, 0.28);
+  border-bottom-color: rgba(233, 196, 106, 0.45);
+  border-radius: 7px 7px 0 0;
+  background: rgba(239, 231, 218, 0.04);
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: background-color 0.15s var(--sortie);
+}
+.tab:hover { background: rgba(239, 231, 218, 0.09); }
+.tab[aria-pressed="true"] { border-color: rgba(233, 196, 106, 0.45); border-bottom-color: var(--mur); background: var(--mur); color: var(--or-clair); box-shadow: inset 0 2px 0 var(--or-clair); }
 
 .entries { list-style: none; margin: 0; padding: 0; }
 .entry a {
@@ -397,6 +430,8 @@ main:focus { outline: none; }
 .vedettes .thumb { width: 112px; height: 63px; }
 .vedettes .coeur-mark { display: none; }
 .coeur-mark { margin-left: 6px; color: var(--or-clair); font: 500 0.85rem var(--sc); letter-spacing: 0.04em; }
+/* Lecture sans image : le monogramme prend le format de la miniature, la rangée reste alignée. */
+.entry.reading .mono { width: 96px; height: 54px; border-radius: 3px; font-size: 1.5rem; }
 .thumb { width: 96px; height: 54px; border-radius: 3px; object-fit: cover; background: #36251a; }
 .logo, .mono { width: 42px; height: 42px; border-radius: 6px; flex: none; }
 .logo { object-fit: contain; padding: 5px; background: var(--papier); }
@@ -598,16 +633,24 @@ footer p { max-width: 58ch; margin: 0; color: var(--lin-3); font-size: 0.92rem; 
   .c4, .c5 { display: none; }
   .outils { margin-top: 22px; }
   .recherche { flex-basis: 100%; }
+  .raccourci { display: none; }
+  /* Pastilles et « Plus de filtres » sur une seule ligne ; les pastilles défilent. */
   .chips {
+    flex: 1 1 0;
+    min-width: 0;
     flex-wrap: nowrap;
     overflow-x: auto;
     scrollbar-width: none;
-    margin-inline: calc(-1 * var(--gout));
-    padding-inline: var(--gout);
+    margin-left: calc(-1 * var(--gout));
+    padding-left: var(--gout);
     /* Fondu au bord : la rangée continue hors champ. */
     mask-image: linear-gradient(90deg, #000 calc(100% - 48px), transparent);
   }
   .chip { flex: none; }
+  .plus summary { padding: 0 0 0 4px; white-space: nowrap; }
+  .tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: calc(-1 * var(--gout)); padding-inline: var(--gout); mask-image: linear-gradient(90deg, #000 calc(100% - 40px), transparent); }
+  .tab { flex: none; }
+  .entry.reading .mono { width: 42px; height: 42px; font-size: 1.25rem; }
   .rayon-head { margin-top: 44px; grid-template-columns: auto minmax(0, 1fr); }
   .rayon-head h2 { font-size: 1.7rem; }
   .rayon-head .link-btn { grid-column: 1 / -1; grid-row: auto; justify-self: start; margin-top: 4px; }

@@ -50,7 +50,7 @@ function hashFor(over = {}) {
 const replaceHash = () => history.replaceState(null, "", hashFor());
 
 // ---------- Filtres ----------
-function filtered(ignoreRayon = false) {
+function filtered(ignoreRayon = false, ignoreTarifs = false) {
   const words = norm(state.q).split(/\s+/).filter(Boolean);
   const statut = $("statut").value, source = $("source").value, showOut = $("ecartes").checked || statut === "Écarté";
   const wanted = CHIPS.filter((c) => state.tarifs.has(c.id)).flatMap((c) => c.match);
@@ -60,7 +60,7 @@ function filtered(ignoreRayon = false) {
     if (!showOut && it.statut === "Écarté") return false;
     if (statut && it.statut !== statut) return false;
     if (source && !(it.source || "").includes(source)) return false;
-    if (wanted.length && !(it.tarif || []).some((t) => wanted.includes(t))) return false;
+    if (!ignoreTarifs && wanted.length && !(it.tarif || []).some((t) => wanted.includes(t))) return false;
     return words.every((w) => it._hay.includes(w));
   });
 }
@@ -145,8 +145,13 @@ function sizeSpines() {
   spines.forEach((s, i) => { s.style.width = Math.round(base + k * ns[i]) + "px"; });
 }
 
+// Chaque pastille dit combien d'outils elle donnerait dans la vue en cours (rayon, recherche, autres filtres).
 function renderChips() {
-  $("chips").innerHTML = CHIPS.map((c) => `<button class="chip" type="button" data-chip="${esc(c.id)}" aria-pressed="${state.tarifs.has(c.id)}">${esc(c.label)}</button>`).join("");
+  const scope = filtered(true, true).filter((it) => (!state.rayon || rayonName(it) === state.rayon) && (!state.theme || it.theme === state.theme) && (state.vue !== "nouveautes" || it.lot === maxLot));
+  $("chips").innerHTML = CHIPS.map((c) => {
+    const n = scope.filter((it) => (it.tarif || []).some((t) => c.match.includes(t))).length;
+    return `<button class="chip${n ? "" : " vide"}" type="button" data-chip="${esc(c.id)}" aria-pressed="${state.tarifs.has(c.id)}" aria-label="${esc(c.label)}, ${plural(n, "outil", "outils")}">${esc(c.label)} <span class="n" aria-hidden="true">${n}</span></button>`;
+  }).join("");
 }
 
 function viewSelection() {
@@ -368,7 +373,12 @@ document.addEventListener("click", (e) => {
   const t = e.target.closest("[data-theme]");
   if (t) { state.theme = t.dataset.theme; replaceHash(); return render(); }
   const c = e.target.closest("[data-chip]");
-  if (c) { const id = c.dataset.chip; state.tarifs.has(id) ? state.tarifs.delete(id) : state.tarifs.add(id); replaceHash(); return render(); }
+  if (c) {
+    const id = c.dataset.chip;
+    state.tarifs.has(id) ? state.tarifs.delete(id) : state.tarifs.add(id);
+    replaceHash(); render();
+    return $("chips").querySelector(`[data-chip="${CSS.escape(id)}"]`).focus();
+  }
   if (e.target.closest("[data-home]") || e.target.closest("#home")) {
     e.preventDefault(); state.rayon = ""; state.theme = ""; state.vue = ""; state.q = ""; state.tarifs.clear();
     $("q").value = ""; $("statut").value = ""; $("source").value = "";
@@ -386,6 +396,7 @@ document.addEventListener("click", (e) => {
   if (e.target.id === "haut") window.scrollTo({ top: 0 });
 });
 document.addEventListener("keydown", (e) => {
+  if (e.key === "/" && $("fiche").hidden && !e.target.closest("input, select, textarea")) { e.preventDefault(); return $("q").focus(); }
   if ($("fiche").hidden) return;
   if (e.key === "Escape") closeFiche();
   if (e.key === "ArrowRight") step(1);
