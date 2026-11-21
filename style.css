@@ -565,6 +565,8 @@ main:focus { outline: none; }
 .fiche .foot .btn { margin-top: 10px; min-height: 38px; }
 /* Barre du pouce : sur téléphone, le lien principal et « Fermer » restent à portée. */
 .pouce { display: none; }
+.btn.ico { width: 44px; padding: 0; flex: none; }
+.btn.ico svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 
 .haut {
   position: fixed;
@@ -671,7 +673,8 @@ footer p { max-width: 58ch; margin: 0; color: var(--lin-3); font-size: 0.92rem; 
     background: var(--papier);
     border-top: 1px solid rgba(43, 29, 22, 0.15);
   }
-  .pouce .primary { flex: 1; }
+  .pouce { gap: 8px; padding-inline: 16px; }
+  .pouce .primary { flex: 1; min-width: 0; padding-inline: 12px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
