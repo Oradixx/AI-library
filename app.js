@@ -348,6 +348,12 @@ function step(d) {
   if (next) openFiche(next.slug, false), replaceHash();
 }
 
+// Après un changement de vue, le focus clavier suit le contenu affiché au lieu de retomber sur la page.
+function focusList() {
+  const h = $("list").querySelector("h2");
+  if (h) { h.tabIndex = -1; h.focus({ preventScroll: true }); }
+}
+
 // ---------- Événements ----------
 document.addEventListener("click", (e) => {
   const o = e.target.closest("[data-outil]");
@@ -361,7 +367,7 @@ document.addEventListener("click", (e) => {
     state.vue = nv.dataset.vue; state.rayon = ""; state.theme = "";
     replaceHash(); render();
     $("list").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
-    return;
+    return focusList();
   }
   const r = e.target.closest("[data-rayon]");
   if (r) {
@@ -369,10 +375,13 @@ document.addEventListener("click", (e) => {
     state.theme = ""; state.vue = "";
     replaceHash(); render();
     $("list").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
-    return;
+    return focusList();
   }
   const t = e.target.closest("[data-theme]");
-  if (t) { state.theme = t.dataset.theme; replaceHash(); return render(); }
+  if (t) {
+    state.theme = t.dataset.theme; replaceHash(); render();
+    return $("list").querySelector(`[data-theme="${CSS.escape(state.theme)}"]`)?.focus();
+  }
   const c = e.target.closest("[data-chip]");
   if (c) {
     const id = c.dataset.chip;
@@ -383,11 +392,13 @@ document.addEventListener("click", (e) => {
   if (e.target.closest("[data-home]") || e.target.closest("#home")) {
     e.preventDefault(); state.rayon = ""; state.theme = ""; state.vue = ""; state.q = ""; state.tarifs.clear();
     $("q").value = ""; $("statut").value = ""; $("source").value = "";
-    replaceHash(); return render();
+    replaceHash(); render();
+    return focusList();
   }
   if (e.target.closest("[data-clear]")) {
     state.q = ""; state.tarifs.clear(); $("q").value = ""; $("statut").value = ""; $("source").value = "";
-    replaceHash(); return render();
+    replaceHash(); render();
+    return $("q").focus();
   }
   if (e.target.closest("[data-close]") || e.target.id === "veil") return closeFiche();
   const s = e.target.closest("[data-step]");

@@ -17,7 +17,7 @@
   --large: min(1120px, 100% - 2 * var(--gout));
   --gout: 44px;
   --planche: 22px;
-  --haut-rayon: 380px;
+  --haut-rayon: 23.75rem;
   --sortie: cubic-bezier(0.16, 1, 0.3, 1);
   --sc: "Alegreya Sans SC", "Alegreya Sans", sans-serif;
   /* Toile buckram : trame fine. */
@@ -334,7 +334,8 @@ a.couche:hover, button.couche:hover, a.couche:focus-visible, button.couche:focus
 .chip[aria-pressed="true"] { background: var(--or-clair); border-color: var(--or-clair); color: var(--encre); }
 .chip .n { margin-left: 4px; color: var(--lin-3); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
 .chip[aria-pressed="true"] .n { color: var(--encre-2); }
-.chip.vide:not([aria-pressed="true"]) { opacity: 0.55; }
+/* Pastille sans résultat : bord en tirets, texte toujours lisible. */
+.chip.vide:not([aria-pressed="true"]) { border-style: dashed; border-color: rgba(233, 196, 106, 0.35); color: var(--lin-2); }
 .plus summary {
   min-height: 44px;
   display: flex;
@@ -589,14 +590,14 @@ footer p { max-width: 58ch; margin: 0; color: var(--lin-3); font-size: 0.92rem; 
 
 /* ---------- Tablette ---------- */
 @media (max-width: 1024px) {
-  :root { --haut-rayon: 320px; --gout: 28px; }
+  :root { --haut-rayon: 20rem; --gout: 28px; }
   .c1 { --l: 190px; } .c2 { --l: 210px; } .c3 { --l: 200px; } .c4 { --l: 222px; } .c5 { --l: 232px; }
   .couche { font-size: 0.98rem; }
 }
 
 /* ---------- Téléphone : deux étages, les raccourcis couchés en bas ---------- */
 @media (max-width: 720px) {
-  :root { --haut-rayon: 196px; --gout: 16px; --planche: 16px; }
+  :root { --haut-rayon: 12.25rem; --gout: 16px; --planche: 16px; }
   body { font-size: 1rem; }
   .salle { padding-top: 22px; }
   /* Les lettres doivent toucher le meuble : la ligne d'infos passe au-dessus. */
