@@ -1253,7 +1253,7 @@
   "verifie": "2026-11-22",
   "status": 200,
   "logo": "https://github.githubassets.com/favicons/favicon.svg",
-  "image": "https://opengraph.githubassets.com/b81b93f07eccb445ec3c8d91ac4d09a2a6d27cf4ae4ced008fb90c41c88ac9fe/NationalSecurityAgency/ghidra"
+  "image": "https://opengraph.githubassets.com/0ff9ef48e0d5ebd3dd6785e3cf050503007bf11ec2e6259a8252cc496c7bd312/NationalSecurityAgency/ghidra"
  },
  "phone-harness-plugin-hermes": {
   "verifie": "2026-11-22",
@@ -2046,8 +2046,9 @@
  },
  "ban-anthropic-des-jetons-d-abonnement-tiers": {
   "verifie": "2026-11-22",
-  "status": 202,
-  "logo": "data:;"
+  "status": 200,
+  "logo": "https://cybersecuritynews.com/wp-content/uploads/2025/12/cropped-CSN-Favico-180x180.webp",
+  "image": "http://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Ends-OpenClaw-Subscriptions.webp"
  },
  "bans-google-antigravity-via-outils-tiers": {
   "verifie": "2026-11-22",
@@ -2201,7 +2202,8 @@
  "fireworks-ai": {
   "verifie": "2026-11-22",
   "status": 200,
-  "logo": "https://fireworks.ai/favicon.ico"
+  "logo": "https://fireworks.ai/apple-icon.png?7a21affc7a2d4744",
+  "image": "https://cdn.sanity.io/images/pv37i0yn/horizon/899fcf63d80829771ad528d647686f3d7265fe23-1200x720.png?v=2026-10-14T02%3A51%3A14Z"
  },
  "zcode-z-ai": {
   "verifie": "2026-11-22",
@@ -3417,7 +3419,7 @@
  "construct-tobia-donadon": {
   "verifie": "2026-11-22",
   "status": 200,
-  "logo": "https://www.tobiadonadon.com/apple-icon.png?apple-icon.0do4v6szjdfd2.png?dpl=dpl_8hJP74UjvnzZJ5ACpndtHB99C3pH",
+  "logo": "https://www.tobiadonadon.com/apple-icon.png?apple-icon.0do4v6szjdfd2.png?dpl=dpl_EayzfpnPet9PkepX3B2jHbxDri5n",
   "image": "https://www.tobiadonadon.com/trail/trail-06.jpg"
  },
  "cuteafd": {
@@ -3431,5 +3433,17 @@
   "status": 200,
   "logo": "https://backdoorai.app/favicon.ico?favicon.307he_b7l_-0f.ico",
   "image": "https://backdoorai.app/match/market/us/opengraph-image-1j715r?565e4959bc555ddf"
+ },
+ "bun": {
+  "verifie": "2026-11-22",
+  "status": 200,
+  "logo": "https://bun.sh/icons/apple-touch-icon.png",
+  "image": "https://bun.com/share_v4.png"
+ },
+ "three-js": {
+  "verifie": "2026-11-22",
+  "status": 200,
+  "logo": "https://threejs.org/files/favicon.ico",
+  "image": "https://threejs.org/files/share.png"
  }
 }
