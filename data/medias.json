@@ -835,7 +835,7 @@
   "verifie": "2026-11-22",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
-  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/LocalLLaMA.png"
+  "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/LocalLLaMA/local-model-explorer.png"
  },
  "llmfit": {
   "verifie": "2026-11-22",
@@ -1253,7 +1253,7 @@
   "verifie": "2026-11-22",
   "status": 200,
   "logo": "https://github.githubassets.com/favicons/favicon.svg",
-  "image": "https://opengraph.githubassets.com/0ff9ef48e0d5ebd3dd6785e3cf050503007bf11ec2e6259a8252cc496c7bd312/NationalSecurityAgency/ghidra"
+  "image": "https://opengraph.githubassets.com/68b3f258116354f5876a68284c0e41f5fe64936257dc2d662cb04f45b1973c3c/NationalSecurityAgency/ghidra"
  },
  "phone-harness-plugin-hermes": {
   "verifie": "2026-11-22",
@@ -1711,8 +1711,8 @@
  "capcut": {
   "verifie": "2026-11-22",
   "status": 200,
-  "logo": "https://sf16-web-tos-buz.capcutcdn-us.com/obj/capcut-web-buz-tx/common/images/lv_web-2.ico",
-  "image": "https://p16-seeyou-useast5.capcutcdn-us.com/tos-useast5-i-2zwwjm3azk-tx/af60401275b14f6684c2af1f7564d717~tplv-2zwwjm3azk-image.image"
+  "logo": "https://sf16-web-tos-buz.capcutcdn-us.com/obj/capcut-web-buz-tx2/common/images/lv_web-2.ico",
+  "image": "https://p16-seeyou-useast8.capcutcdn-us.com/tos-useast8-i-2zwwjm3azk-tx2/af60401275b14f6684c2af1f7564d717~tplv-2zwwjm3azk-image.image"
  },
  "amphetamine": {
   "verifie": "2026-11-22",
