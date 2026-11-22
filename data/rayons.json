@@ -1,7 +1,7 @@
 [
  {
   "nom": "Agents",
-  "couleur": "#2f6a5c",
+  "couleur": "#2a6034",
   "themes": [
    "Agents personnels permanents",
    "Orchestrateurs et cockpits d'agents",
@@ -15,7 +15,7 @@
  },
  {
   "nom": "Modèles",
-  "couleur": "#4a3f7a",
+  "couleur": "#22408f",
   "themes": [
    "Modèles locaux (LLM)",
    "Modèles de décision et classement",
@@ -27,7 +27,7 @@
  },
  {
   "nom": "API et offres",
-  "couleur": "#80552a",
+  "couleur": "#9a3019",
   "themes": [
    "Fournisseurs d'API et modèles cloud",
    "Routeurs et proxys LLM",
@@ -37,7 +37,7 @@
  },
  {
   "nom": "Héberger",
-  "couleur": "#3b5a7a",
+  "couleur": "#2d5d7b",
   "themes": [
    "Hébergement, VPS et PaaS",
    "GPU et calcul",
@@ -46,7 +46,7 @@
  },
  {
   "nom": "Construire",
-  "couleur": "#5a5a2f",
+  "couleur": "#5e5b1f",
   "themes": [
    "Outils dev et productivité",
    "Data, bases et backend",
@@ -60,14 +60,14 @@
  },
  {
   "nom": "Design",
-  "couleur": "#7a3b4f",
+  "couleur": "#7c2348",
   "themes": [
    "Design et UI"
   ]
  },
  {
   "nom": "Skills",
-  "couleur": "#44506a",
+  "couleur": "#1f2f4d",
   "themes": [
    "Skills et plugins choisis",
    "Catalogue des 1 116 skills"
@@ -75,7 +75,7 @@
  },
  {
   "nom": "Lire et apprendre",
-  "couleur": "#6b4a3a",
+  "couleur": "#6e3c1c",
   "themes": [
    "Articles, études et méthodes",
    "Listes et catalogues",

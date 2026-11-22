@@ -22,6 +22,8 @@ PAGE = """<!doctype html>
 <meta property="og:url" content="{url}">
 {image}<meta name="twitter:card" content="{card}">
 <link rel="canonical" href="{fiche}">
+<meta name="theme-color" content="#2b1d16">
+<style>html{{background:#2b1d16;color:#efe7da;font-family:sans-serif}}a{{color:#e9c46a}}</style>
 <meta http-equiv="refresh" content="0; url={fiche}">
 </head><body><p><a href="{fiche}">Ouvrir la fiche {titre}</a></p></body></html>
 """

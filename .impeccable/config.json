@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "sans\",sans-serif",
+        "createdAt": "2026-11-21T17:36:45.930Z",
+        "reason": "agent: parse fragment of the CSS shorthand font: ... \"Alegreya Sans\", sans-serif; Alegreya Sans is declared in DESIGN.md typography"
+      }
+    ]
+  }
+}
