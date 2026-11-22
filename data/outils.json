@@ -4540,21 +4540,21 @@
  {
   "nom": "Local Model Explorer",
   "theme": "Mesure et benchmarks",
-  "url": "https://huggingface.co/LocalLLaMA",
+  "url": "https://huggingface.co/spaces/LocalLLaMA/local-model-explorer",
   "tarif": [
    "Gratuit"
   ],
   "statut": "Noté",
-  "description": "Space LocalLLaMA : mémoire réelle des GGUF.",
+  "description": "Space LocalLLaMA : quelles quantifications GGUF tiennent sur ton GPU, ton Mac ou ton CPU, d'après la mémoire réelle mesurée.",
   "offre": "",
-  "licence": "",
+  "licence": "MIT",
   "tags": [
    "bench"
   ],
   "source": "Documents et fil",
   "post": "",
   "slug": "local-model-explorer",
-  "accroche": "Space LocalLLaMA qui montre la mémoire réelle occupée par les modèles GGUF",
+  "accroche": "Space LocalLLaMA qui montre quelles quantifications GGUF tiennent sur ton GPU, ton Mac ou ton CPU",
   "usage": [
    "Vérifier qu'un modèle GGUF tient dans la mémoire de sa machine",
    "Choisir la quantification adaptée à sa mémoire disponible"

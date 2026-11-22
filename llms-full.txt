@@ -263,7 +263,7 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 - Harness Learning (arXiv 2609.35738) — Article arXiv où un modèle proposeur réécrit le harnais sans toucher aux poids. Gratuit. (harness-learning-arxiv-2609-35738)
 - llama-bench — Outil de llama.cpp qui mesure la vitesse d'un modèle en jetons par seconde. Gratuit. https://github.com/ggml-org/llama.cpp (llama-bench)
 - llmfit — Vérifie si un fichier de modèle tient dans la mémoire de sa machine. Gratuit. https://github.com/AlexsJones/llmfit (llmfit)
-- Local Model Explorer — Space LocalLLaMA qui montre la mémoire réelle occupée par les modèles GGUF. Gratuit. https://huggingface.co/LocalLLaMA (local-model-explorer)
+- Local Model Explorer — Space LocalLLaMA qui montre quelles quantifications GGUF tiennent sur ton GPU, ton Mac ou ton CPU. Gratuit. https://huggingface.co/spaces/LocalLLaMA/local-model-explorer (local-model-explorer)
 - localmaxxing.com — Site qui publie des mesures de performance de modèles locaux. Gratuit. https://localmaxxing.com (localmaxxing-com)
 - mac-llm-bench — Banc de mesures pour connaître les performances des LLM sur Mac. Gratuit. https://github.com/enescingoz/mac-llm-bench (mac-llm-bench)
 - omlx.ai/benchmarks — Page de mesures de performance publiées pour le moteur oMLX. Gratuit. https://omlx.ai/benchmarks (omlx-ai-benchmarks)
