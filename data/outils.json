@@ -8410,14 +8410,17 @@
   "theme": "Mac : applications",
   "url": "https://dbeaver.io",
   "tarif": [
-   "Gratuit"
+   "Gratuit",
+   "Open source"
   ],
   "statut": "",
-  "description": "Client SQL.",
-  "offre": "",
-  "licence": "",
+  "description": "Client SQL open source pour Mac, Windows et Linux : PostgreSQL, MySQL, SQLite, DuckDB et des dizaines d'autres bases via JDBC, avec éditeur de requêtes, diagrammes de schéma et import/export.",
+  "offre": "Édition Community gratuite. Les éditions payantes (Lite, Enterprise) ajoutent surtout les bases NoSQL et le support.",
+  "licence": "Apache-2.0",
   "tags": [
-   "mac"
+   "mac",
+   "data",
+   "sql"
   ],
   "source": "Documents et fil",
   "post": "",
@@ -19974,15 +19977,17 @@
   "theme": "Modèles locaux (LLM)",
   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
   "tarif": [
-   "Gratuit"
+   "Gratuit",
+   "Open source"
   ],
   "statut": "Noté",
-  "description": "Modèle à poids ouverts de Thinking Machines, 26 milliards de paramètres, transformeur « bouclé » qui repasse trois fois dans ses couches centrales. Annoncé en tête des modèles ouverts de moins de 100 milliards de paramètres en code agentique (DeepSWE v1.1 : 48,2 %).",
-  "offre": "Poids sur Hugging Face, aussi disponible sur Tinker. Tourne sur un portable (environ 16 Go de RAM selon les retours).",
-  "licence": "Poids ouverts",
+  "description": "Modèle ouvert et multimodal (texte et images) de Thinking Machines, 26 milliards de paramètres, transformeur « bouclé » qui repasse trois fois dans ses couches centrales. Annoncé en tête des modèles ouverts de moins de 100 milliards de paramètres en code agentique (DeepSWE v1.1 : 48,2 %).",
+  "offre": "Poids sur Hugging Face (thinkingmachines/Inkling-2-Mini), versions GGUF chez Unsloth et ggml-org pour llama.cpp, aussi disponible sur Tinker. Tourne sur un portable (environ 16 Go de RAM selon les retours).",
+  "licence": "Apache-2.0",
   "tags": [
    "modèle local",
-   "code"
+   "code",
+   "gguf"
   ],
   "source": "Signets X",
   "post": "https://x.com/thinkymachines/status/2123871643797995872",
