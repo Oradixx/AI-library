@@ -19941,5 +19941,219 @@
   "article": true,
   "slug": "how-to-print-money-with-gta-vi-guide-youtube",
   "lot": 2
+ },
+ {
+  "nom": "Aria",
+  "theme": "Orchestrateurs et cockpits d'agents",
+  "url": "https://joinariapp.com",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "Noté",
+  "description": "Appli Mac qui affiche vos agents de code (Claude Code, Codex…) dans l'encoche de l'écran : tâches en cours, demandes d'autorisation, travail à plusieurs.",
+  "offre": "Bêta gratuite pour Mac Apple Silicon, macOS 14 ou plus récent.",
+  "licence": "",
+  "tags": [
+   "agent",
+   "mac"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/arushp_/status/2124300273355223456",
+  "coeur": false,
+  "accroche": "Suivre ses agents de code depuis l'encoche du Mac",
+  "usage": [
+   "Voir d'un coup d'œil où en sont plusieurs agents",
+   "Valider une commande demandée par un agent sans changer de fenêtre"
+  ],
+  "slug": "aria",
+  "lot": 3
+ },
+ {
+  "nom": "Inkling 2 Mini",
+  "theme": "Modèles locaux (LLM)",
+  "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "Noté",
+  "description": "Modèle à poids ouverts de Thinking Machines, 26 milliards de paramètres, transformeur « bouclé » qui repasse trois fois dans ses couches centrales. Annoncé en tête des modèles ouverts de moins de 100 milliards de paramètres en code agentique (DeepSWE v1.1 : 48,2 %).",
+  "offre": "Poids sur Hugging Face, aussi disponible sur Tinker. Tourne sur un portable (environ 16 Go de RAM selon les retours).",
+  "licence": "Poids ouverts",
+  "tags": [
+   "modèle local",
+   "code"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/thinkymachines/status/2123871643797995872",
+  "coeur": false,
+  "accroche": "Petit modèle ouvert pensé pour le code agentique sur un portable",
+  "usage": [
+   "Faire tourner un agent de code en local",
+   "Comparer un modèle local aux modèles cloud sur ses propres tâches"
+  ],
+  "slug": "inkling-2-mini",
+  "lot": 3
+ },
+ {
+  "nom": "Inkling 2 Mini Uncensored (GGUF)",
+  "theme": "Modèles locaux (LLM)",
+  "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Version sans refus d'Inkling 2 Mini publiée par Atomic Chat, en trois fichiers GGUF de 8,67 à 16,53 Go. Garde 98 % de la précision d'origine sur MMLU selon ses auteurs.",
+  "offre": "Téléchargement gratuit. Tourne sur un portable avec 12 Go de RAM.",
+  "licence": "",
+  "tags": [
+   "modèle local",
+   "gguf"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/atomic_chat_hq/status/2124147181418602912",
+  "coeur": false,
+  "accroche": "Inkling 2 Mini sans refus, prêt pour llama.cpp et Atomic Chat",
+  "usage": [
+   "Lancer Inkling 2 Mini sur une machine modeste",
+   "Choisir une quantification selon la mémoire disponible"
+  ],
+  "slug": "inkling-2-mini-uncensored-gguf",
+  "lot": 3
+ },
+ {
+  "nom": "Hermes Agent : 9 étapes pour le rendre « super intelligent »",
+  "theme": "Articles, études et méthodes",
+  "url": "https://x.com/BkashJosi/status/2123432148028002386",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "À lire",
+  "description": "Article en 9 étapes : vérifier le modèle actif, ranger chaque consigne dans le bon fichier, tester la mémoire dans une nouvelle session, transformer un problème résolu en skill, verify_on_stop, /review puis /refine, mesurer les progrès, confier une tâche quotidienne.",
+  "offre": "Rappel de l'auteur : la « mémoire » enregistre du contexte et des procédures, elle ne réentraîne pas le modèle.",
+  "licence": "",
+  "tags": [
+   "agent",
+   "mémoire"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/BkashJosi/status/2123432148028002386",
+  "coeur": false,
+  "accroche": "Méthode pour qu'Hermes Agent arrête de refaire les mêmes erreurs",
+  "usage": [
+   "Régler mémoire, skills et vérification d'Hermes Agent",
+   "Mesurer si un réglage d'agent améliore vraiment le résultat"
+  ],
+  "slug": "hermes-agent-9-etapes-super-intelligent",
+  "image_post": "https://pbs.twimg.com/media/HXfyQRJboAANscG?format=jpg&name=medium",
+  "article": true,
+  "lot": 3
+ },
+ {
+  "nom": "Mémoire d'agent en 3 couches avec Obsidian et pgvector",
+  "theme": "Mémoire d'agent",
+  "url": "https://x.com/powlisher/status/2123695743986729202",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "À lire",
+  "description": "Retour d'expérience en français : un an de sessions Claude sur PostgreSQL + pgvector, avec une mémoire courte, intermédiaire et longue et des transferts entre les trois. Obsidian sert d'interface de réflexion, les embeddings de recherche par sens.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "mémoire",
+   "pgvector",
+   "obsidian"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/powlisher/status/2123695743986729202",
+  "coeur": false,
+  "accroche": "Organiser la mémoire d'un agent par associations plutôt que par dossiers",
+  "usage": [
+   "Concevoir la mémoire longue d'un agent",
+   "Comparer une approche Obsidian et une base vectorielle"
+  ],
+  "slug": "memoire-agent-3-couches-obsidian-pgvector",
+  "lot": 3
+ },
+ {
+  "nom": "Construct (Tobia Donadon)",
+  "theme": "Design et UI",
+  "url": "https://www.tobiadonadon.com/projects/construct",
+  "tarif": [
+   "Freemium"
+  ],
+  "statut": "Noté",
+  "description": "Bibliothèque de skills, guides et configurations pour travailler avec l'IA et le code, dont une bibliothèque de design reliée à un MCP et une skill pour faire produire des maquettes à un agent.",
+  "offre": "Skills gratuites sauf prix affiché. Communauté et cours payants.",
+  "licence": "",
+  "tags": [
+   "design",
+   "skill",
+   "mcp"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/tobiadonadon_/status/2123448120113766598",
+  "coeur": false,
+  "accroche": "Skills et bibliothèque de design pour qu'un agent produise de meilleures maquettes",
+  "usage": [
+   "Donner à un agent des références de design",
+   "Récupérer des skills gratuites pour le front"
+  ],
+  "slug": "construct-tobia-donadon",
+  "lot": 3
+ },
+ {
+  "nom": "cuteafd",
+  "theme": "Moteurs d'inférence locale",
+  "url": "https://github.com/tpurtell/cuteafd",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Moteur d'inférence qui sépare attention et experts : une ou deux cartes RTX PRO 6000 pour l'attention, des DGX Spark pour les experts des grands modèles MoE. API compatibles Anthropic et OpenAI pour brancher Claude Code ou Codex.",
+  "offre": "Logiciel gratuit, mais matériel de laboratoire haut de gamme (RTX PRO 6000, DGX Spark).",
+  "licence": "MIT",
+  "tags": [
+   "inférence",
+   "moe",
+   "gpu"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/wrldsuksgo2mars/status/2123342501872312786",
+  "coeur": false,
+  "accroche": "Faire tourner des modèles MoE de pointe sur un petit cluster maison",
+  "usage": [
+   "Servir Kimi, MiniMax ou Inkling sur son propre matériel",
+   "Brancher Claude Code sur un modèle hébergé chez soi"
+  ],
+  "slug": "cuteafd",
+  "lot": 3
+ },
+ {
+  "nom": "Backdoor AI",
+  "theme": "Opportunités et concours",
+  "url": "https://backdoorai.app/match",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "Noté",
+  "description": "Indique quelles startups pourraient vous embaucher à partir de votre profil LinkedIn.",
+  "offre": "Gratuit. Demande l'accès à votre profil LinkedIn.",
+  "licence": "",
+  "tags": [
+   "emploi"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/textbackdoor/status/2123323821239443706",
+  "coeur": false,
+  "accroche": "Trouver les startups qui recrutent un profil comme le vôtre",
+  "usage": [
+   "Repérer des startups où postuler",
+   "Voir comment son profil est perçu"
+  ],
+  "slug": "backdoor-ai",
+  "lot": 3
  }
 ]
