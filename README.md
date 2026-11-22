@@ -27,7 +27,7 @@ Les cas d'usage et les accroches ont été rédigés avec une IA à partir des n
 ## Pour les agents IA
 
 - `llms.txt` et `llms-full.txt` (une ligne par outil) : la bibliothèque lisible par un modèle.
-- `skill/chercher-library/` : skill qui apprend à un agent à chercher dans la bibliothèque, téléchargeable en `.zip` depuis `agents.html` (lien « Pour les agents IA » en haut de l'accueil).
+- `skills/chercher-library/` : skill qui apprend à un agent à chercher dans la bibliothèque, à installer avec `npx skills add Oradixx/AI-library --skill chercher-library -g` ou en `.zip` depuis `agents.html` (lien « Naviguer avec un agent » en haut de l'accueil).
 
 ## Scripts
 

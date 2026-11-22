@@ -27,5 +27,6 @@ Fiche d'un outil pour un humain : https://oradixx.github.io/AI-library/#outil=<s
 
 ## Pour les agents
 
-- [Skill chercher-library](https://oradixx.github.io/AI-library/skill/chercher-library.zip) : méthode de recherche dans la bibliothèque, à installer
-  dans Claude Code, claude.ai ou tout agent qui lit les skills. Mode d'emploi : https://oradixx.github.io/AI-library/agents.html
+- Skill chercher-library : méthode de recherche dans la bibliothèque. Installation :
+  `npx skills add Oradixx/AI-library --skill chercher-library -g`, ou [le zip](https://oradixx.github.io/AI-library/skills/chercher-library.zip)
+  pour claude.ai. Mode d'emploi : https://oradixx.github.io/AI-library/agents.html

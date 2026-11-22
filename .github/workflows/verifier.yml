@@ -8,7 +8,7 @@ on:
     paths:
       - "data/outils.json"
       - "data/rayons.json"
-      - "skill/**"
+      - "skills/**"
       - "scripts/pages.py"
 
 permissions:
@@ -30,6 +30,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/medias.json data/liens-en-echec.txt outil llms.txt llms-full.txt skill/chercher-library.zip
+          git add data/medias.json data/liens-en-echec.txt outil llms.txt llms-full.txt skills/chercher-library.zip
           git diff --cached --quiet || git commit -m "Vérification automatique des liens et des fiches"
           git push

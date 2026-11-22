@@ -63,6 +63,7 @@ p, li { text-wrap: pretty; }
 .tete { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 24px; }
 .meta { margin: 0; display: flex; flex-wrap: wrap; gap: 4px 22px; color: var(--lin-3); font-size: 0.95rem; }
 .meta a { color: var(--lin); }
+.meta .liens { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
 
 /* Titre : le nom en laiton posé sur le dessus du meuble. */
 .salle .tete { position: relative; align-items: flex-end; padding-bottom: 16px; }

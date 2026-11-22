@@ -4,7 +4,7 @@ Chaque page porte un titre, une description et une image de partage (aperçu sur
 puis redirige vers la fiche dans la bibliothèque (#outil=<slug>). Usage : python3 scripts/pages.py
 
 Génère aussi la version pour les agents : llms.txt, llms-full.txt (une ligne par outil)
-et skill/chercher-library.zip (la skill à télécharger depuis agents.html).
+et skills/chercher-library.zip (la skill à télécharger depuis agents.html).
 """
 import html
 import json
@@ -56,8 +56,9 @@ Fiche d'un outil pour un humain : {base}#outil=<slug>.
 
 ## Pour les agents
 
-- [Skill chercher-library]({base}skill/chercher-library.zip) : méthode de recherche dans la bibliothèque, à installer
-  dans Claude Code, claude.ai ou tout agent qui lit les skills. Mode d'emploi : {base}agents.html
+- Skill chercher-library : méthode de recherche dans la bibliothèque. Installation :
+  `npx skills add Oradixx/AI-library --skill chercher-library -g`, ou [le zip]({base}skills/chercher-library.zip)
+  pour claude.ai. Mode d'emploi : {base}agents.html
 """
 
 
@@ -85,8 +86,8 @@ def llms():
 
 def skill_zip():
     # Date fixe : le zip ne change que si la skill change, sans commit inutile de l'Action.
-    src = ROOT / "skill/chercher-library"
-    with zipfile.ZipFile(ROOT / "skill/chercher-library.zip", "w", zipfile.ZIP_DEFLATED) as z:
+    src = ROOT / "skills/chercher-library"
+    with zipfile.ZipFile(ROOT / "skills/chercher-library.zip", "w", zipfile.ZIP_DEFLATED) as z:
         for f in sorted(src.rglob("*")):
             if f.is_file():
                 info = zipfile.ZipInfo(f"chercher-library/{f.relative_to(src)}", (2026, 1, 1, 0, 0, 0))
@@ -114,7 +115,7 @@ def main():
     print(f"{len(DATA)} pages de partage générées dans outil/")
     llms()
     skill_zip()
-    print("llms.txt, llms-full.txt et skill/chercher-library.zip générés")
+    print("llms.txt, llms-full.txt et skills/chercher-library.zip générés")
 
 
 if __name__ == "__main__":

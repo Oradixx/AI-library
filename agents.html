@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alegreya+Sans+SC:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=202611220100">
+  <link rel="stylesheet" href="style.css?v=202611221600">
   <style>
     .page { width: min(720px, 100% - 32px); margin: 0 auto; padding: 40px 0 64px; }
     .page .retour { color: var(--lin-3); font-size: 0.95rem; }
@@ -23,6 +23,10 @@
     .page code { padding: 1px 5px; border-radius: 3px; background: var(--fond); color: var(--lin); font-size: 0.92em; overflow-wrap: anywhere; }
     .page pre { overflow-x: auto; padding: 12px 14px; border: 1px solid var(--trait); border-radius: 4px; background: var(--fond); }
     .page pre code { padding: 0; background: none; }
+    .commande { position: relative; }
+    .commande pre { margin: 0; padding-right: 96px; }
+    .commande button { position: absolute; top: 50%; right: 8px; transform: translateY(-50%); padding: 6px 12px; border: 1px solid var(--or-filet); border-radius: 4px; background: var(--cuir); color: var(--or-clair); font-size: 0.9rem; }
+    .commande button:hover { background: var(--or-voile); }
     .telecharger { display: inline-block; margin: 14px 0 4px; padding: 11px 20px; border-radius: 4px; background: var(--or-clair); color: var(--encre) !important; font-weight: 700; text-decoration: none; }
     .telecharger:hover { background: var(--or-dos); }
   </style>
@@ -35,8 +39,12 @@
 
     <h2>La skill chercher-library</h2>
     <p>Une skill est un petit fichier d'instructions qu'un agent charge quand la demande s'y prête. Celle-ci lui apprend où sont les données et comment chercher dedans.</p>
-    <a class="telecharger" href="skill/chercher-library.zip" download>Télécharger la skill (.zip)</a>
-    <p>Ou lire le fichier : <a href="skill/chercher-library/SKILL.md">SKILL.md</a>.</p>
+    <p><strong>En une commande</strong>, pour Claude Code, Codex, Cursor, OpenCode, Gemini CLI et la plupart des agents (il faut Node.js) :</p>
+    <div class="commande"><pre><code id="cmd">npx skills add Oradixx/AI-library --skill chercher-library -g</code></pre><button type="button" data-copie="cmd">Copier</button></div>
+    <p>L'outil détecte les agents installés et y ajoute la skill pour tous vos projets. Sans <code>-g</code>, elle n'est installée que dans le projet courant.</p>
+    <p><strong>Ou à la main</strong> :</p>
+    <a class="telecharger" href="skills/chercher-library.zip" download>Télécharger la skill (.zip)</a>
+    <p>Ou lire le fichier : <a href="skills/chercher-library/SKILL.md">SKILL.md</a>.</p>
     <ul>
       <li><strong>Claude Code</strong> : décompressez le zip dans <code>~/.claude/skills/</code> (vous obtenez <code>~/.claude/skills/chercher-library/SKILL.md</code>), puis relancez Claude Code.</li>
       <li><strong>claude.ai et l'appli Claude</strong> : Paramètres, Capacités, Skills, puis importez le fichier .zip tel quel.</li>
@@ -55,5 +63,18 @@
     <h2>À savoir</h2>
     <p>Les cas d'usage ont été rédigés avec une IA à partir de notes, et les offres gratuites changent souvent : vérifiez sur le site officiel avant de compter sur un quota.</p>
   </main>
+  <script>
+    for (const b of document.querySelectorAll("[data-copie]")) {
+      b.addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText(document.getElementById(b.dataset.copie).textContent);
+          b.textContent = "Copié";
+        } catch {
+          b.textContent = "Sélectionnez le texte";
+        }
+        setTimeout(() => (b.textContent = "Copier"), 2000);
+      });
+    }
+  </script>
 </body>
 </html>
