@@ -49,6 +49,7 @@
   "couleur": "#5e5b1f",
   "themes": [
    "Outils dev et productivité",
+   "Langages, runtimes et bibliothèques",
    "Data, bases et backend",
    "RAG, recherche et bases vectorielles",
    "DevOps et infra",

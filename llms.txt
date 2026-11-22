@@ -1,6 +1,6 @@
 # AI library
 
-> Bibliothèque française d'environ 746 outils IA : agents, modèles, API et offres gratuites ou étudiantes, hébergement,
+> Bibliothèque française d'environ 748 outils IA : agents, modèles, API et offres gratuites ou étudiantes, hébergement,
 > outils pour construire, design, skills et lectures. Chaque outil a une fiche : description, cas d'usage, offre réelle
 > (quotas, conditions), licence et tarifs (Gratuit, Open source, Étudiant, Crédits, Essai, Freemium, Payant).
 
@@ -20,7 +20,7 @@ Fiche d'un outil pour un humain : https://oradixx.github.io/AI-library/#outil=<s
 - Modèles : Modèles locaux (LLM), Modèles de décision et classement, Embeddings, OCR et documents, Moteurs d'inférence locale, Mesure et benchmarks, Fine-tuning et ML
 - API et offres : Fournisseurs d'API et modèles cloud, Routeurs et proxys LLM, Abonnements IA et offres grand public, Offres étudiantes et packs
 - Héberger : Hébergement, VPS et PaaS, GPU et calcul, Réseau et exposition
-- Construire : Outils dev et productivité, Data, bases et backend, RAG, recherche et bases vectorielles, DevOps et infra, Terminal et shell, Mac : applications, Extensions VS Code, Sites et générateurs de docs
+- Construire : Outils dev et productivité, Langages, runtimes et bibliothèques, Data, bases et backend, RAG, recherche et bases vectorielles, DevOps et infra, Terminal et shell, Mac : applications, Extensions VS Code, Sites et générateurs de docs
 - Design : Design et UI
 - Skills : Skills et plugins choisis, Catalogue des 1 116 skills
 - Lire et apprendre : Articles, études et méthodes, Listes et catalogues, Opportunités et concours, Écartés

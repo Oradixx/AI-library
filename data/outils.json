@@ -8034,7 +8034,7 @@
  },
  {
   "nom": "uv",
-  "theme": "DevOps et infra",
+  "theme": "Langages, runtimes et bibliothèques",
   "url": "https://github.com/astral-sh/uv",
   "tarif": [
    "Gratuit",
@@ -8088,18 +8088,19 @@
  },
  {
   "nom": "Node.js",
-  "theme": "DevOps et infra",
+  "theme": "Langages, runtimes et bibliothèques",
   "url": "https://nodejs.org",
   "tarif": [
    "Gratuit",
    "Open source"
   ],
   "statut": "",
-  "description": "Runtime JavaScript.",
-  "offre": "",
-  "licence": "",
+  "description": "Environnement qui exécute du JavaScript en dehors du navigateur : serveurs web, outils en ligne de commande, scripts. Livré avec npm, le gestionnaire de paquets JavaScript le plus utilisé.",
+  "offre": "Gratuit. Beaucoup d'outils IA s'installent avec npm ou npx et demandent Node.js (Claude Code, Codex, MCP, CLI skills).",
+  "licence": "MIT",
   "tags": [
-   "devops"
+   "javascript",
+   "runtime"
   ],
   "source": "Documents et fil",
   "post": "",
@@ -20154,6 +20155,64 @@
    "Voir comment son profil est perçu"
   ],
   "slug": "backdoor-ai",
+  "lot": 3
+ },
+ {
+  "nom": "Bun",
+  "theme": "Langages, runtimes et bibliothèques",
+  "url": "https://bun.sh",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Environnement JavaScript et TypeScript tout-en-un, compatible avec Node.js : exécution, gestionnaire de paquets, lanceur de tests et bundler dans un seul binaire. Nettement plus rapide que Node.js pour installer et démarrer.",
+  "offre": "Gratuit. Remplace souvent node, npm et npx par bun et bunx, mais quelques modules Node restent moins bien pris en charge.",
+  "licence": "MIT",
+  "tags": [
+   "javascript",
+   "typescript",
+   "runtime"
+  ],
+  "source": "Documents et fil",
+  "post": "",
+  "coeur": false,
+  "accroche": "Alternative rapide à Node.js qui réunit exécution, paquets et tests",
+  "usage": [
+   "Lancer un script TypeScript sans étape de compilation",
+   "Installer les dépendances d'un projet beaucoup plus vite qu'avec npm",
+   "Démarrer un petit serveur web ou une API"
+  ],
+  "slug": "bun",
+  "lot": 3
+ },
+ {
+  "nom": "Three.js",
+  "theme": "Langages, runtimes et bibliothèques",
+  "url": "https://threejs.org",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Bibliothèque JavaScript pour afficher de la 3D dans le navigateur au-dessus de WebGL et WebGPU : scènes, caméras, lumières, modèles glTF, animations.",
+  "offre": "Gratuit. S'installe avec npm (three). React Three Fiber l'adapte à React.",
+  "licence": "MIT",
+  "tags": [
+   "javascript",
+   "3d",
+   "webgl"
+  ],
+  "source": "Documents et fil",
+  "post": "",
+  "coeur": false,
+  "accroche": "Afficher et animer de la 3D dans une page web",
+  "usage": [
+   "Ajouter un objet 3D interactif à une page d'accueil",
+   "Visualiser des données ou un produit en 3D",
+   "Créer un petit jeu ou une expérience dans le navigateur"
+  ],
+  "slug": "three-js",
   "lot": 3
  }
 ]

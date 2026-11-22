@@ -1,4 +1,4 @@
-# AI library : index complet (746 outils)
+# AI library : index complet (748 outils)
 
 Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans data/outils.json)
 
@@ -454,6 +454,13 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 - tsc-rs — Compilateur TypeScript réécrit en Rust par des agents IA. Gratuit. (tsc-rs)
 - usefulshelf.co — Sélection d'outils utiles rangés comme sur une étagère. Gratuit. https://usefulshelf.co (usefulshelf-co)
 
+### Langages, runtimes et bibliothèques
+
+- Bun — Alternative rapide à Node.js qui réunit exécution, paquets et tests. Gratuit, Open source. https://bun.sh (bun)
+- Node.js — Exécute du JavaScript hors du navigateur, côté serveur ou en ligne de commande. Gratuit, Open source. https://nodejs.org (node-js)
+- Three.js — Afficher et animer de la 3D dans une page web. Gratuit, Open source. https://threejs.org (three-js)
+- uv — Gère versions de Python, dépendances et environnements virtuels d'un projet. Gratuit, Open source. https://github.com/astral-sh/uv (uv)
+
 ### Data, bases et backend
 
 - Apache Spark / PySpark — Moteur de traitement de données distribué, utilisable en Python avec PySpark. Gratuit, Open source. https://spark.apache.org (apache-spark-pyspark)
@@ -510,12 +517,10 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 - Jira — Suit les tickets, bugs et tâches d'une équipe de projet. Gratuit, Open source. https://www.atlassian.com/software/jira (jira)
 - Kubernetes / GKE — Orchestre des conteneurs sur un cluster, auto-géré ou confié à Google via GKE. Gratuit, Open source. https://kubernetes.io (kubernetes-gke)
 - miniforge — Installe conda configuré sur le canal communautaire conda-forge, sans Anaconda. Gratuit, Open source. https://github.com/conda-forge/miniforge (miniforge)
-- Node.js — Exécute du JavaScript hors du navigateur, côté serveur ou en ligne de commande. Gratuit, Open source. https://nodejs.org (node-js)
 - OrbStack — Fait tourner conteneurs Docker et machines virtuelles Linux sur Mac. Gratuit, Open source. https://orbstack.dev (orbstack)
 - PyPI — Index public où l'on publie et installe les paquets Python. Gratuit, Open source. https://pypi.org (pypi)
 - Quarto — Transforme notebooks et documents Markdown en articles, rapports, sites ou présentations. Gratuit, Open source. https://quarto.org (quarto)
 - Ruff — Linter et formateur pour Python, écrit en Rust. Gratuit, Open source. https://docs.astral.sh/ruff/ (ruff)
-- uv — Gère versions de Python, dépendances et environnements virtuels d'un projet. Gratuit, Open source. https://github.com/astral-sh/uv (uv)
 - Vitest — Lance les tests de projets JavaScript et TypeScript, en s'appuyant sur Vite. Gratuit, Open source. https://vitest.dev (vitest)
 - Zotero — Collecte, organise et cite les références bibliographiques. Gratuit, Open source. https://www.zotero.org (zotero)
 
