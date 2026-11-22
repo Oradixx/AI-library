@@ -24,10 +24,15 @@ Bibliothèque en ligne d'outils tech, design et agents IA, d'API et de routeurs,
 
 Les cas d'usage et les accroches ont été rédigés avec une IA à partir des notes : à relire avant de s'y fier.
 
+## Pour les agents IA
+
+- `llms.txt` et `llms-full.txt` (une ligne par outil) : la bibliothèque lisible par un modèle.
+- `skill/chercher-library/` : skill qui apprend à un agent à chercher dans la bibliothèque, téléchargeable en `.zip` depuis `agents.html` (lien « Pour les agents IA » en haut de l'accueil).
+
 ## Scripts
 
 - `python3 scripts/enrich.py` : vérifie les liens, récupère images et logos (bibliothèque standard Python uniquement).
-- `python3 scripts/pages.py` : régénère les pages de partage `outil/<slug>/`.
+- `python3 scripts/pages.py` : régénère les pages de partage `outil/<slug>/`, `llms.txt`, `llms-full.txt` et le zip de la skill.
 - La GitHub Action `verifier.yml` lance les deux le 1er de chaque mois et à chaque modification des données.
 
 ## Développement local

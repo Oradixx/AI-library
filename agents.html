@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pour les agents IA — AI library</title>
+  <meta name="description" content="Faire chercher un agent IA dans AI library : la skill chercher-library à télécharger, llms.txt et les données ouvertes.">
+  <meta name="theme-color" content="#2b1d16">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alegreya+Sans+SC:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=202611220100">
+  <style>
+    .page { width: min(720px, 100% - 32px); margin: 0 auto; padding: 40px 0 64px; }
+    .page .retour { color: var(--lin-3); font-size: 0.95rem; }
+    .page h1 { margin: 18px 0 8px; font: 400 clamp(2rem, 6vw, 2.8rem)/1.1 "Alfa Slab One", serif; color: var(--or-clair); }
+    .page h2 { margin: 40px 0 10px; font: 700 1.25rem/1.3 var(--sc); color: var(--or-dos); letter-spacing: 0.03em; }
+    .page p, .page li { color: var(--lin-2); }
+    .page strong { color: var(--lin); }
+    .page a { color: var(--or-clair); }
+    .page ol, .page ul { padding-left: 1.3em; }
+    .page li + li { margin-top: 6px; }
+    .page code { padding: 1px 5px; border-radius: 3px; background: var(--fond); color: var(--lin); font-size: 0.92em; overflow-wrap: anywhere; }
+    .page pre { overflow-x: auto; padding: 12px 14px; border: 1px solid var(--trait); border-radius: 4px; background: var(--fond); }
+    .page pre code { padding: 0; background: none; }
+    .telecharger { display: inline-block; margin: 14px 0 4px; padding: 11px 20px; border-radius: 4px; background: var(--or-clair); color: var(--encre) !important; font-weight: 700; text-decoration: none; }
+    .telecharger:hover { background: var(--or-dos); }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <a class="retour" href="./">← Retour à la bibliothèque</a>
+    <h1>Pour les agents IA</h1>
+    <p>La bibliothèque se lit aussi par un agent : demandez-lui « trouve-moi un outil gratuit pour faire tourner un modèle en local » et il cherche dans les fiches à votre place, avec les liens et les limites de chaque offre.</p>
+
+    <h2>La skill chercher-library</h2>
+    <p>Une skill est un petit fichier d'instructions qu'un agent charge quand la demande s'y prête. Celle-ci lui apprend où sont les données et comment chercher dedans.</p>
+    <a class="telecharger" href="skill/chercher-library.zip" download>Télécharger la skill (.zip)</a>
+    <p>Ou lire le fichier : <a href="skill/chercher-library/SKILL.md">SKILL.md</a>.</p>
+    <ul>
+      <li><strong>Claude Code</strong> : décompressez le zip dans <code>~/.claude/skills/</code> (vous obtenez <code>~/.claude/skills/chercher-library/SKILL.md</code>), puis relancez Claude Code.</li>
+      <li><strong>claude.ai et l'appli Claude</strong> : Paramètres, Capacités, Skills, puis importez le fichier .zip tel quel.</li>
+      <li><strong>Autres agents</strong> (OpenCode, Codex, Gemini…) : placez le dossier <code>chercher-library</code> là où l'outil range ses skills, ou collez le contenu de SKILL.md dans ses instructions.</li>
+    </ul>
+
+    <h2>Sans installer quoi que ce soit</h2>
+    <p>Donnez simplement cette adresse à n'importe quel agent qui sait lire le web :</p>
+    <pre><code>https://oradixx.github.io/AI-library/llms.txt</code></pre>
+    <p>Il y trouve la description de la bibliothèque et les liens vers les données :</p>
+    <ul>
+      <li><a href="llms-full.txt">llms-full.txt</a> : index compact, une ligne par outil, rangé par rayon et par thème.</li>
+      <li><a href="data/outils.json">data/outils.json</a> : fiches complètes (description, cas d'usage, offre, licence, tags).</li>
+    </ul>
+
+    <h2>À savoir</h2>
+    <p>Les cas d'usage ont été rédigés avec une IA à partir de notes, et les offres gratuites changent souvent : vérifiez sur le site officiel avant de compter sur un quota.</p>
+  </main>
+</body>
+</html>

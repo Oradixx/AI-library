@@ -1,0 +1,31 @@
+# AI library
+
+> Bibliothèque française d'environ 746 outils IA : agents, modèles, API et offres gratuites ou étudiantes, hébergement,
+> outils pour construire, design, skills et lectures. Chaque outil a une fiche : description, cas d'usage, offre réelle
+> (quotas, conditions), licence et tarifs (Gratuit, Open source, Étudiant, Crédits, Essai, Freemium, Payant).
+
+Les cas d'usage ont été rédigés avec une IA et les offres gratuites changent souvent : vérifier sur le site officiel.
+Fiche d'un outil pour un humain : https://oradixx.github.io/AI-library/#outil=<slug>.
+
+## Données
+
+- [Index compact](https://oradixx.github.io/AI-library/llms-full.txt) : une ligne par outil, rangé par rayon et par thème (environ 40 000 tokens).
+- [Fiches complètes](https://oradixx.github.io/AI-library/data/outils.json) : JSON, un objet par outil (slug, nom, theme, url, tarif, description,
+  accroche, usage, offre, licence, tags). Gros fichier : le filtrer plutôt que le lire en entier.
+- [Rayons et thèmes](https://oradixx.github.io/AI-library/data/rayons.json)
+
+## Rayons
+
+- Agents : Agents personnels permanents, Orchestrateurs et cockpits d'agents, Agents de code et harnais (CLI), Frameworks et runtimes d'agents, Mémoire d'agent, Coûts, cache et fiabilité, Outils d'agent, MCP et navigateur, Sandboxes
+- Modèles : Modèles locaux (LLM), Modèles de décision et classement, Embeddings, OCR et documents, Moteurs d'inférence locale, Mesure et benchmarks, Fine-tuning et ML
+- API et offres : Fournisseurs d'API et modèles cloud, Routeurs et proxys LLM, Abonnements IA et offres grand public, Offres étudiantes et packs
+- Héberger : Hébergement, VPS et PaaS, GPU et calcul, Réseau et exposition
+- Construire : Outils dev et productivité, Data, bases et backend, RAG, recherche et bases vectorielles, DevOps et infra, Terminal et shell, Mac : applications, Extensions VS Code, Sites et générateurs de docs
+- Design : Design et UI
+- Skills : Skills et plugins choisis, Catalogue des 1 116 skills
+- Lire et apprendre : Articles, études et méthodes, Listes et catalogues, Opportunités et concours, Écartés
+
+## Pour les agents
+
+- [Skill chercher-library](https://oradixx.github.io/AI-library/skill/chercher-library.zip) : méthode de recherche dans la bibliothèque, à installer
+  dans Claude Code, claude.ai ou tout agent qui lit les skills. Mode d'emploi : https://oradixx.github.io/AI-library/agents.html
