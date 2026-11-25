@@ -456,6 +456,7 @@ main:focus { outline: none; }
 .entry.reading a { grid-template-columns: 96px minmax(0, 1fr) auto; }
 .entry .nom { font-weight: 700; }
 .entry .acc { display: block; color: var(--lin-2); font-size: 0.95rem; }
+.entry .date { display: block; margin-top: 2px; color: var(--lin-3); font-size: 0.85rem; }
 /* Coups de cœur de l'accueil : la même liste d'étagère, en plus grand. */
 .vedettes .entry a { grid-template-columns: 48px minmax(0, 1fr) auto; gap: 4px 18px; padding: 16px 10px; }
 .vedettes .entry.reading a { grid-template-columns: 112px minmax(0, 1fr) auto; }

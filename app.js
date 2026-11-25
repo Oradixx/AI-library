@@ -97,6 +97,13 @@ function coverUrl(it) {
   return it.article || rayonName(it) === "Lire et apprendre" ? it.image_post || site : site || it.image_post || "";
 }
 const accroche = (it) => it.accroche || it.description || "";
+// Date d'un article ou d'une lecture publiés sur X : l'identifiant du post (Snowflake) contient l'instant de publication.
+function xDate(it) {
+  if (!it.article && rayonName(it) !== "Lire et apprendre") return null;
+  const m = [it.post, it.url].map((u) => /\/\/(?:www\.)?(?:x|twitter)\.com\/[^/]+\/status\/(\d{15,})/.exec(u || "")).find(Boolean);
+  return m ? new Date(Number((BigInt(m[1]) >> 22n) + 1288834974657n)) : null;
+}
+const fmtDate = (d, mois = "long") => d.toLocaleDateString("fr-FR", { day: "numeric", month: mois, year: "numeric" });
 
 // Sur les rangées, « Gratuit » reste implicite (plus de 80 % du catalogue) : seuls les vrais coûts et offres sont marqués.
 function row(it, skip, plain = false) {
@@ -106,7 +113,7 @@ function row(it, skip, plain = false) {
   const visual = thumb ? `<img class="thumb" src="${esc(thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML=this.dataset.f" data-f='${mono.replace(/'/g, "&#39;")}'>` : logo(it);
   return `<li class="entry${reading ? " reading" : ""}"><a href="${hashFor({ outil: it.slug })}" data-outil="${esc(it.slug)}">
     ${visual}
-    <span><span class="nom">${esc(it.nom)}</span>${it.coeur ? ' <span class="coeur-mark">Coup de cœur</span>' : ""}<span class="acc">${esc(accroche(it))}</span></span>
+    <span><span class="nom">${esc(it.nom)}</span>${it.coeur ? ' <span class="coeur-mark">Coup de cœur</span>' : ""}<span class="acc">${esc(accroche(it))}</span>${reading && xDate(it) ? `<span class="date">${esc(fmtDate(xDate(it), "short"))}</span>` : ""}</span>
     <span class="tags">${pills(it, 3, [...(Array.isArray(skip) ? skip : []), "Gratuit"])}</span>
   </a></li>`;
 }
@@ -316,7 +323,7 @@ function openFiche(slug, push = true) {
     <header class="bande">
       <div class="bar"><span class="nav">${idx > 0 ? '<button type="button" data-step="-1" aria-label="Outil précédent">Précédent</button>' : ""}${idx >= 0 && idx < lastList.length - 1 ? '<button type="button" data-step="1" aria-label="Outil suivant">Suivant</button>' : ""}<button type="button" data-close>Fermer</button></span></div>
       <h2 id="fiche-titre" tabindex="-1">${logo(it)}${esc(it.nom)}</h2>
-      <p class="ou">${esc(rayonOf[it.theme].nom)} › ${esc(it.theme)}</p>
+      <p class="ou">${esc(rayonOf[it.theme].nom)} › ${esc(it.theme)}${xDate(it) ? ` · publié sur X le ${esc(fmtDate(xDate(it)))}` : ""}</p>
     </header>
     <div class="body">
       ${it.accroche ? `<p class="acc">${esc(it.accroche)}</p>` : ""}
@@ -327,7 +334,7 @@ function openFiche(slug, push = true) {
       ${it.offre ? `<h3>Offre et points d'attention</h3><p class="offre">${esc(it.offre)}</p>` : ""}
       ${img ? `<img class="apercu" src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
       ${alts.length ? `<h3>Dans le même rayon</h3><div class="alts">${alts.map((a) => `<a href="${hashFor({ outil: a.slug })}" data-outil="${esc(a.slug)}">${esc(a.nom)}</a>`).join("")}</div>` : ""}
-      <p class="foot">${m.verifie ? `Lien vérifié le ${esc(new Date(m.verifie).toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" }))}. ` : ""}Cas d'usage rédigés avec une IA, à vérifier.</p>
+      <p class="foot">${m.verifie ? `Lien vérifié le ${esc(fmtDate(new Date(m.verifie)))}. ` : ""}Cas d'usage rédigés avec une IA, à vérifier.</p>
     </div>
     <div class="pouce">${idx > 0 ? `<button class="btn ico" type="button" data-step="-1" aria-label="Outil précédent">${ICO.prec}</button>` : ""}${linkBtn(links[0], true)}${idx >= 0 && idx < lastList.length - 1 ? `<button class="btn ico" type="button" data-step="1" aria-label="Outil suivant">${ICO.suiv}</button>` : ""}<button class="btn ico" type="button" data-close aria-label="Fermer la fiche">${ICO.fermer}</button></div>`;
   f.hidden = false;
