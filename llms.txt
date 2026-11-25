@@ -1,6 +1,6 @@
 # AI library
 
-> Bibliothèque française d'environ 748 outils IA : agents, modèles, API et offres gratuites ou étudiantes, hébergement,
+> Bibliothèque française d'environ 752 outils IA : agents, modèles, API et offres gratuites ou étudiantes, hébergement,
 > outils pour construire, design, skills et lectures. Chaque outil a une fiche : description, cas d'usage, offre réelle
 > (quotas, conditions), licence et tarifs (Gratuit, Open source, Étudiant, Crédits, Essai, Freemium, Payant).
 

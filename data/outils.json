@@ -1139,18 +1139,20 @@
   "theme": "Agents de code et harnais (CLI)",
   "url": "https://mistral.ai",
   "tarif": [
+   "Essai",
    "Étudiant"
   ],
   "statut": "Noté",
-  "description": "Agent de code de Mistral.",
-  "offre": "Plan éducation 5,99 $/mois.",
+  "description": "Mistral Vibe (ex-Le Chat) : chat IA et agent de code de Mistral, en appli de bureau et en CLI. Produit, modèle et inférence européens.",
+  "offre": "En Europe : un mois de Vibe Pro offert avec le code MISTRALVIBE (admin.mistral.ai, rubrique abonnement). Plan éducation 5,99 $/mois.",
   "licence": "",
   "tags": [
    "mistral",
-   "cli"
+   "cli",
+   "europe"
   ],
-  "source": "Documents et fil",
-  "post": "",
+  "source": "Documents et fil + Signets X",
+  "post": "https://x.com/MistralAI/status/2124905610386780451",
   "slug": "mistral-vibe",
   "accroche": "Agent de code de Mistral pour écrire et corriger du code",
   "usage": [
@@ -1158,7 +1160,7 @@
    "Profiter du plan éducation pour un usage étudiant"
   ],
   "coeur": false,
-  "lot": 1
+  "lot": 4
  },
  {
   "nom": "Grok CLI",
@@ -20219,5 +20221,116 @@
   ],
   "slug": "three-js",
   "lot": 3
+ },
+ {
+  "nom": "OCRia-nano-1 (LlamaIndex)",
+  "theme": "Embeddings, OCR et documents",
+  "url": "https://huggingface.co/llamaindex/OCRia-nano-1",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "Noté",
+  "description": "Pipeline OCR de 8,1 millions de paramètres qui tourne sur CPU, sans GPU : 426 ms par page sur un cœur, 27,8 pages par seconde sur 16 vCPU. Détecte tableaux et blocs de mise en page, gère le latin, le CJK, l'arabe, l'hébreu et une vingtaine d'autres écritures. 59,2 sur ParseBench-2, devant Marker (52,5).",
+  "offre": "Poids ouverts, utilisés via LiteParse (CLI, Python, Node.js, WebAssembly), qui sort du Markdown ou du JSON avec boîtes englobantes. Usage commercial : contacter LlamaIndex. Pour les documents difficiles, le grand modèle OCRia-1.5 prend le relais.",
+  "licence": "Licence OCRia-nano-1 (usage commercial sur accord)",
+  "tags": [
+   "ocr",
+   "pdf",
+   "cpu",
+   "rag"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/jerryjliu0/status/2124909031999553926",
+  "coeur": false,
+  "accroche": "OCR minuscule qui lit tableaux et mises en page sur un simple CPU",
+  "usage": [
+   "Indexer un gros stock de PDF pour un RAG sans GPU",
+   "Donner à un agent un premier passage rapide sur des documents envoyés"
+  ],
+  "slug": "ocria-nano-1-llamaindex",
+  "lot": 4
+ },
+ {
+  "nom": "MotionVideo",
+  "theme": "Design et UI",
+  "url": "https://motionvideo.xyz",
+  "tarif": [
+   "Freemium"
+  ],
+  "statut": "Noté",
+  "description": "Galerie d'inspiration de motion design avec les prompts prêts à copier : techniques (« moves »), gabarits de prompts testés, personnalisation des prompts de la galerie, plus un serveur MCP pour chercher dans la galerie depuis son assistant et une skill qui apprend à un agent de code à faire des vidéos animées.",
+  "offre": "Galerie gratuite, offres Pro et Business payantes.",
+  "licence": "",
+  "tags": [
+   "design",
+   "vidéo",
+   "motion",
+   "mcp",
+   "skill"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/alaymanguy/status/2125126616716288456",
+  "coeur": false,
+  "accroche": "Galerie de motion design avec prompts, MCP et skill pour agents de code",
+  "usage": [
+   "Trouver une animation de référence et son prompt avant de lancer Claude",
+   "Brancher la galerie à son agent par MCP pour faire des vidéos produit"
+  ],
+  "slug": "motionvideo",
+  "lot": 4
+ },
+ {
+  "nom": "Portfolio d'Arthur Garnier",
+  "theme": "Design et UI",
+  "url": "https://arthuuur.com",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "Noté",
+  "description": "Portfolio d'un ingénieur frontend : projets et expériences d'interface, partagé en réponse à « je n'ai pas vu un bon portfolio depuis des mois ».",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "design",
+   "portfolio",
+   "inspiration"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/zojigg/status/2125276939732898086",
+  "coeur": false,
+  "accroche": "Portfolio frontend soigné, bonne référence pour refaire le sien",
+  "usage": [
+   "S'inspirer pour la structure et les animations de son propre portfolio",
+   "Montrer une référence visuelle à un agent de design"
+  ],
+  "slug": "portfolio-arthur-garnier",
+  "lot": 4
+ },
+ {
+  "nom": "« Superintelligence is Arriving » (Alexandr Wang)",
+  "theme": "Articles, études et méthodes",
+  "url": "https://x.com/alexandr_wang/status/2124636606959345776",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "À lire",
+  "description": "Article d'Alexandr Wang : la superintelligence arrive, et la façon dont l'humanité agira dans l'année qui vient pèsera lourd sur le monde qui en sortira.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "article",
+   "prospective"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/alexandr_wang/status/2124636606959345776",
+  "coeur": false,
+  "accroche": "Essai d'Alexandr Wang sur l'arrivée de la superintelligence et l'année à venir",
+  "usage": [
+   "Comprendre la vision d'un des acteurs majeurs de l'IA",
+   "Nourrir une réflexion sur les enjeux de l'année à venir"
+  ],
+  "slug": "superintelligence-is-arriving-alexandr-wang",
+  "lot": 4,
+  "article": true
  }
 ]

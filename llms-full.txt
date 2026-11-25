@@ -1,4 +1,4 @@
-# AI library : index complet (748 outils)
+# AI library : index complet (752 outils)
 
 Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans data/outils.json)
 
@@ -68,7 +68,7 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 - Goose — Agent open source de Block, compatible ACP, pour coder et automatiser des tâches. Gratuit, Open source. https://github.com/block/goose (goose)
 - Grok CLI — Agent de code de xAI pour travailler sur un projet depuis le terminal. Payant. https://github.com/superagent-ai/grok-cli (grok-cli)
 - Kiro — IDE et CLI d'AWS pour coder avec des agents, à partir de spécifications. Crédits. https://kiro.dev (kiro)
-- Mistral Vibe — Agent de code de Mistral pour écrire et corriger du code. Étudiant. https://mistral.ai (mistral-vibe)
+- Mistral Vibe — Agent de code de Mistral pour écrire et corriger du code. Essai, Étudiant. https://mistral.ai (mistral-vibe)
 - OpenCode — Agent de code open source qui marche avec Gemini, Zen ou des modèles locaux. Gratuit, Open source. https://opencode.ai (opencode)
 - Pi — Harnais d'agent de code minimal, utile à étudier avant d'écrire le vôtre. Gratuit, Open source. https://github.com/earendil-works/pi (pi)
 - Qwen Code — Agent de code en terminal de l'équipe Qwen, compatible ACP. Gratuit, Open source. https://github.com/QwenLM/qwen-code (qwen-code)
@@ -228,6 +228,7 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 - Docling (IBM) — Convertit des PDF en Markdown en gardant tableaux et formules. Gratuit, Open source. https://github.com/docling-project/docling (docling-ibm)
 - EmbeddingGemma 2 — Modèle d'embeddings de Google qui transforme des textes en vecteurs via llama-server. Gratuit, Open source. https://huggingface.co/ggml-org/embeddinggemma-2-GGUF (embeddinggemma-2)
 - MarkItDown (Microsoft) — Convertit fichiers Office, PDF, audio et images en Markdown lisible par un LLM. Gratuit, Open source. https://github.com/microsoft/markitdown (markitdown-microsoft)
+- OCRia-nano-1 (LlamaIndex) — OCR minuscule qui lit tableaux et mises en page sur un simple CPU. Gratuit. https://huggingface.co/llamaindex/OCRia-nano-1 (ocria-nano-1-llamaindex)
 - oruk — API qui transcrit la parole et reconnaît les émotions dans la voix. Freemium. https://oruk.ai (oruk)
 - Unlimited OCR (Baidu) — Modèle OCR de Baidu qui extrait le texte de PDF scannés. Gratuit, Open source. (unlimited-ocr-baidu)
 - VoiceStudio — Appli locale pour cloner des voix, doubler des vidéos et transcrire. Gratuit, Open source. https://github.com/debpalash/VoiceStudio (voicestudio)
@@ -619,6 +620,7 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 - layro.dev — Mises en page gratuites à réutiliser pour ses sites. Gratuit. https://layro.dev (layro-dev)
 - ManimGX — Moteur d'animation 3D en Rust, conçu pour être piloté par des agents. Gratuit. https://github.com/academa-labs/manimgx (manimgx)
 - Motion Lab — Méthode pour réaliser des vidéos de démonstration. Gratuit. (motion-lab)
+- MotionVideo — Galerie de motion design avec prompts, MCP et skill pour agents de code. Freemium. https://motionvideo.xyz (motionvideo)
 - Obsidian UI — Composants React animés à intégrer dans un site. Freemium. https://obsidianui.dev (obsidian-ui)
 - opensourceui.in — Composants d'interface open source à intégrer dans ses projets. Gratuit. https://opensourceui.in (opensourceui-in)
 - Opus 5.5 pour le motion design — Article sur le motion design avec Opus 5.5 à la place d'After Effects. Gratuit. (opus-5-5-pour-le-motion-design)
@@ -626,6 +628,7 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 - Paper — Outil de design où des agents IA travaillent sur les maquettes. Gratuit. https://paper.design (paper)
 - Plonk — Composants React proposés avec quatre personnalités au choix. Gratuit. (plonk)
 - Portfolio 0z5a.github.io — Portfolio avec une page d'accueil agréable à parcourir. Gratuit. https://0z5a.github.io (portfolio-0z5a-github-io)
+- Portfolio d'Arthur Garnier — Portfolio frontend soigné, bonne référence pour refaire le sien. Gratuit. https://arthuuur.com (portfolio-arthur-garnier)
 - Portfolio hancore.dev — Portfolio en ligne à consulter comme source d'inspiration. Gratuit. https://hancore.dev (portfolio-hancore-dev)
 - promo-video-generator — Génère des vidéos promotionnelles pour présenter un produit. Gratuit. https://github.com/visser23/promo-video-generator (promo-video-generator)
 - rareui.com — Ressources d'interface pour sortir du rendu générique de l'IA. Gratuit. https://rareui.com (rareui-com)
@@ -857,6 +860,7 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 - Steering de neurones sur Qwen3.5 4B — Expérience de pilotage de neurones sur un modèle Qwen. Gratuit. (steering-de-neurones-sur-qwen3-5-4b)
 - Vasuman : article à coller dans Claude Code — Article conçu pour être collé directement dans Claude Code. Gratuit. (vasuman-article-a-coller-dans-claude-code)
 - Your Grok Bot Is Burning Money : Harness Fixes It — Séparer écriture, décision, règles et essaim pour un agent moins cher. Gratuit. https://x.com/irongiantXBT/status/2122662343306059780 (your-grok-bot-is-burning-money-harness-fixes-it)
+- « Superintelligence is Arriving » (Alexandr Wang) — Essai d'Alexandr Wang sur l'arrivée de la superintelligence et l'année à venir. Gratuit. https://x.com/alexandr_wang/status/2124636606959345776 (superintelligence-is-arriving-alexandr-wang)
 - « The End of Harness Engineering » — Article qui soutient que seul le jeu d'évaluation reste un travail humain. Gratuit. (the-end-of-harness-engineering)
 
 ### Listes et catalogues
