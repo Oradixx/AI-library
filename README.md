@@ -18,7 +18,7 @@ Bibliothèque en ligne d'outils tech, design et agents IA, d'API et de routeurs,
 
 ## Données
 
-- `data/outils.json` : un objet par outil (`slug`, `nom`, `theme`, `url`, `tarif`, `statut`, `description`, `accroche`, `usage`, `offre`, `licence`, `tags`, `source`, `post`, `coeur`, `image_post`).
+- `data/outils.json` : un objet par outil (`slug`, `nom`, `theme`, `url`, `tarif`, `statut`, `description`, `accroche`, `usage`, `offre`, `licence`, `tags`, `source`, `post`, `coeur`, `image_post`, `liens` : liens complémentaires `[{"label", "url"}]` affichés en boutons dans la fiche).
 - `data/medias.json` : état des liens, images de partage et logos, produits par `scripts/enrich.py`.
 - `data/liens-en-echec.txt` : liens qui ne répondaient pas lors de la dernière vérification.
 
