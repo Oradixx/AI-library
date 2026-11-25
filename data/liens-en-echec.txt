@@ -11,6 +11,7 @@ openai-codex-for-oss
 perplexity-education-pro
 perplexity-pro-edu
 ported2browser-com
+portfolio-0z5a-github-io
 rareui-com
 reddit-r-localaistack-reglages-qwen3-6
 snowflake
