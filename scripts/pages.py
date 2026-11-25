@@ -46,7 +46,7 @@ Fiche d'un outil pour un humain : {base}#outil=<slug>.
 ## Données
 
 - [Index compact]({base}llms-full.txt) : une ligne par outil, rangé par rayon et par thème (environ 40 000 tokens).
-- [Fiches complètes]({base}data/outils.json) : JSON, un objet par outil (slug, nom, theme, url, tarif, description,
+- [Fiches complètes]({base}data/outils.json) : JSON, un objet par outil (slug, nom, theme, url, liens, tarif, description,
   accroche, usage, offre, licence, tags). Gros fichier : le filtrer plutôt que le lire en entier.
 - [Rayons et thèmes]({base}data/rayons.json)
 

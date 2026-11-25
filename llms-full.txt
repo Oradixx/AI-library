@@ -43,7 +43,7 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 - orchestrator.inc — Outil d'orchestration d'agents destiné aux ingénieurs IA. Freemium. https://orchestrator.inc (orchestrator-inc)
 - Paperclip — Appli open source pour diriger des agents autonomes comme une équipe. Gratuit, Open source. https://github.com/paperclipai/paperclip (paperclip)
 - Strawberry 1.0 — Navigateur web avec IA intégrée, pensé pour le travail en équipe. Payant. (strawberry-1-0)
-- T3 Code — Interface pour piloter vos agents de code avec vos abonnements existants. Gratuit. https://t3.codes (t3-code)
+- T3 Code — Interface pour piloter vos agents de code avec vos abonnements existants. Gratuit, Open source. https://t3.codes (t3-code)
 - t3boat — Crée en un clic une machine cloud boat.dev reliée à T3 Code. Open source. https://t3boat.paukraft.com (t3boat)
 - Timon — Poste de travail agentique français qui orchestre vos agents et fait relire leur travail. Gratuit, Open source. https://github.com/ai-timon/timon (timon)
 - um-agent-coder — Orchestre des agents de code en ligne de commande selon des rôles définis. Gratuit, Open source. (um-agent-coder)

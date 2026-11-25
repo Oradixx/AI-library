@@ -297,6 +297,7 @@ function accessList(it) {
     out.push({ href: url, label });
   }
   if (safeUrl(it.post) && it.post !== it.url) out.push({ href: it.post, label: it.article ? "Lire l'article" : "Voir le post X" });
+  for (const l of it.liens || []) if (safeUrl(l.url)) out.push({ href: l.url, label: l.label });
   out.push({ href: `https://duckduckgo.com/?q=${encodeURIComponent(it.nom)}`, label: "Chercher sur le web" });
   return out;
 }

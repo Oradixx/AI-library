@@ -10,7 +10,7 @@ Fiche d'un outil pour un humain : https://oradixx.github.io/AI-library/#outil=<s
 ## Données
 
 - [Index compact](https://oradixx.github.io/AI-library/llms-full.txt) : une ligne par outil, rangé par rayon et par thème (environ 40 000 tokens).
-- [Fiches complètes](https://oradixx.github.io/AI-library/data/outils.json) : JSON, un objet par outil (slug, nom, theme, url, tarif, description,
+- [Fiches complètes](https://oradixx.github.io/AI-library/data/outils.json) : JSON, un objet par outil (slug, nom, theme, url, liens, tarif, description,
   accroche, usage, offre, licence, tags). Gros fichier : le filtrer plutôt que le lire en entier.
 - [Rayons et thèmes](https://oradixx.github.io/AI-library/data/rayons.json)
 

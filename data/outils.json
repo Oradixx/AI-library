@@ -521,12 +521,13 @@
   "theme": "Orchestrateurs et cockpits d'agents",
   "url": "https://t3.codes",
   "tarif": [
-   "Gratuit"
+   "Gratuit",
+   "Open source"
   ],
   "statut": "",
-  "description": "Télécommande d'agents de code sur vos abonnements : fils, délégation entre fournisseurs, worktrees, navigateur partagé.",
-  "offre": "brew install --cask t3-code",
-  "licence": "",
+  "description": "Télécommande d'agents de code sur vos abonnements : un serveur local lance Claude Code, Codex, Cursor, OpenCode, Antigravity, Kiro et d'autres, et on les suit depuis l'appli de bureau, le navigateur ou le téléphone. Fils, délégation entre fournisseurs, worktrees, terminaux, navigateur partagé, suivi des PR.",
+  "offre": "Gratuit et open source (pingdotgg/t3code), les modèles sont facturés par vos fournisseurs. Installation : brew install --cask t3-code, ou curl -fsSL https://t3.codes/install.sh | sh, ou npx t3@latest pour essayer. Attention : le mode « Full access » donne aux commandes un accès complet à la machine du serveur.",
+  "licence": "MIT",
   "tags": [
    "cockpit",
    "mac"
@@ -541,7 +542,13 @@
    "Suivre plusieurs fils d'agents en parallèle"
   ],
   "coeur": false,
-  "lot": 1
+  "lot": 1,
+  "liens": [
+   {
+    "label": "Comprendre T3 Code (Flavio Copes)",
+    "url": "https://flaviocopes.com/t3-code/"
+   }
+  ]
  },
  {
   "nom": "t3boat",
