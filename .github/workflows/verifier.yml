@@ -10,9 +10,15 @@ on:
       - "data/rayons.json"
       - "skills/**"
       - "scripts/pages.py"
+      - ".github/workflows/verifier.yml"
 
 permissions:
   contents: write
+
+# Une seule vérification à la fois : la plus récente remplace celle en attente.
+concurrency:
+  group: verifier
+  cancel-in-progress: false
 
 jobs:
   verifier:
@@ -32,4 +38,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/medias.json data/liens-en-echec.txt outil llms.txt llms-full.txt skills/chercher-library.zip
           git diff --cached --quiet || git commit -m "Vérification automatique des liens et des fiches"
-          git push
+          # Un commit a pu arriver pendant la vérification : on se replace dessus avant de pousser.
+          for i in 1 2 3; do
+            git pull --rebase -X theirs && git push && exit 0
+            sleep 5
+          done
+          exit 1
