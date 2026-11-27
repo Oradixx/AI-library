@@ -1710,8 +1710,8 @@
  "capcut": {
   "verifie": "2026-11-27",
   "status": 200,
-  "logo": "https://sf16-web-tos-buz.capcutcdn-us.com/obj/capcut-web-buz-tx/common/images/lv_web-2.ico",
-  "image": "https://p16-seeyou-useast5.capcutcdn-us.com/tos-useast5-i-2zwwjm3azk-tx/af60401275b14f6684c2af1f7564d717~tplv-2zwwjm3azk-image.image"
+  "logo": "https://sf16-web-tos-buz.capcutcdn-us.com/obj/capcut-web-buz-tx2/common/images/lv_web-2.ico",
+  "image": "https://p16-seeyou-useast8.capcutcdn-us.com/tos-useast8-i-2zwwjm3azk-tx2/af60401275b14f6684c2af1f7564d717~tplv-2zwwjm3azk-image.image"
  },
  "amphetamine": {
   "verifie": "2026-11-27",
@@ -1768,7 +1768,7 @@
  "safe-exam-browser": {
   "verifie": "2026-11-27",
   "status": 200,
-  "logo": "https://safeexambrowser.org/apple-touch-icon.png?v=gAEABXnBxw"
+  "logo": "data:,"
  },
  "google-chrome": {
   "verifie": "2026-11-27",
@@ -2045,8 +2045,9 @@
  },
  "ban-anthropic-des-jetons-d-abonnement-tiers": {
   "verifie": "2026-11-27",
-  "status": 202,
-  "logo": "data:;"
+  "status": 200,
+  "logo": "https://cybersecuritynews.com/wp-content/uploads/2025/12/cropped-CSN-Favico-180x180.webp",
+  "image": "http://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Ends-OpenClaw-Subscriptions.webp"
  },
  "bans-google-antigravity-via-outils-tiers": {
   "verifie": "2026-11-27",
@@ -3156,7 +3157,7 @@
  "mistral-ai-scientist-internship-2027": {
   "verifie": "2026-11-27",
   "status": 200,
-  "logo": "https://cdn.ashbyprd.com/cdn_assets/30b516392d52ecc0e4c9f99a8d112cb8f40d7db3/apple-touch-icon.png",
+  "logo": "https://cdn.ashbyprd.com/cdn_assets/46785e295f33650695c5f6a088320ce75bdaf56f/apple-touch-icon.png",
   "image": "https://app.ashbyhq.com/api/images/org-theme-social/a407e227-97ff-42c5-a3d6-05bfcd9b7f3d/faadf0e7-59d3-4537-bbed-d4729e535140/522bcfa6-d049-4c96-9bdd-106a6700a731.png"
  },
  "muse-spark-open-kernel-challenge": {
@@ -3508,5 +3509,11 @@
   "status": 200,
   "logo": "https://whitecircle.com/apple-icon.png?apple-icon.0liunjhmwhukx.png?dpl=prod-202611271108-5e91a45e8f3c",
   "image": "https://whitecircle.com/halo/competition/opengraph-image?7dc37dc5d4a18cc1"
+ },
+ "zed": {
+  "verifie": "2026-11-27",
+  "status": 200,
+  "logo": "https://zed.dev/favicon_white_64.png",
+  "image": "https://zed.dev/img/home/og.webp"
  }
 }
