@@ -19991,7 +19991,7 @@
   ],
   "statut": "Noté",
   "description": "Modèle ouvert et multimodal (texte et images) de Thinking Machines, 26 milliards de paramètres, transformeur « bouclé » qui repasse trois fois dans ses couches centrales. Annoncé en tête des modèles ouverts de moins de 100 milliards de paramètres en code agentique (DeepSWE v1.1 : 48,2 %).",
-  "offre": "Poids sur Hugging Face (thinkingmachines/Inkling-2-Mini), versions GGUF chez Unsloth et ggml-org pour llama.cpp, aussi disponible sur Tinker. Tourne sur un portable (environ 16 Go de RAM selon les retours).",
+  "offre": "Poids sur Hugging Face (thinkingmachines/Inkling-2-Mini), versions GGUF chez Unsloth et ggml-org pour llama.cpp, aussi disponible sur Tinker. Tourne sur un portable : Atomic Chat publie 6 quantifications GGUF de 27,7 à 6,88 Go, la meilleure en dessous de 8 Go étant AD-IQ1_M (7,26 Go, 81 % d'accord avec BF16), donc jouable sur 8 Go de RAM.",
   "licence": "Apache-2.0",
   "tags": [
    "modèle local",
@@ -20007,7 +20007,13 @@
    "Comparer un modèle local aux modèles cloud sur ses propres tâches"
   ],
   "slug": "inkling-2-mini",
-  "lot": 3
+  "lot": 3,
+  "liens": [
+   {
+    "label": "Quantifications GGUF (Atomic Chat)",
+    "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-GGUF"
+   }
+  ]
  },
  {
   "nom": "Inkling 2 Mini Uncensored (GGUF)",
@@ -20339,5 +20345,217 @@
   "slug": "superintelligence-is-arriving-alexandr-wang",
   "lot": 4,
   "article": true
+ },
+ {
+  "nom": "Patch",
+  "theme": "Outils d'agent, MCP et navigateur",
+  "url": "https://patch.gg",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Plateforme pour créer et jouer à des jeux : tous les outils de développement de jeu dans un CLI et un serveur MCP, plus de 50 000 assets open source, remix des jeux publiés ou mods de ceux de son PC, et publication en un clic dans le navigateur.",
+  "offre": "Ouvert à tous depuis novembre 2026, jeux jouables gratuitement dans le navigateur.",
+  "licence": "",
+  "tags": [
+   "jeu vidéo",
+   "mcp",
+   "cli"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/rehan_shei/status/2119855388988518794",
+  "coeur": false,
+  "accroche": "Créer des jeux avec son agent de code via un CLI et un MCP, puis les publier",
+  "usage": [
+   "Faire construire un petit jeu jouable à Claude Code",
+   "Remixer un jeu existant ou moder un jeu de son PC"
+  ],
+  "slug": "patch-gg",
+  "lot": 5
+ },
+ {
+  "nom": "Effect UI",
+  "theme": "Langages, runtimes et bibliothèques",
+  "url": "https://ui.effect.website",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Bibliothèque frontend construite sur Effect et l'architecture Elm : composants autonomes, transitions d'état explicites et effets de bord traités comme des valeurs. Suite de Foldkit 0.x, avec kit UI, rendu indépendant de l'hôte, tests de scènes et DevTools.",
+  "offre": "En préversion publique. Dillon Mulroy dit avoir migré toutes ses applis React vers Effect UI en un seul passage avec Opus 5.5.",
+  "licence": "",
+  "tags": [
+   "frontend",
+   "typescript",
+   "effect"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/dillon_mulroy/status/2125993366089273373",
+  "coeur": false,
+  "accroche": "Bibliothèque frontend sur Effect et l'architecture Elm, alternative à React",
+  "usage": [
+   "Écrire une interface où chaque changement d'état est explicite et testable",
+   "Faire migrer une appli React par un agent"
+  ],
+  "slug": "effect-ui",
+  "lot": 5
+ },
+ {
+  "nom": "Psychoscript (OpenCode)",
+  "theme": "Frameworks et runtimes d'agents",
+  "url": "https://psychoscript.com",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Runtime JavaScript confiné extrait du « codemode » d'OpenCode : un simple paquet, sans WebAssembly, qui exécute du JS appelant des outils décrits par un schéma et peut mettre l'exécution en pause puis la reprendre. Une version Rust est en préparation pour servir de langage de script aux applis natives.",
+  "offre": "",
+  "licence": "MIT",
+  "tags": [
+   "runtime",
+   "javascript",
+   "codemode"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/opencode/status/2125702030832349374",
+  "coeur": false,
+  "accroche": "Runtime JS confiné pour que l'agent écrive du code qui appelle ses outils",
+  "usage": [
+   "Laisser un agent enchaîner plusieurs appels d'outils dans un seul script",
+   "Mettre en pause un script d'agent en attendant une validation"
+  ],
+  "slug": "psychoscript",
+  "lot": 5,
+  "liens": [
+   {
+    "label": "Dépôt GitHub (anomalyco/psychoscript)",
+    "url": "https://github.com/anomalyco/psychoscript"
+   }
+  ]
+ },
+ {
+  "nom": "Atomic Engine",
+  "theme": "Moteurs d'inférence locale",
+  "url": "https://github.com/AtomicBot-ai/atomic-engine",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Moteur d'inférence basé sur llama.cpp qui diffuse les experts des modèles MoE depuis le SSD et accélère la génération avec un modèle brouillon. Inkling 2 Mini y atteint 122 tok/s sur M5 Max contre 40 avec llama.cpp, ou tourne avec moitié moins de RAM. API compatible OpenAI et chat web intégré.",
+  "offre": "",
+  "licence": "MIT",
+  "tags": [
+   "inférence",
+   "moe",
+   "mac",
+   "ssd"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/atomic_chat_hq/status/2124953436055564594",
+  "coeur": false,
+  "accroche": "Faire tourner des MoE plus vite et avec moins de RAM en lisant les experts sur le SSD",
+  "usage": [
+   "Lancer Inkling 2 Mini sur un Mac avec peu de mémoire",
+   "Servir un modèle local derrière une API compatible OpenAI"
+  ],
+  "slug": "atomic-engine",
+  "lot": 5
+ },
+ {
+  "nom": "GPUI (Zed)",
+  "theme": "Langages, runtimes et bibliothèques",
+  "url": "https://github.com/zed-industries/gpui",
+  "tarif": [
+   "Gratuit",
+   "Open source"
+  ],
+  "statut": "Noté",
+  "description": "Framework d'interface en Rust accéléré par le GPU, qui mêle modes immédiat et retenu. C'est le moteur de l'éditeur Zed, désormais dans son propre dépôt.",
+  "offre": "",
+  "licence": "",
+  "tags": [
+   "rust",
+   "ui",
+   "zed"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/zeddotdev/status/2125361557785935897",
+  "coeur": false,
+  "accroche": "Le framework d'interface en Rust de l'éditeur Zed, maintenant à part",
+  "usage": [
+   "Construire une appli de bureau native et rapide en Rust",
+   "Comprendre comment Zed dessine son interface"
+  ],
+  "slug": "gpui-zed",
+  "lot": 5
+ },
+ {
+  "nom": "Delta (Zed)",
+  "theme": "Orchestrateurs et cockpits d'agents",
+  "url": "https://delta.dev",
+  "tarif": [
+   "Freemium"
+  ],
+  "statut": "Noté",
+  "description": "« Forge de code pour agents » des créateurs de Zed : Claude Code, Codex et les agents ACP envoient leur travail dans DeltaDB, un historique partagé où chaque modification est liée à la conversation qui l'a produite. Revenir à n'importe quelle édition d'un fil, relire et commenter en contexte, coder à plusieurs avec les agents.",
+  "offre": "Personal gratuit avec ses propres clés ou agents externes. Pro à 10 $/mois avec modèles hébergés et 5 $ de jetons inclus (essai de deux semaines). Même compte et mêmes offres que Zed. DeltaDB hébergé par Delta ou chez soi. macOS, Linux et Windows.",
+  "licence": "",
+  "tags": [
+   "cockpit",
+   "zed",
+   "review",
+   "acp"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/zeddotdev/status/2100223348563194123",
+  "coeur": false,
+  "accroche": "Suivre et relire ce que font ses agents, chaque changement relié à sa conversation",
+  "usage": [
+   "Retrouver pourquoi un agent a modifié une ligne",
+   "Relire à plusieurs le travail de Claude Code ou Codex"
+  ],
+  "slug": "delta-zed",
+  "lot": 5
+ },
+ {
+  "nom": "Halo competition (White Circle)",
+  "theme": "Opportunités et concours",
+  "url": "https://whitecircle.com/halo/competition",
+  "tarif": [
+   "Gratuit"
+  ],
+  "statut": "Noté",
+  "description": "Concours de post-entraînement de modèles ouverts en ligne du 1er au 10 décembre 2026, sur le framework open source Halo (SFT jusqu'au RL multi-tours). 19 parcours (gpt-oss, Gemma, Mistral, Inkling, Nemotron…), équipes de 1 à 4.",
+  "offre": "Inscription avant le 30 novembre 2026. 200 000 $ de prix (30 k, 15 k et 10 k pour le podium) et 1,5 M$ de crédits de calcul et d'API (OpenAI, Google DeepMind, Mistral, Hugging Face, Modal, OpenRouter…). Ouvert aux chercheurs, ingénieurs et doctorants IA.",
+  "licence": "",
+  "tags": [
+   "concours",
+   "fine-tuning",
+   "rl"
+  ],
+  "source": "Signets X",
+  "post": "https://x.com/whitecircle/status/2125274360369815717",
+  "coeur": false,
+  "accroche": "Concours de post-entraînement en ligne, 200 000 $ de prix, inscription avant le 30 novembre",
+  "usage": [
+   "Apprendre le post-entraînement avec du calcul offert",
+   "Gagner des crédits d'API en équipe"
+  ],
+  "slug": "halo-competition-white-circle",
+  "lot": 5,
+  "liens": [
+   {
+    "label": "S'inscrire (Luma)",
+    "url": "https://luma.com/ykoj0t48"
+   },
+   {
+    "label": "Framework Halo sur GitHub",
+    "url": "https://github.com/whitecircle/halo"
+   }
+  ]
  }
 ]

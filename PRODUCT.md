@@ -27,7 +27,7 @@ A hand-picked, organized catalog in French, not an exhaustive directory. Its ton
 - **Library model (keep):** 8 *rayons* (Agents, Modèles, API et offres, Héberger, Construire, Design, Skills, Lire et apprendre) defined in `data/rayons.json`, each a book standing on a shelf, each grouping sub-themes. Every tool has its own page in `outil/<slug>/` and a direct link `#outil=<slug>`.
 - **Filters:** search; price chips (Gratuit, Étudiant, Open source, Crédits offerts = Crédits + Essai, Freemium, Payant); with several prices selected, one section per price, rarest first; more filters (provenance, sort, show rejected). The personal `statut` is no longer a visible filter. Filter state lives in the URL hash.
 - **Home:** 3 *coups de cœur* per rayon (`"coeur": true`).
-- **Shortcuts:** « Coups de cœur », « Nouveautés », « Proposer un outil ». « Nouveautés » shows the highest `lot` (import batch number) in `data/outils.json`: lot 1 = initial catalog, lot 2 = the bookmarks of commit `8a30266`, lot 3 = the bookmarks and additions of 2026-11-22, lot 4 = the bookmarks of 2026-11-25. Each new import must use the next lot number.
+- **Shortcuts:** « Coups de cœur », « Nouveautés », « Proposer un outil ». « Nouveautés » shows the highest `lot` (import batch number) in `data/outils.json`: lot 1 = initial catalog, lot 2 = the bookmarks of commit `8a30266`, lot 3 = the bookmarks and additions of 2026-11-22, lot 4 = the bookmarks of 2026-11-25, lot 5 = the bookmarks of 2026-11-27. Each new import must use the next lot number.
 - **Technical:** static site, no build step, no framework: `index.html`, `style.css`, `app.js`, JSON data, Python standard-library scripts. Must stay fast and readable on phone and desktop.
 - **Language:** all visible text in French.
 

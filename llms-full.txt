@@ -1,4 +1,4 @@
-# AI library : index complet (752 outils)
+# AI library : index complet (759 outils)
 
 Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans data/outils.json)
 
@@ -35,6 +35,7 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 - Aria — Suivre ses agents de code depuis l'encoche du Mac. Gratuit. https://joinariapp.com (aria)
 - better-vault — Équivalent local de NotebookLM pour interroger vos documents avec un modèle local. Gratuit, Open source. (better-vault)
 - Cua Spaces SDK — SDK qui donne un ordinateur à un agent comme Claude Code ou Codex. Freemium. https://cua.ai (cua-spaces-sdk)
+- Delta (Zed) — Suivre et relire ce que font ses agents, chaque changement relié à sa conversation. Freemium. https://delta.dev (delta-zed)
 - herdr / Herdr GPUI — Multiplexeur de terminal pour agents, avec une version native GPUI légère. Gratuit. https://herdrui.dev (herdr-herdr-gpui)
 - insideout.sh — Outil pour ingénieurs IA, cité aux côtés d'orchestrator.inc. Freemium. https://insideout.sh (insideout-sh)
 - insomnia — Garde le Mac et ses agents actifs, même capot fermé. Gratuit, Open source. (insomnia)
@@ -86,6 +87,7 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 - Mastra — Framework TypeScript pour construire des agents et des workflows d'IA. Gratuit, Open source. https://mastra.ai (mastra)
 - MCP (Model Context Protocol) — Protocole ouvert qui permet aux agents d'utiliser des outils et des sources de données. Gratuit, Open source. https://modelcontextprotocol.io (mcp-model-context-protocol)
 - OpenAI Agents SDK — Kit de développement d'OpenAI pour créer des agents en Python. Gratuit, Open source. https://openai.github.io/openai-agents-python/ (openai-agents-sdk)
+- Psychoscript (OpenCode) — Runtime JS confiné pour que l'agent écrive du code qui appelle ses outils. Gratuit, Open source. https://psychoscript.com (psychoscript)
 - Temporal — Plateforme de workflows durables qui reprennent après une panne sans perdre leur état. Gratuit, Open source. https://temporal.io (temporal)
 - Workflow DevKit (Vercel) — Kit de Vercel pour écrire des workflows durables en TypeScript. Gratuit, Open source. https://useworkflow.dev (workflow-devkit-vercel)
 
@@ -140,6 +142,7 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 - Hermes X Bookmarks — Plugin Hermes qui trie vos signets enregistrés sur X. Gratuit. (hermes-x-bookmarks)
 - Midscene.js — Bibliothèque qui automatise des interfaces en s'appuyant sur la vision d'un modèle. Gratuit, Open source. https://midscenejs.com (midscene-js)
 - Nango — Plateforme qui prend en charge OAuth et les intégrations d'API tierces. Freemium. https://www.nango.dev (nango)
+- Patch — Créer des jeux avec son agent de code via un CLI et un MCP, puis les publier. Gratuit, Open source. https://patch.gg (patch-gg)
 - Phone Harness (plugin Hermes) — Plugin Hermes qui pilote iPhone ou Android, avec approbation à chaque appel. Gratuit, Open source. https://github.com/phone-harness/phone-harness (phone-harness-plugin-hermes)
 - Pipedream Connect — Service de Pipedream pour brancher des API tierces à un agent ou une appli. Freemium. https://pipedream.com (pipedream-connect)
 - Playwright — Bibliothèque de Microsoft pour piloter des navigateurs par du code. Gratuit, Open source. https://playwright.dev (playwright)
@@ -237,6 +240,7 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 ### Moteurs d'inférence locale
 
 - AirLLM — Charge un modèle couche par couche pour tourner avec peu de VRAM. Gratuit, Open source. https://github.com/lyogavin/airllm (airllm)
+- Atomic Engine — Faire tourner des MoE plus vite et avec moins de RAM en lisant les experts sur le SSD. Gratuit, Open source. https://github.com/AtomicBot-ai/atomic-engine (atomic-engine)
 - Compression 13B en moins de 1 Go (Samsung) — Méthode de Samsung qui compresse un modèle 13B sous 1 Go. Gratuit, Open source. (compression-13b-en-moins-de-1-go-samsung)
 - cuteafd — Faire tourner des modèles MoE de pointe sur un petit cluster maison. Gratuit, Open source. https://github.com/tpurtell/cuteafd (cuteafd)
 - DeepInfer (DeepSeek) — Moteur d'inférence open source utilisé par DeepSeek en production. Gratuit, Open source. https://github.com/deepseek-ai/DeepInfer (deepinfer-deepseek)
@@ -458,6 +462,8 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 ### Langages, runtimes et bibliothèques
 
 - Bun — Alternative rapide à Node.js qui réunit exécution, paquets et tests. Gratuit, Open source. https://bun.sh (bun)
+- Effect UI — Bibliothèque frontend sur Effect et l'architecture Elm, alternative à React. Gratuit, Open source. https://ui.effect.website (effect-ui)
+- GPUI (Zed) — Le framework d'interface en Rust de l'éditeur Zed, maintenant à part. Gratuit, Open source. https://github.com/zed-industries/gpui (gpui-zed)
 - Node.js — Exécute du JavaScript hors du navigateur, côté serveur ou en ligne de commande. Gratuit, Open source. https://nodejs.org (node-js)
 - Three.js — Afficher et animer de la 3D dans une page web. Gratuit, Open source. https://threejs.org (three-js)
 - uv — Gère versions de Python, dépendances et environnements virtuels d'un projet. Gratuit, Open source. https://github.com/astral-sh/uv (uv)
@@ -874,6 +880,7 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 - Backdoor AI — Trouver les startups qui recrutent un profil comme le vôtre. Gratuit. https://backdoorai.app/match (backdoor-ai)
 - Concours UE (AD5) — Concours de recrutement de diplômés par l'Union européenne. Gratuit. https://eu-careers.europa.eu (concours-ue-ad5)
 - Hackathons de novembre (Kiroween, Gemma 4 sur Kaggle, Epic AI Megajam…) — Liste de hackathons IA en ligne en novembre. Gratuit. (hackathons-de-novembre-kiroween-gemma-4-sur-kaggle-epic-ai-m)
+- Halo competition (White Circle) — Concours de post-entraînement en ligne, 200 000 $ de prix, inscription avant le 30 novembre. Gratuit. https://whitecircle.com/halo/competition (halo-competition-white-circle)
 - Mistral : AI Scientist Internship 2027 — Offre de stages en science et pré-entraînement chez Mistral. Gratuit. https://jobs.ashbyhq.com/mistral.ai/f7245b49-92a0-4111-bba1-343183de7d97 (mistral-ai-scientist-internship-2027)
 - Muse Spark Open Kernel Challenge — Concours doté pour exécuter Muse Spark le plus vite. Gratuit. https://openkernelchallenge.dev (muse-spark-open-kernel-challenge)
 - OpenAI problème n°109 (multiplication entière) — Problème ouvert d'OpenAI sur la multiplication entière. Gratuit. https://github.com/CrocSwap/integer-mult-bounds (openai-probleme-n109-multiplication-entiere)
