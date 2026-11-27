@@ -20557,5 +20557,42 @@
     "url": "https://github.com/whitecircle/halo"
    }
   ]
+ },
+ {
+  "nom": "Zed",
+  "theme": "Agents de code et harnais (CLI)",
+  "url": "https://zed.dev",
+  "tarif": [
+   "Gratuit",
+   "Open source",
+   "Freemium"
+  ],
+  "statut": "Noté",
+  "description": "Éditeur de code natif en Rust (sur GPUI), très rapide, qui sert aussi de harnais d'agents : Zed Agent intégré, agents externes via le protocole ACP (Claude Agent, Codex, Cursor, OpenCode, Gemini CLI), plusieurs agents en parallèle sur plusieurs projets, fils dans le terminal, prédictions d'édition Zeta et collaboration en direct. macOS, Linux et Windows.",
+  "offre": "Personal gratuit pour toujours, illimité avec ses propres clés API ou agents externes. Pro à 10 $/mois : modèles hébergés par Zed, 5 $ de jetons inclus, prédictions d'édition illimitées. Business à 30 $ par siège et par mois. Le même compte couvre Delta.",
+  "licence": "GPL-3.0",
+  "tags": [
+   "éditeur",
+   "ide",
+   "acp",
+   "rust"
+  ],
+  "source": "Documents et fil",
+  "post": "",
+  "coeur": false,
+  "accroche": "Éditeur ultra-rapide qui accueille Claude, Codex ou OpenCode en agents parallèles",
+  "usage": [
+   "Coder avec Claude Code ou Codex dans un vrai éditeur via ACP",
+   "Faire tourner plusieurs agents en parallèle sur différents projets",
+   "Utiliser des modèles locaux pour les prédictions et l'agent"
+  ],
+  "slug": "zed",
+  "lot": 5,
+  "liens": [
+   {
+    "label": "Delta, la forge pour agents de Zed",
+    "url": "https://delta.dev"
+   }
+  ]
  }
 ]

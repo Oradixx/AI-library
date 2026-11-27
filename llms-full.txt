@@ -1,4 +1,4 @@
-# AI library : index complet (759 outils)
+# AI library : index complet (760 outils)
 
 Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans data/outils.json)
 
@@ -73,6 +73,7 @@ Format : Nom — accroche. Tarifs. Lien officiel. (slug, fiche complète dans da
 - OpenCode — Agent de code open source qui marche avec Gemini, Zen ou des modèles locaux. Gratuit, Open source. https://opencode.ai (opencode)
 - Pi — Harnais d'agent de code minimal, utile à étudier avant d'écrire le vôtre. Gratuit, Open source. https://github.com/earendil-works/pi (pi)
 - Qwen Code — Agent de code en terminal de l'équipe Qwen, compatible ACP. Gratuit, Open source. https://github.com/QwenLM/qwen-code (qwen-code)
+- Zed — Éditeur ultra-rapide qui accueille Claude, Codex ou OpenCode en agents parallèles. Gratuit, Open source, Freemium. https://zed.dev (zed)
 
 ### Frameworks et runtimes d'agents
 
