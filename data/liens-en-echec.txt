@@ -6,8 +6,8 @@ claude-pro
 cursor-cloud-agents
 datacamp
 designeer-xyz
-freeinference-org-harvard
 openai-codex-for-oss
+openclaw-test-audit-skill
 perplexity-education-pro
 perplexity-pro-edu
 ported2browser-com

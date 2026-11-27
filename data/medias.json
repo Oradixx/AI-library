@@ -1,3471 +1,3512 @@
 {
  "hermes-agent": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/NousResearch.png?size=64",
   "image": "https://opengraph.githubassets.com/1/NousResearch/hermes-agent"
  },
  "openclaw": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/openclaw.png?size=64",
   "image": "https://opengraph.githubassets.com/1/openclaw/openclaw"
  },
  "zeroclaw": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/zeroclaw-labs.png?size=64",
   "image": "https://opengraph.githubassets.com/1/zeroclaw-labs/zeroclaw"
  },
  "nanobot": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/HKUDS.png?size=64",
   "image": "https://opengraph.githubassets.com/1/HKUDS/nanobot"
  },
  "nanoclaw": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/nanocoai.png?size=64",
   "image": "https://opengraph.githubassets.com/1/nanocoai/nanoclaw"
  },
  "ironclaw": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/nearai.png?size=64",
   "image": "https://opengraph.githubassets.com/1/nearai/ironclaw"
  },
  "picoclaw": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/sipeed.png?size=64",
   "image": "https://opengraph.githubassets.com/1/sipeed/picoclaw"
  },
  "cowagent": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/zhayujie.png?size=64",
   "image": "https://opengraph.githubassets.com/1/zhayujie/CowAgent"
  },
  "letta-ex-memgpt": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/letta-ai.png?size=64",
   "image": "https://opengraph.githubassets.com/1/letta-ai/letta"
  },
  "openjarvis": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/open-jarvis.png?size=64",
   "image": "https://opengraph.githubassets.com/1/open-jarvis/OpenJarvis"
  },
  "elizaos": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/elizaOS.png?size=64",
   "image": "https://opengraph.githubassets.com/1/elizaOS/eliza"
  },
  "open-interpreter": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/openinterpreter.png?size=64",
   "image": "https://opengraph.githubassets.com/1/openinterpreter/open-interpreter"
  },
  "opendots-copilotkit": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/CopilotKit.png?size=64",
   "image": "https://opengraph.githubassets.com/1/CopilotKit/OpenDots"
  },
  "openai-dots": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://openai.com/apple-icon.png?apple-icon.3o0tf8iy4mx7y.png",
   "image": "https://images.ctfassets.net/kftzwdyauwt9/6iFRMxhUWyxFR6zpThf2Am/1f826b5095ca8854064989ecec465049/SEO_Banner_2400x1350_04.png?w=1600&h=900&fit=fill"
  },
  "gemini-spark": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.gstatic.com/lamda/images/gemini_sparkle_4g_512_lt_f94943af3be039176192d.png"
  },
  "grok-bot": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://x.ai/apple-icon.png?apple-icon.167itqrsbgzm4.png?dpl=0c0ac50f3a8cd1b1c0fd97673f29885397d81b96",
   "image": "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.2syi5no49g9nu.png?dpl=0c0ac50f3a8cd1b1c0fd97673f29885397d81b96"
  },
  "t3-code": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://t3.codes/apple-touch-icon.png",
   "image": "https://t3.codes/_astro/social-card.DMaenTWS_Z194KDS.jpg"
  },
  "t3boat": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://t3boat.paukraft.com/assets/128x128@2x-Cac96jAE.png",
   "image": "https://t3boat.paukraft.com/og.png"
  },
  "timon": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/ai-timon.png?size=64",
   "image": "https://opengraph.githubassets.com/1/ai-timon/timon"
  },
  "openbot-openbot-run": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://openbot.run/apple-touch-icon.png",
   "image": "https://openbot.run/social/home.jpg"
  },
  "oh-my-openagent": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/code-yeongyu.png?size=64",
   "image": "https://opengraph.githubassets.com/1/code-yeongyu/oh-my-openagent"
  },
  "bernstein": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/sipyourdrink-ltd.png?size=64",
   "image": "https://opengraph.githubassets.com/1/sipyourdrink-ltd/bernstein"
  },
  "orchestrai": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/samshapley.png?size=64",
   "image": "https://opengraph.githubassets.com/1/samshapley/OrchestrAI"
  },
  "claude-code": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://claude.com/icon.svg",
   "image": "https://assets.claude.com/f66071070c4701ea2c37fc01b3c0f83623cf29d3.jpg?w=2400&h=1260&fit=crop"
  },
  "opencode": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://opencode.ai/apple-touch-icon-v3.png",
   "image": "https://opencode.ai/files/site/og/home-98637499f6.png"
  },
  "crush": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/charmbracelet.png?size=64",
   "image": "https://opengraph.githubassets.com/1/charmbracelet/crush"
  },
  "codex-cli": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/openai.png?size=64",
   "image": "https://opengraph.githubassets.com/1/openai/codex"
  },
  "pi": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/earendil-works.png?size=64",
   "image": "https://opengraph.githubassets.com/1/earendil-works/pi"
  },
  "antigravity-ide-appli-agy": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://antigravity.google/apple-touch-icon.png",
   "image": "https://antigravity.google/og/index.png"
  },
  "antigravity-cli-agy": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://antigravity.google/apple-touch-icon.png",
   "image": "https://antigravity.google/og/index.png"
  },
  "gemini-cli": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/google-gemini.png?size=64",
   "image": "https://opengraph.githubassets.com/1/google-gemini/gemini-cli"
  },
  "kiro": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://kiro.dev/apple-icon.png?4cefa8c54a20b098",
   "image": "https://kiro.dev/images/opengraph/home.png"
  },
  "github-copilot-free": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/features.png?size=64",
   "image": "https://opengraph.githubassets.com/1/features/copilot"
  },
  "github-copilot-cli": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/github.png?size=64",
   "image": "https://opengraph.githubassets.com/1/github/copilot-cli"
  },
  "cagent": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/docker.png?size=64",
   "image": "https://opengraph.githubassets.com/1/docker/cagent"
  },
  "cursor": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
   "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png"
  },
  "mistral-vibe": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://mistral.ai/favicon.ico",
   "image": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp"
  },
  "grok-cli": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/superagent-ai.png?size=64",
   "image": "https://opengraph.githubassets.com/1/superagent-ai/grok-cli"
  },
  "cline": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://cline.bot/assets/branding/favicons/apple-touch-icon.png",
   "image": "https://cline.bot/cline_og_img.png"
  },
  "aider": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://aider.chat/favicon.ico"
  },
  "goose": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/block.png?size=64",
   "image": "https://opengraph.githubassets.com/1/block/goose"
  },
  "qwen-code": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/QwenLM.png?size=64",
   "image": "https://opengraph.githubassets.com/1/QwenLM/qwen-code"
  },
  "claude-in-chrome": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 403
  },
  "claude-code-router": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/musistudio.png?size=64",
   "image": "https://opengraph.githubassets.com/1/musistudio/claude-code-router"
  },
  "llmrouter": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/ulab-uiuc.png?size=64",
   "image": "https://opengraph.githubassets.com/1/ulab-uiuc/LLMRouter"
  },
  "litellm": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/BerriAI.png?size=64",
   "image": "https://opengraph.githubassets.com/1/BerriAI/litellm"
  },
  "routellm": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/lm-sys.png?size=64",
   "image": "https://opengraph.githubassets.com/1/lm-sys/RouteLLM"
  },
  "hermes-proxy": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://hermesagents.net/apple-touch-icon.png",
   "image": "https://hermesagents.net/android-chrome-512x512.png"
  },
  "hermes-opencode-acp": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/jovylle.png?size=64",
   "image": "https://opengraph.githubassets.com/1/jovylle/hermes-opencode-acp"
  },
  "requesty": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.requesty.ai/apple-icon.png?apple-icon.029vcb1qzjzj9.png",
   "image": "https://www.requesty.ai/opengraph-image.png?opengraph-image.41510qd-oym3e.png"
  },
  "opencode-zen": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://opencode.ai/apple-touch-icon.png",
   "image": "https://opencode.ai/console/social-share-v2.png"
  },
  "opencode-go": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://opencode.ai/apple-touch-icon-v3.png",
   "image": "https://opencode.ai/files/site/og/home-98637499f6.png"
  },
  "openrouter": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://openrouter.ai/apple-touch-icon.png",
   "image": "https://openrouter.ai/images/home/og-home.png"
  },
  "google-ai-studio-gemini-api": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-32dp/logo_ai_studio_color_1x_web_32dp.png",
   "image": "https://ai.google.dev/static/site-assets/images/share-ais-513315318.png"
  },
  "deepseek-api": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 202
  },
  "groq": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://console.groq.com/favicon.ico?cache=rounded-bolt",
   "image": "https://console.groq.com/og_cloudv5.jpg"
  },
  "cerebras": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://cloud.cerebras.ai/images/logo/cb-fav-144.png",
   "image": "https://cloud.cerebras.ai/images/share.png"
  },
  "mistral-la-plateforme": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://v2.auth.mistral.ai/favicon.ico"
  },
  "nvidia-nim": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://build.nvidia.com/favicon.ico?favicon.40e0a499ra0f3.ico",
   "image": "https://build.nvidia.com/opengraph-image.jpg?opengraph-image.0y-0ix58xknbk.jpg"
  },
  "cloudflare-workers-ai": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://developers.cloudflare.com/favicon.png",
   "image": "https://developers.cloudflare.com/workers-ai/og.png?v=28f3ca6015fd2e9e"
  },
  "ollama-cloud": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://ollama.com/public/apple-touch-icon.png",
   "image": "https://ollama.com/public/og.png"
  },
  "nous-portal": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
-  "logo": "https://web-assets.nousresearch.com/portal/07efcdfa679266fa548b4d549aa64c0cc051922d/logo-favicon.png",
-  "image": "https://web-assets.nousresearch.com/portal/07efcdfa679266fa548b4d549aa64c0cc051922d/hermes-og-image-blue.png"
+  "logo": "https://web-assets.nousresearch.com/portal/cde0a4e33f87167ebeb8ee0875d651d991dfb060/logo-favicon.png",
+  "image": "https://web-assets.nousresearch.com/portal/cde0a4e33f87167ebeb8ee0875d651d991dfb060/hermes-og-image-blue.png"
  },
  "github-models": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://docs.github.com/assets/cb-345/images/site/favicon.png",
   "image": "https://docs.github.com/assets/cb-345/images/social-cards/github-models.png"
  },
  "hugging-face-inference": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/docs/inference-providers/index.png"
  },
  "cohere": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://cohere.com/apple-touch-icon.png",
   "image": "https://cdn.sanity.io/images/rjtqmwfu/web3-prod/85811b8ce33b1579bac01f1fe8f4989c2749d6ba-1200x630.png?w=1200&h=630&q=80&fit=crop&auto=format"
  },
  "sambanova": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://cdn.poweredby.snova.ai/favicon.ico",
   "image": "https://cdn.poweredby.snova.ai/sambacloud.jpg"
  },
  "anthropic-api": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://platform.claude.com/apple-touch-icon.png",
   "image": "https://platform.claude.com/images/og-claude-platform.png"
  },
  "qwen4-max": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
   "image": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png"
  },
  "kimi-k3": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://platform.kimi.ai/favicon.ico",
   "image": "https://platform.kimi.ai/og.png?v=1"
  },
  "glm-5-3": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://z-cdn.chatglm.cn/z-ai/static/logo.svg"
  },
  "grok-xai": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://x.ai/apple-icon.png?apple-icon.167itqrsbgzm4.png?dpl=0c0ac50f3a8cd1b1c0fd97673f29885397d81b96",
   "image": "https://x.ai/opengraph-image-1j7jya.png?opengraph-image.2syi5no49g9nu.png?dpl=0c0ac50f3a8cd1b1c0fd97673f29885397d81b96"
  },
  "inception-mercury": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://framerusercontent.com/images/y5L2OctMTnQDhiVDBUBArywmSY.png",
   "image": "https://framerusercontent.com/images/jvH9PxsLxbi0h1ST3yZUzzpby10.png"
  },
  "claude-pro": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 403
  },
  "google-ai-plus": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://accounts.google.com/favicon.ico"
  },
  "google-ai-pro-ultra": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://accounts.google.com/favicon.ico"
  },
  "gemini-notebook-ex-notebooklm": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.gstatic.com/tailwind/_/static/branding/v6/light_mode/favicon/apple-touch-icon.png"
  },
  "gemini-deep-research": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.gstatic.com/lamda/images/gemini_sparkle_4g_512_lt_f94943af3be039176192d.png"
  },
  "perplexity-education-pro": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 403
  },
  "chatgpt-plus-etudiant": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://chatgpt.com/cdn/assets/favicon-180x180.9e0103ce69.png"
  },
  "oracle-cloud-always-free": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.oracle.com/asset/web/favicons/favicon-120.png",
   "image": "https://www.oracle.com/a/ocom/img/social-og-oci-logo-1200x628.jpg"
  },
  "azure-for-students": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://azure.microsoft.com/favicon.ico?v2"
  },
  "google-cloud-e2-micro-essai": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.gstatic.com/cgc/super_cloud_gradient.png",
   "image": "https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png"
  },
  "aws-free-plan-lightsail-s3": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png"
  },
  "northflank": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://northflank.com/favicon.ico",
   "image": "http://assets.northflank.com/marketing/image/meta-1200.png"
  },
  "koyeb": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.koyeb.com/favicon/apple-touch-icon.png",
   "image": "https://www.koyeb.com/og?text=High-performance%20Infrastructure%20for%20APIs,%20Inference,%20and%20Databases"
  },
  "render": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://render.com/icon.svg?icon.00d01gt742wgb.svg?dpl=da18677eb93a",
   "image": "https://cdn.sanity.io/images/hvk0tap5/production/5a3d09340caee8e7a85e7daa6eef416b4197581e-1200x630.png?fit=max&auto=format"
  },
  "heroku": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.heroku.com/wp-content/uploads/2025/01/apple-touch-icon-180x180-1.png?w=32",
   "image": "https://www.heroku.com/wp-content/uploads/2025/08/heroku-card-dark.png"
  },
  "hugging-face-spaces": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://huggingface.co/front/thumbnails/spaces.png"
  },
  "instabox": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
-  "logo": "https://instabox.sh/assets/0c70346646855162/favicon.svg"
+  "logo": "https://instabox.sh/assets/e835105ad1715bf1/favicon.svg"
  },
  "hetzner-cloud": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.hetzner.com/_resources/themes/hetzner/images/favicons/apple-icon-57x57.png"
  },
  "ovh-vps": {
-  "verifie": "2026-11-26",
-  "status": 200,
-  "logo": "https://www.ovhcloud.com/apple-touch-icon.png"
+  "verifie": "2026-11-27",
+  "status": 307
  },
  "fly-io": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://fly.io/phx/ui/images/favicon/apple-touch-icon-3e4c9ce127b5cd6f5516638d4bbf1dd5.png?vsn=d",
   "image": "https://fly.io/phx/images/og/home-8f51ecc065542ebfe86badc4143a197d.jpg?vsn=d"
  },
  "railway": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://railway.com/apple-touch-icon.png",
   "image": "https://railway.com/og.png?v=2"
  },
  "digitalocean": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.digitalocean.com/_do-www-marketing/a2470431/_next/static/media/apple-touch-icon.9537f22a.png",
   "image": "https://www.digitalocean.com/_do-www-marketing/a2470431/_next/static/media/social-share-default.e8530e9e.jpeg"
  },
  "github-codespaces": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/features.png?size=64",
   "image": "https://opengraph.githubassets.com/1/features/codespaces"
  },
  "github-pages": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://pages.github.com/favicon.ico"
  },
  "boat-dev": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://boat.dev/apple-touch-icon.png",
   "image": "https://boat.dev/og-boat.png"
  },
  "umbrel": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://umbrel.com/icons/apple-touch-icon.png",
   "image": "https://umbrel.com/og/black-friday.jpg"
  },
  "kaggle": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.kaggle.com/static/images/favicon-new.ico",
   "image": "https://www.kaggle.com/static/images/kaggle-wordmark-gradient.png"
  },
  "modal": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://modal.com/assets/favicon.svg",
   "image": "https://modal.com/assets/social-image-5.jpg"
  },
  "lightning-ai": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://lightning.ai/favicon/favicon.ico",
   "image": "https://lightning.ai/media/social-preview-2026.png"
  },
  "google-colab": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://ssl.gstatic.com/colaboratory-static/common/0ea41fd9652063808f30f21b82428eb7/img/favicon.ico",
   "image": "https://colab.research.google.com/img/colab_favicon_256px.png"
  },
  "tailscale": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://tailscale.com/favicon.svg",
   "image": "https://cdn.sanity.io/images/w77i7m8x/production-v2/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
  },
  "cloudflare-tunnel": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://developers.cloudflare.com/favicon.png",
   "image": "https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/og.png?v=cd1ba19f8454ac06"
  },
  "cloudflare-warp": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://one.one.one.one/favicon.ico",
   "image": "https://1.1.1.1/media/social-share.png"
  },
  "nginx": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://nginx.org/favicon.ico"
  },
  "nftables": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://netfilter.org/favicon.ico"
  },
  "fail2ban": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/fail2ban.png?size=64",
   "image": "https://opengraph.githubassets.com/1/fail2ban/fail2ban"
  },
  "cloudflare-workers-durable-objects": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.cloudflare.com/favicon.ico",
   "image": "https://www.cloudflare.com/preview.png"
  },
  "n8n": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://n8n.io/favicon.ico",
   "image": "https://n8niostorageaccount.blob.core.windows.net/n8nio-strapi-blobs-prod/assets/og_image_website_3_afd66761a9.png"
  },
  "github-student-developer-pack": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://education.github.com/favicon.ico",
   "image": "https://education.github.com/assets/pack/opengraph-image-353bc5f30b356a74d47fbb47ee72ae498e80ed437c4c31ec0da09f42251147df.png"
  },
  "jetbrains-licence-etudiante": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.jetbrains.com/apple-touch-icon.png?r=1234",
   "image": "https://resources.jetbrains.com/storage/products/academy/student-pack/img/meta/preview.png"
  },
  "gitkraken": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.gitkraken.com/wp-content/uploads/2021/03/android-chrome-144x144-1.png",
   "image": "https://www.gitkraken.com/wp-content/uploads/2026/06/GK_Default_OG-Image-1024x538.png"
  },
  "datacamp": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 403
  },
  "weights-biases": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://wandb.ai/favicon.ico"
  },
  "motherduck": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://motherduck.com/apple-touch-icon.png",
   "image": "https://motherduck.com/images/mother-duck-large-logo.png"
  },
  "snowflake": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 403
  },
  "databricks-free-edition": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.databricks.com/favicon.ico",
   "image": "https://www.databricks.com/sites/default/files/2025-06/databricks-free-edition-og-1200x628.png"
  },
  "ibm-watsonx": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.ibm.com/content/dam/adobe-cms/default-images/apple-touch-icon-57x57.png",
   "image": "https://www.ibm.com/content/dam/adobe-cms/default-images/Leadspace-bg-img-desktop.png/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
  },
  "qwen3-6-35b-a3b": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/unsloth/Qwen3.6-35B-A3B-GGUF.png"
  },
  "gemma-4-26b-a4b-qat": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://deepmind.google/favicon.ico"
  },
  "gemma-4-12b": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://deepmind.google/favicon.ico"
  },
  "qwen3-8-27b-gsq-rco-ista-daslab": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF.png"
  },
  "gpt-oss-20b": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/openai/gpt-oss-20b.png"
  },
  "lfm2-5-2-6b-liquid": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.liquid.ai/apple-icon.png?apple-icon.3242q9u7hvs55.png",
   "image": "https://www.liquid.ai/og/og-default.jpg"
  },
  "lfm3-1-7b-liquid": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.liquid.ai/apple-icon.png?apple-icon.3242q9u7hvs55.png",
   "image": "https://www.liquid.ai/og/og-default.jpg"
  },
  "nemotron-3-5-lightning-30b-a3b": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/nvidia.png"
  },
  "qwen3-5-9b": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/Qwen.png"
  },
  "qwen2-0-5b": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Qwen/Qwen2-0.5B.png"
  },
  "bespoke-nimble-9b-v3": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ggml-org/Bespoke-Nimble-9B-v3-GGUF.png"
  },
  "clef-flash-9b": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ggml-org/Clef-Flash-GGUF.png"
  },
  "d1-3b-liquid": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/LiquidAI/d1-3B-GGUF.png"
  },
  "laya": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/NandhaKishorM.png?size=64",
   "image": "https://opengraph.githubassets.com/1/NandhaKishorM/laya"
  },
  "decision-index-0-3-1-multimodalart": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/multimodalart.png"
  },
  "ollajev": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/nvkudva.png?size=64",
   "image": "https://opengraph.githubassets.com/1/nvkudva/ollajev"
  },
  "embeddinggemma-2": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/ggml-org/embeddinggemma-2-GGUF.png"
  },
  "bert-multilingue": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/google-bert/bert-base-multilingual-cased.png"
  },
  "docling-ibm": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/docling-project.png?size=64",
   "image": "https://opengraph.githubassets.com/1/docling-project/docling"
  },
  "markitdown-microsoft": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/microsoft.png?size=64",
   "image": "https://opengraph.githubassets.com/1/microsoft/markitdown"
  },
  "llama-cpp-llama-server": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/ggml-org.png?size=64",
   "image": "https://opengraph.githubassets.com/1/ggml-org/llama.cpp"
  },
  "ollama": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://ollama.com/public/apple-touch-icon.png",
   "image": "https://ollama.com/public/og.png"
  },
  "omlx": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://omlx.ai/images/icon-rounded-dark.svg",
   "image": "https://omlx.ai/images/omlx_dashboard_light.png"
  },
  "mtplx": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/youssofal.png?size=64",
   "image": "https://opengraph.githubassets.com/1/youssofal/mtplx"
  },
  "lm-studio": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://lmstudio.ai/assets/marketing/logo-192x192.png",
   "image": "https://files.lmstudio.ai/bionic/lm-studio-bionic-og.jpg"
  },
  "local-model-explorer": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/LocalLLaMA/local-model-explorer.png"
  },
  "llmfit": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/AlexsJones.png?size=64",
   "image": "https://opengraph.githubassets.com/1/AlexsJones/llmfit"
  },
  "localmaxxing-com": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.localmaxxing.com/favicon.svg",
   "image": "https://www.localmaxxing.com/api/og/home?locale=en&v=1"
  },
  "mac-llm-bench": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/enescingoz.png?size=64",
   "image": "https://opengraph.githubassets.com/1/enescingoz/mac-llm-bench"
  },
  "omlx-ai-benchmarks": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://omlx.ai/images/icon-rounded-dark.svg",
   "image": "https://omlx.ai/images/omlx_dashboard_light.png"
  },
  "llama-bench": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/ggml-org.png?size=64",
   "image": "https://opengraph.githubassets.com/1/ggml-org/llama.cpp"
  },
  "bfcl": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://gorilla.cs.berkeley.edu/favicon.ico"
  },
  "siliconbench-arxiv-2609-19169": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png",
   "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
  },
  "fineenvs-multi-harness-rl": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/adithya-s-k.png?size=64",
   "image": "https://opengraph.githubassets.com/1/adithya-s-k/FineEnvs"
  },
  "artificial-analysis": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://artificialanalysis.ai/favicon.ico?favicon.168k27omhwe4f.ico",
   "image": "https://artificialanalysis.ai/opengraph-image.png?opengraph-image.1ysagso6hjaf_.png"
  },
  "caffeinate-i": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://ss64.com/favicon.svg"
  },
  "unsloth-studio-desktop": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://unsloth.ai/cgi/image/unsloth_logo_no_shadow_KgfOV6keeBZnffQsKUny3.png?width=144&quality=100&height=144&fit=pad&format=auto",
   "image": "https://unsloth.ai/cgi/image/unsloth_new_wb_logo_vnrA8AASj-jN5wy8UIYE-.png?format=raw"
  },
  "hugging-face-transformers": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://huggingface.co/front/thumbnails/v2-2.png"
  },
  "pytorch": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://pytorch.org/wp-content/uploads/2024/10/cropped-favicon-180x180.webp",
   "image": "https://pytorch.org/wp-content/uploads/2025/01/pytorch_seo.png"
  },
  "tensorflow": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.gstatic.com/devrel-devsite/prod/vc11e4c9d4c060345ba98585d538d4546e842f4a6ee5c5f9e85be4bd345767217/tensorflow/images/apple-touch-icon-180x180.png",
   "image": "https://www.tensorflow.org/static/images/tf_logo_social.png"
  },
  "shap": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/shap.png?size=64",
   "image": "https://opengraph.githubassets.com/1/shap/shap"
  },
  "lime": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/marcotcr.png?size=64",
   "image": "https://opengraph.githubassets.com/1/marcotcr/lime"
  },
  "faiss": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/facebookresearch.png?size=64",
   "image": "https://opengraph.githubassets.com/1/facebookresearch/faiss"
  },
  "manim-manimgx": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.manim.community/apple-touch-icon.png",
   "image": "https://www.manim.community/banner.png"
  },
  "mem0": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/mem0ai.png?size=64",
   "image": "https://opengraph.githubassets.com/1/mem0ai/mem0"
  },
  "zep": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.getzep.com/apple-touch-icon.png",
   "image": "https://www.getzep.com/og/home.png"
  },
  "graphiti": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/getzep.png?size=64",
   "image": "https://opengraph.githubassets.com/1/getzep/graphiti"
  },
  "cognee": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/topoteretes.png?size=64",
   "image": "https://opengraph.githubassets.com/1/topoteretes/cognee"
  },
  "honcho": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/plastic-labs.png?size=64",
   "image": "https://opengraph.githubassets.com/1/plastic-labs/honcho"
  },
  "supermemory": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://supermemory.ai/apple-touch-icon.png?v=2",
   "image": "https://supermemory.ai/og/index.png"
  },
  "memos": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/MemTensor.png?size=64",
   "image": "https://opengraph.githubassets.com/1/MemTensor/MemOS"
  },
  "mempalace": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/MemPalace.png?size=64",
   "image": "https://opengraph.githubassets.com/1/MemPalace/mempalace"
  },
  "memu": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/NevaMind-AI.png?size=64",
   "image": "https://opengraph.githubassets.com/1/NevaMind-AI/memU"
  },
  "openviking": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/volcengine.png?size=64",
   "image": "https://opengraph.githubassets.com/1/volcengine/OpenViking"
  },
  "hindsight": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/vectorize-io.png?size=64",
   "image": "https://opengraph.githubassets.com/1/vectorize-io/hindsight"
  },
  "agentmemory": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/rohitg00.png?size=64",
   "image": "https://opengraph.githubassets.com/1/rohitg00/agentmemory"
  },
  "agentcore-memory-aws": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png"
  },
  "foundry-memory": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://ai.azure.com/favicon.ico"
  },
  "google-cloud-memory-bank": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.gstatic.com/devrel-devsite/prod/vc11e4c9d4c060345ba98585d538d4546e842f4a6ee5c5f9e85be4bd345767217/clouddocs/images/favicons/onecloud/super_cloud.png",
   "image": "https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png"
  },
  "claude-mem": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/thedotmack.png?size=64",
   "image": "https://opengraph.githubassets.com/1/thedotmack/claude-mem"
  },
  "brave-search-api": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://brave.com/static-assets/images/cropped-brave_appicon_release-180x180.png",
   "image": "https://brave.com/search/api/images/search-api-og.png"
  },
  "tavily": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.tavily.com/apple-icon.png?apple-icon.2rsjznomrsf77.png",
   "image": "https://tavily.com/opengraph-image.png"
  },
  "exa": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://exa.ai/images/favicon-32x32.png",
   "image": "https://exa.imgix.net/og-image-v4.png/"
  },
  "firecrawl": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.firecrawl.dev/favicon.ico",
   "image": "https://www.firecrawl.dev/og.png"
  },
  "chroma": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.trychroma.com/img/favicon.ico",
   "image": "https://www.trychroma.com/card.png"
  },
  "qdrant": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://qdrant.tech/favicon.ico",
   "image": "https://qdrant.tech/images/social_preview.png"
  },
  "milvus": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://milvus.io/favicon-32x32.png",
   "image": "https://assets.zilliz.com/meta_image_milvus_d6510e10e0.png"
  },
  "weaviate": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://weaviate.io/img/favicon.ico",
   "image": "https://weaviate.io/og/website/home.jpg"
  },
  "pgvector": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/pgvector.png?size=64",
   "image": "https://opengraph.githubassets.com/1/pgvector/pgvector"
  },
  "llamaindex": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.llamaindex.ai/apple-touch-icon.png",
   "image": "https://www.llamaindex.ai/assets/brand/og-image.png"
  },
  "haystack": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://haystack.deepset.ai/favicon.ico",
   "image": "https://haystack.deepset.ai/images/haystack-ogimage.png"
  },
  "lightrag": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/HKUDS.png?size=64",
   "image": "https://opengraph.githubassets.com/1/HKUDS/LightRAG"
  },
  "microsoft-graphrag": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/microsoft.png?size=64",
   "image": "https://opengraph.githubassets.com/1/microsoft/graphrag"
  },
  "ragflow": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/infiniflow.png?size=64",
   "image": "https://opengraph.githubassets.com/1/infiniflow/ragflow"
  },
  "azure-ai-search": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://azure.microsoft.com/favicon.ico?v2"
  },
  "bedrock-knowledge-bases": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png"
  },
  "google-cloud-rag-engine": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.gstatic.com/devrel-devsite/prod/vc11e4c9d4c060345ba98585d538d4546e842f4a6ee5c5f9e85be4bd345767217/clouddocs/images/favicons/onecloud/super_cloud.png",
   "image": "https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png"
  },
  "openai-file-search": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://developers.openai.com/favicon.png",
   "image": "https://developers.openai.com/og/api/docs/guides/tools-file-search.png"
  },
  "playwright": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://playwright.dev/favicon.ico"
  },
  "browser-use": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://browser-use.com/apple-touch-icon.png",
   "image": "https://browser-use.com/og/card?title=Browser+agents+and+cloud+browsers.&p=agents%2Cbrowsers%2Charness&v=s3"
  },
  "stagehand": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.stagehand.dev/apple-icon.png?apple-icon.3_vqjztxzz_km.png",
   "image": "https://stagehand.dev/opengraph-image.png?opengraph-image.0tcx71yo14ho0.png"
  },
  "agent-browser": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/vercel-labs.png?size=64",
   "image": "https://opengraph.githubassets.com/1/vercel-labs/agent-browser"
  },
  "browserbase": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.browserbase.com/apple-touch-icon.png",
   "image": "https://cdn.sanity.io/images/yd6zslid/production/150f4783739729cce34cd1a71ecbd63e0a4de5a9-1824x960.png?rect=0,4,1824,953&w=1200&h=627&fit=crop"
  },
  "chrome-devtools-mcp": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/ChromeDevTools.png?size=64",
   "image": "https://opengraph.githubassets.com/1/ChromeDevTools/chrome-devtools-mcp"
  },
  "midscene-js": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.midscenejs.com/favicon.png?v=20260929",
   "image": "https://www.midscenejs.com/og-image.png"
  },
  "fastmcp": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://gofastmcp.com/brand/favicon-dark.svg",
   "image": "https://gofastmcp.com/brand/og.png"
  },
  "composio": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://composio.dev/apple-touch-icon.png",
   "image": "https://composio.dev/og.png"
  },
  "nango": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://nango.dev/apple-touch-icon.png",
   "image": "https://nango.dev/opengraph-image.png"
  },
  "pipedream-connect": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://pipedream.com/assets/favicon.svg"
  },
  "tinyfish": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.tinyfish.ai/favicon-for-app/apple-icon.png",
   "image": "https://www.tinyfish.ai/opengraph-image"
  },
  "toolhive": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/stacklok.png?size=64",
   "image": "https://opengraph.githubassets.com/1/stacklok/toolhive"
  },
  "apify-mcp": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
-  "logo": "https://apify.com/apple-icon.png?apple-icon.1qabm0kj8blk6.png?dpl=8c702686af",
+  "logo": "https://apify.com/apple-icon.png?apple-icon.1qabm0kj8blk6.png?dpl=561063707b",
   "image": "https://apify.com/og-image?title=Thousands+of+tools%0Afor+your+AI"
  },
  "docker-mcp-gateway": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/docker.png?size=64",
   "image": "https://opengraph.githubassets.com/1/docker/mcp-gateway"
  },
  "zapier-mcp": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://framerusercontent.com/images/F0p1OYJhm4LaPzZZoDW2IdGjdt0.png",
   "image": "https://framerusercontent.com/assets/aI2OLG2Ou8MfFTRSq6CA2ViD48.png"
  },
  "workato-enterprise-mcp": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.workato.com/favicon.ico",
   "image": "https://public-workato-files.s3.us-east-2.amazonaws.com/Uploads/workato-logo-1.png"
  },
  "cua-driver-computer-use": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/trycua.png?size=64",
   "image": "https://opengraph.githubassets.com/1/trycua/cua"
  },
  "ghidra-mcp-ghidra": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.githubassets.com/favicons/favicon.svg",
-  "image": "https://opengraph.githubassets.com/36a2e70513d271481f1796ed510d46b963fbee3e45dd910172f95346b4f60ff7/NationalSecurityAgency/ghidra"
+  "image": "https://opengraph.githubassets.com/8ef1e3b4c510d22573b9520279019fc07ba3380480d41cbe28ee2445347e4460/NationalSecurityAgency/ghidra"
  },
  "phone-harness-plugin-hermes": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/phone-harness.png?size=64",
   "image": "https://opengraph.githubassets.com/1/phone-harness/phone-harness"
  },
  "e2b": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://e2b.dev/apple-icon.png?apple-icon.2h_70q4cu8mj-.png",
   "image": "https://e2b.dev/og/homepage.png"
  },
  "daytona": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://framerusercontent.com/images/cCvSUNbGejoZpWVg0tUGLSqxGC8.png",
   "image": "https://framerusercontent.com/images/dbk8NXJZTDaQmlzEzM3pI1y98.png"
  },
  "firecracker": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://firecracker-microvm.github.io/img/Favicon.png"
  },
  "gvisor": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://gvisor.dev/assets/favicons/favicon-16x16.png",
   "image": "https://gvisor.dev/assets/logos/logo_solo_on_white_bordered.svg"
  },
  "docker-sandboxes": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://docs.docker.com/favicon.ico",
   "image": "https://docs.docker.com/images/thumbnail.png"
  },
  "coder": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://coder.com/favicon-180x180-light.png",
   "image": "https://coder.com/_next/static/media/OpenGraph.f7fb2003.jpg"
  },
  "cubesandbox": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/TencentCloud.png?size=64",
   "image": "https://opengraph.githubassets.com/1/TencentCloud/CubeSandbox"
  },
  "modal-sandboxes": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://modal.com/assets/favicon.svg",
   "image": "https://modal.com/assets/social-image-5.jpg"
  },
  "blaxel-sandboxes": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://blaxel.ai/apple-touch-icon.png",
   "image": "https://blaxel.ai/og.png"
  },
  "wasmer": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://wasmer.io/icons/favicon-dark.svg"
  },
  "anthropic-sandbox-runtime": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/anthropic-experimental.png?size=64",
   "image": "https://opengraph.githubassets.com/1/anthropic-experimental/sandbox-runtime"
  },
  "openai-hosted-sandboxes": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://developers.openai.com/favicon.png",
   "image": "https://developers.openai.com/og/api/docs.png"
  },
  "agno": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.agno.com/apple-touch-icon.png",
   "image": "https://www.agno.com/og/home.png"
  },
  "langgraph": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/69a17e4f0c916c644f4de1cd_webclip%20lg.png",
   "image": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/6a905274663537b8f4c327c8_Website%20preview-LangGraph%20product%20page.png"
  },
  "mastra": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://mastra.ai/favicon/new-brand/apple-touch-icon.png",
   "image": "https://mastra.ai/api/og/page?title=TypeScript%20AI%20Framework%20for%20Agents%20and%20Apps"
  },
  "temporal": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://temporal.io/apple-touch-icon.png",
   "image": "https://temporal.io/images/open-graph/shiny.png"
  },
  "openai-agents-sdk": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://openai.github.io/openai-agents-python/images/favicon-platform.svg"
  },
  "claude-managed-agents": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://platform.claude.com/apple-touch-icon.png",
   "image": "https://platform.claude.com/docs/images/og-claude-platform-docs.png"
  },
  "cloudflare-agents-sdk": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://developers.cloudflare.com/favicon.png",
   "image": "https://developers.cloudflare.com/agents/og.png?v=5f3790c1b824e669"
  },
  "workflow-devkit-vercel": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://workflow-sdk.dev/favicon.ico?favicon.3jinoj-4qwkaw.ico",
   "image": "https://workflow-sdk.dev/og"
  },
  "alibaba-agentrun": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://img.alicdn.com/tfs/TB1ugg7M9zqK1RjSZPxXXc4tVXa-32-32.png",
   "image": "https://img.alicdn.com/imgextra/i3/O1CN01MFtVzX1U9b7T38r3V_!!6000000002475-2-tps-200-200.png"
  },
  "byteplus-agentkit": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://sf-bpcms.bytepluscdn.com/obj/byteplus-public-aiso/portal/assets/favicon-16x16"
  },
  "copilotkit": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.copilotkit.ai/favicon.ico",
   "image": "https://www.copilotkit.ai/images/og/generic.webp"
  },
  "acp-agent-client-protocol": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://agentclientprotocol.com/mintlify-assets/_mintlify/favicons/zed-685ed6d6/FRQhP3nE5XCe1eY2/_generated/favicon/apple-touch-icon.png",
   "image": "https://zed.dev/img/acp/og-dark.webp"
  },
  "mcp-model-context-protocol": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://modelcontextprotocol.io/mintlify-assets/_mintlify/favicons/mcp/ebiVJzri-bsiCfVZ/_generated/favicon/apple-touch-icon.png",
   "image": "https://raw.githubusercontent.com/modelcontextprotocol/docs/2eb6171ddbfeefde349dc3b8d5e2b87414c26250/images/og-image.png"
  },
  "postgresql": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.postgresql.org/favicon.ico",
   "image": "https://www.postgresql.org/media/img/about/press/elephant.png"
  },
  "timescaledb": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.tigerdata.com/icon.ico?1fba71913669969d",
   "image": "https://www.tigerdata.com/images/social.png"
  },
  "mongodb": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.mongodb.com/favicon.ico",
   "image": "https://images.contentstack.io/v3/assets/blt7151619cb9560896/bltfe3bee7877352896/Meta_Generic.png"
  },
  "cassandra": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://cassandra.apache.org/assets/img/favicon.ico"
  },
  "neo4j": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://neo4j.com/apple-touch-icon.png?v=bOXynyJWa61",
   "image": "https://dist.neo4j.com/wp-content/uploads/20260323085936/neo4j-graph-intelligence-platform-og-image.webp"
  },
  "elasticsearch": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.elastic.co/apple-touch-icon.png",
   "image": "https://www.elastic.co/static-res/images/social_media_default.png"
  },
  "apache-spark-pyspark": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://spark.apache.org/favicon.ico",
   "image": "https://spark.apache.org/images/spark-twitter-card-large.jpg"
  },
  "parquet": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://parquet.apache.org/favicon.ico",
   "image": "https://parquet.apache.org/featured-background.jpeg"
  },
  "duckdb": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://duckdb.org/images/favicon/apple-touch-icon.png",
   "image": "https://duckdb.org/images/sharingduckdb.jpg"
  },
  "dbt": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.getdbt.com/img/site-meta/apple-touch-icon.png",
   "image": "https://www.getdbt.com/img/site-meta/facebook.png"
  },
  "grafana": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://grafana.com/favicon.ico?67f0da79a12facce",
   "image": "https://a-us.storyblok.com/f/1022730/1920x1080/f5f38546c4/image-homepage-metaimage.png/m/1200x630/filters:format(jpeg):quality(80)/"
  },
  "streamlit": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://streamlit.io/favicon32.ico",
   "image": "https://streamlit.io/images/uploads/sharing-image-facebook.jpg"
  },
  "fastapi": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://fastapi.tiangolo.com/img/favicon.png"
  },
  "express": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://expressjs.com/apple-touch-icon.png",
   "image": "https://expressjs.com/og/home-en.png"
  },
  "gradio": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://gradio.app/favicon.png",
   "image": "https://raw.githubusercontent.com/gradio-app/gradio/main/js/_website/src/lib/assets/img/meta-image.jpg"
  },
  "openfisca": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://openfisca.org/favicon.ico"
  },
  "faers": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAs1AAALNQESsfkXAAACzklEQVRYhc1XMWgiURCdbGHrXmETRGKl3dl5jcFuQbAPNkkZRBITCJcD4TwIXI4DlSCSMjaSXpBsJ0mT6/a6XGUQSWMR06Y4j9kb977f+T/rehfuwcrun/n/vfXPzJ9dm06nEASRUs8EgBRNdcbN3ES3jFm2L8g/O2lYnq8roGI/6FR8OrHWq+JApNQ7BYADya8+buaONeTb9PhdFGEs+/KRUu8DABwBQEi6jsimI0e8BYC+WbbNQAKInJtnkE1HviAiiIA3fmxm2W4oyOdEBBHgF/j2Ty/4OkEE/PBjmzQsB4NNI6I9aVg7QQRsAcAzM/5MNg8aES453szSsLqw3B/0T6z1vjgQKfU2AOAMADZp6BYAdsfN3D23gFm2Mf9xjbBI7gIFvMYV3r9KhfevGjJX4Er4t7BSFiQztQu8VlnD+weK3RFWsfe0T0ARvdXKRx0VuZDn7bubwx3OL9YZ4P5fAkCChh4B4OuwEP/sCSh2R6eKCoeRnWjlo3PBJZHPsCAi1hls0IuEJN+fJOLYKHZHJh0s3HbgxHMf5IhtZjvOGHIgroNYZ+CW4hTjIOKdD3KViE2NLyL1L0uxL6AANsgEXM9uaY/bGl85Dm5fWNsxWvkoNgZ1CgwZGIR74phGBJcJu4qyjVz1YSE+cbeglY9iJ1OhFJkBozctZ4BCBJuGw0Ic56alAww5KpgB+LBSJZwFnKoG+MH/V4qxk6HT61Uw9w8IPdwTda5shlCFOxdqBGbKHu25h2SmlqV+gMXdzWHVE8A0kKwIqu3fmAqH0Z4eFuKefzJTwz7jo0bAmqEgBzqU+sx2XCrKa4hsS8HQtM4qEQkNgc7Gws9ZgCICp5kfAVn6XFIBe7iyYNO12o8aGy+AvtFUIuYbyN/4oijb7hm/tAD8UYjgyLG8YieDRBj14uV1OctArgPYnGD77HDkIrCZED/P8WBZlhwA4BfNyIfuzQXhwwAAAABJRU5ErkJggg=="
  },
  "grand-debat-national-open-data": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.data.gouv.fr/nuxt_images/favicon.svg",
   "image": "https://www.data.gouv.fr/_og/d/c_Default.takumi%2Cs_p_bHbC6XUdSK1rKW.png"
  },
  "docker": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.docker.com/app/uploads/2026/11/docker-favicon-250x250.png",
   "image": "https://www.docker.com/app/uploads/brand/social/docker-og-default.png"
  },
  "orbstack": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://orbstack.dev/img/icon128.png",
   "image": "https://orbstack.dev/img/icon-square256.png"
  },
  "kubernetes-gke": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://kubernetes.io/favicon.ico",
   "image": "https://kubernetes.io/images/kubernetes-open-graph.png"
  },
  "github-actions": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/features.png?size=64",
   "image": "https://opengraph.githubassets.com/1/features/actions"
  },
  "ghcr": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.githubassets.com/favicons/favicon.svg",
   "image": "https://images.ctfassets.net/8aevphvgewt8/2ZHeFKWNi4imrnvhohboe1/be2411996eb9cfed5b9d8ff4818bdfcd/features-actions-social.jpg"
  },
  "pypi": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://pypi.org/static/images/favicon.35549fe8.ico",
   "image": "https://pypi.org/static/images/og-card.00947198.webp"
  },
  "jira": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.atlassian.com/favicon.ico",
   "image": "https://dam-cdn.atl.orangelogic.com/AssetLink/0qw2hr437x574ovc7721dy64614yooac.png"
  },
  "git": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://git-scm.com/favicon.ico"
  },
  "gh-github-cli": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.githubassets.com/favicon.ico",
   "image": "https://cli.github.com/assets/images/social-card.png"
  },
  "homebrew": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://brew.sh/assets/img/apple-touch-icon.png",
   "image": "https://brew.sh/assets/img/homebrew-social-card.png"
  },
  "uv": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/astral-sh.png?size=64",
   "image": "https://opengraph.githubassets.com/1/astral-sh/uv"
  },
  "miniforge": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/conda-forge.png?size=64",
   "image": "https://opengraph.githubassets.com/1/conda-forge/miniforge"
  },
  "node-js": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://nodejs.org/static/images/favicons/favicon.png",
   "image": "https://nodejs.org/en/next-data/og/announcement/Node.js%20%E2%80%94%20Run%20JavaScript%20Everywhere"
  },
  "vitest": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://vitest.dev/apple-touch-icon.png",
   "image": "https://vitest.dev/og.jpg"
  },
  "eslint": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://eslint.org/apple-touch-icon.png",
   "image": "https://eslint.org/icon-512.png"
  },
  "ruff": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://docs.astral.sh/static/apple-touch-icon.png"
  },
  "quarto": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://quarto.org/assets/images/favicon.png",
   "image": "https://quarto.org/assets/images/quarto-dark-bg.jpeg"
  },
  "zotero": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.zotero.org/favicon.ico"
  },
  "vs-code": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://code.visualstudio.com/assets/apple-touch-icon.png",
   "image": "https://code.visualstudio.com/opengraphimg/opengraph-home.png"
  },
  "intellij-idea": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.jetbrains.com/apple-touch-icon.png?r=1234",
   "image": "https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/preview.png"
  },
  "rstudio": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://posit.co/themes/custom/kinetic/favicon.ico"
  },
  "warp": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.warp.dev/apple-touch-icon-57x57.png",
   "image": "https://www.warp.dev/og/default.png"
  },
  "raycast": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.raycast.com/favicon-production.png",
   "image": "https://www.raycast.com/opengraph-image-pwu6ef.png?opengraph-image.1f-98etzkaz5s.png"
  },
  "tableplus": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://tableplus.com/resources/favicons/apple-icon-57x57.png",
   "image": "https://tableplus.com/resources/images/macbook-iphone.png"
  },
  "dbeaver-community": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://dbeaver.io/wp-content/uploads/2016/07/beaver_icon_32x32.png"
  },
  "mongodb-compass": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.mongodb.com/favicon.ico",
   "image": "https://images.contentstack.io/v3/assets/bltc03a8f2cab1a9ccd/bltbe7607ad694bae66/Meta_Generic.png"
  },
  "aldente": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://apphousekitchen.com/wp-content/uploads/2026/10/cropped-AHK-Favicon-2026-180x180.png",
   "image": "https://apphousekitchen.com/wp-content/uploads/2024/12/AHK-blaugruen-weiss-1000px.png"
  },
  "ice": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/jordanbaird.png?size=64",
   "image": "https://opengraph.githubassets.com/1/jordanbaird/Ice"
  },
  "maccy": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://maccy.app/Logo-favicon-32w.png"
  },
  "keyclu": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://sergii.tatarenkov.name/images/favicons/16/keyclu.png",
   "image": "https://sergii.tatarenkov.name/images/keyclu/keyclu.png"
  },
  "boring-notch": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/TheBoredTeam.png?size=64",
   "image": "https://opengraph.githubassets.com/1/TheBoredTeam/boring.notch"
  },
  "appcleaner": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://freemacsoft.net/favicon.ico"
  },
  "syntax-highlight": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/sbarex.png?size=64",
   "image": "https://opengraph.githubassets.com/1/sbarex/SourceCodeSyntaxHighlight"
  },
  "iina": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://iina.io/img/icon.png",
   "image": "https://iina.io/img/screenshot.png"
  },
  "capcut": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
-  "logo": "https://sf16-web-tos-buz.capcutcdn-us.com/obj/capcut-web-buz-tx2/common/images/lv_web-2.ico",
-  "image": "https://p16-seeyou-useast8.capcutcdn-us.com/tos-useast8-i-2zwwjm3azk-tx2/af60401275b14f6684c2af1f7564d717~tplv-2zwwjm3azk-image.image"
+  "logo": "https://sf16-web-tos-buz.capcutcdn-us.com/obj/capcut-web-buz-tx/common/images/lv_web-2.ico",
+  "image": "https://p16-seeyou-useast5.capcutcdn-us.com/tos-useast5-i-2zwwjm3azk-tx/af60401275b14f6684c2af1f7564d717~tplv-2zwwjm3azk-image.image"
  },
  "amphetamine": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://apps.apple.com/assets/favicon/favicon-180.png",
   "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b9/93/46/b99346d8-5dcd-e78a-25fe-8810a64771ce/AppIcon-0-0-85-220-0-4-0-2x.png/1200x630wa.jpg"
  },
  "wblock": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/0xCUB3.png?size=64",
   "image": "https://opengraph.githubassets.com/1/0xCUB3/wBlock"
  },
  "aerospace": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/nikitabobko.png?size=64",
   "image": "https://opengraph.githubassets.com/1/nikitabobko/AeroSpace"
  },
  "loop": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/MrKai77.png?size=64",
   "image": "https://opengraph.githubassets.com/1/MrKai77/Loop"
  },
  "karabiner-elements": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://karabiner-elements.pqrs.org/favicons/apple-touch-icon-180x180.png",
   "image": "https://karabiner-elements.pqrs.org/images/logo.png"
  },
  "shottr": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://shottr.cc/assets/favicon.png",
   "image": "https://shottr.cc/assets/page-preview.jpg"
  },
  "microsoft-365": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.microsoft.com/favicon.ico?v2"
  },
  "altstore-pal": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://altstore.io/images/webclip.png"
  },
  "delta": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/rileytestut.png?size=64",
   "image": "https://opengraph.githubassets.com/1/rileytestut/Delta"
  },
  "safe-exam-browser": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://safeexambrowser.org/apple-touch-icon.png?v=gAEABXnBxw"
  },
  "google-chrome": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.google.com/chrome/static/images/favicons/apple-icon-57x57.png",
   "image": "https://www.google.com/chrome/static/images/homepage/homepage-v2.png"
  },
  "microsoft-edge": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://explore.microsoft.com/apple-touch-icon.png",
   "image": "https://edgestatic.azureedge.net/shared/cms/lrs1c69a1j/section-images/b0ec664721b948bdb4de34621ba1ce25-png-w512.avif"
  },
  "starship": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://starship.rs/icon.png",
   "image": "https://starship.rs/icon.png"
  },
  "zoxide": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/ajeetdsouza.png?size=64",
   "image": "https://opengraph.githubassets.com/1/ajeetdsouza/zoxide"
  },
  "fzf": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/junegunn.png?size=64",
   "image": "https://opengraph.githubassets.com/1/junegunn/fzf"
  },
  "eza": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/eza-community.png?size=64",
   "image": "https://opengraph.githubassets.com/1/eza-community/eza"
  },
  "bat": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/sharkdp.png?size=64",
   "image": "https://opengraph.githubassets.com/1/sharkdp/bat"
  },
  "fd": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/sharkdp.png?size=64",
   "image": "https://opengraph.githubassets.com/1/sharkdp/fd"
  },
  "ripgrep": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/BurntSushi.png?size=64",
   "image": "https://opengraph.githubassets.com/1/BurntSushi/ripgrep"
  },
  "lazygit": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/jesseduffield.png?size=64",
   "image": "https://opengraph.githubassets.com/1/jesseduffield/lazygit"
  },
  "btop": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/aristocratos.png?size=64",
   "image": "https://opengraph.githubassets.com/1/aristocratos/btop"
  },
  "tlrc-tldr": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/tldr-pages.png?size=64",
   "image": "https://opengraph.githubassets.com/1/tldr-pages/tlrc"
  },
  "jetbrains-mono-nerd-font": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.nerdfonts.com/assets/img/apple-touch-icon.png",
   "image": "https://www.nerdfonts.com/assets/img/sankey-glyphs-combined-diagram.png"
  },
  "ms-python-python": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://marketplace.visualstudio.com/favicon.ico",
   "image": "https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/python/2026.11.2026110601/1793962259623/Microsoft.VisualStudio.Services.Icons.Default"
  },
  "ms-python-vscode-pylance": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://marketplace.visualstudio.com/favicon.ico",
   "image": "https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/vscode-pylance/2026.4.101/1792111116753/Microsoft.VisualStudio.Services.Icons.Default"
  },
  "ms-python-debugpy": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://marketplace.visualstudio.com/favicon.ico",
   "image": "https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/debugpy/2026.7.13291010/1795604460221/Microsoft.VisualStudio.Services.Icons.Default"
  },
  "ms-python-vscode-python-envs": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://marketplace.visualstudio.com/favicon.ico",
   "image": "https://ms-python.gallerycdn.vsassets.io/extensions/ms-python/vscode-python-envs/1.45.2026112601/1795691004413/Microsoft.VisualStudio.Services.Icons.Default"
  },
  "charliermarsh-ruff": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://marketplace.visualstudio.com/favicon.ico",
   "image": "https://charliermarsh.gallerycdn.vsassets.io/extensions/charliermarsh/ruff/2026.98.0/1795105302163/Microsoft.VisualStudio.Services.Icons.Default"
  },
  "ms-toolsai-jupyter-keymap-renderers-cell-tags-slideshow": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://marketplace.visualstudio.com/favicon.ico",
   "image": "https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/jupyter/2026.6.2026071501/1784109533470/Microsoft.VisualStudio.Services.Icons.Default"
  },
  "reditorsupport-r": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://marketplace.visualstudio.com/favicon.ico",
-  "image": "https://REditorSupport.gallerycdn.vsassets.io/extensions/reditorsupport/r/3.5.20261126/1795664527986/Microsoft.VisualStudio.Services.Icons.Default"
+  "image": "https://REditorSupport.gallerycdn.vsassets.io/extensions/reditorsupport/r/3.5.20261127/1795750975027/Microsoft.VisualStudio.Services.Icons.Default"
  },
  "eamodio-gitlens": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://marketplace.visualstudio.com/favicon.ico",
   "image": "https://eamodio.gallerycdn.vsassets.io/extensions/eamodio/gitlens/2026.11.260409/1795684282748/Microsoft.VisualStudio.Services.Icons.Default"
  },
  "usernamehw-errorlens": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://marketplace.visualstudio.com/favicon.ico",
   "image": "https://usernamehw.gallerycdn.vsassets.io/extensions/usernamehw/errorlens/3.30.0/1792653127666/Microsoft.VisualStudio.Services.Icons.Default"
  },
  "yzhang-markdown-all-in-one": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://marketplace.visualstudio.com/favicon.ico",
   "image": "https://yzhang.gallerycdn.vsassets.io/extensions/yzhang/markdown-all-in-one/3.6.3/1741534224980/Microsoft.VisualStudio.Services.Icons.Default"
  },
  "shd101wyy-markdown-preview-enhanced": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://marketplace.visualstudio.com/favicon.ico",
   "image": "https://shd101wyy.gallerycdn.vsassets.io/extensions/shd101wyy/markdown-preview-enhanced/0.8.41/1795276612771/Microsoft.VisualStudio.Services.Icons.Default"
  },
  "ms-azuretools-vscode-docker-vscode-containers": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://marketplace.visualstudio.com/favicon.ico",
   "image": "https://ms-azuretools.gallerycdn.vsassets.io/extensions/ms-azuretools/vscode-docker/2.0.0/1748459272971/Microsoft.VisualStudio.Services.Icons.Default"
  },
  "github-copilot-chat": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://marketplace.visualstudio.com/favicon.ico",
   "image": "https://GitHub.gallerycdn.vsassets.io/extensions/github/copilot-chat/0.48.1/1778884121163/Microsoft.VisualStudio.Services.Icons.Default"
  },
  "google-geminicodeassist": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://marketplace.visualstudio.com/favicon.ico",
   "image": "https://Google.gallerycdn.vsassets.io/extensions/google/geminicodeassist/2.111.0/1795671102197/Microsoft.VisualStudio.Services.Icons.Default"
  },
  "google-gemini-cli-vscode-ide-companion": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://marketplace.visualstudio.com/favicon.ico",
   "image": "https://Google.gallerycdn.vsassets.io/extensions/google/gemini-cli-vscode-ide-companion/0.20.0/1765572429008/Microsoft.VisualStudio.Services.Icons.Default"
  },
  "impeccable-pbakaus": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/pbakaus.png?size=64",
   "image": "https://opengraph.githubassets.com/1/pbakaus/impeccable"
  },
  "hallmark-nutlope": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "mattpocock-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/mattpocock.png?size=64",
   "image": "https://opengraph.githubassets.com/1/mattpocock/skills"
  },
  "cloudflare-security-audit-skill": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "diagram-design": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "ppt-master": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "lintapple": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "regles-de-karpathy-claude-md": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "skills-integrees-claude-docx-pptx-xlsx-pdf-deep-research-ski": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "ecc-en-bloc": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "career-ops": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "ai-job-search": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "aihot": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "limestone-regle-de-precedence-agents-md": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "uiarc-dev": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://uiarc.dev/apple-icon.png?481d77e289d8f708",
   "image": "https://uiarc.dev/opengraph-image.png?e0ab1ba2db881709"
  },
  "affectui-com": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.affectui.com/apple-touch-icon.png",
   "image": "https://www.affectui.com/og.jpg?v=3"
  },
  "remotion": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.remotion.dev/img/favicon.png",
   "image": "https://www.remotion.dev/img/social-preview.png"
  },
  "hyperframes": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/heygen-com.png?size=64",
   "image": "https://opengraph.githubassets.com/1/heygen-com/hyperframes"
  },
  "astro-starlight": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://starlight.astro.build/favicon.svg",
   "image": "https://starlight.astro.build/og.jpg?v=1"
  },
  "mkdocs-material": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://squidfunk.github.io/favicon.ico"
  },
  "advisor-de-claude-code": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://code.claude.com/docs/mintlify-assets/_mintlify/favicons/claude-code/pLsy-mRpNksna2sx/_generated/favicon/apple-touch-icon.png",
   "image": "https://claude-code.mintlify.site/docs/_mintlify/api/og/v2?division=Getting+started&title=Overview&description=Claude+Code+is+an+agentic+coding+tool+that+reads+your+codebase%2C+edits+files%2C+runs+commands%2C+and+integrates+with+your+development+tools.+Available+in+your+termin&theme=e2d30309a4005a9870b526a1&signature=9fc1f5490837ef57d6afa7ac8a2d34d3eab43a058bd46143c97c569c1e79c305"
  },
  "reddit-r-localaistack-reglages-qwen3-6": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 403
  },
  "ban-anthropic-des-jetons-d-abonnement-tiers": {
-  "verifie": "2026-11-26",
-  "status": 200,
-  "logo": "https://cybersecuritynews.com/wp-content/uploads/2025/12/cropped-CSN-Favico-180x180.webp",
-  "image": "http://cybersecuritynews.com/wp-content/uploads/2026/04/Claude-Ends-OpenClaw-Subscriptions.webp"
+  "verifie": "2026-11-27",
+  "status": 202,
+  "logo": "data:;"
  },
  "bans-google-antigravity-via-outils-tiers": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/google-gemini.png?size=64",
   "image": "https://opengraph.githubassets.com/1/google-gemini/gemini-cli"
  },
  "openbot-vs-hermes-agent-copilotkit": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.copilotkit.ai/favicon.ico",
   "image": "https://cdn.sanity.io/images/y3fjfzcd/production/704723c463f91d3c03053e54655d289576cd8018-3200x2000.png?w=1200&h=630&fit=crop&auto=format"
  },
  "best-self-hosted-ai-agents-2026-ssd-nodes": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.ssdnodes.com/learn/assets/ssdnodes-touch-icon-180.png",
   "image": "https://www.ssdnodes.com/learn/og/best-self-hosted-ai-agents.png"
  },
  "free-llm-api-resources-cheahjs": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/jtig37.png?size=64",
   "image": "https://opengraph.githubassets.com/1/jtig37/free-llm-api-resources"
  },
  "agents-radar": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/duanyytop.png?size=64",
   "image": "https://opengraph.githubassets.com/1/duanyytop/agents-radar"
  },
  "hermes-agent-docs-fallback-providers": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://hermes-agent.nousresearch.com/docs/img/favicon.ico",
   "image": "https://hermes-agent.nousresearch.com/docs/img/hermes-agent-banner.png"
  },
  "pane-runpane-com": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://runpane.com/apple-touch-icon.png",
   "image": "https://runpane.com/en/opengraph-image?f80d05135a55f8f0"
  },
  "herdr-herdr-gpui": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "data:image/svg+xml,%3Csvg xmlns=",
   "image": "https://herdrui.dev/assets/rename-social.png?v=1"
  },
  "orchestrator-inc": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://orchestrator.inc/favicon.svg",
   "image": "https://orchestrator.inc/og-image-v4.png"
  },
  "insideout-sh": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://insideout.sh/brand/logo/apple-touch-icon.png?v=3",
   "image": "https://insideout.sh/og.jpg"
  },
  "paperclip": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/paperclipai.png?size=64",
   "image": "https://opengraph.githubassets.com/1/paperclipai/paperclip"
  },
  "cua-spaces-sdk": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://cua.ai/apple-touch-icon.png",
   "image": "https://cua.ai/_spaces/img/og/spaces-card-2026-11b.jpg"
  },
  "openmuse-copilotkit": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/CopilotKit.png?size=64",
   "image": "https://opengraph.githubassets.com/1/CopilotKit/openmuse"
  },
  "open-grokbot": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://anonymous.4open.science/favicon/apple-touch-icon.png"
  },
  "hermes-agent-plugin-hackathon": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
-  "logo": "https://web-assets.nousresearch.com/marketing/9e61cfac3ff64da090fef313478013129cb8a305/assets/hermes-agent/icon.png",
-  "image": "https://web-assets.nousresearch.com/marketing/9e61cfac3ff64da090fef313478013129cb8a305/assets/hermes-agent/og-image.png"
+  "logo": "https://web-assets.nousresearch.com/marketing/23d2d472c7c88e8de4f3500e7b9ff1ec978ef73d/assets/hermes-agent/icon.png",
+  "image": "https://web-assets.nousresearch.com/marketing/23d2d472c7c88e8de4f3500e7b9ff1ec978ef73d/assets/hermes-agent/og-image.png"
  },
  "yeta": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://platform.yeta.ai/yeta-mark.svg"
  },
  "beatapi": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://beatapi.io/apple-touch-icon.png",
   "image": "https://beatapi.io/og/beatapi-home-social-card-v18.png"
  },
  "infron": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://framerusercontent.com/images/jYZGKXX6mcMkU1qAXZQeevZRY.png"
  },
  "river-ai": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://river.ai/assets/apple-touch-icon.png?v=2",
   "image": "https://river.ai/assets/og-river-monogram.jpg"
  },
  "freebuff": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://freebuff.com/favicon/apple-touch-icon.png?v=2026-11-15",
   "image": "https://freebuff.com/opengraph-image.png?v=2026-10-05"
  },
  "workbuddy": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://download.codebuddy.ai/web/workbuddy-ai/50c0de674f68bab418923ec4b2893dca81d9da8c/assets/logo.svg"
  },
  "qoder": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://img.alicdn.com/imgextra/i4/O1CN01QkSxiCocd3D0prc8_!!6000000008124-2-tps-412-412.png",
   "image": "https://img.alicdn.com/imgextra/i3/O1CN01wVhf76tJE1I4s7RM_!!6000000005066-0-tps-2400-1260.jpg"
  },
  "token-harbor": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://tokenharbor.ai/apple-icon.png?apple-icon.04b2ibn-alp9r.png",
   "image": "https://tokenharbor.ai/opengraph-image?0795dea213c547bc"
  },
  "zro-moonmath-ai": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://zro.moonmath.ai/zro-mark-black.png",
   "image": "https://zro.moonmath.ai/zro-social-preview.png"
  },
  "freeinference-org-harvard": {
-  "verifie": "2026-11-26",
-  "status": 503
+  "verifie": "2026-11-27",
+  "status": 200,
+  "logo": "https://freeinference.org/favicon.ico"
  },
  "qiniu-cloud-conatus-free": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://static.qiniu.com/favicon.ico"
  },
  "fireworks-ai": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://fireworks.ai/apple-icon.png?7a21affc7a2d4744",
   "image": "https://cdn.sanity.io/images/pv37i0yn/horizon/899fcf63d80829771ad528d647686f3d7265fe23-1200x720.png?v=2026-10-14T02%3A51%3A14Z"
  },
  "zcode-z-ai": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://zcode.z.ai/apple-icon.png?v=20260707-transparent",
   "image": "https://zcode.z.ai/images/summary_large_image.png?v=20260628"
  },
  "deepai-code": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://deepai.org/static/images/favicon.ico",
   "image": "https://deepai.org/static/images/deepai-code/app-dark.png"
  },
  "nvidia-nim-kimi-k3-1-deepseek-v4-1-flash-glm-5-3-flash": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://build.nvidia.com/favicon.ico?favicon.40e0a499ra0f3.ico",
   "image": "https://build.nvidia.com/opengraph-image.jpg?opengraph-image.0y-0ix58xknbk.jpg"
  },
  "experiential-labs": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://platform.experientiallabs.ai/icon.svg?icon.09woz5-3x43ut.svg"
  },
  "hal-x-thx-01-api": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://api.hal-x.ai/docs/thx-01/img/halx_icon.png"
  },
  "frontier-access": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://whop.com/apple-icon.png",
   "image": "https://whop.com/core/images/whop/i/frontierhq/prod_dyCLeqO4AL9NJ/?v=v6uorernto"
  },
  "xai-api": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://x.ai/apple-icon.png?apple-icon.167itqrsbgzm4.png?dpl=0c0ac50f3a8cd1b1c0fd97673f29885397d81b96",
   "image": "https://x.ai/api/opengraph-image-1gic3x.jpg?opengraph-image.06cdxj5jqc21b.jpg?dpl=0c0ac50f3a8cd1b1c0fd97673f29885397d81b96"
  },
  "openai-api-credits-d-essai": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://platform.openai.com/favicon-platform.svg",
   "image": "https://cdn.openai.com/API/images/platform-opengraph.png"
  },
  "gemini-4-hydrogen-gratuit-dans-ai-studio": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.gstatic.com/images/branding/productlogos/ai_studio/v1/web-32dp/logo_ai_studio_color_1x_web_32dp.png",
   "image": "https://ai.google.dev/static/site-assets/images/share-ais-513315318.png"
  },
  "cursor-pro-etudiant": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://cursor.com/marketing-static/apple-touch-icon-light.png",
   "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png"
  },
  "claude-for-education": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://claude.com/icon.svg",
   "image": "https://assets.claude.com/16ed2cfc21c6e91fb38b6b8ea4b66045f82e12e9.jpg?w=1200&h=630&fit=crop"
  },
  "perplexity-pro-edu": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 403
  },
  "github-copilot-via-student-pack": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/favicon.ico"
  },
  "claude-max-pour-mainteneurs-open-source": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 404
  },
  "openai-codex-for-oss": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 404
  },
  "programmes-startups-openai-anthropic-google-cloud-nvidia-inc": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.gstatic.com/cgc/super_cloud_gradient.png",
   "image": "https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png"
  },
  "article-hidden-free-tiers-of-every-major-ai-lab": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
   "image": "https://pbs.twimg.com/media/HNH6BhrXgAA1h-6?format=webp&name=large"
  },
  "claude-code-credit-offert-claim-credit": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 403
  },
  "cloudflare-durable-objects-pour-codex": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://developers.cloudflare.com/favicon.png",
   "image": "https://developers.cloudflare.com/durable-objects/og.png?v=42dcc327de648b4d"
  },
  "learn-to-cloud": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://learntocloud.guide/apple-touch-icon.png"
  },
  "liquid-d1-2-d1-2-ultra": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.liquid.ai/apple-icon.png?apple-icon.3242q9u7hvs55.png",
   "image": "https://www.liquid.ai/og/og-default.jpg"
  },
  "open-d1-liquid": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.liquid.ai/apple-icon.png?apple-icon.3242q9u7hvs55.png",
   "image": "https://www.liquid.ai/og/og-default.jpg"
  },
  "thx-01": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/doofz/THX-01.png"
  },
  "clef-text-0-6b-coreml-ane": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/FluidInference/clef-text-0.6b-coreml.png"
  },
  "atomic-chat": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://cdn.prod.website-files.com/69d4e04c943eea1581f96f37/69e2483aac5ed9e90b9a4dfc_atomic256.png",
   "image": "https://cdn.prod.website-files.com/69d4e04c943eea1581f96f37/6a4c0cecf04f6540db797e37_opengraph.jpg"
  },
  "evaluation-de-jev-pour-classer-des-tweets-agoratlas": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://agoratlas.com/hubfs/favicon.ico",
   "image": "https://agoratlas.com/hubfs/image-png-Sep-29-2026-12-29-59-4149-PM.png"
  },
  "unsloth-entrainer-son-propre-modele-de-decision": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://unsloth.ai/docs/~gitbook/image?url=https%3A%2F%2F2815821428-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252FHpyELzcNe0topgVLGCZY%252Fsites%252Fsite_mXXTe%252Ficon%252FUdYqQdRpLXMz6O8ejTLD%252Funsloth%2520sticker.png%3Falt%3Dmedia%26token%3D2a5ba961-51cb-4094-8545-6eb20ad1e06e&width=180&height=180&sign=b709942c962da64a60984fd0aa47638b&sv=3",
   "image": "https://unsloth.ai/docs/~gitbook/image?url=https%3A%2F%2F2815821428-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252FHpyELzcNe0topgVLGCZY%252Fsites%252Fsite_mXXTe%252Fsocialpreview%252FOeFDVbzp4cgwaId7PbvL%252Funsloth%2520docs%2520pic.png%3Falt%3Dmedia%26token%3Df34a6bcc-db15-449a-bc2d-e0e8f52fe953&width=1200&height=630&sign=9a9d6aae5e35625d4a32adaf8cf74290&sv=3"
  },
  "unsloth-qwen3-8-27b-dynamic-v3-1-gguf": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/unsloth/Qwen3.8-27B-GGUF.png"
  },
  "arete-27b-nous-research": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://nousresearch.com/assets/nous-web/favicon.png",
   "image": "https://nousresearch.com/assets/nous-web/social-card.png"
  },
  "deepinfer-deepseek": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/deepseek-ai.png?size=64",
   "image": "https://opengraph.githubassets.com/1/deepseek-ai/DeepInfer"
  },
  "strata": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/Niko1221.png?size=64",
   "image": "https://opengraph.githubassets.com/1/Niko1221/Strata"
  },
  "glm-flash-lite": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/sybil-solutions.png?size=64",
   "image": "https://opengraph.githubassets.com/1/sybil-solutions/glm-flash-lite"
  },
  "airllm": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/lyogavin.png?size=64",
   "image": "https://opengraph.githubassets.com/1/lyogavin/airllm"
  },
  "omlx-0-7-1-dev1": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/jundot.png?size=64",
   "image": "https://opengraph.githubassets.com/1/jundot/omlx"
  },
  "mlx-vlm": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/Blaizzy.png?size=64",
   "image": "https://opengraph.githubassets.com/1/Blaizzy/mlx-vlm"
  },
  "google-foresight": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.gstatic.com/devrel-devsite/prod/vc11e4c9d4c060345ba98585d538d4546e842f4a6ee5c5f9e85be4bd345767217/developers/images/touchicon-180-new.png",
   "image": "https://developers.google.com/static/edge/images/share.png"
  },
  "inference-optimisation-skill": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/sybil-solutions.png?size=64",
   "image": "https://opengraph.githubassets.com/1/sybil-solutions/inference-optimisation-skill"
  },
  "digup": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/ARahim3.png?size=64",
   "image": "https://opengraph.githubassets.com/1/ARahim3/DigUp"
  },
  "youtu-parsing-omni-tencent": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://g.alicdn.com/sail-web/maas/2.13.188/favicon/128.ico",
   "image": "https://cdn.modelscope.ai/social-thumbnails/models/tencent-community/Youtu-Parsing-Omni.png"
  },
  "oruk": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://oruk.ai/brand/web/2026-09-09-light-signal/icon-180.png",
   "image": "https://oruk.ai/brand/web/2026-09-09-light-signal/home.png"
  },
  "voicestudio": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/debpalash.png?size=64",
   "image": "https://opengraph.githubassets.com/1/debpalash/VoiceStudio"
  },
  "rea-reverse-engineer-anything": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/morluto.png?size=64",
   "image": "https://opengraph.githubassets.com/1/morluto/rea"
  },
  "ghidra-nsa": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/NationalSecurityAgency.png?size=64",
   "image": "https://opengraph.githubassets.com/1/NationalSecurityAgency/ghidra"
  },
  "fsearch": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/noahdunnagan.png?size=64",
   "image": "https://opengraph.githubassets.com/1/noahdunnagan/fsearch"
  },
  "plexo": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/anmolkapil.png?size=64",
   "image": "https://opengraph.githubassets.com/1/anmolkapil/plexo"
  },
  "tov": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://tov.sh/apple-touch-icon.png",
   "image": "https://tov.sh/og.png"
  },
  "remark-math-katex": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/remarkjs.png?size=64",
   "image": "https://opengraph.githubassets.com/1/remarkjs/remark-math"
  },
  "moonlight-patch-hidpi": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://moonlight-stream.org/images/touch/icons-57.png"
  },
  "omarchy-sur-mac": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://omarchy.org/brand/omarchy-logo.svg",
   "image": "https://omarchy.org/brand/social/solitude.png"
  },
  "refactoring-guru-design-patterns": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://refactoring.guru/favicon.png",
   "image": "https://refactoring.guru/images/refactoring/social/facebook-share-preview.png?id=dbf9e98269595be86eb668f365be6868"
  },
  "systemdesign-io": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://systemdesign.io/favicon.ico"
  },
  "firstprinciplesapproach-dev": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://firstprinciplesapproach.dev/favicon.svg"
  },
  "fanout-sh": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://fanout.sh/apple-touch-icon.png",
   "image": "https://fanout.sh/og-everything-google-l7-mapped.png"
  },
  "buncho-live": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.buncho.live/icon.png?icon.1qxkv7x-9pdtw.png",
   "image": "https://www.buncho.live/opengraph-image?v=2"
  },
  "bencho-dev": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://bencho.dev/apple-touch-icon.png",
   "image": "https://bencho.dev/share-cover-ring.png"
  },
  "usefulshelf-co": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://usefulshelf.co/apple-touch-icon.png",
   "image": "https://usefulshelf.co/social.png?v=6"
  },
  "learn-ratishfolio-com": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://learn.ratishfolio.com/apple-touch-icon.png",
   "image": "https://learn.ratishfolio.com/og-default.png"
  },
  "mkdir-directory": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://mkdir.directory/apple-touch-icon.png",
   "image": "https://mkdir.directory/og.png"
  },
  "context-dev": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.context.dev/apple-touch-icon.png",
   "image": "https://www.context.dev/api/og?title=Every+piece+of+web+context+your+agent+needs."
  },
  "ported2browser-com": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 403
  },
  "driftbase-app": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://driftbase.app/favicon.svg"
  },
  "eloshapes": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.eloshapes.com/logo/favicon.svg",
   "image": "https://www.eloshapes.com/logo/colored.png"
  },
  "massgrave-dev-mas": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://massgrave.dev/favicon.ico"
  },
  "inspora-design": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.inspora.design/brand/inspora-icon.png",
   "image": "https://www.inspora.design/brand/inspora-og.png"
  },
  "layro-dev": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://layro.dev/apple-touch-icon.png?v=gold-1",
   "image": "https://layro.dev/og/home.png?v=d8"
  },
  "ui-watermelon-sh": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://ui.watermelon.sh/apple-touch-icon.png",
   "image": "https://ui.watermelon.sh/og/index.png"
  },
  "underrated-space": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://underrated.space/apple-icon.png?e2c267f7b8f8f806",
   "image": "https://underrated.space/opengraph-image"
  },
  "designeer-xyz": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 403
  },
  "designeng-tools": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.designeng.tools/apple-touch-icon.png",
   "image": "https://www.designeng.tools/images/og-image.webp"
  },
  "insposite-com": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.insposite.com/logo.svg",
   "image": "https://insposite.vercel.app/og1.png"
  },
  "opensourceui-in": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://opensourceui.in/favicon.ico",
   "image": "https://opensourceui.in/opensourceui-banner.png"
  },
  "ruixen-com": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://ruixen.com/icon.png?b6dbe8c883140905",
   "image": "https://ruixen.com/og"
  },
  "rareui-com": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 429
  },
  "palletism-art": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://palletism.art/apple-touch-icon.png",
   "image": "https://palletism.art/og.jpg"
  },
  "amicro-dev": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 429
  },
  "skill-issue-in": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 503
  },
  "stickitupx": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://stickitupx.vercel.app/apple-icon.png",
   "image": "https://stickitupx.com/opengraph-image.png?opengraph-image.2gc1_jsnylel2.png"
  },
  "kite-new": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://kite.new/apple-icon.png?ff3751c286ea4387",
   "image": "https://kite.new/opengraph-image.png"
  },
  "gui-brijr": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/brijr.png?size=64",
   "image": "https://opengraph.githubassets.com/1/brijr/gui"
  },
  "paper": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://paper.design/apple-touch-icon.png",
   "image": "https://paper.design/opengraph-image.jpg?opengraph-image.383pn4o2lja3-.jpg"
  },
  "homerun-app": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://homerun.app/apple-touch-icon.png",
   "image": "https://homerun.app/_astro/og-home-rent-v3.DkcpMFXc.jpg"
  },
  "higgsfield": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://higgsfield.ai/apple-icon.png",
   "image": "https://static.higgsfield.ai/public/thumbnail/default.jpg"
  },
  "elayadesign-ai-designer-skill": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/elayadesign.png?size=64"
  },
  "manimgx": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/academa-labs.png?size=64",
   "image": "https://opengraph.githubassets.com/1/academa-labs/manimgx"
  },
  "promo-video-generator": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/visser23.png?size=64",
   "image": "https://opengraph.githubassets.com/1/visser23/promo-video-generator"
  },
  "comfyui-challenge-open-source-higgsfield": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://comfy.org/apple-touch-icon.png",
   "image": "https://media.comfy.org/website/comfy.webp"
  },
  "portfolio-hancore-dev": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://hancore.dev/favicon.svg"
  },
  "portfolio-0z5a-github-io": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 404
  },
  "addyosmani-agent-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "kepano-obsidian-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "google-elephant-goldfish-model": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "ponytail": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "last30days-skill": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "humanizer": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "graphify": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "taste-skill-senlindesign": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "tasteskill-v2-leonxlnx": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "scrapling": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "gods-eye-view": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "andrej-karpathy-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "mattpocock-skills-handoff": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "janestreet-agent-skills-socratic-tutor": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "openclaw-test-audit-skill": {
-  "verifie": "2026-11-26",
-  "status": 200
+  "verifie": "2026-11-27",
+  "status": 503
  },
  "skillsync": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "statusline-claude-code-couteuse-gist": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "anthropics-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "getsentry-sentry-for-ai": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "cloudflare-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "trailofbits-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "microsoftdocs-agent-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "hashicorp-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "firecrawl-firecrawl-claude-plugin": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "awslabs-agent-plugins": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "microsoft-azure-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "digitalocean-labs-do-app-platform-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "pulumi-agent-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "neondatabase-labs-ai-rules": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "supabase-agent-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "planetscale-claude-plugin": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "clickhouse-clickhouse": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "remotion-dev-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "wordpress-wordpress": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "figma": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "google-gemini": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "stripe": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "better-auth": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "fal-ai-community": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "sanity-io": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "tinybirdco": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "callstackincubator": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "typefully": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "replicate": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "composiohq": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "trycourier": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "voltagent-awesome-agent-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "obra-superpowers": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/obra.png?size=64",
   "image": "https://opengraph.githubassets.com/1/obra/superpowers"
  },
  "alirezarezvani-claude-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "wshobson-agents": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "neolabhq-context-engineering-kit": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "jeffallan-claude-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "hamelsmu-evals-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "shareai-lab-learn-claude-code": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "tirth8205-code-review-graph": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "kahlilr23-cypress-agent-skill": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "safishamsi-graphify": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "ghostsecurity": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "mukul975-anthropic-cybersecurity-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "eyadkelleh-awesome-claude-skills-security": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "owasp-www-project-agentic-skills-top-10": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "agamm-claude-code-owasp": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "behisecc-vibesec-skill": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "prompt-security-clawsec": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "wrsmith108-varlock-claude-skill": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "jthack-ffuf-claude-skill": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "sushegaad-claude-skills-governance-risk-and-compliance": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "lukasniessen-terrashark": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "sigridjineth-hello-ansible-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "phuryn-pm-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "deanpeters-product-manager-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "aaron-he-zhu-seo-geo-claude-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "agricidaniel-claude-seo": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "eronred-aso-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "coreyhaines31-marketingskills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "ognjengt-founder-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "everyinc-charlie-cfo-skill": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "lawvable-awesome-legal-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "browser-use-video-use": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "splitbrain-ndemo": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "digitalsamba-claude-code-video-toolkit": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "mfranzon-render": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "shi3z-sparkjs-skill": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "besty0728-unity-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "jame581-godotprompter": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "htdt-godogen": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "voltagent-awesome-design-md": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "smixs-creative-director-skill": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "k-dense-ai-scientific-agent-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "orchestra-research-ai-research-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "snl-ucsb-paper-writing-skill": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "imbad0202-academic-research-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "duckdb-duckdb-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "pspdfkit-labs-nutrient-agent-skill": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "kreuzberg-dev-kreuzberg": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "farion1231-cc-switch": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "czlonkowski-n8n-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "greensock-gsap-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "shadowpr0-beautiful-prose": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "garethmanning-claude-education-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "ndpvt-web-deeptutor-claude-skill": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "danielcregg-moodle-mcq": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "zarazhangrui-codebase-to-course": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "roundtable02-tutor-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "jmagar-claude-homelab": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "twostraws-swiftui-agent-skill": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "actionbook-rust-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "cloudai-x-threejs-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "travisvn-awesome-claude-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "alirezarezvani-claude-code-skill-factory": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "article-i-found-1-116-claude-code-skills": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "felix-rieseberg-etre-plus-ambitieux-avec-l-ia": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://felixrieseberg.com/favicon.ico",
   "image": "https://storage.ghost.io/c/89/e0/89e08557-681a-40be-8264-278bf46d6b25/content/images/2026/10/facebook-card.jpg"
  },
  "mistral-ai-scientist-internship-2027": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
-  "logo": "https://cdn.ashbyprd.com/cdn_assets/6e4e48131cdf3106acdc049ce2d4f72f6abea230/apple-touch-icon.png",
+  "logo": "https://cdn.ashbyprd.com/cdn_assets/30b516392d52ecc0e4c9f99a8d112cb8f40d7db3/apple-touch-icon.png",
   "image": "https://app.ashbyhq.com/api/images/org-theme-social/a407e227-97ff-42c5-a3d6-05bfcd9b7f3d/faadf0e7-59d3-4537-bbed-d4729e535140/522bcfa6-d049-4c96-9bdd-106a6700a731.png"
  },
  "muse-spark-open-kernel-challenge": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://openkernelchallenge.dev/apple-touch-icon.png",
   "image": "https://openkernelchallenge.dev/opengraph-kernels.jpg?v=7"
  },
  "concours-ue-ad5": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://eu-careers.europa.eu/themes/contrib/oe_theme/images/favicons/eu/favicon.png",
   "image": "https://eu-careers.europa.eu/profiles/contrib/ewcms/modules/ewcms_seo/assets/images/eu-socialmedia-fallback.png"
  },
  "openai-probleme-n109-multiplication-entiere": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/CrocSwap.png?size=64",
   "image": "https://opengraph.githubassets.com/1/CrocSwap/integer-mult-bounds"
  },
  "cliproxyapi": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/router-for-me.png?size=64",
   "image": "https://opengraph.githubassets.com/1/router-for-me/CLIProxyAPI"
  },
  "horizonx": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://horizonx.so/static/media/favicon-180.png?v=hx10",
   "image": "https://horizonx.so/static/media/og-default-v6.jpg"
  },
  "transitions-dev": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://transitions.dev/assets/favicon-light-mode.png?v=4",
   "image": "https://transitions.dev/assets/og-main.jpg"
  },
  "boardui": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.boardui.com/apple-icon.png?apple-icon.398mmd7-he26p.png",
   "image": "https://www.boardui.com/og_image.png"
  },
  "obsidian-ui": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://www.obsidianui.dev/apple-icon.png?apple-icon.025bbwt1veatx.png",
   "image": "https://cdn-new.obsidianui.dev/og-image.png?v=3"
  },
  "aceternity-ui": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://ui.aceternity.com/apple-icon.png?2deb28af3ac52d4d",
   "image": "https://ui.aceternity.com/banner.png"
  },
  "astryx": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://astryx.atmeta.com/favicon.svg",
   "image": "https://astryx.atmeta.com/images/Astryx-Banner.png"
  },
  "llmlingua-microsoft": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/microsoft.png?size=64",
   "image": "https://opengraph.githubassets.com/1/microsoft/LLMLingua"
  },
  "rtk": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/rtk-ai.png?size=64",
   "image": "https://opengraph.githubassets.com/1/rtk-ai/rtk"
  },
  "gptcache": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/zilliztech.png?size=64",
   "image": "https://opengraph.githubassets.com/1/zilliztech/GPTCache"
  },
  "portkey-ai-gateway": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/Portkey-AI.png?size=64",
   "image": "https://opengraph.githubassets.com/1/Portkey-AI/gateway"
  },
  "semantic-router": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/aurelio-labs.png?size=64",
   "image": "https://opengraph.githubassets.com/1/aurelio-labs/semantic-router"
  },
  "pybreaker": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/danielfm.png?size=64",
   "image": "https://opengraph.githubassets.com/1/danielfm/pybreaker"
  },
  "arize-phoenix": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/Arize-ai.png?size=64",
   "image": "https://opengraph.githubassets.com/1/Arize-ai/phoenix"
  },
  "chonkie": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/feyninc.png?size=64",
   "image": "https://opengraph.githubassets.com/1/feyninc/chonkie"
  },
  "flagembedding-bge": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/FlagOpen.png?size=64",
   "image": "https://opengraph.githubassets.com/1/FlagOpen/FlagEmbedding"
  },
  "prefect": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/PrefectHQ.png?size=64",
   "image": "https://opengraph.githubassets.com/1/PrefectHQ/prefect"
  },
  "celery": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/celery.png?size=64",
   "image": "https://opengraph.githubassets.com/1/celery/celery"
  },
  "apscheduler": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/agronholm.png?size=64",
   "image": "https://opengraph.githubassets.com/1/agronholm/apscheduler"
  },
  "requests-cache": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/requests-cache.png?size=64",
   "image": "https://opengraph.githubassets.com/1/requests-cache/requests-cache"
  },
  "hishel": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/karpetrosyan.png?size=64",
   "image": "https://opengraph.githubassets.com/1/karpetrosyan/hishel"
  },
  "typesafe-sdk-jev": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://framerusercontent.com/images/kcuF2BEp5XaVfkmFB634IPRKQH0.png",
   "image": "https://framerusercontent.com/images/RtIGTDwO43jR4ZDilesXiR5znc.jpg"
  },
  "cursor-cloud-agents": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 403
  },
  "algrow-mcp-youtube": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://algrow.online/icon.png?icon.09cr13q_x17v1.png",
   "image": "https://algrow.online/static/images/algrow-og-image.png"
  },
  "claude-code-hook-stop-et-loop": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200
  },
  "your-grok-bot-is-burning-money-harness-fixes-it": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
   "image": "https://pbs.twimg.com/media/HXQRsE-akAA7HZm?format=webp&name=large"
  },
  "300-grok-bots-pour-0-02-par-semaine-20-depots": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
   "image": "https://pbs.twimg.com/amplify_video_thumb/2122663479241052160/img/7K66uOMvO29OiG8W?format=webp&name=large"
  },
  "harness-loops-graphs-les-7-niveaux-m4lka": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
   "image": "https://pbs.twimg.com/media/HVegcI_W0AAQV7H?format=webp&name=large"
  },
  "prompt-context-harness-loop-graph-les-5-niveaux-livsun": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
   "image": "https://pbs.twimg.com/media/HV9EUUpWgAAQxL_?format=webp&name=large"
  },
  "harness-loop-graph-les-3-couches-whitemon": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
   "image": "https://pbs.twimg.com/media/HWm0whLXEAAsKJb?format=webp&name=large"
  },
  "karpathy-70-minutes-sur-l-usage-des-llm": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
   "image": "https://pbs.twimg.com/amplify_video_thumb/2123041321233354752/img/cwmCI71CGwiHnmDX?format=webp&name=large"
  },
  "karpathy-cours-gratuit-de-2-heures": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
   "image": "https://pbs.twimg.com/amplify_video_thumb/2122716778203648000/img/02p7PaOZBDcBvoF3?format=webp&name=large"
  },
  "anthropic-un-harness-claude-code-en-10-minutes": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
   "image": "https://pbs.twimg.com/amplify_video_thumb/2122718408915501056/img/Bw2UIccOloXPnvhF?format=webp&name=large"
  },
  "addy-osmani-loop-engineering": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://addyosmani.com/assets/images/favicons/apple-touch-icon-57x57.png",
   "image": "https://res.cloudinary.com/ddxwdqwkr/image/upload/w_1600,h_836,q_100/l_text:Karla_72_bold:AddyOsmani.com,co_rgb:ffe4e6,c_fit,w_1400,h_240/fl_layer_apply,g_south_west,x_100,y_180/l_text:Karla_48:addyosmani.com%2520%25C2%25B7%2520,co_rgb:ffe4e680,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_100/l_twitter_name:addyosmani/c_thumb,g_face,r_max,w_380,h_380,q_100/fl_layer_apply,w_140,g_north_west,x_100,y_100/v1681336739/addy/grain-gradient.png"
  },
  "how-to-print-money-with-gta-vi-guide-youtube": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
   "image": "https://pbs.twimg.com/media/HXWeVEUXkAAguzh?format=webp&name=large"
  },
  "aria": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://joinariapp.com/apple-touch-icon.png",
   "image": "https://joinariapp.com/og.png"
  },
  "inkling-2-mini": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://thinkingmachines.ai/images/apple-touch-icon.png",
   "image": "https://thinkingmachines.ai/news/inkling-2-mini/images/cover-social.png"
  },
  "inkling-2-mini-uncensored-gguf": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/AtomicChat/Inkling-2-Mini-Uncensored-GGUF.png"
  },
  "hermes-agent-9-etapes-super-intelligent": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
   "image": "https://pbs.twimg.com/media/HXfyQRJboAANscG?format=webp&name=large"
  },
  "memoire-agent-3-couches-obsidian-pgvector": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
   "image": "https://pbs.twimg.com/media/HXjh_l8XsAAmT8l?format=webp&name=large"
  },
  "construct-tobia-donadon": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
-  "logo": "https://www.tobiadonadon.com/apple-icon.png?apple-icon.0do4v6szjdfd2.png?dpl=dpl_9H4GeKFmbfqzuVUaF7jSbGzUBJMj",
+  "logo": "https://www.tobiadonadon.com/apple-icon.png?apple-icon.0do4v6szjdfd2.png?dpl=dpl_Degwk1RmMCNnq8XWutKjhG9Knaw3",
   "image": "https://www.tobiadonadon.com/trail/trail-06.jpg"
  },
  "cuteafd": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://github.com/tpurtell.png?size=64",
   "image": "https://opengraph.githubassets.com/1/tpurtell/cuteafd"
  },
  "backdoor-ai": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://backdoorai.app/favicon.ico?favicon.307he_b7l_-0f.ico",
   "image": "https://backdoorai.app/match/market/us/opengraph-image-1j715r?565e4959bc555ddf"
  },
  "bun": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://bun.sh/icons/apple-touch-icon.png",
   "image": "https://bun.com/share_v4.png"
  },
  "three-js": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://threejs.org/files/favicon.ico",
   "image": "https://threejs.org/files/share.png"
  },
  "ocria-nano-1-llamaindex": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://huggingface.co/favicon.ico",
   "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/llamaindex/OCRia-nano-1.png"
  },
  "motionvideo": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://motionvideo.xyz/apple-touch-icon.png",
   "image": "https://motionvideo.xyz/og.jpg"
  },
  "portfolio-arthur-garnier": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://arthuuur.com/apple-touch-icon.png",
   "image": "https://arthuuur.com/og.png"
  },
  "superintelligence-is-arriving-alexandr-wang": {
-  "verifie": "2026-11-26",
+  "verifie": "2026-11-27",
   "status": 200,
   "logo": "https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png",
   "image": "https://pbs.twimg.com/profile_images/1631421210205749248/uohbT_40_400x400.jpg"
+ },
+ "patch-gg": {
+  "verifie": "2026-11-27",
+  "status": 200,
+  "logo": "https://patch.gg/apple-icon.png?apple-icon.0160slvg4q2m8.png",
+  "image": "https://patch.gg/link-preview.png"
+ },
+ "effect-ui": {
+  "verifie": "2026-11-27",
+  "status": 200,
+  "logo": "https://ui.effect.website/apple-touch-icon.png",
+  "image": "https://ui.effect.website/og.png"
+ },
+ "psychoscript": {
+  "verifie": "2026-11-27",
+  "status": 200,
+  "logo": "https://psychoscript.com/art/favicon.svg",
+  "image": "https://psychoscript.com/art/card.jpg?v=2"
+ },
+ "atomic-engine": {
+  "verifie": "2026-11-27",
+  "status": 200,
+  "logo": "https://github.com/AtomicBot-ai.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/AtomicBot-ai/atomic-engine"
+ },
+ "gpui-zed": {
+  "verifie": "2026-11-27",
+  "status": 200,
+  "logo": "https://github.com/zed-industries.png?size=64",
+  "image": "https://opengraph.githubassets.com/1/zed-industries/gpui"
+ },
+ "delta-zed": {
+  "verifie": "2026-11-27",
+  "status": 200,
+  "logo": "https://delta.dev/favicon.svg",
+  "image": "https://delta.dev/index.png?v=1795732190186"
+ },
+ "halo-competition-white-circle": {
+  "verifie": "2026-11-27",
+  "status": 200,
+  "logo": "https://whitecircle.com/apple-icon.png?apple-icon.0liunjhmwhukx.png?dpl=prod-202611271108-5e91a45e8f3c",
+  "image": "https://whitecircle.com/halo/competition/opengraph-image?7dc37dc5d4a18cc1"
  }
 }
